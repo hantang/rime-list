@@ -23,8 +23,8 @@ jobs:
         env:
           TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          python run-crawl.py -f data.tsv -t temp -g ${{ secrets.GH_TOKEN }}
-          python src/run-doc.py -f data.tsv -o README.md -t temp
+          python src/run-crawl.py -f data.tsv -t temp -g ${{ secrets.GH_TOKEN }}
+          python src/run-doc.py -f data.tsv -t temp -o README.md 
       - name: Git auto commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
