@@ -9,8 +9,14 @@ GITHUB_STEM = "github.com/"
 
 
 def get_desc(repo, info, comment):
+    def strip_img(text):
+        return re.sub(r"!\[[^\[\]]*\]\([^\)]+\)", "", text)
+
     def strip_link(text):
-        return re.sub(r"!?\[[^\[\]]*\]\([^\)]+\)", "", text)
+        text = re.sub(r"\[([^\[\]]*)\]\([^\)]+\)", r"\1", text)
+        text = re.sub(r"\(http[^\)]+\)", "", text)
+        text = re.sub(r"\b[\w._%+\-]+@[\w.\-]+\.[A-Z|a-z]{2,7}\b", "", text)  # remove email
+        return text
 
     def unescape(text):
         return re.sub(r"([\[\]\(\)\|])", r"\\\1", text)
@@ -29,17 +35,20 @@ def get_desc(repo, info, comment):
         if any([h in v.lower() for v in [repo, desc]]):
             header = ""
 
+    header = strip(strip_link(strip_img(header)))
+    desc = strip(strip_link(strip_img(desc)))
     if header == "" and desc == "":
         desc = comment
-    if header:
+    if header and not header.startswith("**"):
         header = f"**{header}**"
     text = "<br>".join([v for v in [header, desc] if v])
 
-    return unescape(strip_link(strip_link(text)))
+    return unescape(strip_link(strip_img(text))).strip()
 
 
 def format_repo_list(repo_list, repo_dict, dt):
-    t1 = "{is_fork}![{stars}](https://img.shields.io/github/stars/{repo}?style=plastic)<br>![{forks}](https://img.shields.io/github/forks/{repo}?style=plastic)"
+    t1 = "![{stars}](https://img.shields.io/github/stars/{repo}?style=plastic)<br>\
+          ![{forks}](https://img.shields.io/github/forks/{repo}?style=plastic){is_fork}"
     t2 = "{status}![](https://img.shields.io/github/last-commit/{repo}?label=update)"
     t3 = "[{repo}](https://github.com/{repo})"
     if len(repo_list) == 0:
@@ -75,10 +84,8 @@ def format_repo_list(repo_list, repo_dict, dt):
         name = repo.split(GITHUB_STEM)[-1]
         if archived <= 2:
             row = [
-                t1.format(
-                    is_fork="🎋" if not is_not_fork else "", repo=name, stars=stars, forks=forks
-                ),
-                t2.format(status="🗃️" if archived == 2 else "", repo=name),
+                t1.format(is_fork="<br>🎋" if not is_not_fork else "", repo=name, stars=stars, forks=forks),
+                t2.format(status="🗃️<br>" if archived == 2 else "", repo=name),
                 t3.format(repo=name),
                 desc,
             ]

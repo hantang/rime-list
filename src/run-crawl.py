@@ -18,7 +18,7 @@ GITHUB_API_URL = "https://api.github.com/repos"
 GITHUB_STEM = "github.com/"
 
 
-def _random_sleep(idx, min_time=0.5, max_time=3):
+def _random_sleep(idx, min_time=0.5, max_time=5):
     if idx % 5 == 0:
         time.sleep(random.uniform(min_time, max_time))
     elif idx % 17 == 0:
