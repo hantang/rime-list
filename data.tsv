@@ -1,6 +1,6 @@
 title	reposittory	comment
 ## 配置相关		
-### 工具及软件		
+### 软件和扩展工具等		
 	https://github.com/amorphobia/rime-quad	
 	https://github.com/baopaau/rime-pinyin-translating	
 	https://github.com/bczhc/rime-android	
@@ -52,17 +52,7 @@ title	reposittory	comment
 	https://github.com/jimmy54/iRime	
 	https://github.com/fcitx/fcitx-rime	
 	https://github.com/fcitx5-android/fcitx5-android	安卓输入法，可通过插件支持Rime
-### 配色和主题		
-	https://github.com/catppuccin/squirrel	
-	https://github.com/danvim/rime-theme-windows10	
-	https://github.com/dearxs/Rime-Themes	
-	https://github.com/GJRobert/rime-theme-uji_kintoki	
-	https://github.com/N4nnn/N4n-imeskins	
-	https://github.com/nobodysclown/rime-wechat-keyboard	
-	https://github.com/nopdan/danjing	
-	https://github.com/Wenti-D/Astralwelkin	
-	https://github.com/Xenapte/rime-theme-nord	
-### 扩展		
+	https://github.com/bennyyip/Rime-See-Me	
 	https://github.com/amorphobia/librime-ahk	
 	https://github.com/amorphobia/rabbit	
 	https://github.com/bczhc/librime-rs	
@@ -86,6 +76,29 @@ title	reposittory	comment
 	https://github.com/imfuxiao/LibrimeKit	
 	https://github.com/rime/librime	
 	https://github.com/jimmy54/iRimeLib	
+	https://github.com/tumuyan/Handwriting-for-Android	
+### 配色（皮肤）和主题		
+	https://github.com/catppuccin/squirrel	
+	https://github.com/danvim/rime-theme-windows10	
+	https://github.com/dearxs/Rime-Themes	
+	https://github.com/GJRobert/rime-theme-uji_kintoki	
+	https://github.com/N4nnn/N4n-imeskins	
+	https://github.com/nobodysclown/rime-wechat-keyboard	
+	https://github.com/nopdan/danjing	
+	https://github.com/Wenti-D/Astralwelkin	
+	https://github.com/Xenapte/rime-theme-nord	
+	https://github.com/Astrian/appso-rime-skin	
+	https://github.com/Rjlintkh/rime-theme-windows11	
+	https://github.com/Lanlan-Cat/Rime-skin	
+	https://github.com/shaochenshi/rime_skin	
+	https://github.com/puddinging/rime-skin	
+	https://github.com/OscarXWei/Squirrel-Skin-Collection	
+	https://github.com/a940727702/RimeSkins-	
+	https://github.com/thebaldingken/rime-skin-yellowish	
+	https://github.com/cdc94/Rime_weasel_skin	
+	https://github.com/The-Fae-Sorceress/Rime-weasel-skin	
+	https://github.com/GJRobert/rime-theme-mango_de_toi	
+	https://github.com/jochenunger/vdj-denon-prime-skin	
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
 	https://github.com/15cm/rime-config	
@@ -186,6 +199,7 @@ title	reposittory	comment
 	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
 	https://github.com/DreamAfar/Rime-IME-for-iOS-iRime	
 	https://github.com/mikejensen21/RIME_iOS	
+	https://github.com/odd256/rime_backup	
 ## 常规输入方案		
 ### 音码（拼音、注音等）		
 	https://github.com/andy0130tw/iridium-bpmf	
