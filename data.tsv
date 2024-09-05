@@ -48,8 +48,10 @@ title	reposittory	comment
 	https://github.com/Yiklek/RimeTool	一个Rime工具箱，支持控制算法服务和方案部署。
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
-	https://github.com/imfuxiao/Hamster	
+	https://github.com/imfuxiao/Hamster	支持iOS/iPadOS，仓输入法；Pro版本收费
 	https://github.com/jimmy54/iRime	
+	https://github.com/fcitx/fcitx-rime	
+	https://github.com/fcitx5-android/fcitx5-android	安卓输入法，可通过插件支持Rime
 ### 配色和主题		
 	https://github.com/catppuccin/squirrel	
 	https://github.com/danvim/rime-theme-windows10	
