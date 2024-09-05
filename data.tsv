@@ -82,7 +82,7 @@ title	reposittory	comment
 	https://github.com/fxliang/RimeSeeMe	
 	https://github.com/LEOYoon-Tsaw/Squirrel-Designer	
 	https://github.com/LEOYoon-Tsaw/squirrel	
-### 配色（皮肤）和主题		
+### 主题（配色/皮肤）		
 	https://github.com/catppuccin/squirrel	
 	https://github.com/danvim/rime-theme-windows10	
 	https://github.com/dearxs/Rime-Themes	
@@ -255,7 +255,7 @@ title	reposittory	comment
 	https://github.com/zaqzrh/Tone-double_pinyin	
 	https://github.com/zhanghaozhecn/rime-combo-pinyin-mod	
 -	https://github.com/jakwings/rime-xyz	J.W的個人rime方案集，包括泥巴拼音（muddy-pinyin）、扩展拼音（pinyin-ext）、特殊字符（symbols）、化学离子式输入、平假名（hiragana）片假名（katakana）
-### 形码（五笔等）		
+### 形码（五笔、仓颉等）		
 	https://github.com/Ace-Who/rime-xuma	
 	https://github.com/acevery/rime-zhengma	
 	https://github.com/allencch/wubiluna	
@@ -356,8 +356,9 @@ title	reposittory	comment
 	https://github.com/wzxmer/rime-txjx	
 	https://github.com/wzxmer/xkjd6-rime	
 -	https://github.com/lanluoxiao/c42	形音四二顶输入方案
+	https://github.com/Yiklek/oh-my-rime	
 ## 更多输入方案		
-### 古汉语和汉语方言		
+### 古汉语和汉语方言（粤语、吴语等）		
 	https://github.com/a-thok/rime-hokkien	
 	https://github.com/AlfredLouis00/rime-Sautungva	
 	https://github.com/arsenali/zianyinzi	
@@ -450,7 +451,7 @@ title	reposittory	comment
 	https://github.com/ZWolken/rime-wenzhounese	
 -	https://github.com/i3thuan5/rime-hakka	客家輸入法詞表
 -	https://github.com/i3thuan5/rime-taigi	Rime台語輸入法詞表 (Taiwanese Input Schema for Rime)
-### 非中文汉字输入		
+### 非中文汉字输入（英文、日文等）		
 	https://github.com/a-pontifex/rime-avestan	
 	https://github.com/AraragiHoozuki/FLAIS-EX-for-Rime	
 	https://github.com/AraragiHoozuki/Tamil-for-Rime	
@@ -525,7 +526,7 @@ title	reposittory	comment
 	https://github.com/tyotakuki/ejemedosirearga	
 	https://github.com/wu-shan/type-pinyin	
 -	https://github.com/sgqy/rime-russian	rime schema for romaji-russian conversion
-### 特殊符号		
+### 特殊符号（Emoji等）		
 	https://github.com/amorphobia/xmoji	
 	https://github.com/aoguai/rime_kaomoji_dict	
 	https://github.com/hitigon/meow-emoji-rime	
@@ -546,6 +547,5 @@ title	reposittory	comment
 	https://github.com/sgalal/rime-opencc-32bit-latest	
 	https://github.com/sgalal/rime-opencc-latest	
 	https://github.com/xunux/hakka-culture	
-	https://github.com/Yiklek/oh-my-rime	
 	https://github.com/laubonghaudoi/Chinese_Rime	
 	https://github.com/ayaka14732/awesome-rime	
