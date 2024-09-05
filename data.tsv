@@ -51,6 +51,7 @@ title	reposittory	comment
 	https://github.com/imfuxiao/Hamster	支持iOS/iPadOS，仓输入法；Pro版本收费
 	https://github.com/jimmy54/iRime	
 	https://github.com/fcitx/fcitx-rime	
+	https://github.com/fcitx/fcitx5-rime	
 	https://github.com/fcitx5-android/fcitx5-android	安卓输入法，可通过插件支持Rime
 	https://github.com/bennyyip/Rime-See-Me	
 	https://github.com/amorphobia/librime-ahk	
@@ -79,6 +80,8 @@ title	reposittory	comment
 	https://github.com/tumuyan/Handwriting-for-Android	
 	https://github.com/fxliang/weasel	
 	https://github.com/fxliang/RimeSeeMe	
+	https://github.com/LEOYoon-Tsaw/Squirrel-Designer	
+	https://github.com/LEOYoon-Tsaw/squirrel	
 ### 配色（皮肤）和主题		
 	https://github.com/catppuccin/squirrel	
 	https://github.com/danvim/rime-theme-windows10	
@@ -203,6 +206,7 @@ title	reposittory	comment
 	https://github.com/mikejensen21/RIME_iOS	
 	https://github.com/odd256/rime_backup	
 	https://github.com/fxliang/weasel_config	
+	https://github.com/bs10081/Rime-Cx330	
 ## 常规输入方案		
 ### 音码（拼音、注音等）		
 	https://github.com/andy0130tw/iridium-bpmf	
