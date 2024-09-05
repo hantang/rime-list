@@ -48,6 +48,8 @@ title	reposittory	comment
 	https://github.com/Yiklek/RimeTool	一个Rime工具箱，支持控制算法服务和方案部署。
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
+	https://github.com/imfuxiao/Hamster	
+	https://github.com/jimmy54/iRime	
 ### 配色和主题		
 	https://github.com/catppuccin/squirrel	
 	https://github.com/danvim/rime-theme-windows10	
@@ -79,6 +81,9 @@ title	reposittory	comment
 	https://github.com/zhangheng18/rime-dict	
 	https://github.com/yangrq/windy_idiom	
 	https://github.com/Z572/guile-rime	Guile bindings for Rime.
+	https://github.com/imfuxiao/LibrimeKit	
+	https://github.com/rime/librime	
+	https://github.com/jimmy54/iRimeLib	
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
 	https://github.com/15cm/rime-config	
@@ -177,6 +182,8 @@ title	reposittory	comment
 	https://github.com/Yiiff/Rime	
 	https://github.com/zeuxisoo/my-rime	
 	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
+	https://github.com/DreamAfar/Rime-IME-for-iOS-iRime	
+	https://github.com/mikejensen21/RIME_iOS	
 ## 常规输入方案		
 ### 音码（拼音、注音等）		
 	https://github.com/andy0130tw/iridium-bpmf	
