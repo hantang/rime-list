@@ -1,9 +1,9 @@
 import argparse
-import logging
-from pathlib import Path
-import json
-import re
 import datetime
+import json
+import logging
+import re
+from pathlib import Path
 
 GITHUB_STEM = "github.com/"
 
