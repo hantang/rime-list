@@ -69,8 +69,10 @@ title	reposittory	comment
 	https://github.com/rime/ibus-rime	
 	https://github.com/rime/librime	
 	https://github.com/rime/plum	
+	https://github.com/rime/plum-windows-bootstrap	
 	https://github.com/rime/rime-essay	
 	https://github.com/rime/rime-essay-simp	
+	https://github.com/rime/rime-prelude	
 	https://github.com/rime/squirrel	
 	https://github.com/rime/weasel	
 	https://github.com/shitlime/RimeSpellTool	
@@ -86,6 +88,8 @@ title	reposittory	comment
 	https://github.com/zhangheng18/rime-dict	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
+	https://github.com/lotem/rimekit	
+	https://github.com/neolee/scu	
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
 	https://github.com/15cm/rime-config	
@@ -566,3 +570,4 @@ title	reposittory	comment
 	https://github.com/sgalal/rime-opencc-32bit-latest	
 	https://github.com/sgalal/rime-opencc-latest	
 	https://github.com/xunux/hakka-culture	
+	https://github.com/BYVoid/OpenCC	
