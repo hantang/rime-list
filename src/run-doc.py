@@ -5,7 +5,7 @@ import logging
 import re
 from pathlib import Path
 
-GITHUB_STEM = "github.com/"
+GITHUB_STEM = "https://github.com/"
 
 
 def get_desc(repo, info, comment):
@@ -62,6 +62,10 @@ def format_repo_list(repo_list, repo_dict, dt):
         if tag != "":  # dup
             if tag == "-":
                 data3.append([True, 0, 0, repo, comment, 3])
+            # ignore duplicates
+            continue
+        elif repo not in repo_dict:
+            data3.append([True, 0, 0, repo, comment, 4])
             continue
 
         info = repo_dict[repo]
@@ -84,13 +88,17 @@ def format_repo_list(repo_list, repo_dict, dt):
         name = repo.split(GITHUB_STEM)[-1]
         if archived <= 2:
             row = [
-                t1.format(is_fork="<br>🎋" if not is_not_fork else "", repo=name, stars=stars, forks=forks),
+                t1.format(
+                    is_fork="<br>🎋" if not is_not_fork else "", repo=name, stars=stars, forks=forks
+                ),
                 t2.format(status="🗃️<br>" if archived == 2 else "", repo=name),
                 t3.format(repo=name),
                 desc,
             ]
-        else:
+        elif archived == 3:
             row = ["", "", "~~{}~~".format(t3.format(repo=name)), desc]
+        else:
+            row = ["", "📝", t3.strip(), desc]
         output.append(sep2.join([""] + row + [""]))
     output = [v.strip() for v in output]
     return output
@@ -174,7 +182,7 @@ def update_data(data_file: str, json_dir: str, sep="\t") -> tuple[dict, list]:
     return repo_dict, groups
 
 
-def update_doc(output_file: str, repo_dict: dict, groups: list) -> bool:
+def update_doc(output_file: str, repo_dict: dict, groups: list | None) -> bool:
     dt = datetime.datetime.now(datetime.UTC)
     dt_day = dt.strftime("%Y-%m-%d")
 

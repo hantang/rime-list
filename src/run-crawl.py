@@ -15,7 +15,7 @@ import requests
 
 # GitHub API
 GITHUB_API_URL = "https://api.github.com/repos"
-GITHUB_STEM = "github.com/"
+GITHUB_STEM = "https:github.com/"
 
 
 def _random_sleep(idx, min_time=0.5, max_time=5):
