@@ -15,7 +15,7 @@ import requests
 
 # GitHub API
 GITHUB_API_URL = "https://api.github.com/repos"
-GITHUB_STEM = "https:github.com/"
+GITHUB_STEM = "https://github.com/"
 
 
 def _random_sleep(idx, min_time=0.5, max_time=5):
@@ -102,7 +102,7 @@ def crawl(repo_list, tokens, save_dir, max_workers=5, overwrite=False):
                 _save_repo_info(idx, save_file, repo_list[idx], repo_info, header)
 
 
-def read_data(data_file: str, sep="\t") -> list:
+def read_data(data_file: str, sep="\t", ignore=True) -> list:
     if not Path(data_file).exists():
         logging.warning(f"{data_file} does not exist")
         return []
@@ -115,6 +115,8 @@ def read_data(data_file: str, sep="\t") -> list:
                 continue
             parts = line.split(sep)
             if len(parts) > 1 and GITHUB_STEM in parts[1]:
+                if ignore and parts[0] != "":
+                    continue
                 repo_list.append(parts[1].strip().strip("/"))
 
     out = sorted(set(repo_list))
@@ -137,7 +139,7 @@ if __name__ == "__main__":
     # output_file = args.output_file
     temp_dir = args.temp_dir
 
-    repo_list = read_data(data_file)
+    repo_list = read_data(data_file, ignore=True)
     logging.info(f"repo_list = {len(repo_list)}")
 
     if len(repo_list) > 0:

@@ -28,15 +28,17 @@ def get_desc(repo, info, comment):
         return text
 
     comment = strip(comment)
-    header = strip(info["header"])
-    desc = strip(info["description"])
-    if header:
-        h = header.lower()
-        if any([h in v.lower() for v in [repo, desc]]):
-            header = ""
+    header, desc = "", ""
+    if info and repo:
+        header = strip(info["header"])
+        desc = strip(info["description"])
+        if header:
+            h = header.lower()
+            if any([h in v.lower() for v in [repo, desc]]):
+                header = ""
 
-    header = strip(strip_link(strip_img(header)))
-    desc = strip(strip_link(strip_img(desc)))
+        header = strip(strip_link(strip_img(header)))
+        desc = strip(strip_link(strip_img(desc)))
     if header == "" and desc == "":
         desc = comment
     if header and not header.startswith("**"):
@@ -61,11 +63,11 @@ def format_repo_list(repo_list, repo_dict, dt):
         tag, repo, comment = entry[:3]
         if tag != "":  # dup
             if tag == "-":
-                data3.append([True, 0, 0, repo, comment, 3])
+                data3.append([True, 0, 0, repo, get_desc(None, None, comment), 3])
             # ignore duplicates
             continue
         elif repo not in repo_dict:
-            data3.append([True, 0, 0, repo, comment, 4])
+            data3.append([True, 0, 0, repo, get_desc(None, None, comment), 4])
             continue
 
         info = repo_dict[repo]
@@ -87,18 +89,19 @@ def format_repo_list(repo_list, repo_dict, dt):
         is_not_fork, stars, forks, repo, desc, archived = e
         name = repo.split(GITHUB_STEM)[-1]
         if archived <= 2:
+            fk = "<br>🎋" if not is_not_fork else ""
             row = [
-                t1.format(
-                    is_fork="<br>🎋" if not is_not_fork else "", repo=name, stars=stars, forks=forks
-                ),
+                t1.format(is_fork=fk, repo=name, stars=stars, forks=forks),
                 t2.format(status="🗃️<br>" if archived == 2 else "", repo=name),
                 t3.format(repo=name),
                 desc,
             ]
-        elif archived == 3:
-            row = ["", "", "~~{}~~".format(t3.format(repo=name)), desc]
         else:
-            row = ["", "📝", t3.strip(), desc]
+            if repo.startswith("["):
+                v2, v3 = "📝", repo
+            else:
+                v2, v3 = "", "~~{}~~".format(t3.format(repo=name))
+            row = ["", v2, v3, desc]
         output.append(sep2.join([""] + row + [""]))
     output = [v.strip() for v in output]
     return output
@@ -127,11 +130,11 @@ def update_data(data_file: str, json_dir: str, sep="\t") -> tuple[dict, list]:
             "is_fork": info["fork"],
         }
 
-    output = []
     groups = []
     sub_groups = []
     repo_list = []
     is_update = False
+    extra_groups = []
     with open(data_file) as f:
         for line in f:
             line = line.rstrip("\n")
@@ -160,24 +163,29 @@ def update_data(data_file: str, json_dir: str, sep="\t") -> tuple[dict, list]:
                 if tag != parts[0]:
                     is_update = True
                 parts = [tag, repo, extra] + parts[3:]
-            output.append(sep.join(parts))
+            # output.append(sep.join(parts))
 
             if parts[0].startswith("#"):
                 if sub_groups:
                     groups.append(sub_groups)
-                sub_groups = [parts[0], []]
+                sub_groups = [parts, []]
             elif len(sub_groups) == 0:
-                continue  # first line
+                extra_groups.append(parts)  # # first line
             else:
                 sub_groups[1].append(parts)
 
     if sub_groups:
         groups.append(sub_groups)
 
-    if is_update:
-        logging.info(f"Update {data_file}")
-        with open(data_file, "w") as f:
-            f.write("\n".join(output).strip("\n") + "\n")
+    # if is_update:
+    logging.info(f"Update {data_file}")
+    with open(data_file, "w") as f:
+        output2 = extra_groups
+        for titles, repos in groups:
+            output2.append(titles)
+            output2.extend(sorted(repos))
+        output2 = [sep.join(parts) for parts in output2]
+        f.write("\n".join(output2).strip("\n") + "\n")
 
     return repo_dict, groups
 
@@ -193,6 +201,8 @@ def update_doc(output_file: str, repo_dict: dict, groups: list | None) -> bool:
     output = []
     for group in groups:
         title, repos = group
+        if isinstance(title, list):
+            title = title[0]
         out = format_repo_list(repos, repo_dict, dt)
         output.extend([title, "\n".join(out).strip("\n")])
 
