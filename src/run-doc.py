@@ -28,10 +28,11 @@ def get_desc(repo, info, comment):
         return text
 
     comment = strip(comment)
-    header, desc = "", ""
+    header, desc, homepage = "", "", ""
     if info and repo:
         header = strip(info["header"])
         desc = strip(info["description"])
+        homepage = strip(info["homepage"])
         if header:
             h = header.lower()
             if any([h in v.lower() for v in [repo, desc]]):
@@ -40,10 +41,12 @@ def get_desc(repo, info, comment):
         header = strip(strip_link(strip_img(header)))
         desc = strip(strip_link(strip_img(desc)))
     if header == "" and desc == "":
-        desc = comment
+        desc = f"【{comment}】"
     if header and not header.startswith("**"):
         header = f"**{header}**"
-    text = "<br>".join([v for v in [header, desc] if v])
+    if homepage:
+        homepage = f"<{homepage}>"
+    text = "<br>".join([v for v in [header, desc, homepage] if v])
 
     return unescape(strip_link(strip_img(text))).strip()
 
@@ -128,6 +131,7 @@ def update_data(data_file: str, json_dir: str, sep="\t") -> tuple[dict, list]:
             "forks": info["forks_count"],
             "is_archived": info["archived"],
             "is_fork": info["fork"],
+            "homepage": info["homepage"],
         }
 
     groups = []

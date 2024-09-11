@@ -18,20 +18,24 @@ GITHUB_API_URL = "https://api.github.com/repos"
 GITHUB_STEM = "https://github.com/"
 
 
-def _random_sleep(idx, min_time=0.5, max_time=5):
-    if idx % 5 == 0:
-        time.sleep(random.uniform(min_time, max_time))
-    elif idx % 17 == 0:
-        time.sleep(random.uniform(min_time, max_time) * 2)
-    else:
-        time.sleep(min_time)
+def _random_sleep(idx, min_time=0.5, max_time=5, max_limit=20):
+    seconds = min_time
+    steps = [5, 17, 41, 93]
+    for i, step in enumerate(steps):
+        if i % step == 0:
+            seconds = seconds / 2 + random.uniform(min_time, max_time * (i + 1) * 0.5)
+
+    if seconds > 0:
+        seconds = round(min(seconds, max_limit), 3)
+        logging.debug(f"Sleep {seconds} seconds ...")
+        time.sleep(seconds)
 
 
 def _get_json(url, headers):
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         return response.json()
-    logging.warning(f"Error {response.status_code}, url = {url}")
+    logging.warning(f"!!! Error status = {response.status_code}, url = {url}")
     return None
 
 
@@ -47,11 +51,11 @@ def _fetch_repo_info(idx, save_file, repo, tokens):
     }
 
     try:
-        logging.info(f"--- Request = {url}")
+        logging.debug(f"--- Request = {url}")
         repo_info = _get_json(url, headers)
         header = None
         _random_sleep(1)
-        logging.info(f"--- Request = {url_readme}")
+        logging.debug(f"--- Request = {url_readme}")
         readme = _get_json(url_readme, headers)
         if readme:
             content = readme["content"]
@@ -95,7 +99,7 @@ def crawl(repo_list, tokens, save_dir, max_workers=5, overwrite=False):
 
         for future in concurrent.futures.as_completed(futures):
             idx, save_file, header, repo_info = future.result()
-            logging.info(f"Get idx = {idx:03d}, url = {repo_list[idx]}")
+            logging.debug(f"Get idx = {idx:03d}, url = {repo_list[idx]}")
             if header is None and repo_info is None:
                 logging.warning(f"Failed to fetch info for {repo}")
             else:
