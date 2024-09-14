@@ -163,6 +163,7 @@ title	repository	comment
 	https://github.com/boomker/rime-flypy-xhfast	
 	https://github.com/bs10081/Rime-Cx330	
 	https://github.com/chiahsien/RimeDayi	
+	https://github.com/chwt163/mytrime	
 	https://github.com/cmal/rime-conf	
 	https://github.com/darth30joker/rime-config	
 	https://github.com/drganghe/Rime-Settings	
@@ -221,7 +222,6 @@ title	repository	comment
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
-	https://github.com/chwt163/mytrime	
 ### 主题（配色/皮肤）		
 	https://github.com/Astrian/appso-rime-skin	
 	https://github.com/GJRobert/rime-theme-mango_de_toi	
@@ -266,10 +266,7 @@ title	repository	comment
 	https://github.com/ayaka14732/rime-putonghua	
 	https://github.com/baopaau/rime-gorlor	
 	https://github.com/baopaau/rime-guobiao-quick	
-	https://github.com/baopaau/rime-iac-mps	
-	https://github.com/baopaau/rime-luormaazih	
 	https://github.com/baopaau/rime-mps2	
-	https://github.com/baopaau/rime-rola-pinyin	
 	https://github.com/baopaau/rime-tungdzih	
 	https://github.com/baopaau/rime-yale-mandarin	
 	https://github.com/copy0401/irime-bopomo-config	
@@ -302,6 +299,9 @@ title	repository	comment
 	https://github.com/xhrzg2017/rime-kylinpinyin	
 	https://github.com/zaqzrh/Tone-double_pinyin	
 	https://github.com/zhanghaozhecn/rime-combo-pinyin-mod	
+-	https://github.com/baopaau/rime-iac-mps	
+-	https://github.com/baopaau/rime-luormaazih	
+-	https://github.com/baopaau/rime-rola-pinyin	
 -	https://github.com/jakwings/rime-xyz	J.W的個人rime方案集，包括泥巴拼音（muddy-pinyin）、扩展拼音（pinyin-ext）、特殊字符（symbols）、化学离子式输入、平假名（hiragana）片假名（katakana）
 ### 形码（五笔、仓颉等）		
 	https://github.com/Ace-Who/rime-xuma	
@@ -437,7 +437,6 @@ title	repository	comment
 	https://github.com/a-thok/rime-hokkien	
 	https://github.com/arsenali/zianyinzi	
 	https://github.com/ayaka14732/rime-ayaka-2021	
-	https://github.com/baopaau/rime-jyuwtpinq	
 	https://github.com/bingzheung/emoji-cantonese	
 	https://github.com/biopolyhedron/rime-middle-chinese	
 	https://github.com/cryptogun/gaulau_jyutping	
@@ -496,6 +495,7 @@ title	repository	comment
 	https://github.com/wugniu/rime-yahwe_zaonhe	
 	https://github.com/yangwenbo99/rime-hokkien-poj	
 	https://github.com/yuxifongfei/hubehua	
+-	https://github.com/baopaau/rime-jyuwtpinq	
 -	https://github.com/i3thuan5/rime-hakka	客家輸入法詞表
 -	https://github.com/i3thuan5/rime-taigi	Rime台語輸入法詞表 (Taiwanese Input Schema for Rime)
 ### 非中文汉字输入（英文、日文等）		
