@@ -55,6 +55,7 @@ title	repository	comment
 	https://github.com/bryan824/scel2rime	
 	https://github.com/crazywhalecc/rime-dict-creator	
 	https://github.com/fcitx-contrib/fcitx5-macos-installer	
+	https://github.com/felixonmars/fcitx5-pinyin-zhwiki	
 	https://github.com/fkxxyz/rime-cloverpinyin	
 	https://github.com/fkxxyz/rime-symbols	
 	https://github.com/forFudan/yuhao	
@@ -84,7 +85,6 @@ title	repository	comment
 	https://github.com/oniondelta/Onion_Rime_Files	
 	https://github.com/osfans/rime-tool	
 	https://github.com/outloudvi/mw2fcitx	
-	https://github.com/felixonmars/fcitx5-pinyin-zhwiki	
 	https://github.com/pdog18/rime-soak	https://pdog18.github.io/rime-soak/
 	https://github.com/puddinging/rime-cli	
 	https://github.com/qzly/RimeControl	
@@ -141,6 +141,7 @@ title	repository	comment
 	https://github.com/PokeGuys/rime-simplex	
 	https://github.com/Schummacher/XHSJ	
 	https://github.com/ScriptGo/rime	
+	https://github.com/SenkiTK/Rime-dict	
 	https://github.com/SivanLaai/rime-pure	
 	https://github.com/Sorosliu1029/rime-conf	
 	https://github.com/VSteveHL/Rime-flypy	
@@ -180,6 +181,8 @@ title	repository	comment
 	https://github.com/huangyz0918/Rime	
 	https://github.com/iDvel/rime-ice	
 	https://github.com/impishian/rime-ice-ziranma-zhengma-huma	
+	https://github.com/ivu99/98wubi-weasel	
+	https://github.com/ivu99/Rime-dict-1	
 	https://github.com/jayknoxqu/ibus-rime	
 	https://github.com/khsing/Rime	
 	https://github.com/ksqsf/rime-moran	
@@ -223,9 +226,6 @@ title	repository	comment
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
-	https://github.com/SenkiTK/Rime-dict	
-	https://github.com/ivu99/Rime-dict-1	
-	https://github.com/ivu99/98wubi-weasel	
 ### 主题（配色/皮肤）		
 	https://github.com/Astrian/appso-rime-skin	
 	https://github.com/GJRobert/rime-theme-mango_de_toi	
@@ -582,7 +582,6 @@ title	repository	comment
 -	https://github.com/sgqy/rime-russian	rime schema for romaji-russian conversion
 ### 特殊符号（Emoji等）		
 	https://github.com/amorphobia/xmoji	
-	https://github.com/aoguai/rime_kaomoji_dict	
 	https://github.com/hitigon/meow-emoji-rime	
 	https://github.com/mg-zsyo/rime-apl	
 	https://github.com/rime/rime-emoji	
@@ -590,6 +589,7 @@ title	repository	comment
 	https://github.com/sgalal/rime-symbolic	
 	https://github.com/shenlebantongying/rime_latex	
 	https://github.com/sncix/rime-emoji-english	
+-	https://github.com/aoguai/rime_kaomoji_dict	
 ## 杂项		
 	https://github.com/ACsediment/RimeNewbie	
 	https://github.com/BYVoid/OpenCC	
