@@ -119,6 +119,7 @@ title	repository	comment
 	https://github.com/15cm/rime-sogou-dictionaries	
 	https://github.com/ASC8384/myRime	
 	https://github.com/Bambooin/rimerc	
+	https://github.com/Chernfalin/SuperRimeDict	
 	https://github.com/Chernfalin/better-rime-dict	
 	https://github.com/Cycatz/chemical-kb	
 	https://github.com/DaengGWokFook/Custom-of-Rime-IME	
@@ -229,7 +230,6 @@ title	repository	comment
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
-	https://github.com/Chernfalin/SuperRimeDict	
 ### 主题（配色/皮肤）		
 	https://github.com/Astrian/appso-rime-skin	
 	https://github.com/GJRobert/rime-theme-mango_de_toi	
@@ -238,7 +238,6 @@ title	repository	comment
 	https://github.com/N4nnn/N4n-imeskins	
 	https://github.com/OscarXWei/Squirrel-Skin-Collection	
 	https://github.com/Rjlintkh/rime-theme-windows11	
-	https://github.com/The-Fae-Sorceress/Rime-weasel-skin	
 	https://github.com/Wenti-D/Astralwelkin	
 	https://github.com/Xenapte/rime-theme-nord	
 	https://github.com/a940727702/RimeSkins-	
@@ -252,6 +251,7 @@ title	repository	comment
 	https://github.com/puddinging/rime-skin	
 	https://github.com/shaochenshi/rime_skin	
 	https://github.com/thebaldingken/rime-skin-yellowish	
+-	https://github.com/The-Fae-Sorceress/Rime-weasel-skin	
 ### 更多配置（Github Gist）		
 	[AlephAlpha/greek.dict.yaml](https://gist.github.com/AlephAlpha/5406458cb98838efe1fc)	Rime 的希腊字母输入方案，也支持一些常用的数学符号。
 	[ipcjs/+Rime+小鹤双拼+颜文字+笔画混合输入方案.md](https://gist.github.com/ipcjs/cb527f85e027d7927ef3e42a0602ddf5)	Rime+小鹤双拼+颜文字+笔画混合输入方案
