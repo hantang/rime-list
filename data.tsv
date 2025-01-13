@@ -19,6 +19,7 @@ title	repository	comment
 	https://github.com/rime/weasel	Windows
 	https://github.com/stackia/XIME	macOS
 	https://github.com/tumuyan/trime-without-CMake	Android
+	https://github.com/fxliang/weasel/	Windows
 ### 扩展或相关工具等		
 	https://github.com/BlindingDark/rime-lua-select-character	
 	https://github.com/Cassius0924/Scel2Rime	
@@ -60,7 +61,7 @@ title	repository	comment
 	https://github.com/forFudan/yuhao	
 	https://github.com/fxliang/RimeSeeMe	https://fxliang.github.io/RimeSeeMe/
 	https://github.com/gurecn/YuyanIme	
-	https://github.com/hchunhui/librime-lua	
+	https://github.com/hchunhui/librime-lua	Lua脚本
 	https://github.com/hsuanyi-chou/rime-liur	
 	https://github.com/ifgris/rime_to_gboard	
 	https://github.com/imfuxiao/LibrimeKit	
@@ -111,6 +112,7 @@ title	repository	comment
 	https://github.com/zhangheng18/rime-dict	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
+	https://github.com/tuberry/ibus-tweaker	ibus扩展，在Linux支持修改配色
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -379,7 +381,7 @@ title	repository	comment
 	https://github.com/zongxinbo/rime-zong	
 ### 音形混合及其他		
 	https://github.com/JeffChien/rime-flypyquick5	
-	https://github.com/Yiklek/oh-my-rime	
+	https://github.com/Yiklek/oh-my-rime	网站<https://www.mintimate.cc>
 	https://github.com/amorphobia/openfly	
 	https://github.com/amorphobia/rime-jiandao	
 	https://github.com/archerindigo/rime-array	
