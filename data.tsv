@@ -19,7 +19,7 @@ title	repository	comment
 	https://github.com/rime/weasel	Windows
 	https://github.com/stackia/XIME	macOS
 	https://github.com/tumuyan/trime-without-CMake	Android
-	https://github.com/fxliang/weasel/	Windows
+*	https://github.com/fxliang/weasel	Windows
 ### 扩展或相关工具等		
 	https://github.com/BlindingDark/rime-lua-select-character	
 	https://github.com/Cassius0924/Scel2Rime	
@@ -101,6 +101,7 @@ title	repository	comment
 	https://github.com/shitlime/RimeSpellTool	
 	https://github.com/tonyfettes/coc-rime	
 	https://github.com/tswwe/my-rime-lua	
+	https://github.com/tuberry/ibus-tweaker	ibus扩展，在Linux支持修改配色
 	https://github.com/tumuyan/Handwriting-for-Android	
 	https://github.com/whitewatercn/rimetool	
 	https://github.com/whjiang/rime_table_bin_decompiler	
@@ -112,7 +113,6 @@ title	repository	comment
 	https://github.com/zhangheng18/rime-dict	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
-	https://github.com/tuberry/ibus-tweaker	ibus扩展，在Linux支持修改配色
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -352,7 +352,6 @@ title	repository	comment
 	https://github.com/lotem/rime-guhuwubi	
 	https://github.com/lotem/rime-linguistic-wubi	
 	https://github.com/lotem/rime-wubi98	
-	https://github.com/lvxingjia/092r	
 	https://github.com/lxgw/wubi86-super	
 	https://github.com/mlzzz/092wb	
 	https://github.com/momijineko/Rime-KappaJP	
@@ -370,6 +369,7 @@ title	repository	comment
 	https://github.com/roninro/rime-wubi	
 	https://github.com/runapp/rime-wubi98char	
 	https://github.com/vfreex/rime-zhengma	
+	https://github.com/xiaodoujiang/092r	
 	https://github.com/xkinput/Rime_JD	
 	https://github.com/yangzhaoyunfei/rime-xfsm	
 	https://github.com/yanhuacuo/98wubi	
@@ -570,6 +570,8 @@ title	repository	comment
 	https://github.com/picado-tv/rime-hangul	
 	https://github.com/rime-aca/rime-hangyl	
 	https://github.com/rime/rime-ipa	
+	https://github.com/rimeinn/rime-kagiroi	
+	https://github.com/rimeinn/rime-mungyeong	
 	https://github.com/saeziae/rime-uyghur	
 	https://github.com/saeziae/rime_korean-yeonbyeon	
 	https://github.com/saeziae/rime_tai	
@@ -586,8 +588,6 @@ title	repository	comment
 	https://github.com/tumuyan/rime-pinyin-jap	
 	https://github.com/tyotakuki/ejemedosirearga	
 	https://github.com/wu-shan/type-pinyin	
-	https://github.com/rimeinn/rime-kagiroi	
-	https://github.com/rimeinn/rime-mungyeong	
 -	https://github.com/sgqy/rime-russian	rime schema for romaji-russian conversion
 ### 特殊符号（Emoji等）		
 	https://github.com/amorphobia/xmoji	
@@ -616,14 +616,14 @@ title	repository	comment
 	https://github.com/lotem/rime-forge	
 	https://github.com/lotem/rimeime	
 	https://github.com/microsoft/Windows-classic-samples	
+	https://github.com/nopdan/rose	
 	https://github.com/pqrs-org/Karabiner-Elements	
 	https://github.com/rime-aca/corpus	
 	https://github.com/rime/artworks	
+	https://github.com/rimeinn/rimeinn.github.io	
 	https://github.com/s-yata/marisa-trie	
 	https://github.com/sgalal/rime-opencc-32bit-latest	
 	https://github.com/sgalal/rime-opencc-latest	
 	https://github.com/studyzy/imewlconverter	
 	https://github.com/sunpinyin/sunpinyin	
 	https://github.com/xunux/hakka-culture	
-	https://github.com/nopdan/rose	
-	https://github.com/rimeinn/rimeinn.github.io	
