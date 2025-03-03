@@ -583,13 +583,13 @@ title	repository	comment
 	https://github.com/sgalal/rime-kunyomi	
 	https://github.com/sgqy/rime-korean	
 	https://github.com/shewer/rime-english	
-	https://github.com/sncix/rime-nihongo-hybrid	
 	https://github.com/szc126/rime-ipa	
 	https://github.com/szc126/rime-slg-korean	
 	https://github.com/tumuyan/rime-pinyin-jap	
 	https://github.com/tyotakuki/ejemedosirearga	
 	https://github.com/wu-shan/type-pinyin	
 -	https://github.com/sgqy/rime-russian	rime schema for romaji-russian conversion
+-	https://github.com/sncix/rime-nihongo-hybrid	
 ### 特殊符号（Emoji等）		
 	https://github.com/amorphobia/xmoji	
 	https://github.com/hitigon/meow-emoji-rime	
@@ -598,8 +598,8 @@ title	repository	comment
 	https://github.com/rtransformation/rime-opencc_emoji_symbols	
 	https://github.com/sgalal/rime-symbolic	
 	https://github.com/shenlebantongying/rime_latex	
-	https://github.com/sncix/rime-emoji-english	
 -	https://github.com/aoguai/rime_kaomoji_dict	
+-	https://github.com/sncix/rime-emoji-english	
 ## 杂项		
 	https://github.com/ACsediment/RimeNewbie	
 	https://github.com/BYVoid/OpenCC	
