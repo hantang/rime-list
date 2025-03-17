@@ -58,7 +58,7 @@ title	repository	comment
 	https://github.com/felixonmars/fcitx5-pinyin-zhwiki	
 	https://github.com/fkxxyz/rime-cloverpinyin	
 	https://github.com/fkxxyz/rime-symbols	
-	https://github.com/forFudan/yuhao	
+	https://github.com/forfudan/yuhao-ime-release	
 	https://github.com/fxliang/RimeSeeMe	https://fxliang.github.io/RimeSeeMe/
 	https://github.com/gurecn/YuyanIme	
 	https://github.com/hchunhui/librime-lua	Lua脚本
@@ -340,7 +340,7 @@ title	repository	comment
 	https://github.com/chengen12/rime-bingchanquanxi	
 	https://github.com/cherrry/rime.hk	
 	https://github.com/dzyht/rime_xkyb	
-	https://github.com/forFudan/xuma	
+	https://github.com/forfudan/xuma	
 	https://github.com/gaboolic/rime-wubi-sentence	
 	https://github.com/hchunhui/rime-wubi86go	
 	https://github.com/ianzhuo/rime-liur	
@@ -452,8 +452,6 @@ title	repository	comment
 	https://github.com/bingzheung/emoji-cantonese	
 	https://github.com/biopolyhedron/rime-middle-chinese	
 	https://github.com/cryptogun/gaulau_jyutping	
-	https://github.com/edward-martyr/rime-qieyun_zaonhe	
-	https://github.com/edward-martyr/rime-yahwe_zaonhe	
 	https://github.com/femkerr/dieghe	
 	https://github.com/fuzy112/rime-yutlo	
 	https://github.com/gaozhiyan/rime-nantong	
@@ -506,6 +504,8 @@ title	repository	comment
 	https://github.com/whyjz/rime-moetaigi	
 	https://github.com/wugniu/rime-yahwe_zaonhe	
 	https://github.com/yangwenbo99/rime-hokkien-poj	
+	https://github.com/yuanhao-chen-nyoeghau/rime-qieyun_zaonhe	
+	https://github.com/yuanhao-chen-nyoeghau/rime-yahwe_zaonhe	
 	https://github.com/yuxifongfei/hubehua	
 -	https://github.com/Piauciuing-Ngungei/Piauciuing-Ngungei-Shiunikfaeh	
 -	https://github.com/baopaau/rime-jyuwtpinq	
@@ -546,8 +546,6 @@ title	repository	comment
 	https://github.com/biopolyhedron/rime-thai-stupid	
 	https://github.com/biopolyhedron/rime-tibetan	
 	https://github.com/biopolyhedron/rime-uyghur	
-	https://github.com/edward-martyr/rime-Xdi8_Kana	
-	https://github.com/edward-martyr/rime-hentaigana	
 	https://github.com/einverne/rime-hangul	
 	https://github.com/gkovacs/rime-international	
 	https://github.com/gkovacs/rime-japanese	
@@ -588,6 +586,8 @@ title	repository	comment
 	https://github.com/tumuyan/rime-pinyin-jap	
 	https://github.com/tyotakuki/ejemedosirearga	
 	https://github.com/wu-shan/type-pinyin	
+	https://github.com/yuanhao-chen-nyoeghau/rime-Xdi8_Kana	
+	https://github.com/yuanhao-chen-nyoeghau/rime-hentaigana	
 -	https://github.com/sgqy/rime-russian	rime schema for romaji-russian conversion
 -	https://github.com/sncix/rime-nihongo-hybrid	
 ### 特殊符号（Emoji等）		
