@@ -113,6 +113,12 @@ title	repository	comment
 	https://github.com/zhangheng18/rime-dict	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
+	https://github.com/amzxyz/RIME-LMDG	
+	https://github.com/B-Beginner/rimetool	
+	https://github.com/dragonish/huma-rime-adder	
+	https://github.com/Lu-Jiejie/rime-lua-script	
+	https://github.com/Cycatz/tmux-rime	
+	https://github.com/lxl66566/rime-formatter	
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -231,6 +237,12 @@ title	repository	comment
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
+	https://github.com/chenzhiwei/rime	
+	https://github.com/weearc/hamster-clover-weearc	
+	https://github.com/eko5624/rime-config	
+	https://github.com/fernvenue/hamster-scripts	
+	https://github.com/tinywaves/rime-config	
+	https://github.com/chengen12/wanglinkuaima	
 -	https://github.com/amzxyz/rime_wanxiang_zrm	
 ### 主题（配色/皮肤）		
 	https://github.com/Astrian/appso-rime-skin	
@@ -310,6 +322,10 @@ title	repository	comment
 	https://github.com/xhrzg2017/rime-kylinpinyin	
 	https://github.com/zaqzrh/Tone-double_pinyin	
 	https://github.com/zhanghaozhecn/rime-combo-pinyin-mod	
+	https://github.com/KobeArthurScofield/rime-terra-double-pinyin	
+	https://github.com/KobeArthurScofield/rime-longma-tone	
+	https://github.com/KobeArthurScofield/rime-wanxiang-triple-pinyin	
+	https://github.com/KobeArthurScofield/rime-longma-wanxiang	
 -	https://github.com/baopaau/rime-iac-mps	
 -	https://github.com/baopaau/rime-luormaazih	
 -	https://github.com/baopaau/rime-rola-pinyin	
@@ -380,6 +396,8 @@ title	repository	comment
 	https://github.com/zekexiao/xtlb-rime	
 	https://github.com/zhmars/rime-wubi-simp	
 	https://github.com/zongxinbo/rime-zong	
+	https://github.com/undus5/rimerc	
+	https://github.com/lakent/rime-yi	
 ### 音形混合及其他		
 	https://github.com/JeffChien/rime-flypyquick5	
 	https://github.com/Yiklek/oh-my-rime	网站<https://www.mintimate.cc>
@@ -507,6 +525,8 @@ title	repository	comment
 	https://github.com/yuanhao-chen-nyoeghau/rime-qieyun_zaonhe	
 	https://github.com/yuanhao-chen-nyoeghau/rime-yahwe_zaonhe	
 	https://github.com/yuxifongfei/hubehua	
+	https://github.com/rime/rime-emoji-cantonese	
+	https://github.com/HoengSaan/rime-gukwan	
 -	https://github.com/Piauciuing-Ngungei/Piauciuing-Ngungei-Shiunikfaeh	
 -	https://github.com/baopaau/rime-jyuwtpinq	
 -	https://github.com/i3thuan5/rime-hakka	客家輸入法詞表
@@ -588,6 +608,8 @@ title	repository	comment
 	https://github.com/wu-shan/type-pinyin	
 	https://github.com/yuanhao-chen-nyoeghau/rime-Xdi8_Kana	
 	https://github.com/yuanhao-chen-nyoeghau/rime-hentaigana	
+	https://github.com/HoengSaan/rime-kikwan	
+	https://github.com/AdelinaM17n/Sinhala-Addendum-Phonetic-Rime	
 -	https://github.com/sgqy/rime-russian	rime schema for romaji-russian conversion
 -	https://github.com/sncix/rime-nihongo-hybrid	
 ### 特殊符号（Emoji等）		
