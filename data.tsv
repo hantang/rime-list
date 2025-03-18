@@ -21,9 +21,11 @@ title	repository	comment
 	https://github.com/tumuyan/trime-without-CMake	Android
 *	https://github.com/fxliang/weasel	Windows
 ### 扩展或相关工具等		
+	https://github.com/B-Beginner/rimetool	
 	https://github.com/BlindingDark/rime-lua-select-character	
 	https://github.com/Cassius0924/Scel2Rime	
 	https://github.com/Coloryr/RimeSharp	
+	https://github.com/Cycatz/tmux-rime	
 	https://github.com/DogLooksGood/emacs-rime	
 	https://github.com/Fenzland/fungz-pinyim	
 	https://github.com/Freed-Wu/ime.nvim	
@@ -36,6 +38,7 @@ title	repository	comment
 	https://github.com/Kimiblock/moeOS-pinyin	
 	https://github.com/LEOYoon-Tsaw/Squirrel-Designer	
 	https://github.com/Lantaio/Rime-schema-JoySchema	
+	https://github.com/Lu-Jiejie/rime-lua-script	
 	https://github.com/MapoMagpie/rimedm	
 	https://github.com/Mintimate/oh-my-rime	
 	https://github.com/Ponpon55837/Squirrel	
@@ -46,6 +49,7 @@ title	repository	comment
 	https://github.com/Z572/guile-rime	Guile bindings for Rime.
 	https://github.com/amorphobia/librime-ahk	
 	https://github.com/amorphobia/rime-quad	
+	https://github.com/amzxyz/RIME-LMDG	
 	https://github.com/baopaau/rime-pinyin-translating	
 	https://github.com/bczhc/librime-rs	
 	https://github.com/bczhc/rime-android	
@@ -54,6 +58,7 @@ title	repository	comment
 	https://github.com/binesiyu/rime-config	
 	https://github.com/bryan824/scel2rime	
 	https://github.com/crazywhalecc/rime-dict-creator	
+	https://github.com/dragonish/huma-rime-adder	
 	https://github.com/fcitx-contrib/fcitx5-macos-installer	
 	https://github.com/felixonmars/fcitx5-pinyin-zhwiki	
 	https://github.com/fkxxyz/rime-cloverpinyin	
@@ -75,6 +80,7 @@ title	repository	comment
 	https://github.com/lotem/librime-octagram	
 	https://github.com/lotem/rime-octagram-data	
 	https://github.com/lotem/rimekit	
+	https://github.com/lxl66566/rime-formatter	
 	https://github.com/macroxue/shuangpin	https://macroxue.github.io/shuangpin/
 	https://github.com/marguerite/rime-plum-go	
 	https://github.com/mengqi92/Rimebow	
@@ -113,12 +119,6 @@ title	repository	comment
 	https://github.com/zhangheng18/rime-dict	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
-	https://github.com/amzxyz/RIME-LMDG	
-	https://github.com/B-Beginner/rimetool	
-	https://github.com/dragonish/huma-rime-adder	
-	https://github.com/Lu-Jiejie/rime-lua-script	
-	https://github.com/Cycatz/tmux-rime	
-	https://github.com/lxl66566/rime-formatter	
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -174,15 +174,19 @@ title	repository	comment
 	https://github.com/boomker/rime-fast-xhup	
 	https://github.com/boomker/rime-flypy-xhfast	
 	https://github.com/bs10081/Whos-Rime	
+	https://github.com/chengen12/wanglinkuaima	
+	https://github.com/chenzhiwei/rime	
 	https://github.com/chiahsien/RimeDayi	
 	https://github.com/chinliangwang/rime-wubi86-config	
 	https://github.com/chwt163/mytrime	
 	https://github.com/cmal/rime-conf	
 	https://github.com/darth30joker/rime-config	
 	https://github.com/drganghe/Rime-Settings	
+	https://github.com/eko5624/rime-config	
 	https://github.com/emptymalei/rime-backup	
 	https://github.com/entr0pia/rimerc	
 	https://github.com/expoli/rime-config	
+	https://github.com/fernvenue/hamster-scripts	
 	https://github.com/fxliang/weasel_config	
 	https://github.com/gaboolic/rime-frost	
 	https://github.com/gkzhb/rime.d	
@@ -226,10 +230,12 @@ title	repository	comment
 	https://github.com/szc126/rime-misc	
 	https://github.com/taichunmin/rime-settings	
 	https://github.com/tickmao/Rime	
+	https://github.com/tinywaves/rime-config	
 	https://github.com/toseesky/rime_dict.yaml	
 	https://github.com/towry/rime-config	
 	https://github.com/vgist/RimeFiles	
 	https://github.com/wangsizhu0504/rime-ice	
+	https://github.com/weearc/hamster-clover-weearc	
 	https://github.com/wongdean/rime-settings	
 	https://github.com/wwyqianqian/Personal-Rime-squirrel-configuration	
 	https://github.com/wzyboy/rime_config	
@@ -237,12 +243,6 @@ title	repository	comment
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
-	https://github.com/chenzhiwei/rime	
-	https://github.com/weearc/hamster-clover-weearc	
-	https://github.com/eko5624/rime-config	
-	https://github.com/fernvenue/hamster-scripts	
-	https://github.com/tinywaves/rime-config	
-	https://github.com/chengen12/wanglinkuaima	
 -	https://github.com/amzxyz/rime_wanxiang_zrm	
 ### 主题（配色/皮肤）		
 	https://github.com/Astrian/appso-rime-skin	
@@ -279,6 +279,10 @@ title	repository	comment
 	[zzz67240/double_pinyin_flypy.custom.yaml](https://gist.github.com/zzz67240/fa920d255d56b9fa310e4f0864e22a29)	Rime 小鶴雙拼 臺灣正體中文
 ## 常规输入方案		
 ### 音码（拼音、注音等）		
+	https://github.com/KobeArthurScofield/rime-longma-tone	
+	https://github.com/KobeArthurScofield/rime-longma-wanxiang	
+	https://github.com/KobeArthurScofield/rime-terra-double-pinyin	
+	https://github.com/KobeArthurScofield/rime-wanxiang-triple-pinyin	
 	https://github.com/LawssssCat/rime-aurora	
 	https://github.com/Papnas/shupin	
 	https://github.com/Sonner114514/huaipin	
@@ -322,10 +326,6 @@ title	repository	comment
 	https://github.com/xhrzg2017/rime-kylinpinyin	
 	https://github.com/zaqzrh/Tone-double_pinyin	
 	https://github.com/zhanghaozhecn/rime-combo-pinyin-mod	
-	https://github.com/KobeArthurScofield/rime-terra-double-pinyin	
-	https://github.com/KobeArthurScofield/rime-longma-tone	
-	https://github.com/KobeArthurScofield/rime-wanxiang-triple-pinyin	
-	https://github.com/KobeArthurScofield/rime-longma-wanxiang	
 -	https://github.com/baopaau/rime-iac-mps	
 -	https://github.com/baopaau/rime-luormaazih	
 -	https://github.com/baopaau/rime-rola-pinyin	
@@ -363,6 +363,7 @@ title	repository	comment
 	https://github.com/jacyl4/rime_wubi	
 	https://github.com/jim60105/Newcj_rime	
 	https://github.com/kitty-panics/rime-selfuse-tables	
+	https://github.com/lakent/rime-yi	
 	https://github.com/liaoheng/rime-wubi86-jidian	
 	https://github.com/lilydjwg/rime-wubi	
 	https://github.com/lost-melody/rime-smyh	
@@ -385,6 +386,7 @@ title	repository	comment
 	https://github.com/rimeinn/rime-tiger	
 	https://github.com/roninro/rime-wubi	
 	https://github.com/runapp/rime-wubi98char	
+	https://github.com/undus5/rimerc	
 	https://github.com/vfreex/rime-zhengma	
 	https://github.com/xiaodoujiang/092r	
 	https://github.com/xkinput/Rime_JD	
@@ -396,8 +398,6 @@ title	repository	comment
 	https://github.com/zekexiao/xtlb-rime	
 	https://github.com/zhmars/rime-wubi-simp	
 	https://github.com/zongxinbo/rime-zong	
-	https://github.com/undus5/rimerc	
-	https://github.com/lakent/rime-yi	
 ### 音形混合及其他		
 	https://github.com/JeffChien/rime-flypyquick5	
 	https://github.com/Yiklek/oh-my-rime	网站<https://www.mintimate.cc>
@@ -446,6 +446,7 @@ title	repository	comment
 	https://github.com/CanCLID/rime-cantonese-schemes-editor	
 	https://github.com/CinixChen/Rimin	
 	https://github.com/DaengGWokFook/Asian-Languages	
+	https://github.com/HoengSaan/rime-gukwan	
 	https://github.com/Hulenkius/RIME_OC_collections	
 	https://github.com/Hynuza/fengyo	
 	https://github.com/LaiJoengzit/hamzau_jyutping	
@@ -502,6 +503,7 @@ title	repository	comment
 	https://github.com/rime-aca/rime-jyutping-compact	
 	https://github.com/rime-aca/rime-nieh-ched	
 	https://github.com/rime/rime-cantonese	
+	https://github.com/rime/rime-emoji-cantonese	
 	https://github.com/rime/rime-jyutping	
 	https://github.com/rime/rime-middle-chinese	
 	https://github.com/rime/rime-soutzoe	
@@ -525,17 +527,17 @@ title	repository	comment
 	https://github.com/yuanhao-chen-nyoeghau/rime-qieyun_zaonhe	
 	https://github.com/yuanhao-chen-nyoeghau/rime-yahwe_zaonhe	
 	https://github.com/yuxifongfei/hubehua	
-	https://github.com/rime/rime-emoji-cantonese	
-	https://github.com/HoengSaan/rime-gukwan	
 -	https://github.com/Piauciuing-Ngungei/Piauciuing-Ngungei-Shiunikfaeh	
 -	https://github.com/baopaau/rime-jyuwtpinq	
 -	https://github.com/i3thuan5/rime-hakka	客家輸入法詞表
 -	https://github.com/i3thuan5/rime-taigi	Rime台語輸入法詞表 (Taiwanese Input Schema for Rime)
 ### 非中文汉字输入（英文、日文等）		
+	https://github.com/AdelinaM17n/Sinhala-Addendum-Phonetic-Rime	
 	https://github.com/AraragiHoozuki/FLAIS-EX-for-Rime	
 	https://github.com/AraragiHoozuki/Tamil-for-Rime	
 	https://github.com/BlindingDark/rime-easy-en	
 	https://github.com/HoengSaan/rime-kanas	
+	https://github.com/HoengSaan/rime-kikwan	
 	https://github.com/JaplinChen/rime-vietnamese-pinyin	
 	https://github.com/K-PK66/Rime-Russkij	
 	https://github.com/LiGhauNgyan/rime-korean	
@@ -608,8 +610,6 @@ title	repository	comment
 	https://github.com/wu-shan/type-pinyin	
 	https://github.com/yuanhao-chen-nyoeghau/rime-Xdi8_Kana	
 	https://github.com/yuanhao-chen-nyoeghau/rime-hentaigana	
-	https://github.com/HoengSaan/rime-kikwan	
-	https://github.com/AdelinaM17n/Sinhala-Addendum-Phonetic-Rime	
 -	https://github.com/sgqy/rime-russian	rime schema for romaji-russian conversion
 -	https://github.com/sncix/rime-nihongo-hybrid	
 ### 特殊符号（Emoji等）		
