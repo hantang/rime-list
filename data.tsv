@@ -603,6 +603,7 @@ title	repository	comment
 	https://github.com/sgalal/rime-kunyomi	
 	https://github.com/sgqy/rime-korean	
 	https://github.com/shewer/rime-english	
+	https://github.com/shonkhoroo/rime-mongolian-input-method	
 	https://github.com/szc126/rime-ipa	
 	https://github.com/szc126/rime-slg-korean	
 	https://github.com/tumuyan/rime-pinyin-jap	
@@ -610,7 +611,6 @@ title	repository	comment
 	https://github.com/wu-shan/type-pinyin	
 	https://github.com/yuanhao-chen-nyoeghau/rime-Xdi8_Kana	
 	https://github.com/yuanhao-chen-nyoeghau/rime-hentaigana	
-	https://github.com/shonkhoroo/rime-mongolian-input-method	
 -	https://github.com/sgqy/rime-russian	rime schema for romaji-russian conversion
 -	https://github.com/sncix/rime-nihongo-hybrid	
 ### 特殊符号（Emoji等）		
