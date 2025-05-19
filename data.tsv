@@ -4,7 +4,6 @@ title	repository	comment
 	https://github.com/LEOYoon-Tsaw/squirrel	macOS
 	https://github.com/LibreService/my_rime	在线，https://my-rime.vercel.app
 	https://github.com/Mark24Code/rime-auto-deploy	多平台安装配置脚本
-	https://github.com/amorphobia/rabbit	
 	https://github.com/fcitx-contrib/fcitx5-macos	macOS
 	https://github.com/fcitx/fcitx-rime	Linux
 	https://github.com/fcitx/fcitx5-rime	Linux
@@ -17,6 +16,7 @@ title	repository	comment
 	https://github.com/rime/ibus-rime	Linux
 	https://github.com/rime/squirrel	macOS
 	https://github.com/rime/weasel	Windows
+	https://github.com/rimeinn/rabbit	
 	https://github.com/stackia/XIME	macOS
 	https://github.com/tumuyan/trime-without-CMake	Android
 *	https://github.com/fxliang/weasel	Windows
@@ -47,7 +47,6 @@ title	repository	comment
 	https://github.com/Tsinswreng/rime-TswG	
 	https://github.com/Yiklek/RimeTool	一个Rime工具箱，支持控制算法服务和方案部署。
 	https://github.com/Z572/guile-rime	Guile bindings for Rime.
-	https://github.com/amorphobia/librime-ahk	
 	https://github.com/amorphobia/rime-quad	
 	https://github.com/amzxyz/RIME-LMDG	
 	https://github.com/baopaau/rime-pinyin-translating	
@@ -103,6 +102,7 @@ title	repository	comment
 	https://github.com/rime/plum-windows-bootstrap	
 	https://github.com/rime/rime-prelude	
 	https://github.com/rime/rppi	
+	https://github.com/rimeinn/librime-ahk	
 	https://github.com/shitlime/RimeSpellTool	
 	https://github.com/tonyfettes/coc-rime	
 	https://github.com/tswwe/my-rime-lua	
