@@ -28,10 +28,6 @@ title	repository	comment
 	https://github.com/Cycatz/tmux-rime	
 	https://github.com/DogLooksGood/emacs-rime	
 	https://github.com/Fenzland/fungz-pinyim	
-	https://github.com/Freed-Wu/ime.nvim	
-	https://github.com/Freed-Wu/pyrime	
-	https://github.com/Freed-Wu/rime.nvim	
-	https://github.com/Freed-Wu/zsh-rime	
 	https://github.com/FydeOS/fydeRhythm	
 	https://github.com/GJRobert/Rime-See-Me-squirrel	https://gjrobert.github.io/Rime-See-Me-squirrel/
 	https://github.com/JACKCHAN000/Rime-Lua-GoogleTranslate	
@@ -103,9 +99,13 @@ title	repository	comment
 	https://github.com/rime/plum-windows-bootstrap	
 	https://github.com/rime/rime-prelude	
 	https://github.com/rime/rppi	
+	https://github.com/rimeinn/coc-rime	
+	https://github.com/rimeinn/ime.nvim	
 	https://github.com/rimeinn/librime-ahk	
+	https://github.com/rimeinn/pyrime	
+	https://github.com/rimeinn/rime.nvim	
+	https://github.com/rimeinn/zsh-rime	
 	https://github.com/shitlime/RimeSpellTool	
-	https://github.com/tonyfettes/coc-rime	
 	https://github.com/tswwe/my-rime-lua	
 	https://github.com/tuberry/ibus-tweaker	ibus扩展，在Linux支持修改配色
 	https://github.com/tumuyan/Handwriting-for-Android	
