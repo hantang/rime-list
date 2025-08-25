@@ -250,7 +250,6 @@ title	repository	comment
 	https://github.com/Astrian/appso-rime-skin	
 	https://github.com/GJRobert/rime-theme-mango_de_toi	
 	https://github.com/GJRobert/rime-theme-uji_kintoki	
-	https://github.com/Lanlan-Cat/Rime-skin	
 	https://github.com/N4nnn/N4n-imeskins	
 	https://github.com/OscarXWei/Squirrel-Skin-Collection	
 	https://github.com/Rjlintkh/rime-theme-windows11	
@@ -267,6 +266,7 @@ title	repository	comment
 	https://github.com/puddinging/rime-skin	
 	https://github.com/shaochenshi/rime_skin	
 	https://github.com/thebaldingken/rime-skin-yellowish	
+-	https://github.com/Lanlan-Cat/Rime-skin	
 -	https://github.com/The-Fae-Sorceress/Rime-weasel-skin	
 ### 更多配置（Github Gist）		
 	[AlephAlpha/greek.dict.yaml](https://gist.github.com/AlephAlpha/5406458cb98838efe1fc)	Rime 的希腊字母输入方案，也支持一些常用的数学符号。
