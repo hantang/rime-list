@@ -81,6 +81,7 @@ title	repository	comment
 	https://github.com/marguerite/rime-plum-go	
 	https://github.com/mengqi92/Rimebow	
 	https://github.com/merrickluo/liberime	
+	https://github.com/myshiqiqi/WubiMaster	镜像 [空山明月/中书君-Rime管理器](https://gitee.com/hi-coder/WubiMaster)
 	https://github.com/nb5p/Rime-See-Me	https://nb5p.github.io/Rime-See-Me/
 	https://github.com/nk2028/rime-utils-python	
 	https://github.com/oniondelta/Onion_Rime_Files	
@@ -120,7 +121,6 @@ title	repository	comment
 	https://github.com/zhangheng18/rime-dict	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
-	https://github.com/myshiqiqi/WubiMaster	镜像 [空山明月/中书君-Rime管理器](https://gitee.com/hi-coder/WubiMaster)
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -147,7 +147,6 @@ title	repository	comment
 	https://github.com/LufsX/rime	
 	https://github.com/MISTER-CHAN/rime-user-dir	
 	https://github.com/Mintonmu/RimeConfig	
-	https://github.com/ONGOING-Z/rime-config	
 	https://github.com/Patricivs/lakyang	
 	https://github.com/PokeGuys/rime-simplex	
 	https://github.com/Schummacher/XHSJ	
@@ -187,7 +186,6 @@ title	repository	comment
 	https://github.com/eko5624/rime-config	
 	https://github.com/emptymalei/rime-backup	
 	https://github.com/entr0pia/rimerc	
-	https://github.com/expoli/rime-config	
 	https://github.com/fernvenue/hamster-scripts	
 	https://github.com/fxliang/weasel_config	
 	https://github.com/gaboolic/rime-frost	
@@ -208,6 +206,8 @@ title	repository	comment
 	https://github.com/metowolf/rime-sogou	
 	https://github.com/mikejensen21/RIME_iOS	
 	https://github.com/mokurin000/rime-osu	
+	https://github.com/myshiqiqi/rime-wubi	镜像 [空山明月/Rime五笔](https://gitee.com/hi-coder/rime-wubi)
+	https://github.com/myshiqiqi/rime-wubi-yinfu	镜像 [空山明月/Rime五笔-音辅版](https://gitee.com/hi-coder/rime-wubi-yinfu)
 	https://github.com/odd256/rime_backup	
 	https://github.com/oniondelta/Onion_Trime_Files	
 	https://github.com/qdzhang/rime	
@@ -244,10 +244,10 @@ title	repository	comment
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
-	https://github.com/myshiqiqi/rime-wubi	镜像 [空山明月/Rime五笔](https://gitee.com/hi-coder/rime-wubi)
-	https://github.com/myshiqiqi/rime-wubi-yinfu	镜像 [空山明月/Rime五笔-音辅版](https://gitee.com/hi-coder/rime-wubi-yinfu)
+-	https://github.com/ONGOING-Z/rime-config	
 -	https://github.com/amzxyz/rime_wanxiang_zrm	
 -	https://github.com/chinliangwang/rime-wubi86-config	
+-	https://github.com/expoli/rime-config	
 -	https://github.com/wangsizhu0504/rime-ice	
 ### 主题（配色/皮肤）		
 	https://github.com/Astrian/appso-rime-skin	
@@ -414,7 +414,6 @@ title	repository	comment
 	https://github.com/cubercsl/rime-flypy	
 	https://github.com/daya-prac/ziranma_flyx_for_Rime	
 	https://github.com/dzyht/rime_xkyd	
-	https://github.com/expoli/rime-moran-sc	
 	https://github.com/flappybriefs/pantsu-xkjd6alter	
 	https://github.com/gaboolic/rime-shuangpin-fuzhuma	
 	https://github.com/gkovacs/rime-td-pinyin-flypy-display	
@@ -440,6 +439,7 @@ title	repository	comment
 	https://github.com/whjiang/zzdyx_rime	
 	https://github.com/wzxmer/rime-txjx	
 	https://github.com/wzxmer/xkjd6-rime	
+-	https://github.com/expoli/rime-moran-sc	
 -	https://github.com/lanluoxiao/c42	形音四二顶输入方案
 ## 更多输入方案		
 ### 古汉语和汉语方言（粤语、吴语等）		
