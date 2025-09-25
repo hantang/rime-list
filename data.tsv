@@ -1,15 +1,18 @@
 title	repository	comment
 ## 软件		
 ### 最新安装包或脚本等		
+	https://github.com/FydeOS/fydeRhythm	FydeOS/ChromeOS
 	https://github.com/LEOYoon-Tsaw/squirrel	macOS
 	https://github.com/LibreService/my_rime	在线，https://my-rime.vercel.app
 	https://github.com/Mark24Code/rime-auto-deploy	多平台安装配置脚本
 	https://github.com/fcitx-contrib/fcitx5-macos	macOS
+	https://github.com/fcitx-contrib/fcitx5-macos-installer	
 	https://github.com/fcitx/fcitx-rime	Linux
 	https://github.com/fcitx/fcitx5-rime	Linux
 	https://github.com/fcitx5-android/fcitx5-android	Android，安卓输入法，可通过插件支持Rime
 	https://github.com/fxliang/weasel	Windows
 	https://github.com/imfuxiao/Hamster	支持iOS/iPadOS，仓输入法；Pro版本收费
+	https://github.com/jimmy54/iRime	iOS
 	https://github.com/lotem/rime-gits	Windows
 	https://github.com/osfans/trime	Android
 	https://github.com/rime/ibus-rime	Linux
@@ -18,9 +21,6 @@ title	repository	comment
 	https://github.com/rimeinn/rabbit	
 	https://github.com/stackia/XIME	macOS
 	https://github.com/tumuyan/trime-without-CMake	Android
-	https://github.com/fcitx-contrib/fcitx5-macos-installer	
-	https://github.com/jimmy54/iRime	iOS
-	https://github.com/FydeOS/fydeRhythm	FydeOS/ChromeOS
 *	https://github.com/fxliang/weasel	Windows
 ### 扩展或相关工具等		
 	https://github.com/B-Beginner/rimetool	
@@ -77,6 +77,7 @@ title	repository	comment
 	https://github.com/merrickluo/liberime	
 	https://github.com/myshiqiqi/WubiMaster	镜像 [空山明月/中书君-Rime管理器](https://gitee.com/hi-coder/WubiMaster)
 	https://github.com/nb5p/Rime-See-Me	https://nb5p.github.io/Rime-See-Me/
+	https://github.com/neolee/SCU	macOS
 	https://github.com/nk2028/rime-utils-python	
 	https://github.com/oniondelta/Onion_Rime_Files	
 	https://github.com/osfans/rime-tool	
@@ -113,7 +114,6 @@ title	repository	comment
 	https://github.com/yanhuacuo/rimetool	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
-	https://github.com/neolee/SCU	macOS
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -136,9 +136,11 @@ title	repository	comment
 	https://github.com/Jed-Z/rime-settings	
 	https://github.com/KhienghThenYang/my-Rime	
 	https://github.com/Kimiblock/rime-minecraft-dict	
+	https://github.com/Lantaio/Rime-schema-JoySchema	
 	https://github.com/Lucius-Wang/rime-config	
 	https://github.com/LufsX/rime	
 	https://github.com/MISTER-CHAN/rime-user-dir	
+	https://github.com/Mintimate/oh-my-rime	
 	https://github.com/Mintonmu/RimeConfig	
 	https://github.com/Patricivs/lakyang	
 	https://github.com/PokeGuys/rime-simplex	
@@ -158,6 +160,7 @@ title	repository	comment
 	https://github.com/aineer/My-Rime-IME-Thesaurus	
 	https://github.com/alswl/Rime	
 	https://github.com/amorphobia/my-rime-config	
+	https://github.com/amorphobia/rime-quad	
 	https://github.com/amorphobia/rime-user-config	
 	https://github.com/amzxyz/rime_wanxiang	
 	https://github.com/andy0130tw/aarrr-rime	
@@ -165,6 +168,7 @@ title	repository	comment
 	https://github.com/ayaka14732/MyRimeConfig	
 	https://github.com/ayaka14732/rime-ayaka-v8	
 	https://github.com/billguocs/Rime	
+	https://github.com/binesiyu/rime-config	
 	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-baidu	
 	https://github.com/boomker/rime-fast-xhup	
 	https://github.com/boomker/rime-flypy-xhfast	
@@ -180,9 +184,11 @@ title	repository	comment
 	https://github.com/emptymalei/rime-backup	
 	https://github.com/entr0pia/rimerc	
 	https://github.com/fernvenue/hamster-scripts	
+	https://github.com/fkxxyz/rime-cloverpinyin	
 	https://github.com/fxliang/weasel_config	
 	https://github.com/gaboolic/rime-frost	
 	https://github.com/gkzhb/rime.d	
+	https://github.com/gurecn/YuyanIme	
 	https://github.com/ha-pin/rime-cloverpinyin	
 	https://github.com/henices/rime	
 	https://github.com/hktkzyx/rime	
@@ -234,17 +240,11 @@ title	repository	comment
 	https://github.com/wwyqianqian/Personal-Rime-squirrel-configuration	
 	https://github.com/wzyboy/rime_config	
 	https://github.com/xuthus5/rime-pinyin-normal	
+	https://github.com/yangrq/windy_idiom	
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
-	https://github.com/Mintimate/oh-my-rime	
 	https://github.com/zhangheng18/rime-dict	
-	https://github.com/binesiyu/rime-config	
-	https://github.com/yangrq/windy_idiom	
-	https://github.com/amorphobia/rime-quad	
-	https://github.com/Lantaio/Rime-schema-JoySchema	
-	https://github.com/fkxxyz/rime-cloverpinyin	
-	https://github.com/gurecn/YuyanIme	
 -	https://github.com/ONGOING-Z/rime-config	
 -	https://github.com/amzxyz/rime_wanxiang_zrm	
 -	https://github.com/chinliangwang/rime-wubi86-config	
