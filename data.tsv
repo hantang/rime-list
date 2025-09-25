@@ -11,7 +11,6 @@ title	repository	comment
 	https://github.com/fxliang/weasel	Windows
 	https://github.com/imfuxiao/Hamster	支持iOS/iPadOS，仓输入法；Pro版本收费
 	https://github.com/lotem/rime-gits	Windows
-	https://github.com/neolee/SCU	macOS
 	https://github.com/osfans/trime	Android
 	https://github.com/rime/ibus-rime	Linux
 	https://github.com/rime/squirrel	macOS
@@ -19,6 +18,9 @@ title	repository	comment
 	https://github.com/rimeinn/rabbit	
 	https://github.com/stackia/XIME	macOS
 	https://github.com/tumuyan/trime-without-CMake	Android
+	https://github.com/fcitx-contrib/fcitx5-macos-installer	
+	https://github.com/jimmy54/iRime	iOS
+	https://github.com/FydeOS/fydeRhythm	FydeOS/ChromeOS
 *	https://github.com/fxliang/weasel	Windows
 ### 扩展或相关工具等		
 	https://github.com/B-Beginner/rimetool	
@@ -28,47 +30,38 @@ title	repository	comment
 	https://github.com/Cycatz/tmux-rime	
 	https://github.com/DogLooksGood/emacs-rime	
 	https://github.com/Fenzland/fungz-pinyim	
-	https://github.com/FydeOS/fydeRhythm	
 	https://github.com/GJRobert/Rime-See-Me-squirrel	https://gjrobert.github.io/Rime-See-Me-squirrel/
 	https://github.com/HowcanoeWang/rime-lua-aux-code	
 	https://github.com/JACKCHAN000/Rime-Lua-GoogleTranslate	
 	https://github.com/Kimiblock/moeOS-pinyin	
 	https://github.com/LEOYoon-Tsaw/Squirrel-Designer	
-	https://github.com/Lantaio/Rime-schema-JoySchema	
 	https://github.com/Lu-Jiejie/rime-lua-script	
 	https://github.com/MapoMagpie/rimedm	
-	https://github.com/Mintimate/oh-my-rime	
 	https://github.com/Ponpon55837/Squirrel	
 	https://github.com/Techince/weasel	
 	https://github.com/TimoLin/text2dict-rime	
 	https://github.com/Tsinswreng/rime-TswG	
 	https://github.com/Yiklek/RimeTool	一个Rime工具箱，支持控制算法服务和方案部署。
 	https://github.com/Z572/guile-rime	Guile bindings for Rime.
-	https://github.com/amorphobia/rime-quad	
 	https://github.com/amzxyz/RIME-LMDG	
 	https://github.com/baopaau/rime-pinyin-translating	
 	https://github.com/bczhc/librime-rs	
 	https://github.com/bczhc/rime-android	
 	https://github.com/bczhc/rime-tui	
 	https://github.com/bennyyip/Rime-See-Me	https://bennyyip.github.io/Rime-See-Me/
-	https://github.com/binesiyu/rime-config	
 	https://github.com/bryan824/scel2rime	
 	https://github.com/crazywhalecc/rime-dict-creator	
 	https://github.com/dragonish/huma-rime-adder	
-	https://github.com/fcitx-contrib/fcitx5-macos-installer	
 	https://github.com/felixonmars/fcitx5-pinyin-zhwiki	
-	https://github.com/fkxxyz/rime-cloverpinyin	
 	https://github.com/fkxxyz/rime-symbols	
 	https://github.com/forfudan/yuhao-ime-release	
 	https://github.com/fxliang/RimeSeeMe	https://fxliang.github.io/RimeSeeMe/
-	https://github.com/gurecn/YuyanIme	
 	https://github.com/hchunhui/librime-cloud	
 	https://github.com/hchunhui/librime-lua	Lua脚本
 	https://github.com/hsuanyi-chou/rime-liur	
 	https://github.com/imfuxiao/LibrimeKit	
-	https://github.com/jimmy54/iRime	
 	https://github.com/jimmy54/iRime-Resource	
-	https://github.com/jimmy54/iRimeLib	
+	https://github.com/jimmy54/iRimeLib	基於著名的Rime輸入法框架， 旨在保護漢語各地方言， 音碼形碼通用輸入法平臺。
 	https://github.com/kenchou/rime-dict-utils	
 	https://github.com/kitty-panics/rime-table-decompiler	
 	https://github.com/lewangdev/scel2txt	
@@ -90,7 +83,7 @@ title	repository	comment
 	https://github.com/outloudvi/mw2fcitx	
 	https://github.com/pdog18/rime-soak	https://pdog18.github.io/rime-soak/
 	https://github.com/puddinging/rime-cli	
-	https://github.com/qzly/RimeControl	
+	https://github.com/qzly/RimeControl	这个工具是小狼毫 Weasel的基本配置工具，使用WPF开发。
 	https://github.com/rime/brise	
 	https://github.com/rime/librime	
 	https://github.com/rime/librime-charcode	
@@ -117,11 +110,10 @@ title	repository	comment
 	https://github.com/wlh320/rime-ls	
 	https://github.com/wlh320/zed-ext-rime-ls	
 	https://github.com/wzhd/rime	
-	https://github.com/yangrq/windy_idiom	
 	https://github.com/yanhuacuo/rimetool	
-	https://github.com/zhangheng18/rime-dict	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
+	https://github.com/neolee/SCU	macOS
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -245,6 +237,14 @@ title	repository	comment
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
+	https://github.com/Mintimate/oh-my-rime	
+	https://github.com/zhangheng18/rime-dict	
+	https://github.com/binesiyu/rime-config	
+	https://github.com/yangrq/windy_idiom	
+	https://github.com/amorphobia/rime-quad	
+	https://github.com/Lantaio/Rime-schema-JoySchema	
+	https://github.com/fkxxyz/rime-cloverpinyin	
+	https://github.com/gurecn/YuyanIme	
 -	https://github.com/ONGOING-Z/rime-config	
 -	https://github.com/amzxyz/rime_wanxiang_zrm	
 -	https://github.com/chinliangwang/rime-wubi86-config	
