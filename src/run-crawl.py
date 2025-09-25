@@ -32,7 +32,7 @@ def _random_sleep(idx, min_time=0.5, max_time=5, max_limit=20):
 
 
 def _get_json(url, headers):
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, timeout=15)
     if response.status_code == 200:
         return response.json()
     logging.warning(f"!!! Error status = {response.status_code}, url = {url}")
@@ -77,7 +77,7 @@ def _save_repo_info(idx, save_file, repo, repo_info, header):
             "header": header,
             "data": repo_info,
         }
-        with open(save_file, "w") as file:
+        with open(save_file, "w", encoding="utf-8") as file:
             json.dump(result, file, indent=2, ensure_ascii=False)
 
 
@@ -112,7 +112,7 @@ def read_data(data_file: str, sep="\t", ignore=True) -> list:
         return []
 
     repo_list = []
-    with open(data_file) as f:
+    with open(data_file, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip("\n")
             if line == "":

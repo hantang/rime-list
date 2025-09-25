@@ -5,6 +5,7 @@ import logging
 import re
 from pathlib import Path
 
+
 GITHUB_STEM = "https://github.com/"
 
 
@@ -41,11 +42,11 @@ def get_desc(repo, info, comment):
         header = strip(strip_link(strip_img(header)))
         desc = strip(strip_link(strip_img(desc)))
     if header == "" and desc == "":
-        desc = f"【{comment}】"
+        desc = f"【{comment}】" if comment else "--"
     if header and not header.startswith("**"):
         header = f"**{header}**"
     if homepage:
-        homepage = f"<{homepage}>"
+        homepage = f" <{homepage}> "
     text = "<br>".join([v for v in [header, desc, homepage] if v])
 
     return unescape(strip_link(strip_img(text))).strip()
@@ -103,7 +104,7 @@ def format_repo_list(repo_list, repo_dict, dt):
             if repo.startswith("["):
                 v2, v3 = "📝", repo
             else:
-                v2, v3 = "", "~~{}~~".format(t3.format(repo=name))
+                v2, v3 = "", f"~~{t3.format(repo=name)}~~"
             row = ["", v2, v3, desc]
         output.append(sep2.join([""] + row + [""]))
     output = [v.strip() for v in output]
@@ -116,7 +117,10 @@ def update_data(data_file: str, json_dir: str, sep="\t") -> tuple[dict, list]:
         return None, None
 
     files = Path(json_dir).glob("*.json")
-    data = [json.load(open(file)) for file in files]
+    data = []
+    for file in files:
+        with open(file, encoding="utf-8") as f:
+            data.append(json.load(f))
 
     repo_dict = {}
     for entry in data:
@@ -139,7 +143,7 @@ def update_data(data_file: str, json_dir: str, sep="\t") -> tuple[dict, list]:
     repo_list = []
     is_update = False
     extra_groups = []
-    with open(data_file) as f:
+    with open(data_file, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip("\n")
             if line == "":
@@ -183,7 +187,7 @@ def update_data(data_file: str, json_dir: str, sep="\t") -> tuple[dict, list]:
 
     # if is_update:
     logging.info(f"Update {data_file}")
-    with open(data_file, "w") as f:
+    with open(data_file, "w", encoding="utf-8") as f:
         output2 = extra_groups
         for titles, repos in groups:
             output2.append(titles)
@@ -212,7 +216,7 @@ def update_doc(output_file: str, repo_dict: dict, groups: list | None) -> bool:
 
     seps = ["<!-- START-TABLE -->", "<!-- END-TABLE -->"]
     logging.info(f"Read {output_file}")
-    with open(output_file) as f:
+    with open(output_file, encoding="utf-8") as f:
         text = f.read()
 
     part1, part2 = text.split(seps[0])
@@ -224,7 +228,7 @@ def update_doc(output_file: str, repo_dict: dict, groups: list | None) -> bool:
     save_parts = "\n\n".join([v.strip() for v in parts])
 
     logging.info(f"Save to {output_file}")
-    with open(output_file, "w") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write(save_parts.strip() + "\n")
     return True
 
