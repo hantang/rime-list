@@ -11,6 +11,7 @@ title	repository	comment
 	https://github.com/fcitx/fcitx5-rime	Linux
 	https://github.com/fcitx5-android/fcitx5-android	Android，安卓输入法，可通过插件支持Rime
 	https://github.com/fxliang/weasel	Windows
+	https://github.com/gurecn/YuyanIme	Android
 	https://github.com/imfuxiao/Hamster	支持iOS/iPadOS，仓输入法；Pro版本收费
 	https://github.com/jimmy54/iRime	iOS
 	https://github.com/lotem/rime-gits	Windows
@@ -21,7 +22,6 @@ title	repository	comment
 	https://github.com/rimeinn/rabbit	
 	https://github.com/stackia/XIME	macOS
 	https://github.com/tumuyan/trime-without-CMake	Android
-	https://github.com/gurecn/YuyanIme	Android
 *	https://github.com/fxliang/weasel	Windows
 ### 扩展或相关工具等		
 	https://github.com/B-Beginner/rimetool	
@@ -83,6 +83,7 @@ title	repository	comment
 	https://github.com/oniondelta/Onion_Rime_Files	
 	https://github.com/osfans/rime-tool	
 	https://github.com/outloudvi/mw2fcitx	
+	https://github.com/owlzou/weasel-theme-editor	配色 https://owlzou.github.io/weasel-theme-editor/
 	https://github.com/pdog18/rime-soak	配色 https://pdog18.github.io/rime-soak/
 	https://github.com/puddinging/rime-cli	
 	https://github.com/qzly/RimeControl	这个工具是小狼毫 Weasel的基本配置工具，使用WPF开发。
@@ -102,6 +103,7 @@ title	repository	comment
 	https://github.com/rimeinn/pyrime	
 	https://github.com/rimeinn/rime.nvim	
 	https://github.com/rimeinn/zsh-rime	
+	https://github.com/rxhaol/easy-configs-rime	配色 https://rxhaol.github.io/easy-configs-rime/
 	https://github.com/shitlime/RimeSpellTool	
 	https://github.com/tswwe/my-rime-lua	
 	https://github.com/tuberry/ibus-tweaker	ibus扩展，在Linux支持修改配色
@@ -115,8 +117,6 @@ title	repository	comment
 	https://github.com/yanhuacuo/rimetool	
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
-	https://github.com/owlzou/weasel-theme-editor	配色 https://owlzou.github.io/weasel-theme-editor/
-	https://github.com/rxhaol/easy-configs-rime	配色 https://rxhaol.github.io/easy-configs-rime/
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -256,6 +256,7 @@ title	repository	comment
 	https://github.com/Astrian/appso-rime-skin	
 	https://github.com/GJRobert/rime-theme-mango_de_toi	
 	https://github.com/GJRobert/rime-theme-uji_kintoki	
+	https://github.com/Mintimate/RimeTheme	
 	https://github.com/N4nnn/N4n-imeskins	
 	https://github.com/OscarXWei/Squirrel-Skin-Collection	
 	https://github.com/Rjlintkh/rime-theme-windows11	
@@ -266,23 +267,23 @@ title	repository	comment
 	https://github.com/cdc94/Rime_weasel_skin	
 	https://github.com/danvim/rime-theme-windows10	
 	https://github.com/dearxs/Rime-Themes	
+	https://github.com/dracula/rime	
+	https://github.com/hekatech/RIME-style	
 	https://github.com/nobodysclown/rime-wechat-keyboard	
 	https://github.com/nopdan/danjing	
 	https://github.com/puddinging/rime-skin	
-	https://github.com/shaochenshi/rime_skin	
-	https://github.com/thebaldingken/rime-skin-yellowish	
-	https://github.com/Mintimate/RimeTheme	
-	https://github.com/dracula/rime	
 	https://github.com/rime-aca/color_schemes	
 	https://github.com/ryekee/rime-color-scheme	
 	https://github.com/sccccchallz/FuYu_RIME_color_scheme	
-	https://github.com/hekatech/RIME-style	
+	https://github.com/shaochenshi/rime_skin	
+	https://github.com/thebaldingken/rime-skin-yellowish	
 	https://github.com/thep0y/fcitx5-themes-candlelight	fcitx5主题
 -	https://github.com/Lanlan-Cat/Rime-skin	
 -	https://github.com/The-Fae-Sorceress/Rime-weasel-skin	
 ### 更多配置（Gist等）		
 	[AlephAlpha/greek.dict.yaml](https://gist.github.com/AlephAlpha/5406458cb98838efe1fc)	Rime 的希腊字母输入方案，也支持一些常用的数学符号。
 	[ipcjs/+Rime+小鹤双拼+颜文字+笔画混合输入方案.md](https://gist.github.com/ipcjs/cb527f85e027d7927ef3e42a0602ddf5)	Rime+小鹤双拼+颜文字+笔画混合输入方案
+	[kuraa.cc: kura/SquirrelConfig](https://git.kuraa.cc/kura/SquirrelConfig)	鼠须管配置
 	[lembacon/luna_pinyin.emoji.dict.yaml](https://gist.github.com/lembacon/4593540)	Pinyin-Emoji Dictionary for Squirrel
 	[lewangdev/default.custom.yaml](https://gist.github.com/lewangdev/f8ebbba24f464e915fb7d36857fcbbe5)	雾凇拼音自定义配置，MacOS-like & Wechat-like Dark/Light Color Scheme For Rime
 	[lotem/default.custom.yaml](https://gist.github.com/lotem/2309739)	在Rime輸入方案選單中添加五筆、雙拼、粵拼、注音，保留你需要的
@@ -291,7 +292,6 @@ title	repository	comment
 	[lotem/squirrel.custom.yaml](https://gist.github.com/lotem/2290714)	【鼠鬚管】定製檔
 	[zsakvo/squirrel-custom.yaml](https://gist.github.com/zsakvo/fff6e4859265d5d629439d5ccb553f8a)	微信键盘配色鼠须管皮肤
 	[zzz67240/double_pinyin_flypy.custom.yaml](https://gist.github.com/zzz67240/fa920d255d56b9fa310e4f0864e22a29)	Rime 小鶴雙拼 臺灣正體中文
-	[kuraa.cc: kura/SquirrelConfig](https://git.kuraa.cc/kura/SquirrelConfig)	鼠须管配置
 ## 常规输入方案		
 ### 音码（拼音、注音等）		
 	https://github.com/KobeArthurScofield/rime-longma-tone	
@@ -403,6 +403,7 @@ title	repository	comment
 	https://github.com/rimeinn/rime-tiger	
 	https://github.com/roninro/rime-wubi	
 	https://github.com/runapp/rime-wubi98char	
+	https://github.com/thep0y/rime-98	
 	https://github.com/undus5/rimerc	
 	https://github.com/vfreex/rime-zhengma	
 	https://github.com/xiaodoujiang/092r	
@@ -415,7 +416,6 @@ title	repository	comment
 	https://github.com/zekexiao/xtlb-rime	
 	https://github.com/zhmars/rime-wubi-simp	
 	https://github.com/zongxinbo/rime-zong	
-	https://github.com/thep0y/rime-98	
 ### 音形混合及其他		
 	https://github.com/JeffChien/rime-flypyquick5	
 	https://github.com/Yiklek/oh-my-rime	网站<https://www.mintimate.cc>
