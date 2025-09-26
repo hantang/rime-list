@@ -21,6 +21,7 @@ title	repository	comment
 	https://github.com/rimeinn/rabbit	
 	https://github.com/stackia/XIME	macOS
 	https://github.com/tumuyan/trime-without-CMake	Android
+	https://github.com/gurecn/YuyanIme	Android
 *	https://github.com/fxliang/weasel	Windows
 ### 扩展或相关工具等		
 	https://github.com/B-Beginner/rimetool	
@@ -115,6 +116,7 @@ title	repository	comment
 	https://github.com/zhangkaiser/librime-wasm	
 	https://github.com/zishuzy/rime_userdb_merger	
 	https://github.com/owlzou/weasel-theme-editor	配色 https://owlzou.github.io/weasel-theme-editor/
+	https://github.com/rxhaol/easy-configs-rime	配色 https://rxhaol.github.io/easy-configs-rime/
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
@@ -189,7 +191,6 @@ title	repository	comment
 	https://github.com/fxliang/weasel_config	
 	https://github.com/gaboolic/rime-frost	
 	https://github.com/gkzhb/rime.d	
-	https://github.com/gurecn/YuyanIme	
 	https://github.com/ha-pin/rime-cloverpinyin	
 	https://github.com/henices/rime	
 	https://github.com/hktkzyx/rime	
@@ -662,7 +663,7 @@ title	repository	comment
 	https://github.com/pqrs-org/Karabiner-Elements	
 	https://github.com/rime-aca/corpus	
 	https://github.com/rime/artworks	
-	https://github.com/rimeinn/rimeinn.github.io	
+	https://github.com/rimeinn/rimeinn.github.io	https://rimeinn.github.io
 	https://github.com/s-yata/marisa-trie	
 	https://github.com/sgalal/rime-opencc-32bit-latest	
 	https://github.com/sgalal/rime-opencc-latest	
