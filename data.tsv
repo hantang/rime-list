@@ -294,10 +294,6 @@ title	repository	comment
 	[zzz67240/double_pinyin_flypy.custom.yaml](https://gist.github.com/zzz67240/fa920d255d56b9fa310e4f0864e22a29)	Rime 小鶴雙拼 臺灣正體中文
 ## 常规输入方案		
 ### 音码（拼音、注音等）		
-	https://github.com/KobeArthurScofield/rime-longma-tone	
-	https://github.com/KobeArthurScofield/rime-longma-wanxiang	
-	https://github.com/KobeArthurScofield/rime-terra-double-pinyin	
-	https://github.com/KobeArthurScofield/rime-wanxiang-triple-pinyin	
 	https://github.com/LawssssCat/rime-aurora	
 	https://github.com/Papnas/shupin	
 	https://github.com/Sonner114514/huaipin	
@@ -340,6 +336,10 @@ title	repository	comment
 	https://github.com/zaqzrh/Tone-double_pinyin	
 	https://github.com/zhanghaozhecn/rime-combo-pinyin-mod	
 *	https://github.com/amzxyz/rime_wanxiang	
+-	https://github.com/KobeArthurScofield/rime-longma-tone	
+-	https://github.com/KobeArthurScofield/rime-longma-wanxiang	
+-	https://github.com/KobeArthurScofield/rime-terra-double-pinyin	
+-	https://github.com/KobeArthurScofield/rime-wanxiang-triple-pinyin	
 -	https://github.com/arsenali/rime-triple-lishi15	
 -	https://github.com/baopaau/rime-iac-mps	
 -	https://github.com/baopaau/rime-luormaazih	
@@ -400,7 +400,6 @@ title	repository	comment
 	https://github.com/rime/rime-scj	
 	https://github.com/rime/rime-stroke	
 	https://github.com/rime/rime-wubi	
-	https://github.com/rimeinn/rime-tiger	
 	https://github.com/roninro/rime-wubi	
 	https://github.com/runapp/rime-wubi98char	
 	https://github.com/thep0y/rime-98	
@@ -416,6 +415,7 @@ title	repository	comment
 	https://github.com/zekexiao/xtlb-rime	
 	https://github.com/zhmars/rime-wubi-simp	
 	https://github.com/zongxinbo/rime-zong	
+-	https://github.com/rimeinn/rime-tiger	
 ### 音形混合及其他		
 	https://github.com/JeffChien/rime-flypyquick5	
 	https://github.com/Yiklek/oh-my-rime	网站<https://www.mintimate.cc>
