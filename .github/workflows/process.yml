@@ -17,8 +17,8 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.x"
       # - run: pip install -r requirements.txt
@@ -27,7 +27,7 @@ jobs:
           TOKEN: ${{ secrets.GH_TOKEN }}
         run: bash run.sh
       - name: Git auto commit
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_user_name: "github-actions[bot]"
           commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
