@@ -1,6 +1,4 @@
 import argparse
-import base64
-import concurrent.futures
 import json
 import logging
 import random
@@ -8,111 +6,151 @@ import re
 import time
 from pathlib import Path
 
-# import urllib.request
-# import urllib.error
 import requests
 
+RENAMED_COLS = {
+    "nameWithOwner": "full_name",
+    "url": "html_url",
+    "isArchived": "archived",
+    "isFork": "fork",
+    "stargazerCount": "stargazers_count",
+    "forkCount": "forks_count",
+    "updatedAt": "updated_at",
+    "pushedAt": "pushed_at",
+    "description": "description",
+    "homepageUrl": "homepage",
+}
+QUERY_COLS = [
+    "nameWithOwner",
+    "url",
+    "isArchived",
+    "isFork",
+    "stargazerCount",
+    "forkCount",
+    "updatedAt",
+    "pushedAt",
+    "description",
+    "homepageUrl",
+]
 
-# GitHub API
-GITHUB_API_URL = "https://api.github.com/repos"
-GITHUB_STEM = "https://github.com/"
+
+def sanitize_alias(name, index):
+    return "repo_" + re.sub(r"[^a-zA-Z0-9_]", "_", name) + f"{index:03d}"
 
 
-def _random_sleep(idx, min_time=0.5, max_time=5, max_limit=20):
-    seconds = min_time
-    steps = [5, 17, 41, 93]
-    for i, step in enumerate(steps):
-        if i % step == 0:
-            seconds = seconds / 2 + random.uniform(min_time, max_time * (i + 1) * 0.5)
+def build_graphql_query(alias, owner, name):
+    # https://docs.github.com/en/graphql/reference/objects#repository
+    columns = QUERY_COLS
+    reamde = """
+        readme: object(expression: "HEAD:README.md") {
+          ... on Blob {
+            text
+          }
+        }
+    """
+    query = [
+        f'{alias}: repository(owner: "{owner}", name: "{name}")',
+        "{",
+        " ".join(columns),
+        reamde,
+        "}",
+    ]
+    return "\n".join(query)
 
-    if seconds > 0:
-        seconds = round(min(seconds, max_limit), 3)
-        logging.debug(f"Sleep {seconds} seconds ...")
-        time.sleep(seconds)
 
-
-def _get_json(url, headers):
-    response = requests.get(url, headers=headers, timeout=15)
-    if response.status_code == 200:
-        return response.json()
-    logging.warning(f"!!! Error status = {response.status_code}, url = {url}")
-    return None
-
-
-def _fetch_repo_info(idx, save_file, repo, tokens):
-    repo_name = repo.split(GITHUB_STEM)[-1].strip("/") if GITHUB_STEM in repo else repo
-    url = f"{GITHUB_API_URL}/{repo_name}"
-    url_readme = f"{GITHUB_API_URL}/{repo_name}/readme"
-
-    token = random.choice(tokens)
+def fetch_batch(batch_repos, token):
+    url = "https://api.github.com/graphql"
     headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github.v3+json",
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
     }
 
-    try:
-        logging.debug(f"--- Request = {url}")
-        repo_info = _get_json(url, headers)
-        header = None
-        _random_sleep(1)
-        logging.debug(f"--- Request = {url_readme}")
-        readme = _get_json(url_readme, headers)
-        if readme:
-            content = readme["content"]
-            readme_text = base64.b64decode(content).decode("utf-8")
-            readme_text = "\n".join(readme_text.strip().split("\n")[:5])
-            match = re.search(r"(^|\n)# (\S.*)", readme_text)
-            header = match.group(2) if match else None
-        _random_sleep(idx)
-        return idx, save_file, header, repo_info
-    except Exception as e:
-        print(f"Exception fetching {repo}: {e}")
-        return idx, save_file, None, None
+    query_blocks = []
+    for alias, repo in batch_repos:
+        parts = repo.split("/")
+        if len(parts) != 2:
+            continue
+        block = build_graphql_query(alias, parts[0], parts[1])
+        query_blocks.append(block)
+    query = "query { " + " ".join(query_blocks) + " }"
+
+    response = requests.post(url, json={"query": query}, headers=headers, timeout=15)
+
+    if response.ok:
+        return response.json().get("data", {})
+    else:
+        logging.warning(f"Request failed: {response.status_code}")
+    return {}
 
 
-def _save_repo_info(idx, save_file, repo, repo_info, header):
-    if repo_info:
-        result = {
-            "repo": repo,
-            "header": header,
-            "data": repo_info,
-        }
-        with open(save_file, "w", encoding="utf-8") as file:
-            json.dump(result, file, indent=2, ensure_ascii=False)
+def extract_readme_title(readme_text: str) -> str:
+    """extract head1 (ATX / SetText) from README Markdown"""
+    if not readme_text:
+        return ""
+    content = readme_text.strip()
+    pattern = re.compile(r"^# (.+)$|(.+)[\r\n]=+[\r\n]", re.MULTILINE)
+    match = pattern.search(content)
+    if match:
+        title = match.group(1) or match.group(2)
+        return title.strip()
+    return ""
 
 
-def crawl(repo_list, tokens, save_dir, max_workers=5, overwrite=False):
-    save_dir = Path(save_dir)
+def crawl(file: str, token: str, save_file: str, batch_size: int):
+    repo_list = read_data(file, ignore=True)
+    if not repo_list:
+        logging.warning("No repos")
+        return
+    logging.info(f"Total repo count = {len(repo_list)}")
+
+    save_dir = Path(save_file).parent
     if not save_dir.exists():
-        logging.info(f"Create {save_dir}")
+        logging.info(f"Create dir {save_dir}")
         save_dir.mkdir(parents=True)
-    max_workers = min(max_workers, len(repo_list))
+    if "," in token:
+        token = token.split(",")[0]
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = []
-        for idx, repo in enumerate(repo_list):
-            save_file = Path(save_dir, f"{idx:04d}.json")
-            if not overwrite and save_file.exists():
+    output_data = []
+    for i in range(0, len(repo_list), batch_size):
+        batch = repo_list[i : i + batch_size]
+        logging.info(f"Process repo: {i + 1} ~ {i + len(batch)}: {batch[0]}")
+
+        batch_data = [(sanitize_alias(repo, i), repo) for i, repo in enumerate(batch)]
+        raw_data = fetch_batch(batch_data, token)
+        time.sleep(random.random())
+
+        for alias, repo in batch_data:
+            repo_data = raw_data.get(alias)
+            if not repo_data:
+                logging.warning(f"Ignore error repo = {repo}")
                 continue
-            futures.append(executor.submit(_fetch_repo_info, idx, save_file, repo, tokens))
-        logging.info(f"futures = {len(futures)}")
 
-        for future in concurrent.futures.as_completed(futures):
-            idx, save_file, header, repo_info = future.result()
-            logging.debug(f"Get idx = {idx:03d}, url = {repo_list[idx]}")
-            if header is None and repo_info is None:
-                logging.warning(f"Failed to fetch info for {repo}")
-            else:
-                _save_repo_info(idx, save_file, repo_list[idx], repo_info, header)
+            result = {"request_repo": repo}
+            for k, v in RENAMED_COLS.items():
+                result[v] = repo_data.get(k)
+            readme_text = None
+            if repo_data["readme"] and repo_data["readme"]["text"]:
+                readme_text = repo_data["readme"]["text"]
+            result["readme_title"] = extract_readme_title(readme_text)
+            output_data.append(result)
+
+        if output_data:
+            logging.debug(f"Save data (count = {len(output_data)})")
+            with open(save_file, "w", encoding="utf-8") as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+
+    logging.info(f"Total data = {len(output_data)}")
+    logging.info("Done")
 
 
-def read_data(data_file: str, sep="\t", ignore=True) -> list:
-    if not Path(data_file).exists():
-        logging.warning(f"{data_file} does not exist")
+def read_data(file: str, sep: str = "\t", ignore: bool = True) -> list:
+    GITHUB_STEM = "https://github.com/"
+    if not Path(file).exists():
+        logging.warning(f"{file} does not exist")
         return []
 
-    repo_list = []
-    with open(data_file, encoding="utf-8") as f:
+    repo_set = set()
+    with open(file, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip("\n")
             if line == "":
@@ -121,10 +159,11 @@ def read_data(data_file: str, sep="\t", ignore=True) -> list:
             if len(parts) > 1 and GITHUB_STEM in parts[1]:
                 if ignore and parts[0] != "":
                     continue
-                repo_list.append(parts[1].strip().strip("/"))
+                repo_name = parts[1].split(GITHUB_STEM)[-1].strip(" /")
+                repo_set.add(repo_name)
 
-    out = sorted(set(repo_list))
-    return out
+    repo_list = sorted(repo_set)
+    return repo_list
 
 
 if __name__ == "__main__":
@@ -132,19 +171,10 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format=fmt)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-g", "--github_token", required=True, type=str, help="Github tokens")
-    parser.add_argument("-f", "--data_file", required=True, type=str, help="Github repo file")
-    # parser.add_argument("-o", "--output_file", default="README.md", type=str, help="Save file")
-    parser.add_argument("-t", "--temp_dir", default="temp", type=str, help="Json data dir")
+    parser.add_argument("-t", "--token", required=True, type=str, help="Github tokens")
+    parser.add_argument("-f", "--file", default="data.tsv", type=str, help="Github repo file")
+    parser.add_argument("-o", "--output", default="repo_data.json", type=str, help="Json data dir")
+    parser.add_argument("-b", "--batch-size", default=20, type=int)
 
     args = parser.parse_args()
-    gh_token = args.github_token.split(",")
-    data_file = args.data_file
-    # output_file = args.output_file
-    temp_dir = args.temp_dir
-
-    repo_list = read_data(data_file, ignore=True)
-    logging.info(f"repo_list = {len(repo_list)}")
-
-    if len(repo_list) > 0:
-        crawl(repo_list, gh_token, save_dir=temp_dir)
+    crawl(args.file, args.token, args.output, args.batch_size)

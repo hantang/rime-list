@@ -3,7 +3,7 @@ set -eu
 
 readme_file="README.md"
 data_file="data.tsv"
-temp_dir="temp"
+repo_file="repo_data.json"
 
 # readm update: macos: ggrep
 last_update=$(grep -oP '(?<=<!-- START-DATE -->\*)[0-9-]+(?=\*<!-- END-DATE -->)' $readme_file)
@@ -19,11 +19,11 @@ pip install -r requirements.txt >/dev/null 2>&1
 
 echo "Update data"
 retry=2
-for ((i = 0; i < $retry; i++)); do
-    python src/run-crawl.py -f $data_file -t $temp_dir -g $TOKEN
-done
+#for ((i = 0; i < $retry; i++)); do
+python src/run-crawl.py -t $TOKEN -f $data_file -o $repo_file
+#done
 
 echo "Update readme"
-python src/run-doc.py -f $data_file -t $temp_dir -o $readme_file
+python src/run-doc.py -f $data_file -d $repo_file -o $readme_file
 
 echo Done
