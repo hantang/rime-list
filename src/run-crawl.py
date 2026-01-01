@@ -83,17 +83,38 @@ def fetch_batch(batch_repos, token):
     return {}
 
 
+def _clean_markdown(content):
+    # 删除不必要部分
+    content = re.sub(r"<[^>]+>", "", content, flags=re.MULTILINE)  # html tag
+    content = re.sub(r"^\s+.*\n", "", content)
+    content = re.sub(r"^[-+_=]{3,}", "", content, flags=re.MULTILINE)  # hr
+    content = re.sub(r"^([*+\-]|\d+\.)\s+.*", "", content, flags=re.MULTILINE)  # list
+    content = re.sub(r"^>+ .*", "", content, flags=re.MULTILINE)  # Blockquote
+    content = re.sub(r"^\|.*\|\s*\n", "", content, flags=re.MULTILINE)  # table
+    content = re.sub(r"!\[[^\]]*\]\([^\)]*\)", "", content, flags=re.MULTILINE)  # image
+    content = re.sub(r"\[([^\]]*)\]\([^\)]*\)", r"\1", content, flags=re.MULTILINE)  # link
+
+    content = re.sub(r"^```.*?```\n", "", content, flags=re.MULTILINE | re.DOTALL)  # code block
+    content = content.strip()
+    return content
+
+
 def extract_readme_title(readme_text: str) -> str:
     """extract head1 (ATX / SetText) from README Markdown"""
     if not readme_text:
         return ""
-    content = readme_text.strip()
-    pattern = re.compile(r"^# (.+)$|(.+)[\r\n]=+[\r\n]", re.MULTILINE)
+    content = _clean_markdown(readme_text)
+    pattern = re.compile(r"^# (.+)$|(.+)[\r\n]=+[\r\n]", flags=re.MULTILINE)
     match = pattern.search(content)
+    out = ""
     if match:
-        title = match.group(1) or match.group(2)
-        return title.strip()
-    return ""
+        out = match.group(1) or match.group(2)
+    elif content:
+        out = content.split("\n")[0]
+    out = re.sub(r"^#+\s*|\s+#+$", "", out)
+    out = re.sub(r"[\u200d\ufeff\s]+", " ", out)
+    out = out.strip()
+    return out
 
 
 def crawl(file: str, token: str, save_file: str, batch_size: int):

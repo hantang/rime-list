@@ -4,7 +4,7 @@ import json
 import logging
 import re
 from pathlib import Path
-
+from urllib.parse import unquote
 
 GITHUB_STEM = "https://github.com/"
 
@@ -55,14 +55,13 @@ def get_desc(repo_link, repo_info, comment):
     if header and not header.startswith("**"):
         header = f"**{header}**"
     if homepage:
+        homepage = unquote(homepage)
         homepage = f" <{homepage}> "
     text = "<br>".join([v for v in [header, desc, homepage] if v])
 
-    return unescape(_strip_media(text))
-
-
-# def sanitize_repo(repo_name):
-#     return "gh_" + re.sub(r"[^a-zA-Z0-9_]", "_", repo_name).lower()
+    out = unescape(_strip_media(text))
+    out = out.strip()
+    return out
 
 
 def extract_repo_name(repo_link):
@@ -116,7 +115,7 @@ def format_repo_list(repo_list, repo_dict, repo_codes, dt, style="flat-square"):
     commit_link = "https://img.shields.io/github/last-commit/{repo}?style={style}&label=update"
 
     cell_stars = "![{stars}][{name}_stars]<br>![{forks}][{name}_forks]{is_fork}"
-    cell_commit = "{status}![{name}_commit]"
+    cell_commit = "![{name}_commit]{is_archived}"
     cell_repo = "[{repo}][{name}]"
     if len(repo_list) == 0:
         return [], []
@@ -147,10 +146,10 @@ def format_repo_list(repo_list, repo_dict, repo_codes, dt, style="flat-square"):
                 link_list.extend(new_links)
 
                 fk = "<br>🎋" if not is_not_fork else ""
-                st = "🗃️<br>" if archived == 2 else ""
+                st = "<br>🗃️" if archived == 2 else ""
                 row = [
                     cell_stars.format(is_fork=fk, name=repo_code, stars=stars, forks=forks),
-                    cell_commit.format(status=st, name=repo_code),
+                    cell_commit.format(is_archived=st, name=repo_code),
                     cell_repo.format(repo=repo_name, name=repo_code),
                     desc,
                 ]
