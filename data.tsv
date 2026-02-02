@@ -208,7 +208,6 @@ title	repository	comment
 	https://github.com/mokurin000/rime-osu	
 	https://github.com/myshiqiqi/rime-wubi	镜像 [空山明月/Rime五笔](https://gitee.com/hi-coder/rime-wubi)
 	https://github.com/myshiqiqi/rime-wubi-yinfu	镜像 [空山明月/Rime五笔-音辅版](https://gitee.com/hi-coder/rime-wubi-yinfu)
-	https://github.com/odd256/rime_backup	
 	https://github.com/oniondelta/Onion_Trime_Files	
 	https://github.com/qdzhang/rime	
 	https://github.com/qvshuo/squirrel	
@@ -250,6 +249,7 @@ title	repository	comment
 -	https://github.com/amzxyz/rime_wanxiang_zrm	
 -	https://github.com/chinliangwang/rime-wubi86-config	
 -	https://github.com/expoli/rime-config	
+-	https://github.com/odd256/rime_backup	
 -	https://github.com/wangsizhu0504/rime-ice	
 ### 主题（配色/皮肤）		
 	https://github.com/Astrian/appso-rime-skin	
@@ -404,7 +404,7 @@ title	repository	comment
 	https://github.com/undus5/rime-wubi86s	
 	https://github.com/vfreex/rime-zhengma	
 	https://github.com/xiaodoujiang/092r	
-	https://github.com/xkinput/Rime_JD	
+	https://github.com/xkinput/KeyTao	
 	https://github.com/yangzhaoyunfei/rime-xfsm	
 	https://github.com/yanhuacuo/98wubi	
 	https://github.com/ywxt/rime-huma	
