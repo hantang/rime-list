@@ -40,6 +40,7 @@ title	repository	comment
 	https://github.com/Techince/weasel	
 	https://github.com/TimoLin/text2dict-rime	
 	https://github.com/Tsinswreng/rime-TswG	
+	https://github.com/Vim-cn/ime.nvim	
 	https://github.com/Yiklek/RimeTool	一个Rime工具箱，支持控制算法服务和方案部署。
 	https://github.com/Z572/guile-rime	Guile bindings for Rime.
 	https://github.com/amzxyz/RIME-LMDG	
@@ -95,7 +96,6 @@ title	repository	comment
 	https://github.com/rime/rime-prelude	
 	https://github.com/rime/rppi	
 	https://github.com/rimeinn/coc-rime	
-	https://github.com/rimeinn/ime.nvim	
 	https://github.com/rimeinn/librime-ahk	
 	https://github.com/rimeinn/pyrime	
 	https://github.com/rimeinn/rime.nvim	
