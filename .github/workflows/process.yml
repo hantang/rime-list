@@ -26,7 +26,8 @@ jobs:
         with:
           python-version: "3.x"
 
-      # - run: pip install -r requirements.txt
+      - name: Install deps
+        run: pip install -r requirements.txt >/dev/null 2>&1
       - name: Run Python scripts
         env:
           TOKEN: ${{ secrets.GH_TOKEN }}

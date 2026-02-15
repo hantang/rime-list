@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -eu
+batch="${1:-100}"
 
 readme_file="README.md"
 data_file="data.tsv"
@@ -14,14 +15,11 @@ if [ "$last_update" == "$today" ]; then
     exit 0
 fi
 
-echo "Inistall deps"
-pip install -r requirements.txt >/dev/null 2>&1
+# echo "Inistall deps"
+# pip install -r requirements.txt >/dev/null 2>&1
 
 echo "Update data"
-retry=2
-#for ((i = 0; i < $retry; i++)); do
-python src/run-crawl.py -t $TOKEN -f $data_file -o $repo_file
-#done
+python src/run-stats.py -f $data_file -o $repo_file -b $batch
 
 echo "Update readme"
 python src/run-doc.py -f $data_file -d $repo_file -o $readme_file

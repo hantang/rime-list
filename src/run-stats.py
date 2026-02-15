@@ -5,6 +5,7 @@ import random
 import re
 import time
 from pathlib import Path
+import os
 
 import requests
 
@@ -20,42 +21,40 @@ RENAMED_COLS = {
     "description": "description",
     "homepageUrl": "homepage",
 }
-QUERY_COLS = [
-    "nameWithOwner",
-    "url",
-    "isArchived",
-    "isFork",
-    "stargazerCount",
-    "forkCount",
-    "updatedAt",
-    "pushedAt",
-    "description",
-    "homepageUrl",
-]
+
+GRAPHQL_FRAGMENT = """
+fragment F on Repository{
+  nameWithOwner
+  url
+  isArchived
+  isFork
+  stargazerCount
+  forkCount
+  updatedAt
+  pushedAt
+  description
+  homepageUrl
+  readme: object(expression: "HEAD:README.md") {
+    ... on Blob { text }
+  }
+}
+"""
 
 
-def sanitize_alias(name, index):
-    return "repo_" + re.sub(r"[^a-zA-Z0-9_]", "_", name) + f"{index:03d}"
+def sanitize_alias(index, name=None):
+    return f"r{index:03d}"
 
 
-def build_graphql_query(alias, owner, name):
-    # https://docs.github.com/en/graphql/reference/objects#repository
-    columns = QUERY_COLS
-    reamde = """
-        readme: object(expression: "HEAD:README.md") {
-          ... on Blob {
-            text
-          }
-        }
-    """
-    query = [
-        f'{alias}: repository(owner: "{owner}", name: "{name}")',
-        "{",
-        " ".join(columns),
-        reamde,
-        "}",
-    ]
-    return "\n".join(query)
+def build_graphql_query(repos):
+    query_blocks = []
+    for repo_id, _, repo_owner, repo_name in repos:
+        block = f'{repo_id}: repository(owner: "{repo_owner}", name: "{repo_name}")'
+        block += "{...F}"
+        query_blocks.append(block)
+
+    query = "query{\n" + "\n".join(query_blocks) + "\n}" + GRAPHQL_FRAGMENT
+    query = re.sub(r"\n+", "\n", query)
+    return query
 
 
 def fetch_batch(batch_repos, token):
@@ -65,15 +64,16 @@ def fetch_batch(batch_repos, token):
         "Content-Type": "application/json",
     }
 
-    query_blocks = []
+    batch_repos2 = []
     for alias, repo in batch_repos:
         parts = repo.split("/")
         if len(parts) != 2:
             continue
-        block = build_graphql_query(alias, parts[0], parts[1])
-        query_blocks.append(block)
-    query = "query { " + " ".join(query_blocks) + " }"
+        batch_repos2.append((alias, repo, parts[0], parts[1]))
 
+    query = build_graphql_query(batch_repos2)
+    with open("temp-query.txt", "w") as f:
+        f.write(query)
     response = requests.post(url, json={"query": query}, headers=headers, timeout=15)
 
     if response.ok:
@@ -122,23 +122,23 @@ def crawl(file: str, token: str, save_file: str, batch_size: int):
     if not repo_list:
         logging.warning("No repos")
         return
-    logging.info(f"Total repo count = {len(repo_list)}")
+    total = len(repo_list)
+    logging.info(f"Total repo count = {total}")
 
     save_dir = Path(save_file).parent
     if not save_dir.exists():
         logging.info(f"Create dir {save_dir}")
         save_dir.mkdir(parents=True)
-    if "," in token:
-        token = token.split(",")[0]
 
     output_data = []
-    for i in range(0, len(repo_list), batch_size):
+    for i in range(0, total, batch_size):
         batch = repo_list[i : i + batch_size]
         logging.info(f"Process repo: {i + 1} ~ {i + len(batch)}: {batch[0]}")
 
-        batch_data = [(sanitize_alias(repo, i), repo) for i, repo in enumerate(batch)]
+        batch_data = [(sanitize_alias(i, repo), repo) for i, repo in enumerate(batch)]
         raw_data = fetch_batch(batch_data, token)
-        time.sleep(random.random())
+        if i + batch_size < total:
+            time.sleep(random.random())
 
         for alias, repo in batch_data:
             repo_data = raw_data.get(alias)
@@ -192,10 +192,10 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format=fmt)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--token", required=True, type=str, help="Github tokens")
     parser.add_argument("-f", "--file", default="data.tsv", type=str, help="Github repo file")
     parser.add_argument("-o", "--output", default="repo_data.json", type=str, help="Json data dir")
     parser.add_argument("-b", "--batch-size", default=20, type=int)
-
     args = parser.parse_args()
-    crawl(args.file, args.token, args.output, args.batch_size)
+
+    token = os.getenv("TOKEN")
+    crawl(args.file, token, args.output, args.batch_size)
