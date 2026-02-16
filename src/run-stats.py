@@ -117,28 +117,32 @@ def extract_readme_title(readme_text: str) -> str:
     return out
 
 
-def crawl(file: str, token: str, save_file: str, batch_size: int):
+def crawl(file: str, token: str, save_file: str, batch_size: int, alert: bool=True):
     repo_list = read_data(file, ignore=True)
     if not repo_list:
         logging.warning("No repos")
         return
+
+    random.shuffle(repo_list)
     total = len(repo_list)
     logging.info(f"Total repo count = {total}")
-
-    save_dir = Path(save_file).parent
-    if not save_dir.exists():
-        logging.info(f"Create dir {save_dir}")
-        save_dir.mkdir(parents=True)
 
     output_data = []
     for i in range(0, total, batch_size):
         batch = repo_list[i : i + batch_size]
-        logging.info(f"Process repo: {i + 1} ~ {i + len(batch)}: {batch[0]}")
+        count = len(batch)
+        logging.info(f"Process repo: {i + 1} ~ {i + count}: {batch[0]}")
 
         batch_data = [(sanitize_alias(i, repo), repo) for i, repo in enumerate(batch)]
         raw_data = fetch_batch(batch_data, token)
         if i + batch_size < total:
-            time.sleep(random.random())
+            delay = round(1 + random.random() * 5, 3)
+            logging.info(f"Sleep {delay} seconds ...")
+            time.sleep(delay)
+
+        if alert and count >=10 and len(raw_data) <= count // 2:
+            logging.erro("To much fails, ignore")
+            return
 
         for alias, repo in batch_data:
             repo_data = raw_data.get(alias)
@@ -155,10 +159,18 @@ def crawl(file: str, token: str, save_file: str, batch_size: int):
             result["readme_title"] = extract_readme_title(readme_text)
             output_data.append(result)
 
-        if output_data:
-            logging.debug(f"Save data (count = {len(output_data)})")
-            with open(save_file, "w", encoding="utf-8") as f:
-                json.dump(output_data, f, indent=2, ensure_ascii=False)
+    if alert and len(output_data) < int(total * 0.8):
+        logging.erro("To much fails, ignore")
+        return
+
+    save_dir = Path(save_file).parent
+    if not save_dir.exists():
+        logging.debug(f"Create dir {save_dir}")
+        save_dir.mkdir(parents=True)
+
+    logging.debug(f"Save data (count = {len(output_data)})")
+    with open(save_file, "w", encoding="utf-8") as f:
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
 
     logging.info(f"Total data = {len(output_data)}")
     logging.info("Done")

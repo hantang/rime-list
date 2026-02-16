@@ -1,14 +1,15 @@
 name: Update Docs
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - data.tsv
-      - '**.py'
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - data.tsv
+  #     - '**.py'
   schedule:
     - cron: "0 10 * * 1"
+  workflow_dispatch:
 
 jobs:
   process:

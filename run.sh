@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -eu
-batch="${1:-100}"
+batch="${1:-50}"
 
 readme_file="README.md"
 data_file="data.tsv"
