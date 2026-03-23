@@ -122,7 +122,6 @@ title	repository	comment
 	https://github.com/15cm/rime-config	
 	https://github.com/15cm/rime-sogou-dictionaries	
 	https://github.com/ASC8384/myRime	
-	https://github.com/B-Beginner/clinic_dicts	
 	https://github.com/Bambooin/rimerc	
 	https://github.com/Chernfalin/SuperRimeDict	
 	https://github.com/Chernfalin/better-rime-dict	
@@ -246,6 +245,7 @@ title	repository	comment
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
 	https://github.com/zhangheng18/rime-dict	
+-	https://github.com/B-Beginner/clinic_dicts	
 -	https://github.com/ONGOING-Z/rime-config	
 -	https://github.com/amzxyz/rime_wanxiang_zrm	
 -	https://github.com/chinliangwang/rime-wubi86-config	
@@ -307,7 +307,6 @@ title	repository	comment
 	https://github.com/baopaau/rime-yale-mandarin	
 	https://github.com/copy0401/irime-bopomo-config	
 	https://github.com/davix/rime-bopomofo-native	
-	https://github.com/elxy/meow_mspy	
 	https://github.com/fuzy112/rime-romatzyh	
 	https://github.com/gkovacs/rime-td-pinyin-flypy	
 	https://github.com/hosxy/rime-aurora-pinyin	
@@ -343,6 +342,7 @@ title	repository	comment
 -	https://github.com/baopaau/rime-iac-mps	
 -	https://github.com/baopaau/rime-luormaazih	
 -	https://github.com/baopaau/rime-rola-pinyin	
+-	https://github.com/elxy/meow_mspy	
 -	https://github.com/jakwings/rime-xyz	J.W的個人rime方案集，包括泥巴拼音（muddy-pinyin）、扩展拼音（pinyin-ext）、特殊字符（symbols）、化学离子式输入、平假名（hiragana）片假名（katakana）
 ### 形码（五笔、仓颉等）		
 	https://github.com/092wb/092wb	
