@@ -141,7 +141,7 @@ def crawl(file: str, token: str, save_file: str, batch_size: int, alert: bool=Tr
             time.sleep(delay)
 
         if alert and count >=10 and len(raw_data) <= count // 2:
-            logging.erro("To much fails, ignore")
+            logging.error("To much fails, ignore")
             return
 
         for alias, repo in batch_data:
@@ -160,7 +160,7 @@ def crawl(file: str, token: str, save_file: str, batch_size: int, alert: bool=Tr
             output_data.append(result)
 
     if alert and len(output_data) < int(total * 0.8):
-        logging.erro("To much fails, ignore")
+        logging.error("To much fails, ignore")
         return
 
     save_dir = Path(save_file).parent
