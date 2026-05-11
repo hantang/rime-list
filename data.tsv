@@ -51,6 +51,7 @@ title	repository	comment
 	https://github.com/bryan824/scel2rime	
 	https://github.com/crazywhalecc/rime-dict-creator	
 	https://github.com/dragonish/huma-rime-adder	
+	https://github.com/emacs-rime/liberime	
 	https://github.com/felixonmars/fcitx5-pinyin-zhwiki	
 	https://github.com/fkxxyz/rime-symbols	
 	https://github.com/forfudan/yuhao-ime-release	
@@ -72,7 +73,6 @@ title	repository	comment
 	https://github.com/macroxue/shuangpin	https://macroxue.github.io/shuangpin/
 	https://github.com/marguerite/rime-plum-go	
 	https://github.com/mengqi92/Rimebow	
-	https://github.com/merrickluo/liberime	
 	https://github.com/myshiqiqi/WubiMaster	镜像 [空山明月/中书君-Rime管理器](https://gitee.com/hi-coder/WubiMaster)
 	https://github.com/nb5p/Rime-See-Me	配色 https://nb5p.github.io/Rime-See-Me/
 	https://github.com/neolee/SCU	macOS
@@ -117,8 +117,8 @@ title	repository	comment
 -	https://github.com/B-Beginner/rimetool	
 -	https://github.com/imfuxiao/LibrimeKit	
 ### AI增强		
-	https://github.com/xushengfeng/lime	
 	https://github.com/scukeqi/Wisdom-Weasel	
+	https://github.com/xushengfeng/lime	
 ## 配置相关		
 ### 词库和自定义配置		
 	https://github.com/0xffan/rose-pine-rime	
