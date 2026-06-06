@@ -7,16 +7,17 @@ data_file="data.tsv"
 repo_file="repo_data.json"
 
 # readme update: macos: ggrep
-last_update=$(grep -oP '(?<=<!-- START-DATE -->\*)[0-9-]+(?=\*<!-- END-DATE -->)' $readme_file)
+# last_update=$(grep -oP '(?<=<!-- START-DATE -->\*)[0-9-]+(?=\*<!-- END-DATE -->)' $readme_file)
+last_update=$(
+  grep -Eo '<!-- START-DATE -->\*[0-9-]+\*<!-- END-DATE -->' "$readme_file" |
+  grep -Eo '[0-9]+-[0-9]+-[0-9]+'
+)
 today=$(date +%Y-%m-%d)
 
 if [ "$last_update" == "$today" ]; then
     echo "Ignore update. Readme updated at: $last_update"
     exit 0
 fi
-
-# echo "Install deps"
-# pip install -r requirements.txt >/dev/null 2>&1
 
 echo "Update data"
 python src/run-stats.py -f $data_file -o $repo_file -b "$batch"
