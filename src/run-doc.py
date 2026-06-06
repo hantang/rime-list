@@ -1,47 +1,85 @@
 import argparse
-import datetime
 import json
 import logging
 import re
+from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 from urllib.parse import unquote
+from enum import Enum
+
 
 GITHUB_STEM = "https://github.com/"
+REPO_KEYNAME = "request_repo"
+REPO_KEY_URL = "html_url"
 
 
-def _strip_img(text):
+class RepoStatus(Enum):
+    NORMAL = 10
+    UNMAINTAINED = 20
+    ARCHIVED = 21
+    REMOVED = 30
+    OTHERS = 40
+
+
+def _strip_img(text: str) -> str:
     return re.sub(r"!\[[^\[\]]*\]\([^\)]+\)", "", text)
 
 
-def _strip_link(text):
+def _strip_link(text: str) -> str:
     text = re.sub(r"\[([^\[\]]*)\]\([^\)]+\)", r"\1", text)
     text = re.sub(r"\(http[^\)]+\)", "", text)
     text = re.sub(r"\b[\w._%+\-]+@[\w.\-]+\.[A-Z|a-z]{2,7}\b", "", text)  # remove email
     return text
 
 
-def unescape(text):
+def unescape(text: str) -> str:
     return re.sub(r"([\[\]\(\)\|])", r"\\\1", text)
 
 
-def _strip_text(text, ignore=True):
+def _strip_text(text: str, ignore: bool = True) -> str:
     text = re.sub(r"\s+", " ", text).strip() if text else ""
     if ignore and text.startswith("-*- "):
         return ""
     return text
 
 
-def _strip_media(text):
+def _strip_media(text: str) -> str:
     return _strip_text(_strip_link(_strip_img(text)), False)
 
 
-def get_desc(repo_link, repo_info, comment):
+def _is_markdown_link(text: str) -> bool:
+    return bool(re.match(r"^\[[^\]]+\]\([^\)]+\)$", text.strip()))
+
+
+def _format_external_link(repo_link: str) -> str:
+    if _is_markdown_link(repo_link):
+        return repo_link
+    label = repo_link.split("://")[-1].strip("/").lower()
+    return f"[{label}]({repo_link})"
+
+
+def _parse_github_time(value: str) -> datetime | None:
+    if not value:
+        return None
+    value = value.replace("Z", "+0000")
+
+    try:
+        if "T" in value:
+            return datetime.strptime(value, "%Y-%m-%dT%H:%M:%S%z")
+        return datetime.strptime(value[:10], "%Y-%m-%d").replace(tzinfo=UTC)
+    except ValueError:
+        logging.warning(f"Invalid github time = {value}")
+        return None
+
+
+def get_desc(repo_link: str | None, repo_info: dict[str, Any] | None, comment: str) -> str:
     comment = _strip_text(comment)
     header, desc, homepage = "", "", ""
     if repo_info and repo_link:
-        header = _strip_text(repo_info["readme_title"])
-        desc = _strip_text(repo_info["description"])
-        homepage = _strip_text(repo_info["homepage"])
+        header = _strip_text(repo_info.get("readme_title", ""))
+        desc = _strip_text(repo_info.get("description", ""))
+        homepage = _strip_text(repo_info.get("homepage", ""))
         if header:
             h = header.lower()
             if any([h in v.lower() for v in [repo_link, desc]]):
@@ -64,40 +102,51 @@ def get_desc(repo_link, repo_info, comment):
     return out
 
 
-def extract_repo_name(repo_link):
+def extract_repo_name(repo_link: str) -> str:
     if GITHUB_STEM not in repo_link:
         return repo_link
     return repo_link.split(GITHUB_STEM)[-1].strip("/")
 
 
-def get_data_list(repo_list, repo_dict, dt):
-    data1 = []
-    data2 = []
-    data3 = []
+def is_archived(dt: datetime, repo_info: dict[str, Any], max_years: int = 3) -> bool:
+    cols = ["updated_at", "pushed_at"]
+    update_times = [v for c in cols if (v := _parse_github_time(repo_info.get(c, "")))]
+    update_dt = max(update_times) if update_times else None
+    if update_dt and (dt.year - update_dt.year) >= max_years:
+        return True
+
+    if bool(repo_info.get("archived")):
+        return True
+
+    return False
+
+
+def get_data_list(repo_list: list, repo_dict: dict[str, Any], dt: datetime):
+    data1 = []  # normal repo
+    data2 = []  # archived repo
+    data3 = []  # removed, invalid repo
     for entry in repo_list:
-        tag, repo_link, comment = entry[:3]
+        tag, repo_link, comment = (list(entry) + ["", "", ""])[:3]
+        default_desc = get_desc(None, None, comment)
+
         repo_name = extract_repo_name(repo_link)
-        if tag != "":  # ignore duplicates
-            # if tag == "-":
-            data3.append([True, 0, 0, repo_name, get_desc(None, None, comment), 3])
+        if tag == "-":
+            data3.append([True, 0, 0, repo_name, default_desc, RepoStatus.REMOVED])
             continue
-        elif repo_name not in repo_dict:
-            data3.append([True, 0, 0, repo_name, get_desc(None, None, comment), 4])
+        elif tag == "%" or repo_name == repo_link:
+            data3.append([True, 0, 0, _format_external_link(repo_link), default_desc, RepoStatus.OTHERS])
             continue
 
-        info = repo_dict[repo_name]
-        is_archived = info["archived"]
-        is_forked = info["fork"]
-        stars = info["stargazers_count"]
-        forks = info["forks_count"]
-        update_at = max(info["updated_at"], info["pushed_at"])
-
-        desc = get_desc(repo_link, info, comment)
-        dt2 = datetime.datetime.strptime(update_at, "%Y-%m-%dT%H:%M:%S%z")
-        if is_archived or (dt - dt2).days > 365 * 2:
-            data2.append([not is_forked, stars, forks, repo_name, desc, 2])
+        repo_info = repo_dict[repo_name]
+        is_forked = bool(repo_info.get("fork"))
+        stars = int(repo_info.get("stargazers_count") or 0)
+        desc = get_desc(repo_link, repo_info, comment)
+        if tag == "=":
+            status = RepoStatus.ARCHIVED if bool(repo_info.get("archived")) else RepoStatus.UNMAINTAINED
+            data2.append([not is_forked, stars, 0, repo_name, desc, status])
         else:
-            data1.append([not is_forked, stars, forks, repo_name, desc, 1])
+            forks = int(repo_info.get("forks_count") or 0)
+            data1.append([not is_forked, stars, forks, repo_name, desc, RepoStatus.NORMAL])
 
     data1 = sorted(data1, reverse=True)
     data2 = sorted(data2, reverse=True)
@@ -106,9 +155,19 @@ def get_data_list(repo_list, repo_dict, dt):
     return data_list
 
 
-def format_repo_list(repo_list, repo_dict, repo_codes, dt, style="flat-square"):
+def format_repo_list(
+    repo_list: list,
+    repo_dict: dict,
+    repo_codes: dict[str, str],
+    dt: datetime,
+    style: str = "flat-square",
+) -> tuple[list, list]:
+    if len(repo_list) == 0:
+        return [], []
+
     th = ["", "收藏", "更新", "仓库", "说明", ""]
     md_table_sep = " | "
+
     repo_link = "https://github.com/{repo}"
     stars_link = "https://img.shields.io/github/stars/{repo}?style={style}"
     forks_link = "https://img.shields.io/github/forks/{repo}?style={style}"
@@ -117,11 +176,8 @@ def format_repo_list(repo_list, repo_dict, repo_codes, dt, style="flat-square"):
     cell_stars = "![{stars}][{name}_stars]<br>![{forks}][{name}_forks]{is_fork}"
     cell_commit = "![{name}_commit]{is_archived}"
     cell_repo = "[{repo}][{name}]"
-    if len(repo_list) == 0:
-        return [], []
 
     data_list = get_data_list(repo_list, repo_dict, dt)
-
     # create table
     link_list = []
     output = [
@@ -129,13 +185,18 @@ def format_repo_list(repo_list, repo_dict, repo_codes, dt, style="flat-square"):
         md_table_sep.join([""] + ["---"] * (len(th) - 2) + [""]),
     ]
     for e in data_list:
-        is_not_fork, stars, forks, repo_name, desc, archived = e
-        if repo_name.startswith("["):
+        is_original, stars, forks, repo_name, desc, status = e
+        if status == 40 or repo_name.startswith("["):
             row = ["", "📝", repo_name, desc]
         else:
-            repo_code = repo_codes[repo_name]
+            repo_code = repo_codes.get(repo_name)
+            if not repo_code:
+                row = ["", "📝", f"[{repo_name}]({repo_link.format(repo=repo_name)})", desc]
+                output.append(md_table_sep.join([""] + row + [""]))
+                continue
+
             link_list.append(f"[{repo_code}]: " + repo_link.format(repo=repo_name))
-            if archived > 2:
+            if status == RepoStatus.REMOVED:
                 row = ["", "", f"~~{cell_repo.format(repo=repo_name, name=repo_code)}~~", desc]
             else:
                 new_links = [
@@ -145,8 +206,8 @@ def format_repo_list(repo_list, repo_dict, repo_codes, dt, style="flat-square"):
                 ]
                 link_list.extend(new_links)
 
-                fk = "<br>🎋" if not is_not_fork else ""
-                st = "<br>🗃️" if archived == 2 else ""
+                fk = "<br>🎋" if not is_original else ""
+                st = "<br>🗃️" if status == RepoStatus.ARCHIVED else ""
                 row = [
                     cell_stars.format(is_fork=fk, name=repo_code, stars=stars, forks=forks),
                     cell_commit.format(is_archived=st, name=repo_code),
@@ -160,29 +221,33 @@ def format_repo_list(repo_list, repo_dict, repo_codes, dt, style="flat-square"):
     return output, link_list
 
 
-def _read_repo_file(repo_file: str) -> dict[str:dict]:
-    key_name = "request_repo"
+def _read_repo_file(repo_file: str) -> dict[str, dict[str, Any]]:
     with open(repo_file, encoding="utf-8") as f:
         data = json.load(f)
-    repo_dict = {entry[key_name]: entry for entry in data}
+    repo_dict = {entry[REPO_KEYNAME]: entry for entry in data}
     return repo_dict
 
 
-def update_data_file(data_file: str, repo_file: str, sep="\t") -> tuple[dict, list]:
+def update_data_file(dt: datetime, data_file: str, repo_file: str, sep="\t") -> tuple[list, dict]:
     """Update data.tsv, remove deleted or duplicated repo"""
+    groups: list[dict[str, Any]] = []
+    repo_codes: dict[str, str] = {}
+
     if not Path(repo_file).exists():
         logging.warning(f"{repo_file} does not exist")
-        return None, None
+        return groups, repo_codes
 
-    key_url = "html_url"
-    repo_dict = _read_repo_file(repo_file)
-    repo_codes = {}
-
-    groups = []
-    sub_groups = []
-    existed_repo_set = set()
-    extra_groups = []
+    sub_group: dict[str, Any] = {}
+    existed_repo_set: set[str] = set()
     count = 0
+
+    repo_dict = _read_repo_file(repo_file)
+    with open(data_file, encoding="utf-8") as f:
+        line_count = len(f.readlines())
+    if len(repo_dict) <= int(line_count * 0.7):
+        logging.error("Repo data is error")
+        return groups, repo_codes
+
     with open(data_file, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip("\n")
@@ -190,69 +255,75 @@ def update_data_file(data_file: str, repo_file: str, sep="\t") -> tuple[dict, li
                 continue
 
             parts = line.split(sep)
-            if len(parts) > 1 and GITHUB_STEM in parts[1]:
-                tag, repo_link = parts[:2]
-                extra = parts[2] if len(parts) > 2 else ""
+            if len(groups) == 0 and len(sub_group) == 0:
+                groups.append({"header": parts, "values": []})  # table header
+                continue
+
+            tag, repo_link, comment = (list(parts) + ["", "", ""])[:3]
+            if tag.startswith("#"):  # header line
+                if sub_group:
+                    groups.append(sub_group)
+                sub_group = {"header": parts, "values": []}
+                continue
+
+            if GITHUB_STEM in repo_link and tag != "-":
                 repo_name = extract_repo_name(repo_link)
                 if repo_name in repo_dict:
-                    repo_link = repo_dict[repo_name][key_url]  # may renamed
-                    if repo_link in existed_repo_set:
+                    repo_info = repo_dict[repo_name]
+                    repo_link = repo_info[REPO_KEY_URL]
+                    if repo_link in existed_repo_set:  # ignore duplicated
                         logging.warning(f"dup repo = {repo_link}")
                         continue
-                        # tag = "*"
                     existed_repo_set.add(repo_link)
-                    repo_name = extract_repo_name(repo_link)
+                    repo_name = extract_repo_name(repo_link)  # may renamed
+                    if is_archived(dt, repo_info):
+                        tag = "="  # archived / unmaintained
                 else:
                     logging.warning(f"404 repo = {repo_link}")
-                    tag = "-"
-                parts = [tag, repo_link, extra] + parts[3:]
+                    tag = "-"  # removed / private
+
+                parts = [tag, repo_link, comment]
                 repo_codes[repo_name] = f"gh_{count:03d}"
                 count += 1
 
-            if parts[0].startswith("#"):
-                if sub_groups:
-                    groups.append(sub_groups)
-                sub_groups = [parts, []]
-            elif len(sub_groups) == 0:
-                extra_groups.append(parts)  # first line
-            else:
-                sub_groups[1].append(parts)
+            sub_group["values"].append(parts)
 
-    if sub_groups:
-        groups.append(sub_groups)
+    if sub_group:
+        groups.append(sub_group)
 
     logging.info(f"Update {data_file}")
     with open(data_file, "w", encoding="utf-8") as f:
-        output2 = extra_groups
-        for titles, repos in groups:
-            output2.append(titles)
-            output2.extend(sorted(repos))
+        output2 = []
+        for entry in groups:
+            output2.append(entry["header"])
+            output2.extend(sorted(entry["values"]))
         output2 = [sep.join(parts) for parts in output2]
         f.write("\n".join(output2).strip("\n") + "\n")
 
     return groups, repo_codes
 
 
-def update_doc_file(doc_file: str, repo_file: str, groups: list, repo_codes: dict) -> bool:
-    dt = datetime.datetime.now(datetime.UTC)
-    dt_day = dt.strftime("%Y-%m-%d")
-
-    if groups is None:
-        return False
-    repo_dict = _read_repo_file(repo_file)
-
+def update_doc_file(
+    dt: datetime, doc_file: str, repo_file: str, groups: list[dict[str, Any]], repo_codes: dict[str, str]
+):
+    md_data_seps = ["<!-- START-TABLE -->", "<!-- END-TABLE -->"]
     logging.info(f"groups = {len(groups)}")
-    output = []
-    link_list = []
-    for group in groups:
-        title, repo_entries = group
+
+    output: list[str] = []
+    link_list: list[str] = []
+
+    repo_dict = _read_repo_file(repo_file)
+    for entry in groups[1:]:
+        title, repo_entries = entry["header"], entry["values"]
         if isinstance(title, list):
             title = title[0]
-        out, links = format_repo_list(repo_entries, repo_dict, repo_codes, dt)
-        output.extend([title, "\n".join(out).strip("\n")])
-        link_list.extend(links + [""])
 
-    md_data_seps = ["<!-- START-TABLE -->", "<!-- END-TABLE -->"]
+        if repo_entries:
+            out, links = format_repo_list(repo_entries, repo_dict, repo_codes, dt)
+            table_text = "\n".join(out).strip("\n")
+            output.extend([title, table_text])
+            link_list.extend(links + [""])
+
     output_file = doc_file
     logging.info(f"Read {output_file}")
     with open(output_file, encoding="utf-8") as f:
@@ -262,6 +333,8 @@ def update_doc_file(doc_file: str, repo_file: str, groups: list, repo_codes: dic
     _, part2b = part2.split(md_data_seps[1])
 
     pattern = r"(<!-- START-DATE -->\*)[\d\-]+(\*<!-- END-DATE -->)"
+
+    dt_day = dt.strftime("%Y-%m-%d")
     part1b = re.sub(pattern, rf"\g<1>{dt_day}\g<2>", part1)
     parts = [
         part1b,
@@ -279,8 +352,6 @@ def update_doc_file(doc_file: str, repo_file: str, groups: list, repo_codes: dic
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(save_text + "\n")
 
-    return True
-
 
 if __name__ == "__main__":
     fmt = "%(asctime)s %(levelname)s %(message)s"
@@ -292,5 +363,8 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--output", default="README.md", type=str, help="Save file")
 
     args = parser.parse_args()
-    groups, repo_codes = update_data_file(args.file, args.data, sep="\t")
-    update_doc_file(args.output, args.data, groups, repo_codes)
+    dt = datetime.now(UTC)
+
+    groups, repo_codes = update_data_file(dt, args.file, args.data, sep="\t")
+    if groups and repo_codes:
+        update_doc_file(dt, args.output, args.data, groups, repo_codes)

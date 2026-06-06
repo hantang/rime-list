@@ -9,6 +9,8 @@ from pathlib import Path
 
 import requests
 
+GITHUB_STEM = "https://github.com/"
+REPO_KEYNAME = "request_repo"
 RENAMED_COLS = {
     "nameWithOwner": "full_name",
     "url": "html_url",
@@ -39,9 +41,6 @@ fragment F on Repository{
   }
 }
 """
-
-
-GITHUB_STEM = "https://github.com/"
 
 
 def sanitize_alias(index: int, name: str | None = None):
@@ -228,7 +227,7 @@ def crawl(file: str, token: str | None, save_file: str, batch_size: int, alert: 
                 logging.warning(f"Ignore error repo = {repo}")
                 continue
 
-            result = {"request_repo": repo}
+            result = {REPO_KEYNAME: repo}
             for k, v in RENAMED_COLS.items():
                 result[v] = repo_data.get(k)
 
