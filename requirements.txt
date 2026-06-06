@@ -1,3 +1,1 @@
-# fake_useragent==1.5.1
-# lxml==5.3.0
-Requests
+Requests>=2.34.2
