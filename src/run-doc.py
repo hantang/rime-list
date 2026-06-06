@@ -3,23 +3,33 @@ import json
 import logging
 import re
 from datetime import UTC, datetime
+from enum import IntEnum
 from pathlib import Path
 from typing import Any
 from urllib.parse import unquote
-from enum import Enum
-
 
 GITHUB_STEM = "https://github.com/"
 REPO_KEYNAME = "request_repo"
 REPO_KEY_URL = "html_url"
 
 
-class RepoStatus(Enum):
+class RepoStatus(IntEnum):
     NORMAL = 10
     UNMAINTAINED = 20
     ARCHIVED = 21
     REMOVED = 30
     OTHERS = 40
+
+    @classmethod
+    def get(cls, tag):
+        if tag == "":
+            return cls.NORMAL
+        elif tag == "=":
+            return cls.UNMAINTAINED
+        elif tag == "-":
+            return cls.REMOVED
+        else:
+            return cls.OTHERS
 
 
 def _strip_img(text: str) -> str:
@@ -186,34 +196,30 @@ def format_repo_list(
     ]
     for e in data_list:
         is_original, stars, forks, repo_name, desc, status = e
-        if status == 40 or repo_name.startswith("["):
+        if status == RepoStatus.OTHERS:
             row = ["", "📝", repo_name, desc]
+        elif status == RepoStatus.REMOVED:
+            repo_path = f"~~[{repo_name}]({repo_link.format(repo=repo_name)})~~"
+            # f"~~{cell_repo.format(repo=repo_name, name=repo_code)}~~"
+            row = ["", "🩹", repo_path, desc]
         else:
             repo_code = repo_codes.get(repo_name)
-            if not repo_code:
-                row = ["", "📝", f"[{repo_name}]({repo_link.format(repo=repo_name)})", desc]
-                output.append(md_table_sep.join([""] + row + [""]))
-                continue
-
             link_list.append(f"[{repo_code}]: " + repo_link.format(repo=repo_name))
-            if status == RepoStatus.REMOVED:
-                row = ["", "", f"~~{cell_repo.format(repo=repo_name, name=repo_code)}~~", desc]
-            else:
-                new_links = [
-                    f"[{repo_code}_stars]: " + stars_link.format(repo=repo_name, style=style),
-                    f"[{repo_code}_forks]: " + forks_link.format(repo=repo_name, style=style),
-                    f"[{repo_code}_commit]: " + commit_link.format(repo=repo_name, style=style),
-                ]
-                link_list.extend(new_links)
+            new_links = [
+                f"[{repo_code}_stars]: " + stars_link.format(repo=repo_name, style=style),
+                f"[{repo_code}_forks]: " + forks_link.format(repo=repo_name, style=style),
+                f"[{repo_code}_commit]: " + commit_link.format(repo=repo_name, style=style),
+            ]
+            link_list.extend(new_links)
 
-                fk = "<br>🎋" if not is_original else ""
-                st = "<br>🗃️" if status == RepoStatus.ARCHIVED else ""
-                row = [
-                    cell_stars.format(is_fork=fk, name=repo_code, stars=stars, forks=forks),
-                    cell_commit.format(is_archived=st, name=repo_code),
-                    cell_repo.format(repo=repo_name, name=repo_code),
-                    desc,
-                ]
+            fk = "<br>🎋" if not is_original else ""
+            st = "<br>🗃️" if status == RepoStatus.ARCHIVED else ""
+            row = [
+                cell_stars.format(is_fork=fk, name=repo_code, stars=stars, forks=forks),
+                cell_commit.format(is_archived=st, name=repo_code),
+                cell_repo.format(repo=repo_name, name=repo_code),
+                desc,
+            ]
 
         output.append(md_table_sep.join([""] + row + [""]))
     output = [v.strip() for v in output]
@@ -296,7 +302,8 @@ def update_data_file(dt: datetime, data_file: str, repo_file: str, sep="\t") -> 
         output2 = []
         for entry in groups:
             output2.append(entry["header"])
-            output2.extend(sorted(entry["values"]))
+            repo_list = sorted(entry["values"], key=lambda x: (RepoStatus.get(x[0]), x[1].lower()))
+            output2.extend(repo_list)
         output2 = [sep.join(parts) for parts in output2]
         f.write("\n".join(output2).strip("\n") + "\n")
 
@@ -307,22 +314,22 @@ def update_doc_file(
     dt: datetime, doc_file: str, repo_file: str, groups: list[dict[str, Any]], repo_codes: dict[str, str]
 ):
     md_data_seps = ["<!-- START-TABLE -->", "<!-- END-TABLE -->"]
-    logging.info(f"groups = {len(groups)}")
+    logging.info(f"groups = {len(groups)} / repos = {len(repo_codes)}")
 
     output: list[str] = []
     link_list: list[str] = []
-
     repo_dict = _read_repo_file(repo_file)
     for entry in groups[1:]:
         title, repo_entries = entry["header"], entry["values"]
+        if not repo_entries:
+            continue
+
         if isinstance(title, list):
             title = title[0]
-
-        if repo_entries:
-            out, links = format_repo_list(repo_entries, repo_dict, repo_codes, dt)
-            table_text = "\n".join(out).strip("\n")
-            output.extend([title, table_text])
-            link_list.extend(links + [""])
+        out, links = format_repo_list(repo_entries, repo_dict, repo_codes, dt)
+        table_text = "\n".join(out).strip("\n")
+        output.extend([title, table_text])
+        link_list.extend(links + [""])
 
     output_file = doc_file
     logging.info(f"Read {output_file}")
@@ -333,7 +340,6 @@ def update_doc_file(
     _, part2b = part2.split(md_data_seps[1])
 
     pattern = r"(<!-- START-DATE -->\*)[\d\-]+(\*<!-- END-DATE -->)"
-
     dt_day = dt.strftime("%Y-%m-%d")
     part1b = re.sub(pattern, rf"\g<1>{dt_day}\g<2>", part1)
     parts = [
