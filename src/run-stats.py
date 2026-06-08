@@ -99,6 +99,8 @@ def read_data(file: str, sep: str = "\t", ignore: bool = True) -> list[str]:
             repo_path = _get_repo_path(url)
             if repo_path:
                 repo_set.add(repo_path)
+            else:
+                logging.warning(f"Not repo in {url}")
 
     repo_list = sorted(repo_set)
     return repo_list
@@ -198,15 +200,26 @@ def crawl(file: str, token: str | None, save_file: str, batch_size: int, alert: 
         batch_size = 20
 
     repo_list = read_data(file, ignore=True)
-    total = len(repo_list)
-    logging.info(f"All repositories= {total}")
+    logging.info(f"All repositories= {len(repo_list)}")
     if not repo_list:
         logging.warning("No repository data")
         return
 
-    random.shuffle(repo_list)
-
     output_data = []
+    ignore_repos = set()
+    if Path(save_file).exists():
+        with open(save_file) as f:
+            raw_data = json.load(f)
+            output_data = raw_data
+
+        ignore_repos = [e[REPO_KEYNAME] for e in raw_data]
+        logging.info(f"Read existed repo info = {len(raw_data)}")
+
+    repo_list = [f for f in repo_list if f not in ignore_repos]
+    logging.info(f"Todo repo = {len(repo_list)}")
+
+    total = len(repo_list)
+    random.shuffle(repo_list)
     for i in range(0, total, batch_size):
         batch = repo_list[i : i + batch_size]
         count = len(batch)

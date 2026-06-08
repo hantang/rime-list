@@ -40,15 +40,38 @@ def _strip_link(text: str) -> str:
     text = re.sub(r"\[([^\[\]]*)\]\([^\)]+\)", r"\1", text)
     text = re.sub(r"\(http[^\)]+\)", "", text)
     text = re.sub(r"\b[\w._%+\-]+@[\w.\-]+\.[A-Z|a-z]{2,7}\b", "", text)  # remove email
-    return text
+    return text.strip()
 
 
 def unescape(text: str) -> str:
     return re.sub(r"([\[\]\(\)\|])", r"\\\1", text)
 
 
+def remove_emoji(text):
+    # 匹配大部分 emoji 的正则
+    emoji_pattern = re.compile(
+        "["
+        "\U0001F600-\U0001F64F"  # 表情符号
+        "\U0001F300-\U0001F5FF"  # 符号 & 图形
+        "\U0001F680-\U0001F6FF"  # 交通 & 地图
+        "\U0001F1E0-\U0001F1FF"  # 国旗
+        "\U00002700-\U000027BF"  # Dingbats
+        "\U0001F900-\U0001F9FF"  # Supplemental Symbols and Pictographs
+        "\U00002600-\U000026FF"  # Misc symbols
+        "\U00002B00-\U00002BFF"  # Misc symbols & arrows
+        "\U0000200D"             # 零宽连接符 (ZWJ)
+        "\U00002300-\U000023FF"  # Misc technical
+        "]+", flags=re.UNICODE
+    )
+    return emoji_pattern.sub(r'', text)
+
 def _strip_text(text: str, ignore: bool = True) -> str:
     text = re.sub(r"\s+", " ", text).strip() if text else ""
+
+    text = re.sub(r"\\*\|", "/", text)
+    text = re.sub(r"\\+(\S)", r"\1", text)
+    text = re.sub(r"\s*[qQ]*\s*群[：:]*(\s*\d{5,}\s*/?)+", " ", text)
+    text = re.sub(r"(交流)?[群：:]+", "", text)
     if ignore and text.startswith("-*- "):
         return ""
     return text
@@ -99,7 +122,12 @@ def get_desc(repo_link: str | None, repo_info: dict[str, Any] | None, comment: s
         desc = _strip_media(desc)
 
     if header == "" and desc == "":
-        desc = f"【{comment}】" if comment else "--"
+        desc = "--"
+        if comment:
+            if " <" in comment:
+                desc = "【" + "】 <".join(comment.split(" <", 1))
+            else:
+                desc = f"【{comment}】"
     if header and not header.startswith("**"):
         header = f"**{header}**"
     if homepage:
@@ -108,6 +136,7 @@ def get_desc(repo_link: str | None, repo_info: dict[str, Any] | None, comment: s
     text = "<br>".join([v for v in [header, desc, homepage] if v])
 
     out = unescape(_strip_media(text))
+    out = remove_emoji(out)
     out = out.strip()
     return out
 
@@ -357,6 +386,7 @@ def update_doc_file(
         part2b,
     ]
     save_text = "\n\n".join([v.strip() for v in parts])
+    save_text = re.sub(r"\\+(\S)", r"\1", save_text)
     save_text = re.sub(r"\n{3,}", "\n\n", save_text).strip()
 
     logging.info(f"Save to {output_file}")
