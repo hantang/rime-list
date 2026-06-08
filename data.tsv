@@ -219,6 +219,7 @@ title	repository	comment
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
 	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
+	https://github.com/laloe74/rime-settings	
 =	https://github.com/aaron2wh/Rime	
 =	https://github.com/afeiship/ushell-module-rime	
 =	https://github.com/ageback/rime_user_data	
@@ -306,6 +307,8 @@ title	repository	comment
 	[lotem/squirrel.custom.yaml](https://gist.github.com/lotem/2290714)	【鼠鬚管】定製檔
 	[zsakvo/squirrel-custom.yaml](https://gist.github.com/zsakvo/fff6e4859265d5d629439d5ccb553f8a)	微信键盘配色鼠须管皮肤
 	[zzz67240/double_pinyin_flypy.custom.yaml](https://gist.github.com/zzz67240/fa920d255d56b9fa310e4f0864e22a29)	Rime 小鶴雙拼 臺灣正體中文
+	[laloe74/hamster.yaml](https://gist.github.com/laloe74/c0c2b481abb7f0f272a1b0c86cf67dc0)	仓输入法 微信键盘布局+配色
+	[amorphobia/gedao.schema.yaml](https://gist.github.com/amorphobia/79f7e1a0d8bc4b524b1bee3d3d4c12c7)	格道双拼-仓
 ## 常规输入方案		
 ### 音码（拼音、注音等）		
 	https://github.com/andy0130tw/iridium-bpmf	
@@ -757,4 +760,5 @@ title	repository	comment
 	https://github.com/sxei/pinyinjs	
 	https://github.com/xunux/hakka-culture	
 	https://github.com/zispace/ciku-ime	
+	https://github.com/nopdan/gosmq	
 =	https://github.com/sgalal/rime-opencc-32bit-latest	
