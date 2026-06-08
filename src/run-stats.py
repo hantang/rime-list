@@ -47,7 +47,7 @@ def sanitize_alias(index: int, name: str | None = None):
     return f"r{index:03d}"
 
 
-def random_sleep(max_time: float = 5.0, min_time: float = 1.0):
+def random_sleep(max_time: float = 10.0, min_time: float = 2.0):
     delay = round(min_time + random.random() * max_time, 3)
     logging.info(f"Sleep {delay} seconds ...")
     time.sleep(delay)
@@ -87,8 +87,9 @@ def read_data(file: str, sep: str = "\t", ignore: bool = True) -> list[str]:
     with open(file, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip("\n")
-            if line == "" or line.startswith("#"):
+            if line == "" or line.startswith("#") or "http" not in line:
                 continue
+
             parts = line.split(sep)
             if len(parts) <= 1:
                 continue
@@ -100,7 +101,7 @@ def read_data(file: str, sep: str = "\t", ignore: bool = True) -> list[str]:
             if repo_path:
                 repo_set.add(repo_path)
             else:
-                logging.warning(f"Not repo in {url}")
+                logging.warning(f"Ignore no repo in {url}")
 
     repo_list = sorted(repo_set)
     return repo_list
@@ -194,10 +195,7 @@ def crawl(file: str, token: str | None, save_file: str, batch_size: int, alert: 
     if not token or not token.strip():
         logging.error("TOKEN is required for GitHub GraphQL requests")
         return
-
-    if batch_size <= 0:
-        logging.warning("batch_size must be greater than 0; use default 20")
-        batch_size = 20
+    batch_size = max(batch_size, 1)
 
     repo_list = read_data(file, ignore=True)
     logging.info(f"All repositories= {len(repo_list)}")
@@ -216,9 +214,11 @@ def crawl(file: str, token: str | None, save_file: str, batch_size: int, alert: 
         logging.info(f"Read existed repo info = {len(raw_data)}")
 
     repo_list = [f for f in repo_list if f not in ignore_repos]
-    logging.info(f"Todo repo = {len(repo_list)}")
-
     total = len(repo_list)
+    logging.info(f"Todo repo = {total}")
+    if total == 0:
+        return
+
     random.shuffle(repo_list)
     for i in range(0, total, batch_size):
         batch = repo_list[i : i + batch_size]
@@ -269,7 +269,13 @@ if __name__ == "__main__":
     parser.add_argument("-f", "--file", default="data.tsv", type=str, help="Github repo file")
     parser.add_argument("-o", "--output", default="repo_data.json", type=str, help="Temporary JSON data file")
     parser.add_argument("-b", "--batch-size", default=20, type=int)
+    parser.add_argument("--count", default=1, type=int)
     args = parser.parse_args()
 
     token = os.getenv("TOKEN")
-    crawl(args.file, token, args.output, args.batch_size)
+    cnt = max(args.count, 1)
+    batch_size = args.batch_size
+    for i in range(cnt):
+        if i > 0:
+            batch_size = max(int(args.batch_size // 2), 1)
+        crawl(args.file, token, args.output, batch_size)
