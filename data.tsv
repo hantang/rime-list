@@ -43,7 +43,7 @@ title	repository	comment
 	https://github.com/jacobax/trime-config	Trime
 	https://github.com/KyleBing/rime-wubi86-jidian	 86 版极点五笔的输入配置方案
 	https://github.com/LufsX/rime	
-	https://github.com/Mintimate/oh-my-rime	在线体验 <https://www.mintimate.cc/zh/demo/fcitx5Online.html>
+	https://github.com/Mintimate/oh-my-rime	薄荷输入法 <https://www.mintimate.cc/zh/demo/fcitx5Online.html>
 	https://github.com/rimeinn/rime-moran	魔然 Rime 輸入方案，ksqsf/rime-moran
 	https://github.com/scukeqi/Wisdom-Weasel	LM增强输入
 	https://github.com/SivanLaai/rime-pure	
@@ -172,6 +172,7 @@ title	repository	comment
 	https://github.com/yanhuacuo/rimetool	中州韵助手（重构版，GUI）
 	https://github.com/Yiklek/RimeTool	一个Rime工具箱，支持控制算法服务和方案部署。
 	https://github.com/zishuzy/rime_userdb_merger	
+	https://github.com/ca-x/snout	
 ## 主题		
 ### 主题（配色模板）		
 	https://github.com/0xffan/rose-pine-rime	
@@ -461,7 +462,7 @@ title	repository	comment
 	https://github.com/wugniu/rime-yahwe_zaonhe	
 	https://github.com/xiang9916/Rime-Changshanese	
 	https://github.com/yangwenbo99/rime-hokkien-poj	
-	https://github.com/yuanhao-chen-nyoeghau/rime-yahwe_zaonhe	
+=	https://github.com/yuanhao-chen-nyoeghau/rime-yahwe_zaonhe	
 	https://github.com/YuRen-tw/rime-taigi-tps	
 	https://github.com/yuxifongfei/hubehua	
 	https://github.com/ZWolken/rime-wenzhounese	https://zwolken.github.io/rime-wenzhounese/
