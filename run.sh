@@ -21,6 +21,7 @@ fi
 
 echo "Update data"
 python src/run-stats.py -f $data_file -o $repo_file -b "$batch"
+python src/run-stats.py -f $data_file -o $repo_file -b 10
 
 echo "Update readme"
 python src/run-doc.py -f $data_file -d $repo_file -o $readme_file
