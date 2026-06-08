@@ -319,13 +319,18 @@ def update_doc_file(
     output: list[str] = []
     link_list: list[str] = []
     repo_dict = _read_repo_file(repo_file)
-    for entry in groups[1:]:
+    for entry in groups:
         title, repo_entries = entry["header"], entry["values"]
-        if not repo_entries:
-            continue
-
         if isinstance(title, list):
             title = title[0]
+
+        if not title.startswith("#"):
+            continue
+
+        if not repo_entries:
+            output.append(title + "\n")
+            continue
+
         out, links = format_repo_list(repo_entries, repo_dict, repo_codes, dt)
         table_text = "\n".join(out).strip("\n")
         output.extend([title, table_text])
