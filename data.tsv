@@ -1,9 +1,9 @@
 title	repository	comment
 ## 软件安装包		
 	https://github.com/bczhc/rime-android	Android
-	https://github.com/fcitx-contrib/fcitx5-macos-installer	macOS
-	https://github.com/fcitx/fcitx5-macos	macOS
-	https://github.com/fcitx/fcitx5-rime	Linux
+	https://github.com/fcitx/fcitx5-macos	macOS(fcitx5)，安装器<https://github.com/fcitx-contrib/fcitx5-macos-installer> / 文档<https://fcitx-contrib.github.io>
+	https://github.com/fcitx/fcitx5-rime	Linux(fcitx5)
+	https://github.com/fcitx-contrib/fcitx5-windows	Windows(fcitx5)，开发中
 	https://github.com/fcitx5-android/fcitx5-android	Android，可通过插件支持Rime，<https://fcitx5-android.github.io/>
 	https://github.com/fxliang/weasel	Windows（小狼毫Fork版）
 	https://github.com/FydeOS/fydeRhythm	FydeOS/ChromeOS（真文韵输入法）
@@ -105,6 +105,7 @@ title	repository	comment
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
 	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
+=	https://github.com/alswl/rime	
 %	[kuraa.cc: kura/SquirrelConfig](https://git.kuraa.cc/kura/SquirrelConfig)	鼠须管配置
 %	[lewangdev/default.custom.yaml](https://gist.github.com/lewangdev/f8ebbba24f464e915fb7d36857fcbbe5)	雾凇拼音自定义配置，MacOS-like & Wechat-like Dark/Light Color Scheme For Rime
 %	[lotem/squirrel.custom.yaml](https://gist.github.com/lotem/2290714)	【鼠鬚管】定製檔
@@ -125,6 +126,8 @@ title	repository	comment
 	https://github.com/rime/rime-essay-simp	
 	https://github.com/satifanie/rime-dict	
 	https://github.com/swoiow/rime-dictionary	
+	https://github.com/alswl/rime-selected	
+	https://github.com/bdim404/rime-dictionaries	
 =	https://github.com/metowolf/rime-sogou	
 =	https://github.com/mokurin000/rime-osu	
 =	https://github.com/SenkiTK/Rime-dict	
@@ -191,6 +194,7 @@ title	repository	comment
 	https://github.com/Wenti-D/Astralwelkin	手机版Android（同文输入法）
 	https://github.com/Xenapte/rime-theme-nord	
 	https://github.com/hosxy/Fcitx5-Material-Color	fcitx5主题
+	https://github.com/fcitx-contrib/fcitx5-theme-collection	fcitx5（小企鹅输入法主题集）
 =	https://github.com/a940727702/RimeSkins-	
 =	https://github.com/Astrian/appso-rime-skin	
 =	https://github.com/cdc94/Rime_weasel_skin	
@@ -288,7 +292,7 @@ title	repository	comment
 	https://github.com/hertz-hwang/Rime-tiger_pure	
 	https://github.com/hertz-hwang/wf-ll	
 	https://github.com/hsuanyi-chou/rime-liur	嘸蝦米方案
-	https://github.com/hugh7007/xmjd6-rere	
+	https://github.com/hugh7007/xmjd6-rere	星猫键道6
 	https://github.com/jacyl4/rime_wubi	
 	https://github.com/jim60105/Newcj_rime	
 	https://github.com/kingzcheung/rime-wubi	
@@ -603,7 +607,6 @@ title	repository	comment
 	https://github.com/Cycatz/tmux-rime	
 	https://github.com/DogLooksGood/emacs-rime	
 	https://github.com/gaboolic/rime-schema-compare	
-	https://github.com/halfmoonvic/Rime	
 	https://github.com/hchunhui/librime-cloud	
 	https://github.com/hchunhui/librime-lua	Lua脚本
 	https://github.com/hyuan42/Rime-words-counter	
@@ -633,7 +636,8 @@ title	repository	comment
 -	https://github.com/imfuxiao/LibrimeKit	
 -	https://github.com/lotem/librime	
 ### Rime其他资料		
-	https://github.com/ACsediment/RimeNewbie	
+	https://github.com/ACsediment/RimeNewbie	Rime输入法新手入门（小狼毫简体中文全拼）
+	https://github.com/halfmoonvic/Rime	致第一次安装Rime的你
 	https://github.com/ayaka14732/awesome-rime	
 	https://github.com/gaboolic/awesome-rime	
 	https://github.com/LEOYoon-Tsaw/Rime_collections	
@@ -666,6 +670,7 @@ title	repository	comment
 	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码）
 	https://github.com/zhangxiaov/input	像码输入法
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
+	https://github.com/fcitx-contrib/fcitx5-hallelujah	Fcitx5 小企鹅·哈利路亚输入法
 	https://github.com/EasyIME/PIME	IME for Windows via Text Services Framework
 	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言），已接入Rime，fcitx5正在接入中
 %	http://www.cbflabs.com	朱邦复-仓颉（1976年）
