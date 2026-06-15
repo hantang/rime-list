@@ -4,27 +4,27 @@ title	repository	comment
 	https://github.com/fcitx-contrib/fcitx5-macos-installer	macOS
 	https://github.com/fcitx/fcitx5-macos	macOS
 	https://github.com/fcitx/fcitx5-rime	Linux
-	https://github.com/fcitx5-android/fcitx5-android	Android，可通过插件支持Rime
+	https://github.com/fcitx5-android/fcitx5-android	Android，可通过插件支持Rime，<https://fcitx5-android.github.io/>
 	https://github.com/fxliang/weasel	Windows（小狼毫Fork版）
 	https://github.com/FydeOS/fydeRhythm	FydeOS/ChromeOS（真文韵输入法）
 	https://github.com/gaboolic/moqi-im-android	Android（墨奇输入法）
 	https://github.com/gaboolic/moqi-im-windows	Windows（墨奇输入法）
 	https://github.com/gurecn/YuyanIme	Android（语燕输入法）
-	https://github.com/imfuxiao/Hamster	iOS/iPadOS（仓输入法；Pro版本收费）
-	https://github.com/jimmy54/iRime	iOS
-	https://github.com/LEOYoon-Tsaw/squirrel	macOS（鼠鬚管Fork版）
+	https://github.com/imfuxiao/Hamster	iOS/iPadOS（仓输入法；Pro版本收费） 文档 <https://ihsiao.com/apps/hamster/docs/>
+	https://github.com/jimmy54/iRime	iOS（收费）
+	https://github.com/LEOYoon-Tsaw/squirrel	macOS（鼠须管Fork版）
 	https://github.com/LibreService/my_rime	Web <https://my-rime.vercel.app>
 	https://github.com/Mark24Code/rime-auto-deploy	多平台安装配置脚本
-	https://github.com/osfans/trime	Android
-	https://github.com/rime/ibus-rime	Linux
-	https://github.com/rime/squirrel	macOS
-	https://github.com/rime/weasel	Windows
+	https://github.com/osfans/trime	Android（同文安卓輸入法）
+	https://github.com/rime/ibus-rime	Linux（中州韵，iBus版）
+	https://github.com/rime/squirrel	macOS（鼠须管）
+	https://github.com/rime/weasel	Windows（小狼毫）
 	https://github.com/rimeinn/rabbit	Windows（玉兔毫，AutoHotkey实现）
-	https://github.com/Techince/weasel	Windows（Fork）
-	https://github.com/tumuyan/Handwriting-for-Android	Android，TRIME手写输入插件
-	https://github.com/tumuyan/trime-without-CMake	Android
-	https://github.com/ximeiorg/Xime	Android（曦码输入法，曾用名Kime）
-	https://github.com/xkinput/keytao-app	桌面端与 Android（KeyTao/键道）
+	https://github.com/Techince/weasel	Windows（小狼毫Fork）
+	https://github.com/tumuyan/Handwriting-for-Android	Android（安卓同文手写输入插件，可独立使用）
+	https://github.com/tumuyan/trime-without-CMake	Android（安卓同文輸入法without CMake版）
+	https://github.com/ximeiorg/Xime	Android（曦码输入法，曾用名Kime） <https://ime.ximei.me/>
+	https://github.com/xkinput/keytao-app	Linux / Android（KeyTao【键道】）
 =	https://github.com/bczhc/rime-tui	TUI版（类Unix系统）
 =	https://github.com/fcitx/fcitx-rime	Linux
 =	https://github.com/lotem/rime-gits	Windows
@@ -190,6 +190,7 @@ title	repository	comment
 	https://github.com/thep0y/fcitx5-themes-candlelight	fcitx5主题
 	https://github.com/Wenti-D/Astralwelkin	手机版Android（同文输入法）
 	https://github.com/Xenapte/rime-theme-nord	
+	https://github.com/hosxy/Fcitx5-Material-Color	fcitx5主题
 =	https://github.com/a940727702/RimeSkins-	
 =	https://github.com/Astrian/appso-rime-skin	
 =	https://github.com/cdc94/Rime_weasel_skin	
@@ -510,7 +511,7 @@ title	repository	comment
 	https://github.com/biopolyhedron/rime-latin-international	
 	https://github.com/biopolyhedron/rime-manju-alikali	
 	https://github.com/biopolyhedron/rime-mongol	
-	https://github.com/biopolyhedron/rime-qyeyshanglr-hanja	
+=	https://github.com/biopolyhedron/rime-qyeyshanglr-hanja	谚文输入法 <shenyileirob/rime_schemata>
 	https://github.com/biopolyhedron/rime-tangut-poly4	
 	https://github.com/biopolyhedron/rime-thai-stupid	
 	https://github.com/biopolyhedron/rime-tibetan	
@@ -554,6 +555,8 @@ title	repository	comment
 	https://github.com/wu-shan/type-pinyin	
 	https://github.com/yuanhao-chen-nyoeghau/rime-hentaigana	
 	https://github.com/yuanhao-chen-nyoeghau/rime-Xdi8_Kana	
+	https://github.com/lotem/rime-kana	
+	https://github.com/Beyond-Input-Method/zh-kor	雾凇拼音 + 韩语方案
 =	https://github.com/AraragiHoozuki/FLAIS-EX-for-Rime	
 =	https://github.com/AraragiHoozuki/Tamil-for-Rime	
 =	https://github.com/biopolyhedron/rime-burmese	
@@ -598,7 +601,6 @@ title	repository	comment
 	https://github.com/bczhc/librime-rs	
 	https://github.com/Cycatz/tmux-rime	
 	https://github.com/DogLooksGood/emacs-rime	
-	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言）
 	https://github.com/gaboolic/rime-schema-compare	
 	https://github.com/halfmoonvic/Rime	
 	https://github.com/hchunhui/librime-cloud	
@@ -636,6 +638,7 @@ title	repository	comment
 	https://github.com/LEOYoon-Tsaw/Rime_collections	
 	https://github.com/osfans/rime-tool	Rime開源碼表
 	https://github.com/rimeinn/rimeinn.github.io	https://rimeinn.github.io
+	https://github.com/Beyond-Input-Method/space	
 =	https://github.com/kitty-panics/awesome-rime	
 =	https://github.com/lotem/rime-forge	
 ### 输入法软件和方案		
@@ -661,6 +664,9 @@ title	repository	comment
 	https://github.com/y1lichen/ilimi-inputmethod	macOS（仿）蝦米輸入法
 	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码）
 	https://github.com/zhangxiaov/input	像码输入法
+	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
+	https://github.com/EasyIME/PIME	IME for Windows via Text Services Framework
+	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言），已接入Rime，fcitx5正在接入中
 %	http://www.cbflabs.com	朱邦复-仓颉（1976年）
 %	http://www.wangma.net.cn	王永民-五笔（王码五笔字型，1986年）
 %	http://www.ziranma.com.cn	周志农-自然码
