@@ -105,6 +105,8 @@ title	repository	comment
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
 	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
+	https://github.com/placeless/squirrel_config	
+	https://github.com/cvuuhk/dotfiles	目录 local/share/fcitx5/rime
 =	https://github.com/alswl/rime	
 %	[kuraa.cc: kura/SquirrelConfig](https://git.kuraa.cc/kura/SquirrelConfig)	鼠须管配置
 %	[lewangdev/default.custom.yaml](https://gist.github.com/lewangdev/f8ebbba24f464e915fb7d36857fcbbe5)	雾凇拼音自定义配置，MacOS-like & Wechat-like Dark/Light Color Scheme For Rime
@@ -195,6 +197,11 @@ title	repository	comment
 	https://github.com/Xenapte/rime-theme-nord	
 	https://github.com/hosxy/Fcitx5-Material-Color	fcitx5主题
 	https://github.com/fcitx-contrib/fcitx5-theme-collection	fcitx5（小企鹅输入法主题集）
+	https://github.com/sxqsfun/fcitx5-sogou-themes	fcitx5主题
+	https://github.com/tonyfettes/fcitx5-nord	fcitx5主题
+	https://github.com/Vrchz/Psionics-Remix	fcitx5主题<xTpx/Psionics-Remix>
+%	https://codeberg.org/waleslau/fcitx5-themes	fcitx5主题
+%	https://www.figma.com/community/file/1166934605535869911/rime	Rime 鼠须管输入法皮肤实验室
 =	https://github.com/a940727702/RimeSkins-	
 =	https://github.com/Astrian/appso-rime-skin	
 =	https://github.com/cdc94/Rime_weasel_skin	
@@ -673,6 +680,7 @@ title	repository	comment
 	https://github.com/fcitx-contrib/fcitx5-hallelujah	Fcitx5 小企鹅·哈利路亚输入法
 	https://github.com/EasyIME/PIME	IME for Windows via Text Services Framework
 	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言），已接入Rime，fcitx5正在接入中
+	http://www.ccamc.co/fonts_tangut.php	西夏文輸入法（有独立安装版和RIME版，以及字体文件）
 %	http://www.cbflabs.com	朱邦复-仓颉（1976年）
 %	http://www.wangma.net.cn	王永民-五笔（王码五笔字型，1986年）
 %	http://www.ziranma.com.cn	周志农-自然码
