@@ -25,6 +25,8 @@ title	repository	comment
 	https://github.com/tumuyan/trime-without-CMake	Android（安卓同文輸入法without CMake版）
 	https://github.com/ximeiorg/Xime	Android（曦码输入法，曾用名Kime） <https://ime.ximei.me/>
 	https://github.com/xkinput/keytao-app	Linux / Android（KeyTao【键道】）
+	https://github.com/levelel/outwit-project-index	几维输入法 <https://outwitapp.com/>
+	https://github.com/zhangjh/suyan-site	素言输入法 <https://suyan.zhangjh.cn/>
 =	https://github.com/bczhc/rime-tui	TUI版（类Unix系统）
 =	https://github.com/fcitx/fcitx-rime	Linux
 =	https://github.com/lotem/rime-gits	Windows
@@ -108,6 +110,7 @@ title	repository	comment
 	https://github.com/placeless/squirrel_config	
 	https://github.com/cvuuhk/dotfiles	目录 local/share/fcitx5/rime
 =	https://github.com/alswl/rime	
+%	https://www.52pojie.cn/forum.php?mod=viewthread&tid=2075827	[Windows] rime小狼毫雾凇拼音白露拼音懒人包
 %	[kuraa.cc: kura/SquirrelConfig](https://git.kuraa.cc/kura/SquirrelConfig)	鼠须管配置
 %	[lewangdev/default.custom.yaml](https://gist.github.com/lewangdev/f8ebbba24f464e915fb7d36857fcbbe5)	雾凇拼音自定义配置，MacOS-like & Wechat-like Dark/Light Color Scheme For Rime
 %	[lotem/squirrel.custom.yaml](https://gist.github.com/lotem/2290714)	【鼠鬚管】定製檔
@@ -178,6 +181,8 @@ title	repository	comment
 	https://github.com/Yiklek/RimeTool	一个Rime工具箱，支持控制算法服务和方案部署。
 	https://github.com/zishuzy/rime_userdb_merger	
 	https://github.com/ca-x/snout	
+	https://github.com/Mintimate/oh-my-rime-cli	
+	https://github.com/imfuxiao/HamsterInputSchemas	
 ## 主题		
 ### 主题（配色模板）		
 	https://github.com/0xffan/rose-pine-rime	
@@ -221,6 +226,7 @@ title	repository	comment
 	https://github.com/LEOYoon-Tsaw/Squirrel-Designer	配色编辑器（macOS）
 	https://github.com/owlzou/weasel-theme-editor	小狼毫主题编辑器（Web） <https://owlzou.github.io/weasel-theme-editor/>
 	https://github.com/rxhaol/easy-configs-rime	配色（Web） <https://rxhaol.github.io/easy-configs-rime/>
+	https://github.com/levelel/outwit-theme-designer	几维输入法主题定制器（兼容Rime）
 =	https://github.com/bennyyip/Rime-See-Me	配色（Web） <https://bennyyip.github.io/Rime-See-Me/>
 =	https://github.com/GJRobert/Rime-See-Me-squirrel	配色（Web） <https://gjrobert.github.io/Rime-See-Me-squirrel/>
 =	https://github.com/lost-melody/hamster-tools	仓输入法布局生成器（Web）<https://lost-melody.github.io/hamster-tools/>
@@ -267,6 +273,8 @@ title	repository	comment
 	https://github.com/waveform/ziguang_shuangpin	
 	https://github.com/xhrzg2017/rime-kylinpinyin	
 	https://github.com/zhanghaozhecn/rime-combo-pinyin-mod	
+	https://github.com/functoreality/rime-flypy-zrmfast	<https://gitee.com/functoreality/rime-flypy-zrmfast>
+	https://github.com/gaboolic/rime-flypy-zrmfast	
 =	https://github.com/ayaka14732/rime-ayaka-v8	https://ayaka.shn.hk/v8/
 =	https://github.com/ayaka14732/rime-luna-pinyin-simp-native	
 =	https://github.com/baopaau/rime-yale-mandarin	
@@ -326,6 +334,8 @@ title	repository	comment
 	https://github.com/SyzygyYuan/HaiFengWuBi	海峰五笔
 	https://github.com/thep0y/rime-98	
 	https://github.com/tsaoshuang/Rime-tiger_code	
+	https://github.com/N5NS/rime-tiger	Rime『胖虎』输入方案个人修改版
+	https://github.com/humatiger/huma	虎码输入方案rime版，<https://www.tiger-code.com/>
 	https://github.com/undus5/rime-wubi86s	
 	https://github.com/Verf/wubi-norman	
 	https://github.com/vfreex/rime-zhengma	
@@ -635,6 +645,7 @@ title	repository	comment
 	https://github.com/tswwe/my-rime-lua	
 	https://github.com/wlh320/zed-ext-rime-ls	
 	https://github.com/zhangkaiser/librime-wasm	
+	https://github.com/baopaau/rime-lua-collection	
 =	https://github.com/jimmy54/iRimeLib	基於著名的Rime輸入法框架，iRime（iOS）底层库。
 =	https://github.com/lotem/rimeime	
 =	https://github.com/rime/librime-legacy	
@@ -653,7 +664,8 @@ title	repository	comment
 	https://github.com/Beyond-Input-Method/space	
 =	https://github.com/kitty-panics/awesome-rime	
 =	https://github.com/lotem/rime-forge	
-### 输入法软件和方案		
+%	https://tieba.baidu.com/f?kw=rime	百度贴吧（rime吧）
+### 输入法软件和方案补充		
 	https://github.com/dongyuwei/hallelujahIM	macOS/Windows 哈利路亚英文输入法
 	https://github.com/Flauver/jdh	简单鹤（音形码）
 	https://github.com/florisboard/florisboard	Android
