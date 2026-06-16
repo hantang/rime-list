@@ -176,7 +176,7 @@ def get_data_list(repo_list: list, repo_dict: dict[str, Any], dt: datetime):
             data3.append([True, 0, 0, _format_external_link(repo_link), default_desc, RepoStatus.OTHERS])
             continue
 
-        repo_info = repo_dict[repo_name]
+        repo_info = repo_dict.get(repo_name) or {}
         is_forked = bool(repo_info.get("fork"))
         stars = int(repo_info.get("stargazers_count") or 0)
         desc = get_desc(repo_link, repo_info, comment)
@@ -259,7 +259,12 @@ def format_repo_list(
 def _read_repo_file(repo_file: str) -> dict[str, dict[str, Any]]:
     with open(repo_file, encoding="utf-8") as f:
         data = json.load(f)
-    repo_dict = {entry[REPO_KEYNAME]: entry for entry in data}
+    repo_dict = {}
+    for entry in data:
+        repo_dict[entry[REPO_KEYNAME]] = entry
+        full_name = entry.get("full_name")
+        if full_name and full_name != entry[REPO_KEYNAME]:
+            repo_dict[full_name] = entry
     return repo_dict
 
 

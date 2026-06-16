@@ -24,6 +24,9 @@ RENAMED_COLS = {
     "homepageUrl": "homepage",
 }
 
+# REST API returns these fields with the same names as our output
+REST_COLS = list(RENAMED_COLS.values())
+
 GRAPHQL_FRAGMENT = """
 fragment F on Repository{
   nameWithOwner
@@ -154,6 +157,31 @@ def fetch_batch(batch_repos: list[tuple[str, str]], token: str, timeout: int = 1
     return {}
 
 
+def fetch_single_rest(repo: str, token: str, timeout: int = 15) -> dict | None:
+    """Fallback to REST API when GraphQL returns null (e.g. org SSO restrictions)."""
+    url = f"https://api.github.com/repos/{repo}"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+    }
+    try:
+        response = requests.get(url, headers=headers, timeout=timeout)
+        if response.status_code == 200:
+            return response.json()
+        logging.warning(f"REST fallback {response.status_code} for {repo}")
+    except requests.RequestException as exc:
+        logging.warning(f"REST fallback request failed for {repo}: {exc}")
+    return None
+
+
+def _build_result_from_rest(repo: str, rest_data: dict) -> dict:
+    result = {REPO_KEYNAME: repo}
+    for field in REST_COLS:
+        result[field] = rest_data.get(field)
+    result["readme_title"] = ""
+    return result
+
+
 def _clean_markdown(content):
     """
     only keep name/introduction part of project, remove details in readme
@@ -237,7 +265,12 @@ def crawl(file: str, token: str | None, save_file: str, batch_size: int, alert: 
         for alias, repo in batch_data:
             repo_data = raw_data.get(alias)
             if not repo_data:
-                logging.warning(f"Ignore error repo = {repo}")
+                logging.warning(f"GraphQL returned null for {repo}, trying REST API")
+                rest_result = fetch_single_rest(repo, token)
+                if rest_result:
+                    output_data.append(_build_result_from_rest(repo, rest_result))
+                else:
+                    logging.warning(f"Ignore error repo = {repo}")
                 continue
 
             result = {REPO_KEYNAME: repo}

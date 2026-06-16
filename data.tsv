@@ -341,7 +341,7 @@ title	repository	comment
 	https://github.com/Verf/wubi-norman	
 	https://github.com/vfreex/rime-zhengma	
 	https://github.com/X1aomu/rime-uggx	
-	https://github.com/xiaodoujiang/092r	
+	https://github.com/sypxf/092r	xiaodoujiang/092r
 	https://github.com/xkinput/KeyTao	xkinput/Rime_JD （吅吅大山-星空键道6）
 	https://github.com/yanhuacuo/98wubi	
 	https://github.com/YQ-YSY/one-hand_Rime	
@@ -693,7 +693,7 @@ title	repository	comment
 	https://github.com/fcitx-contrib/fcitx5-hallelujah	Fcitx5 小企鹅·哈利路亚输入法
 	https://github.com/EasyIME/PIME	IME for Windows via Text Services Framework
 	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言），已接入Rime，fcitx5正在接入中
-	http://www.ccamc.co/fonts_tangut.php	西夏文輸入法（有独立安装版和RIME版，以及字体文件）
+%	http://www.ccamc.co/fonts_tangut.php	西夏文輸入法（有独立安装版和RIME版，以及字体文件）
 %	http://www.cbflabs.com	朱邦复-仓颉（1976年）
 %	http://www.wangma.net.cn	王永民-五笔（王码五笔字型，1986年）
 %	http://www.ziranma.com.cn	周志农-自然码
