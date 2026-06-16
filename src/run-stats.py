@@ -6,6 +6,7 @@ import random
 import re
 import time
 from pathlib import Path
+from typing import Any
 
 import requests
 
@@ -46,7 +47,7 @@ fragment F on Repository{
 """
 
 
-def sanitize_alias(index: int, name: str | None = None):
+def sanitize_alias(index: int, name: str | None = None) -> str:
     return f"r{index:03d}"
 
 
@@ -122,7 +123,7 @@ def _build_graphql_query(repos: list[tuple[str, str, str, str]]) -> str:
     return query
 
 
-def fetch_batch(batch_repos: list[tuple[str, str]], token: str, timeout: int = 15) -> dict:
+def fetch_batch(batch_repos: list[tuple[str, str]], *, token: str, timeout: int = 15) -> dict:
     url = "https://api.github.com/graphql"
     headers = {
         "Authorization": f"Bearer {token}",
@@ -157,13 +158,16 @@ def fetch_batch(batch_repos: list[tuple[str, str]], token: str, timeout: int = 1
     return {}
 
 
-def fetch_single_rest(repo: str, token: str, timeout: int = 15) -> dict | None:
-    """Fallback to REST API when GraphQL returns null (e.g. org SSO restrictions)."""
+def fetch_rest_api(repo: str, *, token: str | None, timeout: int = 15) -> dict | None:
+    """Fallback to REST API when GraphQL returns null"""
     url = f"https://api.github.com/repos/{repo}"
     headers = {
-        "Authorization": f"Bearer {token}",
+        # "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json",
     }
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
     try:
         response = requests.get(url, headers=headers, timeout=timeout)
         if response.status_code == 200:
@@ -174,15 +178,15 @@ def fetch_single_rest(repo: str, token: str, timeout: int = 15) -> dict | None:
     return None
 
 
-def _build_result_from_rest(repo: str, rest_data: dict) -> dict:
-    result = {REPO_KEYNAME: repo}
+def _build_result_from_rest(repo: str, rest_data: dict[str, Any]) -> dict[str, Any]:
+    result: dict[str, Any] = {REPO_KEYNAME: repo}
     for field in REST_COLS:
         result[field] = rest_data.get(field)
     result["readme_title"] = ""
     return result
 
 
-def _clean_markdown(content):
+def _clean_markdown(content: str) -> str:
     """
     only keep name/introduction part of project, remove details in readme
     """
@@ -213,13 +217,22 @@ def extract_readme_title(readme_text: str | None) -> str:
         out = match.group(1) or match.group(2)
     elif content:
         out = content.split("\n")[0]
+
     out = re.sub(r"^#+\s*|\s+#+$", "", out)
     out = re.sub(r"[\u200d\ufeff\s]+", " ", out)
     out = out.strip()
     return out
 
 
-def crawl(file: str, token: str | None, save_file: str, batch_size: int, alert: bool = True):
+def crawl(
+    file: str,
+    token: str | None,
+    *,
+    save_file: str,
+    batch_size: int,
+    alert: bool = True,
+    use_rest_api: bool = True,
+):
     if not token or not token.strip():
         logging.error("TOKEN is required for GitHub GraphQL requests")
         return
@@ -231,16 +244,14 @@ def crawl(file: str, token: str | None, save_file: str, batch_size: int, alert: 
         logging.warning("No repository data")
         return
 
-    output_data = []
-    ignore_repos = set()
+    output_data: list[Any] = []
     if Path(save_file).exists():
         with open(save_file) as f:
-            raw_data = json.load(f)
+            raw_data: list[dict[str, str]] = json.load(f)
             output_data = raw_data
+            logging.info(f"Read existed repo info = {len(raw_data)}")
 
-        ignore_repos = [e[REPO_KEYNAME] for e in raw_data]
-        logging.info(f"Read existed repo info = {len(raw_data)}")
-
+    ignore_repos = set([e[REPO_KEYNAME] for e in output_data])
     repo_list = [f for f in repo_list if f not in ignore_repos]
     total = len(repo_list)
     logging.info(f"Todo repo = {total}")
@@ -254,23 +265,28 @@ def crawl(file: str, token: str | None, save_file: str, batch_size: int, alert: 
         logging.info(f"Process repo: {i + 1} ~ {i + count}: {batch[0]}")
 
         batch_data = [(sanitize_alias(i, repo), repo) for i, repo in enumerate(batch)]
-        raw_data = fetch_batch(batch_data, token)
+        result_data = fetch_batch(batch_data, token=token)
         if i + batch_size < total:
             random_sleep()
 
-        if alert and count >= 10 and (not raw_data or len(raw_data) <= count // 2):
+        if alert and count >= 10 and (not result_data or len(result_data) <= count // 2):
             logging.error("Too many repositories query failed in one batch")
             return
 
         for alias, repo in batch_data:
-            repo_data = raw_data.get(alias)
-            if not repo_data:
+            repo_data = result_data.get(alias)
+            if not repo_data and use_rest_api:
                 logging.warning(f"GraphQL returned null for {repo}, trying REST API")
-                rest_result = fetch_single_rest(repo, token)
+                rest_result = fetch_rest_api(repo, token=None)
                 if rest_result:
-                    output_data.append(_build_result_from_rest(repo, rest_result))
+                    result_extra = _build_result_from_rest(repo, rest_result)
+                    output_data.append(result_extra)
                 else:
                     logging.warning(f"Ignore error repo = {repo}")
+                continue
+
+            if not repo_data:
+                logging.warning(f"GraphQL returned null for {repo}")
                 continue
 
             result = {REPO_KEYNAME: repo}
@@ -311,4 +327,4 @@ if __name__ == "__main__":
     for i in range(cnt):
         if i > 0:
             batch_size = max(int(args.batch_size // 2), 1)
-        crawl(args.file, token, args.output, batch_size)
+        crawl(args.file, token, save_file=args.output, batch_size=batch_size, use_rest_api=i + 1 == cnt)

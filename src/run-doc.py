@@ -47,31 +47,33 @@ def unescape(text: str) -> str:
     return re.sub(r"([\[\]\(\)\|])", r"\\\1", text)
 
 
-def remove_emoji(text):
+def remove_emoji(text: str) -> str:
     # 匹配大部分 emoji 的正则
     emoji_pattern = re.compile(
         "["
-        "\U0001F600-\U0001F64F"  # 表情符号
-        "\U0001F300-\U0001F5FF"  # 符号 & 图形
-        "\U0001F680-\U0001F6FF"  # 交通 & 地图
-        "\U0001F1E0-\U0001F1FF"  # 国旗
-        "\U00002700-\U000027BF"  # Dingbats
-        "\U0001F900-\U0001F9FF"  # Supplemental Symbols and Pictographs
-        "\U00002600-\U000026FF"  # Misc symbols
-        "\U00002B00-\U00002BFF"  # Misc symbols & arrows
-        "\U0000200D"             # 零宽连接符 (ZWJ)
-        "\U00002300-\U000023FF"  # Misc technical
-        "]+", flags=re.UNICODE
+        "\U0001f600-\U0001f64f"  # 表情符号
+        "\U0001f300-\U0001f5ff"  # 符号 & 图形
+        "\U0001f680-\U0001f6ff"  # 交通 & 地图
+        "\U0001f1e0-\U0001f1ff"  # 国旗
+        "\U00002700-\U000027bf"  # Dingbats
+        "\U0001f900-\U0001f9ff"  # Supplemental Symbols and Pictographs
+        "\U00002600-\U000026ff"  # Misc symbols
+        "\U00002b00-\U00002bff"  # Misc symbols & arrows
+        "\U0000200d"  # 零宽连接符 (ZWJ)
+        "\U00002300-\U000023ff"  # Misc technical
+        "]+",
+        flags=re.UNICODE,
     )
-    return emoji_pattern.sub(r'', text)
+    return emoji_pattern.sub(r"", text)
+
 
 def _strip_text(text: str, ignore: bool = True) -> str:
     text = re.sub(r"\s+", " ", text).strip() if text else ""
-
     text = re.sub(r"\\*\|", "/", text)
     text = re.sub(r"\\+(\S)", r"\1", text)
     text = re.sub(r"\s*[qQ]*\s*群[：:]*(\s*\d{5,}\s*/?)+", " ", text)
     text = re.sub(r"(交流)?[群：:]+", "", text)
+
     if ignore and text.startswith("-*- "):
         return ""
     return text
@@ -160,7 +162,7 @@ def is_archived(dt: datetime, repo_info: dict[str, Any], max_years: int = 3) -> 
     return False
 
 
-def get_data_list(repo_list: list, repo_dict: dict[str, Any], dt: datetime):
+def get_data_list(repo_list: list[str], repo_dict: dict[str, Any], dt: datetime):
     data1 = []  # normal repo
     data2 = []  # archived repo
     data3 = []  # removed, invalid repo
