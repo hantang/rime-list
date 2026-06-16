@@ -33,7 +33,8 @@ jobs:
       - name: Run Python scripts
         env:
           TOKEN: ${{ secrets.GH_TOKEN }}
-        run: bash run.sh
+          BATCH_SIZE: ${{ vars.BATCH_SIZE }}
+        run: bash run.sh $BATCH_SIZE
 
       - name: Git auto commit
         uses: stefanzweifel/git-auto-commit-action@v7
