@@ -10,8 +10,8 @@ title	repository	comment
 	https://github.com/gaboolic/moqi-im-android	Android（墨奇输入法）
 	https://github.com/gaboolic/moqi-im-windows	Windows（墨奇输入法）
 	https://github.com/gurecn/YuyanIme	Android（语燕输入法）
-	https://github.com/imfuxiao/Hamster	iOS/iPadOS（仓输入法；Pro版本收费） 文档 <https://ihsiao.com/apps/hamster/docs/>
-	https://github.com/jimmy54/iRime	iOS（收费）
+	https://github.com/imfuxiao/Hamster	iOS/iPadOS（仓输入法；Pro版本收费） <https://apps.apple.com/cn/app/仓输入法/id6446617683> 文档 <https://ihsiao.com/apps/hamster/docs/>
+	https://github.com/jimmy54/iRime	iOS（收费） <https://apps.apple.com/cn/app/irime输入法-小鹤双拼五笔郑码输入法/id1142623977>
 	https://github.com/LEOYoon-Tsaw/squirrel	macOS（鼠须管Fork版）
 	https://github.com/levelel/outwit-project-index	几维输入法 <https://outwitapp.com/>
 	https://github.com/LibreService/my_rime	Web <https://my-rime.vercel.app>
@@ -27,11 +27,14 @@ title	repository	comment
 	https://github.com/ximeiorg/Xime	Android（曦码输入法，曾用名Kime） <https://ime.ximei.me/>
 	https://github.com/xkinput/keytao-app	Linux / Android（KeyTao【键道】）
 	https://github.com/zhangjh/suyan-site	素言输入法 <https://suyan.zhangjh.cn/>
+	https://github.com/rimeinn/fcitx5-rime.js	网页版
+	https://github.com/hchunhui/ibus-rime.AppImage	Linux, iBus AppImage 格式安装包
 =	https://github.com/bczhc/rime-tui	TUI版（类Unix系统）
 =	https://github.com/fcitx/fcitx-rime	Linux
 =	https://github.com/lotem/rime-gits	Windows
 =	https://github.com/mikejensen21/RIME_iOS	iOS
 =	https://github.com/stackia/XIME	macOS
+%	https://apps.apple.com/cn/app/元书输入法/id6744464701	iOS，元书输入法（仓输入法同作者开发的新版，高级功能收费） <https://ihsiao.com/apps/hamster/v3/docs/>
 ## 配置和词库		
 ### 热门配置		
 	https://github.com/amzxyz/rime-wanxiang	万象拼音（深度优化的词库和语法模型）
@@ -171,7 +174,7 @@ title	repository	comment
 	https://github.com/MapoMagpie/rimedm	rime词典管理器（TUI）
 	https://github.com/marguerite/rime-plum-go	plum東風破（Go版，CLI）
 	https://github.com/mengqi92/Rimebow	元宝（Rimebow），VS Code 插件
-	https://github.com/Mintimate/oh-my-rime-cli	
+	https://github.com/Mintimate/oh-my-rime-cli	薄荷配置的命令行工具（CLI，GUI）
 	https://github.com/myshiqiqi/WubiMaster	rime 五笔的管理器（Windows），镜像 [空山明月/中书君-Rime管理器](https://gitee.com/hi-coder/WubiMaster)
 	https://github.com/neolee/sct	Squirrel Configuration Tool（macOS, SCU项目的现代化继任者）
 	https://github.com/puddinging/rime-cli	自定义词的添加（CLI）
@@ -206,6 +209,7 @@ title	repository	comment
 	https://github.com/Vrchz/Psionics-Remix	fcitx5主题<xTpx/Psionics-Remix>
 	https://github.com/Wenti-D/Astralwelkin	手机版Android（同文输入法）
 	https://github.com/Xenapte/rime-theme-nord	
+	https://github.com/luozikuan/kongshan-suying	iOS 元书输入法皮肤
 =	https://github.com/a940727702/RimeSkins-	
 =	https://github.com/Astrian/appso-rime-skin	
 =	https://github.com/cdc94/Rime_weasel_skin	
@@ -309,6 +313,7 @@ title	repository	comment
 	https://github.com/hertz-hwang/Rime-tiger_pure	
 	https://github.com/hertz-hwang/wf-ll	
 	https://github.com/hsuanyi-chou/rime-liur	嘸蝦米方案
+	https://github.com/ryanwuson/rime-liur-ios	iOS 元書輸入法 - 蝦米方案
 	https://github.com/hugh7007/xmjd6-rere	星猫键道6
 	https://github.com/humatiger/huma	虎码输入方案rime版，<https://www.tiger-code.com/>
 	https://github.com/jacyl4/rime_wubi	
