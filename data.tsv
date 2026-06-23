@@ -8,7 +8,7 @@ title	repository	comment
 	https://github.com/fxliang/weasel	Windows（小狼毫Fork版）
 	https://github.com/FydeOS/fydeRhythm	FydeOS/ChromeOS（真文韵输入法）
 	https://github.com/gaboolic/moqi-im-android	Android（墨奇输入法）
-	https://github.com/gaboolic/moqi-im-windows	Windows（墨奇输入法）
+	https://github.com/gaboolic/moqi-im-windows	Windows（墨奇输入法） <https://moqiyinxing.chunqiujinjing.com/index>
 	https://github.com/gurecn/YuyanIme	Android（语燕输入法）
 	https://github.com/hchunhui/ibus-rime.AppImage	Linux, iBus AppImage 格式安装包
 	https://github.com/imfuxiao/Hamster	iOS/iPadOS（仓输入法；Pro版本收费） <https://apps.apple.com/cn/app/仓输入法/id6446617683> 文档 <https://ihsiao.com/apps/hamster/docs/>
@@ -34,7 +34,7 @@ title	repository	comment
 =	https://github.com/lotem/rime-gits	Windows
 =	https://github.com/mikejensen21/RIME_iOS	iOS
 =	https://github.com/stackia/XIME	macOS
-%	https://apps.apple.com/cn/app/元书输入法/id6744464701	iOS，元书输入法（仓输入法同作者开发的新版，高级功能收费） <https://ihsiao.com/apps/hamster/v3/docs/>
+%	https://apps.apple.com/cn/app/元书输入法/id6744464701	iOS，元书输入法（Hamster3，仓输入法同作者开发的新版，高级功能收费） <https://ihsiao.com/apps/hamster/v3/docs/> <https://github.com/imfuxiao/Hamster3Document>
 ## 配置和词库		
 ### 热门配置		
 	https://github.com/amzxyz/rime-wanxiang	万象拼音（深度优化的词库和语法模型）
