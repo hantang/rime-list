@@ -27,7 +27,7 @@ title	repository	comment
 	https://github.com/tumuyan/Handwriting-for-Android	Android（安卓同文手写输入插件，可独立使用）
 	https://github.com/tumuyan/trime-without-CMake	Android（安卓同文輸入法without CMake版）
 	https://github.com/ximeiorg/Xime	Android（曦码输入法，曾用名Kime） <https://ime.ximei.me/>
-	https://github.com/xkinput/keytao-app	Linux / Android（KeyTao【键道】）
+	https://github.com/xkinput/keytao-app	Linux / Android（KeyTao【键道】）<https://xkinput.github.io>
 	https://github.com/zhangjh/suyan-site	素言输入法 <https://suyan.zhangjh.cn/>
 =	https://github.com/bczhc/rime-tui	TUI版（类Unix系统）
 =	https://github.com/fcitx/fcitx-rime	Linux
@@ -113,6 +113,7 @@ title	repository	comment
 	https://github.com/yaocccc/rime	
 	https://github.com/zeuxisoo/my-rime	
 	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
+	https://github.com/kitty-panics/ConL-IME	
 =	https://github.com/alswl/Rime	
 =	https://github.com/tinywaves/rime-config	
 %	[kuraa.cc: kura/SquirrelConfig](https://git.kuraa.cc/kura/SquirrelConfig)	鼠须管配置
@@ -275,7 +276,7 @@ title	repository	comment
 	https://github.com/rime/rime-pinyin-simp	
 	https://github.com/rime/rime-stenotype	
 	https://github.com/rime/rime-terra-pinyin	
-	https://github.com/rimeinn/rime-snow-pinyin	hanzi-chai/rime-snow-pinyin
+	https://github.com/rimeinn/rime-snow-pinyin	冰雪四拼 hanzi-chai/rime-snow-pinyin
 	https://github.com/saeziae/rime-double-pinyin	
 	https://github.com/Sonner114514/huaipin	
 	https://github.com/sunsun8170/Onion-Rime-Bopomo-Revised	
@@ -303,7 +304,7 @@ title	repository	comment
 %	[zzz67240/double_pinyin_flypy.custom.yaml](https://gist.github.com/zzz67240/fa920d255d56b9fa310e4f0864e22a29)	Rime 小鶴雙拼 臺灣正體中文
 ### 形码（五笔、仓颉等）		
 	https://github.com/092wb/092wb	
-	https://github.com/Ace-Who/rime-xuma	Rime 徐码输入方案
+	https://github.com/Ace-Who/rime-xuma	Rime 徐码输入方案 <http://xumax.cn/>
 	https://github.com/aLIEz-QI/Rime-wubi091	
 	https://github.com/allencch/wubiluna	
 	https://github.com/arpcn/rime-shanren3	
@@ -318,7 +319,7 @@ title	repository	comment
 	https://github.com/hertz-hwang/wf-ll	
 	https://github.com/hsuanyi-chou/rime-liur	嘸蝦米方案
 	https://github.com/hugh7007/xmjd6-rere	星猫键道6
-	https://github.com/humatiger/huma	虎码输入方案rime版，<https://www.tiger-code.com/>
+	https://github.com/humatiger/huma	虎码输入方案rime版，<https://www.tiger-code.com/> <http://huma.ysepan.com/>
 	https://github.com/jacyl4/rime_wubi	
 	https://github.com/jim60105/Newcj_rime	
 	https://github.com/kingzcheung/rime-wubi	
@@ -375,7 +376,7 @@ title	repository	comment
 =	https://github.com/lotem/rime-guhuwubi	
 =	https://github.com/lotem/rime-linguistic-wubi	
 =	https://github.com/lotem/rime-wubi98	
-=	https://github.com/mlzzz/092wb	
+=	https://github.com/mlzzz/092wb	092 五笔(09 系第二代) <http://092wb.ysepan.com> <https://092wb.github.io>
 =	https://github.com/omgredfog/98wubi	
 =	https://github.com/Reniastyc/RIME_array30_ex	
 =	https://github.com/rime/rime-scj	
@@ -407,11 +408,11 @@ title	repository	comment
 	https://github.com/rimeinn/rime-c42	tansongchen/c42
 	https://github.com/rimeinn/rime-JDhe	
 	https://github.com/rimeinn/rime-molong	
-	https://github.com/rimeinn/rime-xxm	
+	https://github.com/rimeinn/rime-xxm	小兮码（音形二笔单字顶功输入方案）
 	https://github.com/rimeinn/rime-zrlong	
 	https://github.com/s5unty/xstr	
 	https://github.com/Schummacher/XHSJ	小鹤四角（小鹤音形+四角号码+星空键道）
-	https://github.com/sf467/xf	西风瘦码
+	https://github.com/sf467/xf	西风瘦码 <http://leybyr.ysepan.com>
 	https://github.com/vincentaxhe/rime-wanglinkuaima	
 	https://github.com/vitszeng/rime-zrm2000	
 	https://github.com/vitszeng/Rime_zrm_aux_lts	
@@ -428,7 +429,7 @@ title	repository	comment
 =	https://github.com/nlimpid/rime-hepy	
 =	https://github.com/s5unty/zdyx	
 =	https://github.com/sheepduke/rime-flypy	
-=	https://github.com/whjiang/zzdyx_rime	
+=	https://github.com/whjiang/zzdyx_rime	哲豆音形 <http://zzdzzd.ys168.com/> <https://zzd.pages.dev>
 %	[ipcjs/+Rime+小鹤双拼+颜文字+笔画混合输入方案.md](https://gist.github.com/ipcjs/cb527f85e027d7927ef3e42a0602ddf5)	Rime+小鹤双拼+颜文字+笔画混合输入方案
 %	[lotem/default.custom.yaml](https://gist.github.com/lotem/2309739)	在Rime輸入方案選單中添加五筆、雙拼、粵拼、注音，保留你需要的
 ## 更多输入方案		
@@ -685,7 +686,7 @@ title	repository	comment
 	https://github.com/Flauver/jdh	简单鹤（音形码）
 	https://github.com/florisboard/florisboard	Android
 	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言），已接入Rime，fcitx5正在接入中
-	https://github.com/hanxinma/hanxin	汉心码/龙码
+	https://github.com/hanxinma/hanxin	汉心码/龙码 <http://yaoxiazai.ysepan.com> <https://hanxinma.gitlab.io/>
 	https://github.com/hertz-hwang/hao	好码 <https://code.hertz.ltd>
 	https://github.com/Honghe/iwubi	IBus框架五笔
 	https://github.com/ibus/ibus	Linux, IBus框架
@@ -705,23 +706,28 @@ title	repository	comment
 	https://github.com/y1lichen/ilimi-inputmethod	macOS（仿）蝦米輸入法
 	https://github.com/yanhuacuo/98wubi-tables	
 	https://github.com/yanhuacuo/98wubi-unicode	
-	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码）
+	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码） <https://yima.pages.dev/> <https://yima.ysepan.com/>
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
 	https://github.com/zhangxiaov/input	像码输入法
-=	https://github.com/acevery/ibus-table-wubi	Linux, ibus-sunpinyin
-=	https://github.com/sunpinyin/sunpinyin	Linux, ibus-sunpinyin
-%	http://www.cbflabs.com	朱邦复-仓颉（1976年）
-%	http://www.ccamc.co/fonts_tangut.php	西夏文輸入法（有独立安装版和RIME版，以及字体文件）
-%	http://www.wangma.net.cn	王永民-五笔（王码五笔字型，1986年）
-%	http://www.ziranma.com.cn	周志农-自然码
-%	http://xumax.cn	徐国银-徐码（2012年）
-%	https://flypy.cc	何海峰-小鹤双拼、小鹤音形 <https://flypy.ysepan.com>
-%	https://soongsky.com/sky/	宋天-天码 <https://tianma.ysepan.com>
-%	https://www.china-e.com.cn/IMs.html	郑易理、郑珑-郑码（字根通用码，1989年）
-%	https://www.tiger-code.com	PeaceB-虎码 <https://huma.ysepan.com>
-%	https://yong.dgod.net	小小输入法（永码）
-%	https://ziyuan.ysepan.com	字源输入法
-%	https://zzzm.ysepan.com	史岳-三码郑码、至至郑码
+	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
+	https://github.com/lime-ime/limeime	萊姆輸入法
+	https://github.com/metasequoiaime/MetasequoiaImeTsf	水杉输入法
+	https://github.com/hime-ime/hime	Hime輸入法框架
+	https://github.com/crazydan-studio/kuaizi-ime	筷字输入法
+	https://github.com/openvanilla/McBopomofo	小麥注音輸入法
+	https://github.com/Riey/kime	Korean IME (Linux)
+	https://github.com/kiding/SokIM	Korean IME (macOS)
+	https://github.com/togatoga/karukan	Japanese IME (Linux/macOS)
+	https://github.com/akaza-im/akaza	Japanese IME (Linux)
+	https://github.com/google/mozc	Japanese IME
+	https://github.com/koyasi777/mozkey	Japanese IME (forked from google/mozc)
+	https://github.com/tonyq-org/QBopomofo	Q注音輸入法
+	https://github.com/qwertyyb/Fire	业火五笔输入法 macOS
+	https://github.com/vChewing/vChewing-macOS	唯音輸入法 macOS 版（威注音輸入法） <https://gitee.com/vChewing/vChewing-macOS>
+=	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
+=	https://github.com/sunpinyin/sunpinyin	Linux, ibus-sunpinyin <https://code.google.com/archive/p/sunpinyin/>
+%	https://codeberg.org/chewing/windows-chewing-tsf	新酷音自由軟體輸入法 <https://github.com/chewing/windows-chewing-tsf>
+%	https://zhuanlan.zhihu.com/p/710122624	纤夫张-中文输入法列表<https://dieken.gitlab.io/posts/chinese-input-methods/>
 ### 教程、语料和算法优化等		
 	https://github.com/BlueSky-07/Shuang	
 	https://github.com/BYVoid/OpenCC	
@@ -744,7 +750,7 @@ title	repository	comment
 	https://github.com/s-yata/marisa-trie	
 	https://github.com/sgalal/rime-opencc-latest	
 	https://github.com/sxei/pinyinjs	
-	https://github.com/tansongchen/ding	顶功 · 集萃
+	https://github.com/tansongchen/ding	顶功 · 集萃 <https://ding.tansongchen.com>
 	https://github.com/xunux/hakka-culture	
 	https://github.com/zispace/ciku-ime	
 =	https://github.com/amorphobia/jiandao-primer	星空键道初探
