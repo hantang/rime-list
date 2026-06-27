@@ -75,6 +75,7 @@ title	repository	comment
 -	https://github.com/lanluoxiao/c42	形音四二顶输入方案
 ## 更多输入方案		
 ### 古汉语和汉语方言		
+=	https://github.com/biopolyhedron/rime_schemata	polyhedron的rime多語種碼表（已拆分、停止更新）
 -	https://github.com/baopaau/rime-jyuwtpinq	
 -	https://github.com/i3thuan5/rime-hakka	客家輸入法詞表
 -	https://github.com/i3thuan5/rime-taigi	Rime台語輸入法詞表 (Taiwanese Input Schema for Rime)
