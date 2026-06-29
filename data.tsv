@@ -1,6 +1,8 @@
 title	repository	comment
 ## 软件安装包		
 	https://github.com/bczhc/rime-android	Android
+	https://github.com/Cycatz/tmux-rime	
+	https://github.com/DogLooksGood/emacs-rime	
 	https://github.com/fcitx-contrib/fcitx5-windows	Windows(fcitx5)，开发中
 	https://github.com/fcitx/fcitx5-macos	macOS(fcitx5)，安装器<https://github.com/fcitx-contrib/fcitx5-macos-installer> / 文档<https://fcitx-contrib.github.io>
 	https://github.com/fcitx/fcitx5-rime	Linux(fcitx5)
@@ -21,19 +23,17 @@ title	repository	comment
 	https://github.com/rime/ibus-rime	Linux（中州韵，iBus版）
 	https://github.com/rime/squirrel	macOS（鼠须管）
 	https://github.com/rime/weasel	Windows（小狼毫）
+	https://github.com/rimeinn/coc-rime	
 	https://github.com/rimeinn/fcitx5-rime.js	网页版
 	https://github.com/rimeinn/rabbit	Windows（玉兔毫，AutoHotkey实现）
+	https://github.com/rimeinn/rime.nvim	
+	https://github.com/rimeinn/zsh-rime	
 	https://github.com/Techince/weasel	Windows（小狼毫Fork）
 	https://github.com/tumuyan/Handwriting-for-Android	Android（安卓同文手写输入插件，可独立使用）
 	https://github.com/tumuyan/trime-without-CMake	Android（安卓同文輸入法without CMake版）
 	https://github.com/ximeiorg/Xime	Android（曦码输入法，曾用名Kime） <https://ime.ximei.me/>
 	https://github.com/xkinput/keytao-app	Linux / Android（KeyTao【键道】）<https://xkinput.github.io>
 	https://github.com/zhangjh/suyan-site	素言输入法 <https://suyan.zhangjh.cn/>
-	https://github.com/Cycatz/tmux-rime	
-	https://github.com/DogLooksGood/emacs-rime	
-	https://github.com/rimeinn/coc-rime	
-	https://github.com/rimeinn/rime.nvim	
-	https://github.com/rimeinn/zsh-rime	
 =	https://github.com/bczhc/rime-tui	TUI版（类Unix系统）
 =	https://github.com/fcitx/fcitx-rime	Linux
 =	https://github.com/lotem/rime-gits	Windows
@@ -67,9 +67,11 @@ title	repository	comment
 	https://github.com/ASC8384/myRime	
 	https://github.com/ayaka14732/MyRimeConfig	
 	https://github.com/bczhc/rime-config	
+	https://github.com/calfzhou/dotfiles	rime配置在子目录 <https://github.com/calfzhou/dotfiles/tree/master/rime>
 	https://github.com/chenzhiwei/rime	
 	https://github.com/chwt163/mytrime	
 	https://github.com/cvuuhk/dotfiles	目录 local/share/fcitx5/rime
+	https://github.com/deepin-community/rime-wanxiang	
 	https://github.com/Direct-A/rime-pure	
 	https://github.com/DreamAfar/Rime-IME-for-iOS-iRime	iRime
 	https://github.com/drganghe/Rime-Settings	
@@ -91,6 +93,8 @@ title	repository	comment
 	https://github.com/khsing/Rime	
 	https://github.com/laloe74/rime-settings	
 	https://github.com/Lantaio/Rime-schema-JoySchema	惊喜输入方案，懂程序员和科研工作者
+	https://github.com/lewangdev/rime-ice	
+	https://github.com/lotem/rime-config	
 	https://github.com/Lucius-Wang/rime-config	
 	https://github.com/MISTER-CHAN/rime-user-dir	Trime
 	https://github.com/owenyang0/iRime-iOS-tiger	iRime
@@ -99,6 +103,7 @@ title	repository	comment
 	https://github.com/qvshuo/squirrel	
 	https://github.com/rgb-24bit/rime	
 	https://github.com/rimeinn/cat-zrm-parallel-input	
+	https://github.com/riverscn/rime-forge	
 	https://github.com/rwerplus/rime	
 	https://github.com/ScriptGo/rime	
 	https://github.com/sheepduke/rime-config	
@@ -115,17 +120,12 @@ title	repository	comment
 	https://github.com/wzyboy/rime_config	
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
-	https://github.com/zeuxisoo/my-rime	
-	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
-	https://github.com/kitty-panics/ConL-IME	
-	https://github.com/lewangdev/rime-ice	
 	https://github.com/yuanz-12/wanxiang_yoemin	
+	https://github.com/zeuxisoo/my-rime	
 	https://github.com/zhhwux/wxzhh	
-	https://github.com/deepin-community/rime-wanxiang	
-	https://github.com/riverscn/rime-forge	
-	https://github.com/lotem/rime-config	
-	https://github.com/calfzhou/dotfiles	rime配置在子目录 <https://github.com/calfzhou/dotfiles/tree/master/rime>
+	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
 =	https://github.com/alswl/Rime	
+=	https://github.com/kitty-panics/ConL-IME	
 =	https://github.com/tinywaves/rime-config	
 %	[kuraa.cc: kura/SquirrelConfig](https://git.kuraa.cc/kura/SquirrelConfig)	鼠须管配置
 %	[lewangdev/default.custom.yaml](https://gist.github.com/lewangdev/f8ebbba24f464e915fb7d36857fcbbe5)	雾凇拼音自定义配置，MacOS-like & Wechat-like Dark/Light Color Scheme For Rime
@@ -171,6 +171,7 @@ title	repository	comment
 ### 配置管理扩展工具		
 	https://github.com/baopaau/rime-pinyin-translating	漢語拼音系統轉寫
 	https://github.com/BlindingDark/rime-lua-select-character	以词定字
+	https://github.com/ca-x/rime-wanxiang-updater	
 	https://github.com/ca-x/snout	
 	https://github.com/CanCLID/rime-cantonese-schemes-editor	
 	https://github.com/Coloryr/RimeSharp	librime的C#托管层
@@ -183,6 +184,8 @@ title	repository	comment
 	https://github.com/JACKCHAN000/Rime-Lua-GoogleTranslate	
 	https://github.com/KyleBing/wubi-dict-editor	
 	https://github.com/KyleBing/wubi-dict-editor-web	
+	https://github.com/lotem/rime-cli	
+	https://github.com/lotem/rime-make	
 	https://github.com/lxl66566/rime-formatter	VS Code 插件
 	https://github.com/MapoMagpie/rimedm	rime词典管理器（TUI）
 	https://github.com/marguerite/rime-plum-go	plum東風破（Go版，CLI）
@@ -200,15 +203,13 @@ title	repository	comment
 	https://github.com/yanhuacuo/weasel-data	
 	https://github.com/Yiklek/RimeTool	一个Rime工具箱，支持控制算法服务和方案部署。
 	https://github.com/zishuzy/rime_userdb_merger	
-	https://github.com/ca-x/rime-wanxiang-updater	
-	https://github.com/lotem/rime-cli	
-	https://github.com/lotem/rime-make		
 ## 主题		
 ### 主题（配色模板）		
 	https://github.com/0xffan/rose-pine-rime	
 	https://github.com/catppuccin/squirrel	
 	https://github.com/dearxs/Rime-Themes	
 	https://github.com/dracula/rime	
+	https://github.com/escape0707/fcitx5-adwaita-dark	Fcitx 5皮肤
 	https://github.com/fcitx-contrib/fcitx5-theme-collection	fcitx5（小企鹅输入法主题集）
 	https://github.com/hekatech/RIME-style	
 	https://github.com/hosxy/Fcitx5-Material-Color	fcitx5主题
@@ -229,7 +230,6 @@ title	repository	comment
 	https://github.com/Vrchz/Psionics-Remix	fcitx5主题<xTpx/Psionics-Remix>
 	https://github.com/Wenti-D/Astralwelkin	手机版Android（同文输入法）
 	https://github.com/Xenapte/rime-theme-nord	
-	https://github.com/escape0707/fcitx5-adwaita-dark	Fcitx 5皮肤
 =	https://github.com/a940727702/RimeSkins-	
 =	https://github.com/Astrian/appso-rime-skin	
 =	https://github.com/cdc94/Rime_weasel_skin	
@@ -277,6 +277,8 @@ title	repository	comment
 	https://github.com/imper0502/rime-double-bopomo	
 	https://github.com/Kimiblock/moeOS-pinyin	moeOS 默认 RIME 拼音方案
 	https://github.com/lazyfoxchan/rime-tongpin	
+	https://github.com/lotem/rime-combo-pinyin-briefs	
+	https://github.com/lotem/rime-stone	
 	https://github.com/loustack17/Bopomofo_Eten26_Rime	
 	https://github.com/maojunxyz/flypy-linux	
 	https://github.com/nk2028/rime-tupa	
@@ -300,9 +302,6 @@ title	repository	comment
 	https://github.com/waveform/ziguang_shuangpin	
 	https://github.com/xhrzg2017/rime-kylinpinyin	
 	https://github.com/zhanghaozhecn/rime-combo-pinyin-mod	
-	https://github.com/lotem/rime-combo-pinyin-briefs	
-	https://github.com/lotem/rime-stone	
-	https://github.com/lotem/rime-c2h6-pinyin	
 =	https://github.com/ayaka14732/rime-ayaka-v8	https://ayaka.shn.hk/v8/
 =	https://github.com/ayaka14732/rime-luna-pinyin-simp-native	
 =	https://github.com/baopaau/rime-yale-mandarin	
@@ -311,6 +310,7 @@ title	repository	comment
 =	https://github.com/kahaani/dieghv	
 =	https://github.com/kitty-panics/rime-luna-pinyin	
 =	https://github.com/LawssssCat/rime-aurora	
+=	https://github.com/lotem/rime-c2h6-pinyin	
 =	https://github.com/qpng/tyungrua	
 =	https://github.com/rimeinn/rime-lxsp	
 =	https://github.com/tony-aptx4869/rime-combo-pinyin	
@@ -343,8 +343,11 @@ title	repository	comment
 	https://github.com/kingzcheung/rime-wubi	
 	https://github.com/kitty-panics/rime-selfuse-tables	
 	https://github.com/lakent/rime-yi	
+	https://github.com/LEOYoon-Tsaw/Cangjie6	
 	https://github.com/liaoheng/rime-wubi86-jidian	
 	https://github.com/lost-melody/rime-smyh	吉旦餅，基於“宇浩輸入法”
+	https://github.com/lotem/rime-cangjie-luminary-chords	
+	https://github.com/lotem/rime-sancang	
 	https://github.com/LS-Hower/rime-wubi86-ext	
 	https://github.com/lxgw/wubi86-super	
 	https://github.com/myshiqiqi/rime-wubi	五笔，86，98和新世纪，镜像 [空山明月/Rime五笔](https://gitee.com/hi-coder/rime-wubi)
@@ -380,9 +383,6 @@ title	repository	comment
 	https://github.com/zekexiao/xtlb-rime	
 	https://github.com/zhmars/rime-wubi-simp	
 	https://github.com/zongxinbo/rime-zong	
-	https://github.com/lotem/rime-cangjie-luminary-chords	
-	https://github.com/lotem/rime-sancang	
-	https://github.com/LEOYoon-Tsaw/Cangjie6	
 =	https://github.com/acevery/rime-zhengma	
 =	https://github.com/byujiang/wubi06_rime	
 =	https://github.com/chengen12/rime-bingchanquanxi	
@@ -484,6 +484,7 @@ title	repository	comment
 	https://github.com/leimaau/leimaau_jyutping	
 	https://github.com/leimaau/naamning_jyutping	
 	https://github.com/leimaau/old-Cantonese	
+	https://github.com/lotem/rime-combo-jyutping	
 	https://github.com/lotem/rime-zhung	
 	https://github.com/Lumen01/rime-jienggong-cantonese	
 	https://github.com/MISTER-CHAN/rime-sg1pb3	
@@ -521,7 +522,6 @@ title	repository	comment
 	https://github.com/yuxifongfei/hubehua	
 	https://github.com/ZWolken/rime-wenzhounese	https://zwolken.github.io/rime-wenzhounese/
 	https://github.com/ZySieng/Foochow-Romanization	
-	https://github.com/lotem/rime-combo-jyutping	
 =	https://github.com/a-thok/rime-hokkien	
 =	https://github.com/CanCLID/Jyutsoeng	
 =	https://github.com/CanCLID/rime-cantonese-alt-dict	
@@ -595,6 +595,7 @@ title	repository	comment
 	https://github.com/rime-aca/rime-hangyl	
 	https://github.com/rime/rime-ipa	
 	https://github.com/rimeinn/rime-kagiroi	
+	https://github.com/rimeinn/rime-mkm	
 	https://github.com/rimeinn/rime-mungyeong	
 	https://github.com/saeziae/rime_korean-yeonbyeon	
 	https://github.com/saeziae/rime_tai	
@@ -611,7 +612,6 @@ title	repository	comment
 	https://github.com/wu-shan/type-pinyin	
 	https://github.com/yuanhao-chen-nyoeghau/rime-hentaigana	
 	https://github.com/yuanhao-chen-nyoeghau/rime-Xdi8_Kana	
-	https://github.com/rimeinn/rime-mkm	
 =	https://github.com/AraragiHoozuki/FLAIS-EX-for-Rime	
 =	https://github.com/AraragiHoozuki/Tamil-for-Rime	
 =	https://github.com/biopolyhedron/rime-burmese	
@@ -656,6 +656,7 @@ title	repository	comment
 ### Rime开发相关等		
 	https://github.com/baopaau/rime-lua-collection	
 	https://github.com/bczhc/librime-rs	
+	https://github.com/gaboolic/rime-build-grammar	
 	https://github.com/gaboolic/rime-schema-compare	
 	https://github.com/hchunhui/librime-cloud	
 	https://github.com/hchunhui/librime-lua	Lua脚本
@@ -669,17 +670,16 @@ title	repository	comment
 	https://github.com/rime/librime-sample	
 	https://github.com/rime/rppi	
 	https://github.com/rimeinn/librime-ahk	
+	https://github.com/rimeinn/mira	
+	https://github.com/rimeinn/octagram-data	
 	https://github.com/rimeinn/pyrime	
 	https://github.com/shitlime/RimeSpellTool	RIME 输入法的拼写运算测试工具
 	https://github.com/tswwe/my-rime-lua	
 	https://github.com/whjiang/rime_table_bin_decompiler	
 	https://github.com/wlh320/zed-ext-rime-ls	
 	https://github.com/zhangkaiser/librime-wasm	
-	https://github.com/rimeinn/mira	
-	https://github.com/gaboolic/rime-build-grammar	
-	https://github.com/rimeinn/octagram-data	
-=	https://github.com/lotem/rime.py	RIME原型版
 =	https://github.com/jimmy54/iRimeLib	基於著名的Rime輸入法框架，iRime（iOS）底层库。
+=	https://github.com/lotem/rime.py	RIME原型版
 =	https://github.com/lotem/rimeime	RIME早期版
 =	https://github.com/rime/librime-legacy	
 =	https://github.com/wzhd/rime	Rust binding for the Rime
@@ -693,67 +693,66 @@ title	repository	comment
 	https://github.com/gaboolic/awesome-rime	
 	https://github.com/halfmoonvic/Rime	致第一次安装Rime的你
 	https://github.com/LEOYoon-Tsaw/Rime_collections	
-	https://github.com/osfans/rime-tool	Rime開源碼表
-	https://github.com/wyjrichhh/librime-ai-predict	seq2seq 模型 <https://github.com/rime/squirrel/issues/1124>
-	https://github.com/rimeinn/rimeinn.github.io	https://rimeinn.github.io
 	https://github.com/lotem/rime-theme-music	中州韻輸入法主題曲
+	https://github.com/osfans/rime-tool	Rime開源碼表
+	https://github.com/rimeinn/rimeinn.github.io	https://rimeinn.github.io
+	https://github.com/wyjrichhh/librime-ai-predict	seq2seq 模型 <https://github.com/rime/squirrel/issues/1124>
 =	https://github.com/kitty-panics/awesome-rime	
 =	https://github.com/lotem/rime-forge	
 %	https://tieba.baidu.com/f?kw=rime	百度贴吧（rime吧）
 ### 输入法软件和方案补充		
+	https://github.com/akaza-im/akaza	Japanese IME (Linux)
+	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
+	https://github.com/crazydan-studio/kuaizi-ime	筷字输入法
+	https://github.com/Deali-Axy/llm-ime	Web，本地GGUF大语言模型
 	https://github.com/definite/ibus-table-chinese	
 	https://github.com/dongyuwei/hallelujahIM	macOS/Windows 哈利路亚英文输入法
 	https://github.com/EasyIME/PIME	IME for Windows via Text Services Framework
 	https://github.com/fcitx-contrib/fcitx5-hallelujah	Fcitx5 小企鹅·哈利路亚输入法
+	https://github.com/fcitx/fcitx5	Fcitx5
+	https://github.com/fcitx/libime	Fcitx，作者博文 <https://www.csslayer.info/wordpress/fcitx-dev/libime-intro-1/>
 	https://github.com/fcitx/mozc	日语
 	https://github.com/Flauver/jdh	简单鹤（音形码）
 	https://github.com/florisboard/florisboard	Android
 	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言），已接入Rime，fcitx5正在接入中
+	https://github.com/google/mozc	Japanese IME
 	https://github.com/hanxinma/hanxin	汉心码/龙码 <http://yaoxiazai.ysepan.com> <https://hanxinma.gitlab.io/>
 	https://github.com/hertz-hwang/hao	好码 <https://code.hertz.ltd>
+	https://github.com/hime-ime/hime	Hime輸入法框架
 	https://github.com/Honghe/iwubi	IBus框架五笔
 	https://github.com/ibus/ibus	Linux, IBus框架
 	https://github.com/Jackchows/Cangjie5	倉頡五代
+	https://github.com/kiding/SokIM	Korean IME (macOS)
+	https://github.com/koyasi777/mozkey	Japanese IME (forked from google/mozc)
 	https://github.com/lakent/yi	逸码
 	https://github.com/lennylxx/google-input-tools-macos	macOS
+	https://github.com/libhangul/libhangul	Korean hangul
 	https://github.com/libpinyin/ibus-libpinyin	Linux, ibus-libpinyin
+	https://github.com/lime-ime/limeime	萊姆輸入法
+	https://github.com/linhuman/liblunispim	华宇拼音输入法核心源代码（Linux）
+	https://github.com/metasequoiaime/MetasequoiaImeTsf	水杉输入法
+	https://github.com/openvanilla/McBopomofo	小麥注音輸入法
 	https://github.com/orbitoo/kumo	雲碼
+	https://github.com/phuang/ibus-anthy	Japanese
 	https://github.com/pimgeek/zen-tiger-code	禅意虎码（魔改版虎码）
 	https://github.com/ProjectLaplace/LinguistZixiaInput	macOS，紫霞输入法
 	https://github.com/qwertyyb/Fire	Macos五笔输入法
+	https://github.com/Riey/kime	Korean IME (Linux)
 	https://github.com/sbsrf/sbsrf	戴石麟等-声笔输入法 <https://sbxlm.github.io>
 	https://github.com/shadowjohn/UCL_LIU	肥米輸入法（仿嘸蝦米）
 	https://github.com/siuze/ShanRenMaLTS	谢振斌等-山人码LTS（山人全息码输入方案的长期支持版）
 	https://github.com/tansongchen/input	谭淞宸-冰雪拼音
 	https://github.com/Tatsumi0000/Raelize	macOS英文输入法
+	https://github.com/togatoga/karukan	Japanese IME (Linux/macOS)
+	https://github.com/tonyq-org/QBopomofo	Q注音輸入法
+	https://github.com/vChewing/vChewing-macOS	唯音輸入法 macOS 版（威注音輸入法） <https://gitee.com/vChewing/vChewing-macOS>
+	https://github.com/xushengfeng/lime	大模型驱动的拼音输入法
 	https://github.com/y1lichen/ilimi-inputmethod	macOS（仿）蝦米輸入法
 	https://github.com/yanhuacuo/98wubi-tables	
 	https://github.com/yanhuacuo/98wubi-unicode	
 	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码） <https://yima.pages.dev/> <https://yima.ysepan.com/>
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
 	https://github.com/zhangxiaov/input	像码输入法
-	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
-	https://github.com/lime-ime/limeime	萊姆輸入法
-	https://github.com/metasequoiaime/MetasequoiaImeTsf	水杉输入法
-	https://github.com/hime-ime/hime	Hime輸入法框架
-	https://github.com/crazydan-studio/kuaizi-ime	筷字输入法
-	https://github.com/openvanilla/McBopomofo	小麥注音輸入法
-	https://github.com/Riey/kime	Korean IME (Linux)
-	https://github.com/kiding/SokIM	Korean IME (macOS)
-	https://github.com/togatoga/karukan	Japanese IME (Linux/macOS)
-	https://github.com/akaza-im/akaza	Japanese IME (Linux)
-	https://github.com/google/mozc	Japanese IME
-	https://github.com/koyasi777/mozkey	Japanese IME (forked from google/mozc)
-	https://github.com/tonyq-org/QBopomofo	Q注音輸入法
-	https://github.com/qwertyyb/Fire	业火五笔输入法 macOS
-	https://github.com/vChewing/vChewing-macOS	唯音輸入法 macOS 版（威注音輸入法） <https://gitee.com/vChewing/vChewing-macOS>
-	https://github.com/Deali-Axy/llm-ime	Web，本地GGUF大语言模型
-	https://github.com/xushengfeng/lime	大模型驱动的拼音输入法
-	https://github.com/linhuman/liblunispim	华宇拼音输入法核心源代码（Linux）
-	https://github.com/fcitx/libime	Fcitx，作者博文 <https://www.csslayer.info/wordpress/fcitx-dev/libime-intro-1/>
-	https://github.com/fcitx/fcitx5	Fcitx5
-	https://github.com/phuang/ibus-anthy	Japanese
-	https://github.com/libhangul/libhangul	Korean hangul
 =	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
 =	https://github.com/sunpinyin/sunpinyin	Linux, ibus-sunpinyin <https://code.google.com/archive/p/sunpinyin/>
 %	https://codeberg.org/chewing/windows-chewing-tsf	新酷音自由軟體輸入法 <https://github.com/chewing/windows-chewing-tsf>
@@ -764,6 +763,7 @@ title	repository	comment
 	https://github.com/esbatmop/MNBVC	
 	https://github.com/felixonmars/fcitx5-pinyin-zhwiki	
 	https://github.com/forfudan/GujiCC	
+	https://github.com/gaboolic/moqima-tables	
 	https://github.com/GarthTB/cn-input-encode	
 	https://github.com/hanzi-chai/libchai	
 	https://github.com/hanzi-chai/libchai-smdc	
@@ -777,15 +777,14 @@ title	repository	comment
 	https://github.com/owenyang0/easy-typer	
 	https://github.com/pqrs-org/Karabiner-Elements	
 	https://github.com/rime-aca/corpus	
+	https://github.com/rimeinn/ime.nvim	
 	https://github.com/s-yata/marisa-trie	
 	https://github.com/sgalal/rime-opencc-latest	
+	https://github.com/suiginko/moetype	
 	https://github.com/sxei/pinyinjs	
 	https://github.com/tansongchen/ding	顶功 · 集萃 <https://ding.tansongchen.com>
 	https://github.com/xunux/hakka-culture	
 	https://github.com/zispace/ciku-ime	
-	https://github.com/suiginko/moetype	
-	https://github.com/gaboolic/moqima-tables	
-	https://github.com/rimeinn/ime.nvim	
 =	https://github.com/amorphobia/jiandao-primer	星空键道初探
 =	https://github.com/ha-pin/ime-guide	https://ha-pin.github.io/ime-guide/
 =	https://github.com/sgalal/rime-opencc-32bit-latest	
