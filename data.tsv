@@ -702,7 +702,6 @@ title	repository	comment
 %	https://tieba.baidu.com/f?kw=rime	百度贴吧（rime吧）
 ### 输入法软件和方案补充		
 	https://github.com/akaza-im/akaza	Japanese IME (Linux)
-	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
 	https://github.com/crazydan-studio/kuaizi-ime	筷字输入法
 	https://github.com/Deali-Axy/llm-ime	Web，本地GGUF大语言模型
 	https://github.com/definite/ibus-table-chinese	
@@ -754,6 +753,7 @@ title	repository	comment
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
 	https://github.com/zhangxiaov/input	像码输入法
 =	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
+=	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
 =	https://github.com/sunpinyin/sunpinyin	Linux, ibus-sunpinyin <https://code.google.com/archive/p/sunpinyin/>
 %	https://codeberg.org/chewing/windows-chewing-tsf	新酷音自由軟體輸入法 <https://github.com/chewing/windows-chewing-tsf>
 %	https://zhuanlan.zhihu.com/p/710122624	纤夫张-中文输入法列表<https://dieken.gitlab.io/posts/chinese-input-methods/>
