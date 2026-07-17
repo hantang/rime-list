@@ -752,6 +752,7 @@ title	repository	comment
 	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码） <https://yima.pages.dev/> <https://yima.ysepan.com/>
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
 	https://github.com/zhangxiaov/input	像码输入法
+	https://github.com/huanfeng/WindInput	清风输入法（Windows/macOS, Go->Rust）可直接复用 Rime 生态的词库资源 <https://windinput.com/>
 =	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
 =	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
 =	https://github.com/sunpinyin/sunpinyin	Linux, ibus-sunpinyin <https://code.google.com/archive/p/sunpinyin/>
