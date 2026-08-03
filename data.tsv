@@ -369,7 +369,6 @@ title	repository	comment
 	https://github.com/sypxf/092r	xiaodoujiang/092r
 	https://github.com/SyzygyYuan/HaiFengWuBi	海峰五笔
 	https://github.com/thep0y/rime-98	
-	https://github.com/tsaoshuang/Rime-tiger_code	
 	https://github.com/undus5/rime-wubi86s	
 	https://github.com/Verf/wubi-norman	
 	https://github.com/vfreex/rime-zhengma	
@@ -403,6 +402,7 @@ title	repository	comment
 =	https://github.com/rime/rime-scj	
 =	https://github.com/runapp/rime-wubi98char	
 =	https://github.com/THMonster/rime-cjeb	
+-	https://github.com/tsaoshuang/Rime-tiger_code	
 ### 音形混合方案		
 	https://github.com/amorphobia/openfly	
 	https://github.com/amorphobia/rime-jiandao	
