@@ -481,7 +481,6 @@ title	repository	comment
 	https://github.com/jyutcitzi/jyutcitzi-RIME	
 	https://github.com/LaiJoengzit/hamzau_jyutping	
 	https://github.com/Language-Preservation-Community/Community-Min-Language-Rime	闽南语
-	https://github.com/laubonghaudoi/Chinese_Rime	
 	https://github.com/leimaau/leimaau_jyutping	
 	https://github.com/leimaau/naamning_jyutping	
 	https://github.com/leimaau/old-Cantonese	
@@ -698,6 +697,8 @@ title	repository	comment
 	https://github.com/osfans/rime-tool	Rime開源碼表
 	https://github.com/rimeinn/rimeinn.github.io	https://rimeinn.github.io
 	https://github.com/wyjrichhh/librime-ai-predict	seq2seq 模型 <https://github.com/rime/squirrel/issues/1124>
+	https://github.com/laubonghaudoi/Chinese_Rime	中州韻輸入法非普通話漢語拼音方案全集
+	https://github.com/worksking/Chinese_dialect_Rime_dict	Rime输入法汉语方言拼音方案全集
 =	https://github.com/kitty-panics/awesome-rime	
 =	https://github.com/lotem/rime-forge	
 %	https://tieba.baidu.com/f?kw=rime	百度贴吧（rime吧）
