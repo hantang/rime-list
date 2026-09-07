@@ -692,13 +692,13 @@ title	repository	comment
 	https://github.com/Beyond-Input-Method/space	超越输入法（鸿蒙系统）
 	https://github.com/gaboolic/awesome-rime	
 	https://github.com/halfmoonvic/Rime	致第一次安装Rime的你
+	https://github.com/laubonghaudoi/Chinese_Rime	中州韻輸入法非普通話漢語拼音方案全集
 	https://github.com/LEOYoon-Tsaw/Rime_collections	
 	https://github.com/lotem/rime-theme-music	中州韻輸入法主題曲
 	https://github.com/osfans/rime-tool	Rime開源碼表
 	https://github.com/rimeinn/rimeinn.github.io	https://rimeinn.github.io
-	https://github.com/wyjrichhh/librime-ai-predict	seq2seq 模型 <https://github.com/rime/squirrel/issues/1124>
-	https://github.com/laubonghaudoi/Chinese_Rime	中州韻輸入法非普通話漢語拼音方案全集
 	https://github.com/worksking/Chinese_dialect_Rime_dict	Rime输入法汉语方言拼音方案全集
+	https://github.com/wyjrichhh/librime-ai-predict	seq2seq 模型 <https://github.com/rime/squirrel/issues/1124>
 =	https://github.com/kitty-panics/awesome-rime	
 =	https://github.com/lotem/rime-forge	
 %	https://tieba.baidu.com/f?kw=rime	百度贴吧（rime吧）
@@ -732,7 +732,7 @@ title	repository	comment
 	https://github.com/libpinyin/ibus-libpinyin	Linux, ibus-libpinyin
 	https://github.com/lime-ime/limeime	萊姆輸入法
 	https://github.com/linhuman/liblunispim	华宇拼音输入法核心源代码（Linux）
-	https://github.com/metasequoiaime/MetasequoiaImeTsf	水杉输入法
+	https://github.com/metasequoiaime/MSIME-Windows	水杉输入法
 	https://github.com/openvanilla/McBopomofo	小麥注音輸入法
 	https://github.com/orbitoo/kumo	雲碼
 	https://github.com/phuang/ibus-anthy	Japanese
