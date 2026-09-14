@@ -13,7 +13,7 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 - `-` 已经删除或不再公开的仓库
 - `=` 长期未更新或已经归档的仓库。
 
-最近更新: <!-- START-DATE -->*2026-09-07*<!-- END-DATE -->
+最近更新: <!-- START-DATE -->*2026-09-14*<!-- END-DATE -->
 
 备注：
 
@@ -26,32 +26,32 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![7940][gh_022_stars]<br>![788][gh_022_forks] | ![gh_022_commit] | [rime/weasel][gh_022] | **【小狼毫】輸入法**<br>【小狼毫】Rime for Windows<br> <https//rime.im> |
-| ![6322][gh_021_stars]<br>![545][gh_021_forks] | ![gh_021_commit] | [rime/squirrel][gh_021] | **爲物雖微情不淺**<br>【鼠鬚管】Rime for macOS<br> <https//rime.im> |
-| ![5625][gh_006_stars]<br>![432][gh_006_forks] | ![gh_006_commit] | [fcitx5-android/fcitx5-android][gh_006] | Fcitx5 input method framework and engines ported to Android<br> <https//fcitx5-android.github.io/> |
-| ![4626][gh_019_stars]<br>![525][gh_019_forks] | ![gh_019_commit] | [osfans/trime][gh_019] | **Rime IME for Android**<br>同文安卓輸入法平臺3.x/Android-rime/Rime Input Method Engine for Android<br> <http//osfans.github.io/trime/> |
-| ![3607][gh_011_stars]<br>![211][gh_011_forks] | ![gh_011_commit] | [gurecn/YuyanIme][gh_011] | 语燕输入法-一款基于Rime定制开发的九键、全拼、双拼、手写、火星文等方案、支持悬浮、单手、数字行等键盘模式的中文输入法 |
-| ![1880][gh_018_stars]<br>![101][gh_018_forks] | ![gh_018_commit] | [Mark24Code/rime-auto-deploy][gh_018] | **Rime auto deploy**<br>Rime输入法安装脚本，让一切更轻松。Make using Rime easy. |
-| ![1626][gh_013_stars]<br>![143][gh_013_forks] | ![gh_013_commit] | [imfuxiao/Hamster][gh_013] | **「仓」输入法**<br>librime for iOS App |
-| ![886][gh_031_stars]<br>![59][gh_031_forks] | ![gh_031_commit] | [ximeiorg/Xime][gh_031] | **简体中文 · 繁體中文**<br>我的自用安卓输入法，基于Rime 构建，部分功能由本人设计的本地AI模型驱动，支持五笔/拼音/自定义方案。<br> <https//ime.ximei.me> |
-| ![882][gh_020_stars]<br>![123][gh_020_forks] | ![gh_020_commit] | [rime/ibus-rime][gh_020] | 【中州韻】Rime for Linux/IBus<br> <https//rime.im> |
+| ![7991][gh_022_stars]<br>![800][gh_022_forks] | ![gh_022_commit] | [rime/weasel][gh_022] | **【小狼毫】輸入法**<br>【小狼毫】Rime for Windows<br> <https//rime.im> |
+| ![6347][gh_021_stars]<br>![549][gh_021_forks] | ![gh_021_commit] | [rime/squirrel][gh_021] | **爲物雖微情不淺**<br>【鼠鬚管】Rime for macOS<br> <https//rime.im> |
+| ![5648][gh_006_stars]<br>![436][gh_006_forks] | ![gh_006_commit] | [fcitx5-android/fcitx5-android][gh_006] | Fcitx5 input method framework and engines ported to Android<br> <https//fcitx5-android.github.io/> |
+| ![4636][gh_019_stars]<br>![528][gh_019_forks] | ![gh_019_commit] | [osfans/trime][gh_019] | **Rime IME for Android**<br>同文安卓輸入法平臺3.x/Android-rime/Rime Input Method Engine for Android<br> <http//osfans.github.io/trime/> |
+| ![3620][gh_011_stars]<br>![211][gh_011_forks] | ![gh_011_commit] | [gurecn/YuyanIme][gh_011] | 语燕输入法-一款基于Rime定制开发的九键、全拼、双拼、手写、火星文等方案、支持悬浮、单手、数字行等键盘模式的中文输入法 |
+| ![1878][gh_018_stars]<br>![101][gh_018_forks] | ![gh_018_commit] | [Mark24Code/rime-auto-deploy][gh_018] | **Rime auto deploy**<br>Rime输入法安装脚本，让一切更轻松。Make using Rime easy. |
+| ![1628][gh_013_stars]<br>![143][gh_013_forks] | ![gh_013_commit] | [imfuxiao/Hamster][gh_013] | **「仓」输入法**<br>librime for iOS App |
+| ![929][gh_031_stars]<br>![67][gh_031_forks] | ![gh_031_commit] | [ximeiorg/Xime][gh_031] | **简体中文 · 繁體中文**<br>我的自用安卓输入法，基于Rime 构建，部分功能由本人设计的本地AI模型驱动，支持五笔/拼音/自定义方案。<br> <https//ime.ximei.me> |
+| ![887][gh_020_stars]<br>![123][gh_020_forks] | ![gh_020_commit] | [rime/ibus-rime][gh_020] | 【中州韻】Rime for Linux/IBus<br> <https//rime.im> |
 | ![538][gh_002_stars]<br>![77][gh_002_forks] | ![gh_002_commit] | [DogLooksGood/emacs-rime][gh_002] | RIME ㄓ in Emacs |
-| ![513][gh_004_stars]<br>![31][gh_004_forks] | ![gh_004_commit] | [fcitx/fcitx5-macos][gh_004] | Fcitx5 macOS edition 小企鹅输入法 https//t.me/fcitx5macos qq 874450150 |
-| ![438][gh_017_stars]<br>![46][gh_017_forks] | ![gh_017_commit] | [LibreService/my_rime][gh_017] | **My RIME 梧桐输入法**<br>Free and Open Source online Chinese IME powered by RIME. 自由开源在线中文输入法 拼音 双拼 粤语 注音 五笔 仓颉 速成<br> <https//my-rime.vercel.app/> |
-| ![429][gh_005_stars]<br>![43][gh_005_forks] | ![gh_005_commit] | [fcitx/fcitx5-rime][gh_005] | **RIME support for Fcitx**<br>Rime (中州韵) support for fcitx5 |
-| ![290][gh_010_stars]<br>![13][gh_010_forks] | ![gh_010_commit] | [gaboolic/moqi-im-windows][gh_010] | **墨奇输入法 Windows版**<br>墨奇输入法windows版。已接入librime（中州韵），内置白霜拼音。原生支持AI功能。托盘菜单支持主题替换、输入状态切换等功能。 |
-| ![284][gh_014_stars]<br>![55][gh_014_forks] | ![gh_014_commit] | [jimmy54/iRime][gh_014] | **iRime輸入法 注禁止代码原封不动打包上传到AppStore**<br>iRime |
+| ![516][gh_004_stars]<br>![32][gh_004_forks] | ![gh_004_commit] | [fcitx/fcitx5-macos][gh_004] | Fcitx5 macOS edition 小企鹅输入法 https//t.me/fcitx5macos qq 874450150 |
+| ![439][gh_017_stars]<br>![46][gh_017_forks] | ![gh_017_commit] | [LibreService/my_rime][gh_017] | **My RIME 梧桐输入法**<br>Free and Open Source online Chinese IME powered by RIME. 自由开源在线中文输入法 拼音 双拼 粤语 注音 五笔 仓颉 速成<br> <https//my-rime.vercel.app/> |
+| ![438][gh_005_stars]<br>![46][gh_005_forks] | ![gh_005_commit] | [fcitx/fcitx5-rime][gh_005] | **RIME support for Fcitx**<br>Rime (中州韵) support for fcitx5 |
+| ![306][gh_010_stars]<br>![14][gh_010_forks] | ![gh_010_commit] | [gaboolic/moqi-im-windows][gh_010] | **墨奇输入法 Windows版**<br>墨奇输入法windows版。已接入librime（中州韵），内置白霜拼音。原生支持AI功能。托盘菜单支持主题替换、输入状态切换等功能。 |
+| ![285][gh_014_stars]<br>![55][gh_014_forks] | ![gh_014_commit] | [jimmy54/iRime][gh_014] | **iRime輸入法 注禁止代码原封不动打包上传到AppStore**<br>iRime |
 | ![151][gh_033_stars]<br>![6][gh_033_forks] | ![gh_033_commit] | [zhangjh/suyan-site][gh_033] | 素言输入法的官网&Issue问题收集仓库。<br> <https//suyan.zhangjh.cn> |
 | ![131][gh_008_stars]<br>![11][gh_008_forks] | ![gh_008_commit] | [FydeOS/fydeRhythm][gh_008] | **fydeRhythm（真文韵输入法）**<br>fydeRhythm (真文韵输入法) a redesigned CJK IME for FydeOS that also works on ChromeOS Flex and Chromebooks. |
-| ![118][gh_025_stars]<br>![10][gh_025_forks] | ![gh_025_commit] | [rimeinn/rabbit][gh_025] | ️玉兔毫由 AutoHotkey 实现的 Rime 输入法引擎前端 |
+| ![119][gh_025_stars]<br>![10][gh_025_forks] | ![gh_025_commit] | [rimeinn/rabbit][gh_025] | ️玉兔毫由 AutoHotkey 实现的 Rime 输入法引擎前端 |
+| ![93][gh_009_stars]<br>![10][gh_009_forks] | ![gh_009_commit] | [gaboolic/moqi-im-android][gh_009] | **墨奇输入法 Android版**<br>墨奇输入法android版 支持9键 26键 语音输入 全拼 双拼 五笔，支持rime多方案集下载、切换共存。 |
 | ![89][gh_003_stars]<br>![8][gh_003_forks] | ![gh_003_commit] | [fcitx-contrib/fcitx5-windows][gh_003] | Fcitx5 Windows edition, currently not working. 小企鹅输入法 Windows 还用不了 https//t.me/fcitx5windows |
-| ![86][gh_009_stars]<br>![10][gh_009_forks] | ![gh_009_commit] | [gaboolic/moqi-im-android][gh_009] | **墨奇输入法 Android版**<br>墨奇输入法android版 支持9键 26键 语音输入 全拼 双拼 五笔，支持rime多方案集下载、切换共存。 |
 | ![54][gh_012_stars]<br>![3][gh_012_forks] | ![gh_012_commit] | [hchunhui/ibus-rime.AppImage][gh_012] | 【Linux, iBus AppImage 格式安装包】 |
 | ![46][gh_016_stars]<br>![0][gh_016_forks] | ![gh_016_commit] | [levelel/outwit-project-index][gh_016] | **几维（Outwit）输入法是基于 Rime 引擎深度改造的跨平台输入法，是提供极致输入体验打造的下一代输入法提供独创的多段辅码、智能纠错功能，以及极易上手的主题定制和功能设置界面。**<br>Index page of Outwit project |
 | ![40][gh_026_stars]<br>![5][gh_026_forks] | ![gh_026_commit] | [rimeinn/rime.nvim][gh_026] | ㄓ rime for neovim <br> <https//rime-nvim.readthedocs.io/> |
 | ![36][gh_023_stars]<br>![2][gh_023_forks] | ![gh_023_commit] | [rimeinn/coc-rime][gh_023] | ㄓ Rime input method source for coc.nvim<br> <https//www.npmjs.com/package/coc-rime> |
-| ![28][gh_024_stars]<br>![3][gh_024_forks] | ![gh_024_commit] | [rimeinn/fcitx5-rime.js][gh_024] | Add Rime with any schema to your website. 为你的网站添加 Rime 和任意方案 |
-| ![12][gh_001_stars]<br>![1][gh_001_forks] | ![gh_001_commit] | [Cycatz/tmux-rime][gh_001] | [WIP] 🀄 A tmux plugin that lets you type CJK chars within terminal. |
+| ![29][gh_024_stars]<br>![4][gh_024_forks] | ![gh_024_commit] | [rimeinn/fcitx5-rime.js][gh_024] | Add Rime with any schema to your website. 为你的网站添加 Rime 和任意方案 |
+| ![13][gh_001_stars]<br>![1][gh_001_forks] | ![gh_001_commit] | [Cycatz/tmux-rime][gh_001] | [WIP] 🀄 A tmux plugin that lets you type CJK chars within terminal. |
 | ![3][gh_000_stars]<br>![1][gh_000_forks] | ![gh_000_commit] | [bczhc/rime-android][gh_000] | **RimeAndroid**<br>Rime distribution for Android, only for physical keyboards |
 | ![0][gh_032_stars]<br>![0][gh_032_forks] | ![gh_032_commit] | [xkinput/keytao-app][gh_032] | KeyTao(键道) App & IME 输入法与Rime扩展安装工具 |
 | ![650][gh_007_stars]<br>![23][gh_007_forks]<br>🎋 | ![gh_007_commit] | [fxliang/weasel][gh_007] | **小狼毫自用分支，不定期可能rebase reset force push**<br>【小狼毫】Rime for Windows<br> <https//rime.im> |
@@ -73,22 +73,22 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![19223][gh_045_stars]<br>![1175][gh_045_forks] | ![gh_045_commit] | [iDvel/rime-ice][gh_045] | Rime 配置雾凇拼音 / 长期维护的简体词库<br> <https//dvel.me/posts/rime-ice/> |
-| ![4905][gh_050_stars]<br>![316][gh_050_forks] | ![gh_050_commit] | [Mintimate/oh-my-rime][gh_050] | **一套快速初始化rime的模板方案，因为平时我使用`oh-my-zsh`，希望大家在用这个模板的时候，有种用`omz`的感觉；所以我给它取名叫`oh-my-rime`，你也可以叫它`薄荷输入法`，亦或者`Mint Input`。**<br>The Simple Config Template Of Rime By Mintimate.<br> <https//www.mintimate.cc> |
-| ![4531][gh_039_stars]<br>![171][gh_039_forks] | ![gh_039_commit] | [amzxyz/rime-wanxiang][gh_039] | **重塑 Rime 生态，带来极致的输入体验。**<br>「万象拼音」把算法留在幕后，把纯粹还给指尖，用更优质的数据，接管你的候选。<br> <https//amzxyz.github.io/rime-wanxiang/> |
-| ![3621][gh_043_stars]<br>![177][gh_043_forks] | ![gh_043_commit] | [gaboolic/rime-frost][gh_043] | 白霜拼音蒹葭苍苍，白露为霜。白霜拼音使用高质量语料，进行分词，重新统计字频、词频，归一化，打造纯净、词频准确、智能的词库。白霜词库是目前rime方案下最好的开源词库，经评测准确性已经不输于商业输入法。在墨奇输入法内置，欢迎使用。<br> <https//github.com/gaboolic/moqi-im-windows> |
-| ![3534][gh_054_stars]<br>![295][gh_054_forks] | ![gh_054_commit] | [ssnhd/rime][gh_054] | **Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解**<br>Rime Squirrel 鼠须管配置文件（朙月拼音、小鹤双拼、自然码双拼） |
-| ![2015][gh_042_stars]<br>![135][gh_042_forks] | ![gh_042_commit] | [fkxxyz/rime-cloverpinyin][gh_042] | **four_leaf_clover四叶草拼音输入方案**<br>️四叶草拼音输入方案，做最好用的基于rime开源的简体拼音输入方案！<br> <https//www.fkxxyz.com/d/cloverpinyin/> |
-| ![1643][gh_048_stars]<br>![322][gh_048_forks] | ![gh_048_commit] | [KyleBing/rime-wubi86-jidian][gh_048] | **该库是 Rime 输入法一个 86 版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux、iOS、Android）**<br>86五笔极点码表 for 鼠须管(macOS)、小狼毫(Windows)、中州韵(Ubuntu) 、仓（iOS）、同文（Android）五笔输入方案，五笔输入法，Rime 方案。Chinese wubi input method schema |
-| ![1516][gh_055_stars]<br>![149][gh_055_forks] | ![gh_055_commit] | [wongdean/rime-settings][gh_055] | **Rime 鼠须管输入法傻瓜式配置指南**<br>接近原生的鼠须管 Rime 配置 |
-| ![1118][gh_053_stars]<br>![101][gh_053_forks] | ![gh_053_commit] | [SivanLaai/rime-pure][gh_053] | ** rime-pure手机 / PC 一站式 Rime 输入法配置**<br>基于 Rime（小狼毫 / 同文）的极简、优雅、好用的中英文输入方案整合包。 包含四叶草九宫格拼音 / 四叶草拼音 / 小鹤双拼 / 极品五笔 / QQ五笔 / 徐码 / 郑码 等主流方案。<br> <http//blog.laais.cn/posts/projects/rime/info/> |
-| ![1047][gh_044_stars]<br>![69][gh_044_forks] | ![gh_044_commit] | [gaboolic/rime-shuangpin-fuzhuma][gh_044] | **说明**<br>墨奇音形，打造最强双拼辅助码rime输入方案，让天下双拼用户人人用得上辅助码。基于雾凇-白霜词库，支持小鹤双拼、自然码双拼、搜狗双拼、微软双拼等多种双拼，辅助码支持墨奇码（原创拆分开源支持十万字）、自然码部首辅、小鹤音形（鹤形辅）等，支持双拼和辅助码之间排列组合，支持整句/字词输入。不认识的字可以笔画、部件拆字、仓颉码反查。支持aw、aj模式输入英文、日文，支持双拼并击输入、emoji、快符、日期、大写数字、计算器等高级功能。雾凇鹤/雾凇自然/墨奇码/墨奇音形<br> <https//moqiyinxing.chunqiujinjing.com/index> |
-| ![458][gh_049_stars]<br>![38][gh_049_forks] | ![gh_049_commit] | [LufsX/rime][gh_049] | Rime（中州韵）全拼与双拼的自用配置方案 |
-| ![394][gh_040_stars]<br>![38][gh_040_forks] | ![gh_040_commit] | [Bambooin/rimerc][gh_040] | rimerc rimer's dictionary & config |
+| ![19339][gh_045_stars]<br>![1183][gh_045_forks] | ![gh_045_commit] | [iDvel/rime-ice][gh_045] | Rime 配置雾凇拼音 / 长期维护的简体词库<br> <https//dvel.me/posts/rime-ice/> |
+| ![4925][gh_050_stars]<br>![317][gh_050_forks] | ![gh_050_commit] | [Mintimate/oh-my-rime][gh_050] | **一套快速初始化rime的模板方案，因为平时我使用`oh-my-zsh`，希望大家在用这个模板的时候，有种用`omz`的感觉；所以我给它取名叫`oh-my-rime`，你也可以叫它`薄荷输入法`，亦或者`Mint Input`。**<br>The Simple Config Template Of Rime By Mintimate.<br> <https//www.mintimate.cc> |
+| ![4580][gh_039_stars]<br>![173][gh_039_forks] | ![gh_039_commit] | [amzxyz/rime-wanxiang][gh_039] | **重塑 Rime 生态，带来极致的输入体验。**<br>「万象拼音」把算法留在幕后，把纯粹还给指尖，用更优质的数据，接管你的候选。<br> <https//amzxyz.github.io/rime-wanxiang/> |
+| ![3641][gh_043_stars]<br>![177][gh_043_forks] | ![gh_043_commit] | [gaboolic/rime-frost][gh_043] | 白霜拼音蒹葭苍苍，白露为霜。白霜拼音使用高质量语料，进行分词，重新统计字频、词频，归一化，打造纯净、词频准确、智能的词库。白霜词库是目前rime方案下最好的开源词库，经评测准确性已经不输于商业输入法。在墨奇输入法内置，欢迎使用。<br> <https//github.com/gaboolic/moqi-im-windows> |
+| ![3537][gh_054_stars]<br>![296][gh_054_forks] | ![gh_054_commit] | [ssnhd/rime][gh_054] | **Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解**<br>Rime Squirrel 鼠须管配置文件（朙月拼音、小鹤双拼、自然码双拼） |
+| ![2014][gh_042_stars]<br>![135][gh_042_forks] | ![gh_042_commit] | [fkxxyz/rime-cloverpinyin][gh_042] | **four_leaf_clover四叶草拼音输入方案**<br>️四叶草拼音输入方案，做最好用的基于rime开源的简体拼音输入方案！<br> <https//www.fkxxyz.com/d/cloverpinyin/> |
+| ![1653][gh_048_stars]<br>![322][gh_048_forks] | ![gh_048_commit] | [KyleBing/rime-wubi86-jidian][gh_048] | **该库是 Rime 输入法一个 86 版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux、iOS、Android）**<br>86五笔极点码表 for 鼠须管(macOS)、小狼毫(Windows)、中州韵(Ubuntu) 、仓（iOS）、同文（Android）五笔输入方案，五笔输入法，Rime 方案。Chinese wubi input method schema |
+| ![1514][gh_055_stars]<br>![149][gh_055_forks] | ![gh_055_commit] | [wongdean/rime-settings][gh_055] | **Rime 鼠须管输入法傻瓜式配置指南**<br>接近原生的鼠须管 Rime 配置 |
+| ![1124][gh_053_stars]<br>![101][gh_053_forks] | ![gh_053_commit] | [SivanLaai/rime-pure][gh_053] | ** rime-pure手机 / PC 一站式 Rime 输入法配置**<br>基于 Rime（小狼毫 / 同文）的极简、优雅、好用的中英文输入方案整合包。 包含四叶草九宫格拼音 / 四叶草拼音 / 小鹤双拼 / 极品五笔 / QQ五笔 / 徐码 / 郑码 等主流方案。<br> <http//blog.laais.cn/posts/projects/rime/info/> |
+| ![1054][gh_044_stars]<br>![69][gh_044_forks] | ![gh_044_commit] | [gaboolic/rime-shuangpin-fuzhuma][gh_044] | **说明**<br>墨奇音形，打造最强双拼辅助码rime输入方案，让天下双拼用户人人用得上辅助码。基于雾凇-白霜词库，支持小鹤双拼、自然码双拼、搜狗双拼、微软双拼等多种双拼，辅助码支持墨奇码（原创拆分开源支持十万字）、自然码部首辅、小鹤音形（鹤形辅）等，支持双拼和辅助码之间排列组合，支持整句/字词输入。不认识的字可以笔画、部件拆字、仓颉码反查。支持aw、aj模式输入英文、日文，支持双拼并击输入、emoji、快符、日期、大写数字、计算器等高级功能。雾凇鹤/雾凇自然/墨奇码/墨奇音形<br> <https//moqiyinxing.chunqiujinjing.com/index> |
+| ![459][gh_049_stars]<br>![38][gh_049_forks] | ![gh_049_commit] | [LufsX/rime][gh_049] | Rime（中州韵）全拼与双拼的自用配置方案 |
+| ![393][gh_040_stars]<br>![38][gh_040_forks] | ![gh_040_commit] | [Bambooin/rimerc][gh_040] | rimerc rimer's dictionary & config |
 | ![376][gh_041_stars]<br>![38][gh_041_forks] | ![gh_041_commit] | [boomker/rime-fast-xhup][gh_041] | **Rime 输入法双拼加辅助码方案**<br>基于小鹤双拼加鹤形辅助码的 Rime 配置方案，内附多种特色功能词条置顶，强制删词，隐藏词条，词条降频，手动造词(中英)，全码唯一自动顶词上屏(单字和部分词)， 长词优先(成语短语简拼)，英文大小写多格式输入，中英自动加空格，上屏历史回溯，快捷启动与切换App应用，多格式日期星期时间输入，长期更新 800W 词库 |
-| ![365][gh_052_stars]<br>![25][gh_052_forks] | ![gh_052_commit] | [scukeqi/Wisdom-Weasel][gh_052] | 引入LLM增强输入体验的小狼毫输入法 / LLM-powered IME for Chinese text completion |
-| ![330][gh_051_stars]<br>![39][gh_051_forks] | ![gh_051_commit] | [rimeinn/rime-moran][gh_051] | **方案維護**<br>【魔然】自然碼 雙拼 + 輔助碼 Rime 配置 / 自然码 双拼 + 辅助码 Rime 配置<br> <https//moran.rimeinn.org> |
-| ![259][gh_046_stars]<br>![43][gh_046_forks] | ![gh_046_commit] | [Iorest/rime-setting][gh_046] | ** Rime Setting - 极致输入体验配置**<br>rime 输入法配置<br> <https//iorest.github.io/rime-setting> |
+| ![367][gh_052_stars]<br>![26][gh_052_forks] | ![gh_052_commit] | [scukeqi/Wisdom-Weasel][gh_052] | 引入LLM增强输入体验的小狼毫输入法 / LLM-powered IME for Chinese text completion |
+| ![332][gh_051_stars]<br>![39][gh_051_forks] | ![gh_051_commit] | [rimeinn/rime-moran][gh_051] | **方案維護**<br>【魔然】自然碼 雙拼 + 輔助碼 Rime 配置 / 自然码 双拼 + 辅助码 Rime 配置<br> <https//moran.rimeinn.org> |
+| ![261][gh_046_stars]<br>![43][gh_046_forks] | ![gh_046_commit] | [Iorest/rime-setting][gh_046] | ** Rime Setting - 极致输入体验配置**<br>rime 输入法配置<br> <https//iorest.github.io/rime-setting> |
 | ![112][gh_047_stars]<br>![11][gh_047_forks] | ![gh_047_commit] | [jacobax/trime-config][gh_047] | Make it easy to get ready for Rime! |
 | ![422][gh_056_stars]<br>![0][gh_056_forks] | ![gh_056_commit]<br>🗃️ | [scomper/Rime][gh_056] | 鼠须管配置 |
 
@@ -98,18 +98,18 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | --- | --- | --- | --- |
 | ![166][gh_095_stars]<br>![30][gh_095_forks] | ![gh_095_commit] | [placeless/squirrel_config][gh_095] | **安装**<br>Rime 鼠须管小鹤双拼配置 |
 | ![147][gh_060_stars]<br>![13][gh_060_forks] | ![gh_060_commit] | [ASC8384/myRime][gh_060] | 我的 Rime 配置，适用于朙月拼音／小鹤双拼／小狼毫 ／ibus / MacOS |
-| ![131][gh_065_stars]<br>![18][gh_065_forks] | ![gh_065_commit] | [chwt163/mytrime][gh_065] | **上下滑均可输出小字符号**<br>我的 rime 配置文件 & trime 同文输入法主题 |
+| ![130][gh_065_stars]<br>![19][gh_065_forks] | ![gh_065_commit] | [chwt163/mytrime][gh_065] | **上下滑均可输出小字符号**<br>我的 rime 配置文件 & trime 同文输入法主题 |
 | ![117][gh_111_stars]<br>![24][gh_111_forks] | ![gh_111_commit] | [vgist/RimeFiles][gh_111] | **Rime 配置**<br>Rime 词库及配置<br> <https//repo.or.cz/RimeFiles.git> |
-| ![114][gh_100_stars]<br>![8][gh_100_forks] | ![gh_100_commit] | [riverscn/rime-forge][gh_100] | 文正坊 - 中州韵 Rime 输入法私房菜 |
+| ![116][gh_100_stars]<br>![8][gh_100_forks] | ![gh_100_commit] | [riverscn/rime-forge][gh_100] | 文正坊 - 中州韵 Rime 输入法私房菜 |
 | ![105][gh_074_stars]<br>![8][gh_074_forks] | ![gh_074_commit] | [forfudan/yuhao-ime-release][gh_074] | **方案下載GitHub 發佈頁 ·**<br>宇浩繁简通打输入法·全汉字覆盖·四重注解·臺灣字形支持<br> <https//shurufa.app> |
-| ![105][gh_092_stars]<br>![7][gh_092_forks] | ![gh_092_commit] | [Lucius-Wang/rime-config][gh_092] | **词库安装使用步骤**<br>提供MacOS下Rime配置，支持中英文混合输入、最大化还原Mac原生输入法样式 |
+| ![105][gh_092_stars]<br>![8][gh_092_forks] | ![gh_092_commit] | [Lucius-Wang/rime-config][gh_092] | **词库安装使用步骤**<br>提供MacOS下Rime配置，支持中英文混合输入、最大化还原Mac原生输入法样式 |
 | ![79][gh_096_stars]<br>![8][gh_096_forks] | ![gh_096_commit] | [Ponpon55837/Squirrel][gh_096] | **Mac鼠鬚管洋蔥純注音安裝跟編輯**<br>鼠鬚管洋蔥純注音版簡化安裝與外觀設計 |
-| ![75][gh_101_stars]<br>![1][gh_101_forks] | ![gh_101_commit] | [rwerplus/rime][gh_101] | Rime（中州韵）集成小鹤音形、飞鹤快拼、小鹤双拼（包含繁體）、小鹤音形连打、虎码、等支持<br> <https//lu-mk-docs.vercel.app/develop/我的Rime 配置.html> |
+| ![76][gh_101_stars]<br>![1][gh_101_forks] | ![gh_101_commit] | [rwerplus/rime][gh_101] | Rime（中州韵）集成小鹤音形、飞鹤快拼、小鹤双拼（包含繁體）、小鹤音形连打、虎码、等支持<br> <https//lu-mk-docs.vercel.app/develop/我的Rime 配置.html> |
 | ![62][gh_084_stars]<br>![8][gh_084_forks] | ![gh_084_commit] | [JACKCHAN000/Rime-Quick5-Setup][gh_084] | RIME 速成輸入法配置整合 for Windows小狼毫 功能速成連打、廣東話詞庫、中英混輸、顏文字、Lua腳本 |
 | ![56][gh_080_stars]<br>![17][gh_080_forks] | ![gh_080_commit] | [huangyz0918/Rime][gh_080] | **Rime 鼠须管配置**<br>Rime config of squirrel input method. |
 | ![51][gh_069_stars]<br>![7][gh_069_forks] | ![gh_069_commit] | [DreamAfar/Rime-IME-for-iOS-iRime][gh_069] | 这是个人的使用的iRime仓库，主要用于记录 iRime輸入法- 基于Rime输入法框架开发的iOS端Rime输入法 |
 | ![47][gh_072_stars]<br>![0][gh_072_forks] | ![gh_072_commit] | [expoli/rime-config][gh_072] | **Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解**<br>Rime 、小狼毫、配置文件（朙月拼音、小鹤双拼、自然码双拼、五笔） |
-| ![41][gh_119_stars]<br>![3][gh_119_forks] | ![gh_119_commit] | [zhhwux/wxzhh][gh_119] | **万象虎输入方案**<br>万象虎码整句方案 |
+| ![42][gh_119_stars]<br>![3][gh_119_forks] | ![gh_119_commit] | [zhhwux/wxzhh][gh_119] | **万象虎输入方案**<br>万象虎码整句方案 |
 | ![36][gh_114_stars]<br>![11][gh_114_forks] | ![gh_114_commit] | [wzyboy/rime_config][gh_114] | Rime config for Trime (Android)<br> <https//wzyboy.im/post/1251.html> |
 | ![36][gh_113_stars]<br>![8][gh_113_forks] | ![gh_113_commit] | [WithdewHua/rime-configuration][gh_113] | **Rime Configuraion**<br>自用 Rime 配置<br> <https//www.10101.io/2019/01/30/rime-configuration/> |
 | ![35][gh_075_stars]<br>![1][gh_075_forks] | ![gh_075_commit] | [fxliang/weasel_config][gh_075] | my weasel configs |
@@ -161,7 +161,7 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![37][gh_090_stars]<br>![1][gh_090_forks]<br>🎋 | ![gh_090_commit] | [lewangdev/rime-ice][gh_090] | Rime 配置雾凇拼音 / 长期维护的简体词库<br> <https//dvel.me/posts/rime-ice/> |
 | ![0][gh_078_stars]<br>![0][gh_078_forks]<br>🎋 | ![gh_078_commit] | [ha-pin/rime-cloverpinyin][gh_078] | **four_leaf_clover四叶草哈汉混合输入方案**<br>️四叶草哈汉混合输入方案 |
 | ![183][gh_121_stars]<br>![0][gh_121_forks] | ![gh_121_commit]<br>🗃️ | [alswl/Rime][gh_121] | Rime configuration for Squirrel (macOS) & fcitx-rime (Linux) |
-| ![3][gh_122_stars]<br>![0][gh_122_forks] | ![gh_122_commit] | [kitty-panics/ConL-IME][gh_122] | [IME] 基于 RIME 开发的开箱即用、简便和跨平台的人造语言输入法 (work out of the box, easy to use and cross-platform conlang IME) |
+| ![4][gh_122_stars]<br>![0][gh_122_forks] | ![gh_122_commit] | [kitty-panics/ConL-IME][gh_122] | [IME] 基于 RIME 开发的开箱即用、简便和跨平台的人造语言输入法 (work out of the box, easy to use and cross-platform conlang IME) |
 | ![1][gh_123_stars]<br>![0][gh_123_forks] | ![gh_123_commit]<br>🗃️ | [tinywaves/rime-config][gh_123] | **Rime 输入法配置**<br>Lyle's RIME config. |
 |  | 📝 | [www.52pojie.cn/forum.php?mod=viewthread&tid=2075827](https://www.52pojie.cn/forum.php?mod=viewthread&tid=2075827) | 【[Windows] rime小狼毫雾凇拼音白露拼音懒人包】 |
 |  | 📝 | [lotem/squirrel.custom.yaml](https://gist.github.com/lotem/2290714) | 【【鼠鬚管】定製檔】 |
@@ -172,7 +172,7 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![1867][gh_126_stars]<br>![46][gh_126_forks] | ![gh_126_commit] | [amzxyz/RIME-LMDG][gh_126] | **重磅发布基于32GB超大规模语料的RIME中文语法模型与词库构建**<br>简繁扩展词库/声调编码/最全声调标注工具链/万象更新工具链/Rime语法模型LMDG - Language, Model, Dictionary, Grammar。没错这里是万象拼音的“罗马帝国”!<br> <https//amzxyz.github.io/rime-wanxiang/> |
+| ![1882][gh_126_stars]<br>![46][gh_126_forks] | ![gh_126_commit] | [amzxyz/RIME-LMDG][gh_126] | **重磅发布基于32GB超大规模语料的RIME中文语法模型与词库构建**<br>简繁扩展词库/声调编码/最全声调标注工具链/万象更新工具链/Rime语法模型LMDG - Language, Model, Dictionary, Grammar。没错这里是万象拼音的“罗马帝国”!<br> <https//amzxyz.github.io/rime-wanxiang/> |
 | ![597][gh_136_stars]<br>![47][gh_136_forks] | ![gh_136_commit] | [rime-aca/dictionaries][gh_136] | **Rime 擴充詞庫**<br>Rime詞庫<br> <https//bintray.com/rime-aca/dictionaries/luna_pinyin.dict/> |
 | ![502][gh_132_stars]<br>![57][gh_132_forks] | ![gh_132_commit] | [Iorest/rime-dict][gh_132] | **Rime 增强词库集合 (Extended Dictionary)**<br>RIME 词库增强<br> <https//iorest.github.io/rime-dict/> |
 | ![228][gh_131_stars]<br>![10][gh_131_forks] | ![gh_131_commit] | [Chernfalin/SuperRimeDict][gh_131] | SuperRime拓展词库 for 朙月拼音&Win10拼音版(700万词-含BetterRime) |
@@ -183,8 +183,8 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![39][gh_124_stars]<br>![5][gh_124_forks] | ![gh_124_commit] | [15cm/rime-sogou-dictionaries][gh_124] | **Introduction**<br>Rime 朙月拼音方案的扩充搜狗词库 |
 | ![26][gh_139_stars]<br>![3][gh_139_forks] | ![gh_139_commit] | [rime/rime-essay-simp][gh_139] | 简化字八股文 |
 | ![17][gh_127_stars]<br>![3][gh_127_forks] | ![gh_127_commit] | [appleshan/fcitx5-rime-dict][gh_127] | **雾凇拼音** |
+| ![11][gh_134_stars]<br>![0][gh_134_forks] | ![gh_134_commit] | [Kimiblock/rime-minecraft-dict][gh_134] | Minecraft dict for Rime<br> <https//blog.kimiblock.top/2023/08/18/Minecraft-for-Rime-持续维护的-Minecraft-词库/#背景> |
 | ![9][gh_137_stars]<br>![1][gh_137_forks] | ![gh_137_commit] | [rime/rime-custom][gh_137] | Rime 自定義配置 |
-| ![9][gh_134_stars]<br>![0][gh_134_forks] | ![gh_134_commit] | [Kimiblock/rime-minecraft-dict][gh_134] | Minecraft dict for Rime<br> <https//blog.kimiblock.top/2023/08/18/Minecraft-for-Rime-持续维护的-Minecraft-词库/#背景> |
 | ![8][gh_128_stars]<br>![0][gh_128_forks] | ![gh_128_commit] | [bdim404/rime-dictionaries][gh_128] | Bdim's personal rime dictionaries repo. |
 | ![5][gh_125_stars]<br>![0][gh_125_forks] | ![gh_125_commit] | [alswl/rime-selected][gh_125] | Rime 精选词库 |
 | ![2][gh_140_stars]<br>![4][gh_140_forks] | ![gh_140_commit] | [satifanie/rime-dict][gh_140] | **RIME输入法自用词库**<br>RIME输入法(拼音)自用词库(包含英语，基础，维基，搜狗等词库)，词频基于腾讯AI向量词库逆序生成。 |
@@ -200,9 +200,9 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![10315][gh_155_stars]<br>![708][gh_155_forks] | ![gh_155_commit] | [studyzy/imewlconverter][gh_155] | **一款输入法词库转换软件，支持以下超过 20 种的输入法工具和词库**<br>”深蓝词库转换“ 一款开源免费的输入法词库转换程序 |
+| ![10332][gh_155_stars]<br>![712][gh_155_forks] | ![gh_155_commit] | [studyzy/imewlconverter][gh_155] | **一款输入法词库转换软件，支持以下超过 20 种的输入法工具和词库**<br>”深蓝词库转换“ 一款开源免费的输入法词库转换程序 |
 | ![236][gh_151_stars]<br>![31][gh_151_forks] | ![gh_151_commit] | [lewangdev/scel2txt][gh_151] | 搜狗细胞词库转鼠须管（Rime）词库 |
-| ![176][gh_153_stars]<br>![13][gh_153_forks] | ![gh_153_commit] | [nopdan/rose][gh_153] | **多种输入法词库格式互相转换，支持拼音、五笔、纯词组。**<br>输入法用户词库转换工具 / Input Method User Dictionary Converter. |
+| ![176][gh_153_stars]<br>![14][gh_153_forks] | ![gh_153_commit] | [nopdan/rose][gh_153] | **多种输入法词库格式互相转换，支持拼音、五笔、纯词组。**<br>输入法用户词库转换工具 / Input Method User Dictionary Converter. |
 | ![22][gh_157_stars]<br>![1][gh_157_forks] | ![gh_157_commit] | [velviagris/rime_to_gboard][gh_157] | 将 Rime userdb.txt 转换为 Gboard PersonalDictionary.zip 格式, 便于将词库导入 Gboard. |
 | ![8][gh_149_stars]<br>![2][gh_149_forks] | ![gh_149_commit] | [crazywhalecc/rime-dict-creator][gh_149] | 一个简单的可以快速根据纯文本创建 Rime 输入法词库的转换脚本 |
 | ![3][gh_147_stars]<br>![0][gh_147_forks] | ![gh_147_commit] | [bryan824/scel2rime][gh_147] | **Usage**<br>A tool to convert sogou scel file into rime yaml file. |
@@ -210,27 +210,27 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![1][gh_152_stars]<br>![0][gh_152_forks] | ![gh_152_commit] | [nk2028/rime-utils-python][gh_152] | Utilities for parsing Rime dictionaries<br> <https//pypi.org/project/rime-utils/> |
 | ![1][gh_148_stars]<br>![0][gh_148_forks] | ![gh_148_commit] | [Cassius0924/Scel2Rime][gh_148] | **搜狗拼音和QQ拼音的词库解析Sogou Dictionary Analysis**<br>自动下载词库并转成yaml格式，自动部署Rime |
 | ![0][gh_150_stars]<br>![0][gh_150_forks] | ![gh_150_commit] | [kenchou/rime-dict-utils][gh_150] | Utilities for Rime Dictionary File. |
-| ![442][gh_154_stars]<br>![7][gh_154_forks]<br>🎋 | ![gh_154_commit] | [outloudvi/mw2fcitx][gh_154] | Fcitx 5 pinyin dictionary generator for MediaWiki instances. (Releases for dict of zh.moegirl.org.cn / Check release list for latest releases) |
+| ![443][gh_154_stars]<br>![7][gh_154_forks]<br>🎋 | ![gh_154_commit] | [outloudvi/mw2fcitx][gh_154] | Fcitx 5 pinyin dictionary generator for MediaWiki instances. (Releases for dict of zh.moegirl.org.cn / Check release list for latest releases) |
 | ![1][gh_158_stars]<br>![1][gh_158_forks]<br>🎋 | ![gh_158_commit] | [whitewatercn/rimetool][gh_158] | **Rimetools**<br>一些rime使用工具<br> <https//pypi.org/project/rimetool> |
 
 ### 配置管理扩展工具
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![1913][gh_185_stars]<br>![171][gh_185_forks] | ![gh_185_commit] | [rime/plum][gh_185] | 東風破 /plum/ Rime configuration manager and input schema repository |
+| ![1927][gh_185_stars]<br>![171][gh_185_forks] | ![gh_185_commit] | [rime/plum][gh_185] | 東風破 /plum/ Rime configuration manager and input schema repository |
 | ![377][gh_189_stars]<br>![5][gh_189_forks] | ![gh_189_commit] | [yanhuacuo/rimetool][gh_189] | 中州韵助手（重构版） |
-| ![314][gh_172_stars]<br>![39][gh_172_forks] | ![gh_172_commit] | [KyleBing/wubi-dict-editor][gh_172] | **一个管理 Rime 五笔词库的工具**<br>五笔码表助手 for Rime ( Windows、macOS、Ubuntu ) 基于 electron |
+| ![316][gh_172_stars]<br>![40][gh_172_forks] | ![gh_172_commit] | [KyleBing/wubi-dict-editor][gh_172] | **一个管理 Rime 五笔词库的工具**<br>五笔码表助手 for Rime ( Windows、macOS、Ubuntu ) 基于 electron |
 | ![309][gh_188_stars]<br>![19][gh_188_forks] | ![gh_188_commit] | [wlh320/rime-ls][gh_188] | A language server that provides input method functionality using librime 通过 LSP 代码补全使用 Rime 输入法 |
 | ![167][gh_184_stars]<br>![11][gh_184_forks] | ![gh_184_commit] | [qzly/RimeControl][gh_184] | 【小狼毫 Weasel的基本配置工具（Windows）】 |
-| ![110][gh_169_stars]<br>![20][gh_169_forks] | ![gh_169_commit] | [HowcanoeWang/rime-lua-aux-code][gh_169] | RIME输入法辅助码音形分离插件 |
-| ![78][gh_161_stars]<br>![2][gh_161_forks] | ![gh_161_commit] | [ca-x/rime-wanxiang-updater][gh_161] | **Rime 万象输入法更新工具**<br>一个基于go的万象输入法更新和部署器 |
+| ![111][gh_169_stars]<br>![20][gh_169_forks] | ![gh_169_commit] | [HowcanoeWang/rime-lua-aux-code][gh_169] | RIME输入法辅助码音形分离插件 |
+| ![79][gh_161_stars]<br>![2][gh_161_forks] | ![gh_161_commit] | [ca-x/rime-wanxiang-updater][gh_161] | **Rime 万象输入法更新工具**<br>一个基于go的万象输入法更新和部署器 |
 | ![77][gh_160_stars]<br>![4][gh_160_forks] | ![gh_160_commit] | [BlindingDark/rime-lua-select-character][gh_160] | Rime / 以词定字 |
 | ![74][gh_166_stars]<br>![18][gh_166_forks] | ![gh_166_commit] | [emacs-rime/liberime][gh_166] | A emacs dynamic module provide librime bindings for emacs |
-| ![53][gh_182_stars]<br>![1][gh_182_forks] | ![gh_182_commit] | [neolee/sct][gh_182] | **Squirrel Configuration Tool (SCT)**<br>A native macOS GUI application for configuring the Squirrel input method |
+| ![53][gh_182_stars]<br>![2][gh_182_forks] | ![gh_182_commit] | [neolee/sct][gh_182] | **Squirrel Configuration Tool (SCT)**<br>A native macOS GUI application for configuring the Squirrel input method |
 | ![47][gh_187_stars]<br>![7][gh_187_forks] | ![gh_187_commit] | [tuberry/ibus-tweaker][gh_187] | GNOME Shell extension to tweak IBus font, input mode, clipboard history, etc. |
 | ![44][gh_171_stars]<br>![5][gh_171_forks] | ![gh_171_commit] | [JACKCHAN000/Rime-Lua-GoogleTranslate][gh_171] | GoogleTranslate Lua Plug-in in Rime輸入法 |
+| ![38][gh_162_stars]<br>![4][gh_162_forks] | ![gh_162_commit] | [ca-x/snout][gh_162] | Rime 输入法初始化与更新工具 - 支持万象/雾凇/白霜/薄荷方案 |
 | ![35][gh_177_stars]<br>![1][gh_177_forks] | ![gh_177_commit] | [MapoMagpie/rimedm][gh_177] | **Rime Dict Manager**<br>非常轻松地维护你的Rime码表 |
-| ![34][gh_162_stars]<br>![2][gh_162_forks] | ![gh_162_commit] | [ca-x/snout][gh_162] | Rime 输入法初始化与更新工具 - 支持万象/雾凇/白霜/薄荷方案 |
 | ![23][gh_179_stars]<br>![2][gh_179_forks] | ![gh_179_commit] | [mengqi92/Rimebow][gh_179] | **元宝 Rimebow**<br>A Rime configuration assistant sit in VS Code to make life easier. |
 | ![21][gh_170_stars]<br>![12][gh_170_forks] | ![gh_170_commit] | [imfuxiao/HamsterInputSchemas][gh_170] | rime 输入方案整理 |
 | ![20][gh_180_stars]<br>![1][gh_180_forks] | ![gh_180_commit] | [Mintimate/oh-my-rime-cli][gh_180] | oh-my-rime-cli 是一个用于 Rime 输入法更新和管理薄荷配置的命令行工具，支持多平台（Windows、macOS、Linux）️，方便用户快速操作和定制 Rime 输入法环境 |
@@ -258,16 +258,16 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![718][gh_200_stars]<br>![24][gh_200_forks] | ![gh_200_commit] | [hosxy/Fcitx5-Material-Color][gh_200] | 一款使用Material Design 配色的 fcitx5 皮肤，喜欢的话给个 star 吧 ヾ(≧へ≦)〃 |
-| ![653][gh_213_stars]<br>![31][gh_213_forks] | ![gh_213_commit] | [thep0y/fcitx5-themes-candlelight][gh_213] | fcitx5的简约风格皮肤——烛光。 |
-| ![301][gh_207_stars]<br>![3][gh_207_forks] | ![gh_207_commit] | [Reverier-Xu/Fluent-fcitx5][gh_207] | **Fluent theme for Fcitx5**<br>A Fluent-Design theme with blur effect and shadow for fcitx5. |
+| ![720][gh_200_stars]<br>![24][gh_200_forks] | ![gh_200_commit] | [hosxy/Fcitx5-Material-Color][gh_200] | 一款使用Material Design 配色的 fcitx5 皮肤，喜欢的话给个 star 吧 ヾ(≧へ≦)〃 |
+| ![656][gh_213_stars]<br>![32][gh_213_forks] | ![gh_213_commit] | [thep0y/fcitx5-themes-candlelight][gh_213] | fcitx5的简约风格皮肤——烛光。 |
+| ![300][gh_207_stars]<br>![3][gh_207_forks] | ![gh_207_commit] | [Reverier-Xu/Fluent-fcitx5][gh_207] | **Fluent theme for Fcitx5**<br>A Fluent-Design theme with blur effect and shadow for fcitx5. |
 | ![241][gh_211_stars]<br>![24][gh_211_forks] | ![gh_211_commit] | [sxqsfun/fcitx5-sogou-themes][gh_211] | 几款 极简风 搜狗皮肤转换的 fcitx5主题️️️ |
-| ![202][gh_214_stars]<br>![17][gh_214_forks] | ![gh_214_commit] | [tonyfettes/fcitx5-nord][gh_214] | Fcitx5 theme based on Nord color. |
+| ![204][gh_214_stars]<br>![17][gh_214_forks] | ![gh_214_commit] | [tonyfettes/fcitx5-nord][gh_214] | Fcitx5 theme based on Nord color. |
 | ![131][gh_201_stars]<br>![17][gh_201_forks] | ![gh_201_commit] | [hrko/fcitx-skin-material][gh_201] | A Material Design-like skin for Fcitx. |
-| ![124][gh_208_stars]<br>![7][gh_208_forks] | ![gh_208_commit] | [Reverier-Xu/Ori-fcitx5][gh_208] | **Ori theme for Fcitx5**<br>A simple theme with round corners for fcitx5. |
-| ![68][gh_203_stars]<br>![5][gh_203_forks] | ![gh_203_commit] | [Mintimate/RimeTheme][gh_203] | **Rime Theme**<br>The Theme Of Rime. |
+| ![128][gh_208_stars]<br>![8][gh_208_forks] | ![gh_208_commit] | [Reverier-Xu/Ori-fcitx5][gh_208] | **Ori theme for Fcitx5**<br>A simple theme with round corners for fcitx5. |
+| ![69][gh_203_stars]<br>![5][gh_203_forks] | ![gh_203_commit] | [Mintimate/RimeTheme][gh_203] | **Rime Theme**<br>The Theme Of Rime. |
 | ![66][gh_202_stars]<br>![11][gh_202_forks] | ![gh_202_commit] | [luozikuan/kongshan-suying][gh_202] | **「空山素影」皮肤特点**<br>一款元书输入法皮肤 |
-| ![59][gh_206_stars]<br>![2][gh_206_forks] | ![gh_206_commit] | [puddinging/rime-skin][gh_206] | **Rime 鼠须管（Squirrel）皮肤效果**<br>Rime 鼠须管输入法皮肤效果展示 |
+| ![60][gh_206_stars]<br>![2][gh_206_forks] | ![gh_206_commit] | [puddinging/rime-skin][gh_206] | **Rime 鼠须管（Squirrel）皮肤效果**<br>Rime 鼠须管输入法皮肤效果展示 |
 | ![51][gh_194_stars]<br>![0][gh_194_forks] | ![gh_194_commit] | [catppuccin/squirrel][gh_194] | **Previews**<br> Soothing pastel theme for Squirrel (Rime for MacOS) |
 | ![30][gh_204_stars]<br>![4][gh_204_forks] | ![gh_204_commit] | [nobodysclown/rime-wechat-keyboard][gh_204] | 微信键盘风格 RIME 配色 |
 | ![24][gh_215_stars]<br>![3][gh_215_forks] | ![gh_215_commit] | [Vrchz/Psionics-Remix][gh_215] | Psionics theme for fcitx5 |
@@ -304,7 +304,7 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![235][gh_231_stars]<br>![6][gh_231_forks] | ![gh_231_commit] | [LEOYoon-Tsaw/Squirrel-Designer][gh_231] | **Preview Squirrel color scheme**<br>Squirrel Theme Simulator |
+| ![236][gh_231_stars]<br>![6][gh_231_forks] | ![gh_231_commit] | [LEOYoon-Tsaw/Squirrel-Designer][gh_231] | **Preview Squirrel color scheme**<br>Squirrel Theme Simulator |
 | ![50][gh_234_stars]<br>![1][gh_234_forks] | ![gh_234_commit] | [rxhaol/easy-configs-rime][gh_234] | 小狼毫输入法设置 |
 | ![15][gh_230_stars]<br>![5][gh_230_forks] | ![gh_230_commit] | [fxliang/RimeSeeMe][gh_230] | fork自 https//github.com/nb5p/Rime-See-Me，增加细节功能，预览功能 |
 | ![11][gh_233_stars]<br>![1][gh_233_forks] | ![gh_233_commit] | [owlzou/weasel-theme-editor][gh_233] | 【小狼毫主题编辑器（Web）】 <https//owlzou.github.io/weasel-theme-editor/> |
@@ -321,20 +321,20 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![473][gh_269_stars]<br>![93][gh_269_forks] | ![gh_269_commit] | [rime/rime-double-pinyin][gh_269] | 雙拼輸入方案 |
-| ![325][gh_263_stars]<br>![27][gh_263_forks] | ![gh_263_commit] | [oniondelta/Onion_Rime_Files][gh_263] | 電腦 Rime 洋蔥方案（注音、雙拼、拼音） |
-| ![283][gh_270_stars]<br>![43][gh_270_forks] | ![gh_270_commit] | [rime/rime-luna-pinyin][gh_270] | 【朙月拼音】輸入方案 |
-| ![182][gh_271_stars]<br>![47][gh_271_forks] | ![gh_271_commit] | [rime/rime-pinyin-simp][gh_271] | **袖珍简化字拼音**<br>【袖珍簡化字拼音】輸入方案 |
+| ![475][gh_269_stars]<br>![93][gh_269_forks] | ![gh_269_commit] | [rime/rime-double-pinyin][gh_269] | 雙拼輸入方案 |
+| ![326][gh_263_stars]<br>![27][gh_263_forks] | ![gh_263_commit] | [oniondelta/Onion_Rime_Files][gh_263] | 電腦 Rime 洋蔥方案（注音、雙拼、拼音） |
+| ![284][gh_270_stars]<br>![43][gh_270_forks] | ![gh_270_commit] | [rime/rime-luna-pinyin][gh_270] | 【朙月拼音】輸入方案 |
+| ![183][gh_271_stars]<br>![47][gh_271_forks] | ![gh_271_commit] | [rime/rime-pinyin-simp][gh_271] | **袖珍简化字拼音**<br>【袖珍簡化字拼音】輸入方案 |
 | ![175][gh_249_stars]<br>![25][gh_249_forks] | ![gh_249_commit] | [functoreality/rime-flypy-zrmfast][gh_249] | **Rime 输入法双拼加辅助码方案**<br>打字不翻页——Rime 输入法 双拼+辅助码方案 |
-| ![165][gh_273_stars]<br>![32][gh_273_forks] | ![gh_273_commit] | [rime/rime-terra-pinyin][gh_273] | 【地球拼音】輸入方案 |
+| ![165][gh_273_stars]<br>![31][gh_273_forks] | ![gh_273_commit] | [rime/rime-terra-pinyin][gh_273] | 【地球拼音】輸入方案 |
 | ![98][gh_255_stars]<br>![4][gh_255_forks] | ![gh_255_commit] | [imper0502/rime-double-bopomo][gh_255] | **雙碼注音輸入法**<br>Double bopomo(ẑù-yīn), A Chinese Input Method for Taiwanese, ẑù-yīn users.雙碼注音，給注音使用者的雙拼輸入法。不需要額外學習漢語拼音。如果覺得不錯請幫我多多推廣宣傳。（繁體、中文、雙拼、輸入法、臺灣、正體） |
 | ![69][gh_254_stars]<br>![2][gh_254_forks] | ![gh_254_commit] | [hosxy/rime-aurora-pinyin][gh_254] | 【极光拼音】输入方案 |
-| ![59][gh_240_stars]<br>![2][gh_240_forks] | ![gh_240_commit] | [andy0130tw/iridium-bpmf][gh_240] | **Iridium-Bopomofo**<br>銥 [Ir] 注音 — (又是一個) 基於 RIME、參酌其它注音輸入法習慣、符合臺灣使用習慣為規準的注音輸入方案。 |
+| ![60][gh_240_stars]<br>![3][gh_240_forks] | ![gh_240_commit] | [andy0130tw/iridium-bpmf][gh_240] | **Iridium-Bopomofo**<br>銥 [Ir] 注音 — (又是一個) 基於 RIME、參酌其它注音輸入法習慣、符合臺灣使用習慣為規準的注音輸入方案。 |
 | ![58][gh_268_stars]<br>![16][gh_268_forks] | ![gh_268_commit] | [rime/rime-combo-pinyin][gh_268] | 【宮保拼音】輸入方案 |
-| ![55][gh_274_stars]<br>![8][gh_274_forks] | ![gh_274_commit] | [rimeinn/rime-snow-pinyin][gh_274] | 【冰雪拼音】输入方案 |
+| ![56][gh_274_stars]<br>![8][gh_274_forks] | ![gh_274_commit] | [rimeinn/rime-snow-pinyin][gh_274] | 【冰雪拼音】输入方案 |
 | ![53][gh_267_stars]<br>![8][gh_267_forks] | ![gh_267_commit] | [rime/rime-bopomofo][gh_267] | 注音輸入方案 |
 | ![52][gh_262_stars]<br>![3][gh_262_forks] | ![gh_262_commit] | [nk2028/rime-tupa][gh_262] | Rime TUPA input schema / rime 切韻拼音輸入方案 |
-| ![45][gh_264_stars]<br>![4][gh_264_forks] | ![gh_264_commit] | [oniondelta/Onion_Trime_Files][gh_264] | 手機同文輸入法 Trime 洋蔥方案（注音、雙拼、形碼） |
+| ![44][gh_264_stars]<br>![4][gh_264_forks] | ![gh_264_commit] | [oniondelta/Onion_Trime_Files][gh_264] | 手機同文輸入法 Trime 洋蔥方案（注音、雙拼、形碼） |
 | ![25][gh_261_stars]<br>![9][gh_261_forks] | ![gh_261_commit] | [maojunxyz/flypy-linux][gh_261] | flypy(小鹤双拼）hooked under fcitx-rime、ibus-rime、yong(小小输入法） Input Tool. |
 | ![23][gh_266_stars]<br>![4][gh_266_forks] | ![gh_266_commit] | [Papnas/shupin][gh_266] | **RIME输入法——蜀拼** |
 | ![15][gh_277_stars]<br>![1][gh_277_forks] | ![gh_277_commit] | [sunsun8170/Onion-Rime-Bopomo-Revised][gh_277] | **洋蔥純注音增強版與洋蔥Plus輕量版方案**<br>電腦 Rime 洋蔥方案純注音增強版 與 Plus 輕量版 |
@@ -387,22 +387,22 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![340][gh_338_stars]<br>![94][gh_338_forks] | ![gh_338_commit] | [rime/rime-wubi][gh_338] | 【五筆字型】輸入方案 |
-| ![133][gh_349_stars]<br>![14][gh_349_forks] | ![gh_349_commit] | [xkinput/KeyTao][gh_349] | 星空键道6是星空系列输入法中的一款双拼音形码顶功中文输入法方案，「Rime键道」是该方案借助RIME开源输入平台的实现。<br> <https//keytao.vercel.app> |
-| ![98][gh_308_stars]<br>![11][gh_308_forks] | ![gh_308_commit] | [gaboolic/rime-wubi-sentence][gh_308] | **说明**<br>rime 墨奇版 五笔整句输入方案 / 虎码整句输入方案。墨奇五笔整句/墨奇虎码整句/基于墨奇音形和白霜词库<br> <https//github.com/gaboolic/rime-shuangpin-fuzhuma> |
+| ![342][gh_338_stars]<br>![94][gh_338_forks] | ![gh_338_commit] | [rime/rime-wubi][gh_338] | 【五筆字型】輸入方案 |
+| ![134][gh_349_stars]<br>![14][gh_349_forks] | ![gh_349_commit] | [xkinput/KeyTao][gh_349] | 星空键道6是星空系列输入法中的一款双拼音形码顶功中文输入法方案，「Rime键道」是该方案借助RIME开源输入平台的实现。<br> <https//keytao.vercel.app> |
+| ![99][gh_308_stars]<br>![11][gh_308_forks] | ![gh_308_commit] | [gaboolic/rime-wubi-sentence][gh_308] | **说明**<br>rime 墨奇版 五笔整句输入方案 / 虎码整句输入方案。墨奇五笔整句/墨奇虎码整句/基于墨奇音形和白霜词库<br> <https//github.com/gaboolic/rime-shuangpin-fuzhuma> |
 | ![79][gh_319_stars]<br>![18][gh_319_forks] | ![gh_319_commit] | [LEOYoon-Tsaw/Cangjie6][gh_319] | **蒼頡檢字法〔Cangjie6〕**<br>蒼頡檢字法 |
+| ![77][gh_312_stars]<br>![13][gh_312_forks] | ![gh_312_commit] | [hugh7007/xmjd6-rere][gh_312] | **重要时间节点**<br>基于星空键道，拓展出来百万词库版本-星猫键道6 |
 | ![77][gh_326_stars]<br>![11][gh_326_forks] | ![gh_326_commit] | [myshiqiqi/rime-wubi][gh_326] | **写给热爱打字的你**<br>rime 五笔，86，98和新世纪 |
-| ![76][gh_312_stars]<br>![13][gh_312_forks] | ![gh_312_commit] | [hugh7007/xmjd6-rere][gh_312] | **重要时间节点**<br>基于星空键道，拓展出来百万词库版本-星猫键道6 |
 | ![71][gh_298_stars]<br>![9][gh_298_forks] | ![gh_298_commit] | [Ace-Who/rime-xuma][gh_298] | **Rime 徐码输入方案**<br>徐码／爾雅三重注解、双重反查、屏蔽词组、全码后置、顶功版本…… |
 | ![66][gh_350_stars]<br>![11][gh_350_forks] | ![gh_350_commit] | [yanhuacuo/98wubi][gh_350] | **中州韵98五笔简介**<br>具备码元提示功能的98五笔配置文件（for中州韵） |
 | ![54][gh_335_stars]<br>![24][gh_335_forks] | ![gh_335_commit] | [rime/rime-cangjie][gh_335] | **倉頡輸入法**<br>【倉頡】輸入方案 |
 | ![47][gh_352_stars]<br>![3][gh_352_forks] | ![gh_352_commit] | [ywxt/rime-huma][gh_352] | 虎碼輸入方案，三重註解、字集切換、雙重反查、全碼後置…… |
-| ![42][gh_351_stars]<br>![5][gh_351_forks] | ![gh_351_commit] | [YQ-YSY/one-hand_Rime][gh_351] | **单手笔顺输入法 one-hand_Rime 3.1 版（开源免费软件）**<br>单手笔顺输入法（Rime版）Chinese stroke sequence (one hand) input method made with Rime |
+| ![43][gh_351_stars]<br>![5][gh_351_forks] | ![gh_351_commit] | [YQ-YSY/one-hand_Rime][gh_351] | **单手笔顺输入法 one-hand_Rime 3.1 版（开源免费软件）**<br>单手笔顺输入法（Rime版）Chinese stroke sequence (one hand) input method made with Rime |
 | ![39][gh_337_stars]<br>![12][gh_337_forks] | ![gh_337_commit] | [rime/rime-stroke][gh_337] | 五筆畫輸入方案 |
-| ![33][gh_329_stars]<br>![9][gh_329_forks] | ![gh_329_commit] | [networm/Rime][gh_329] | Rime 86五笔单字方案 for 鼠须管(macOS)、小狼毫(Windows)、中州韵(LinuxUbuntu) 五笔输入法<br> <https//networm.me/2022/08/07/rime-wubi86/> |
+| ![35][gh_329_stars]<br>![9][gh_329_forks] | ![gh_329_commit] | [networm/Rime][gh_329] | Rime 86五笔单字方案 for 鼠须管(macOS)、小狼毫(Windows)、中州韵(LinuxUbuntu) 五笔输入法<br> <https//networm.me/2022/08/07/rime-wubi86/> |
 | ![32][gh_344_stars]<br>![9][gh_344_forks] | ![gh_344_commit] | [thep0y/rime-98][gh_344] | **RIME 98 五笔** |
 | ![30][gh_324_stars]<br>![5][gh_324_forks] | ![gh_324_commit] | [LS-Hower/rime-wubi86-ext][gh_324] | （施工中）RIME 词库86 五笔 Unicode C 至 H 区汉字 |
-| ![26][gh_340_stars]<br>![6][gh_340_forks] | ![gh_340_commit] | [ryanwuson/rime-liur-ios][gh_340] | **iOS 元書輸入法 - 蝦米方案** |
+| ![27][gh_340_stars]<br>![6][gh_340_forks] | ![gh_340_commit] | [ryanwuson/rime-liur-ios][gh_340] | **iOS 元書輸入法 - 蝦米方案** |
 | ![26][gh_330_stars]<br>![5][gh_330_forks] | ![gh_330_commit] | [Openvingen/rime-zhengma][gh_330] | **RIME郑码（rime-zhengma） -- Zhengma input method**<br>用于Rime（中州韵输入法引擎）平台的郑码输入方案自定义码表.Zhengma for Rime input method。 |
 | ![24][gh_321_stars]<br>![3][gh_321_forks] | ![gh_321_commit] | [lost-melody/rime-smyh][gh_321] | 吉旦餅亂序字根，三碼定長，延遲頂字。<br> <https//lost-melody.github.io/wafel> |
 | ![23][gh_334_stars]<br>![7][gh_334_forks] | ![gh_334_commit] | [rime/rime-array][gh_334] | **行列30**<br>【行列】輸入方案 |
@@ -422,9 +422,9 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![10][gh_323_stars]<br>![2][gh_323_forks] | ![gh_323_commit] | [lotem/rime-sancang][gh_323] | **三碼蒼頡輸入法**<br>三碼蒼頡，基於蒼頡六代開發，每字只取三碼詞句連打 |
 | ![9][gh_301_stars]<br>![2][gh_301_forks] | ![gh_301_commit] | [arpcn/rime-shanren3][gh_301] | rime-shanren3 |
 | ![9][gh_343_stars]<br>![1][gh_343_forks] | ![gh_343_commit] | [SyzygyYuan/HaiFengWuBi][gh_343] | **海峰五笔（HaiFengWuBi）**<br>海峰五笔的Rime版码表，增加了若干符号的输入，还在持续更新中。 |
+| ![9][gh_297_stars]<br>![1][gh_297_forks] | ![gh_297_commit] | [092wb/092wb][gh_297] | 092五笔for 鼠须管(macOS)、小狼毫(Windows)、中州韵(Linux) 五笔输入法<br> <https//092wb.github.io> |
 | ![8][gh_316_stars]<br>![5][gh_316_forks] | ![gh_316_commit] | [kingzcheung/rime-wubi][gh_316] | **该库是 Rime 输入法的一个 86版极点五笔的输入方案，支持多平台（Windows、macOS、Linux）。**<br>rime 五笔方案 |
 | ![8][gh_341_stars]<br>![1][gh_341_forks] | ![gh_341_commit] | [SkatingCN/rime-mishi-wubi][gh_341] | **米十五笔输入方案 for 小狼毫(Windows)、鼠须管(macOS)、中州韵(Ubuntu)**<br>米十五笔输入方案 for 小狼毫(Windows)、中州韵(Ubuntu) 、鼠须管(macOS)<br> <http//xukt.ysepan.com/> |
-| ![8][gh_297_stars]<br>![1][gh_297_forks] | ![gh_297_commit] | [092wb/092wb][gh_297] | 092五笔for 鼠须管(macOS)、小狼毫(Windows)、中州韵(Linux) 五笔输入法<br> <https//092wb.github.io> |
 | ![7][gh_347_stars]<br>![3][gh_347_forks] | ![gh_347_commit] | [vfreex/rime-zhengma][gh_347] | **rime-zhengma Zhengma Support for RIME IME**<br>Zhengma support for RIME IME |
 | ![6][gh_313_stars]<br>![1][gh_313_forks] | ![gh_313_commit] | [humatiger/huma][gh_313] | 虎码输入方案，同步官方词库<br> <https//tiger-code.com/> |
 | ![6][gh_345_stars]<br>![0][gh_345_forks] | ![gh_345_commit] | [undus5/rime-wubi86s][gh_345] | RIME (中州韵输入法引擎) 五笔 86 单字方案 |
@@ -454,8 +454,8 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![26][gh_363_stars]<br>![0][gh_363_forks] | ![gh_363_commit] | [GongMu/rime-zhengma][gh_363] | Rime郑码输入方案 |
 | ![21][gh_371_stars]<br>![0][gh_371_forks] | ![gh_371_commit] | [lotem/rime-wubi98][gh_371] | **五筆字型 98 版**<br>五筆98版 Rime 輸入方案 |
 | ![18][gh_367_stars]<br>![0][gh_367_forks] | ![gh_367_commit]<br>🗃️ | [KyleBing/WubiBuddy][gh_367] | **码表助手 for Rime （已存档）**<br>《码表助手》鼠须管五笔用户词添加工具 (macOS) |
+| ![13][gh_366_stars]<br>![0][gh_366_forks] | ![gh_366_commit] | [Joey-Li/Newcj_rime][gh_366] | 大新倉頡-小狼毫版 |
 | ![12][gh_375_stars]<br>![0][gh_375_forks] | ![gh_375_commit] | [rime/rime-scj][gh_375] | 【快速倉頡】輸入方案 |
-| ![12][gh_366_stars]<br>![0][gh_366_forks] | ![gh_366_commit] | [Joey-Li/Newcj_rime][gh_366] | 大新倉頡-小狼毫版 |
 | ![10][gh_359_stars]<br>![0][gh_359_forks] | ![gh_359_commit] | [byujiang/wubi06_rime][gh_359] | **新世纪五笔 For Rime**<br>鼠须管 RIME 新世纪五笔 & 新世纪五笔拼音方案 & 简入繁出 方案 |
 | ![7][gh_361_stars]<br>![0][gh_361_forks] | ![gh_361_commit] | [Drgiceake/xklbDR][gh_361] | **规则**<br>基于原版星空两笔和星空两笔右耍版制作的星空两笔单字版，使用根据网络聊天制定的字频 |
 | ![4][gh_372_stars]<br>![0][gh_372_forks] | ![gh_372_commit]<br>🗃️ | [mlzzz/092wb][gh_372] | **已转移到官方仓库**<br>请移步到新的仓库↓<br> <https//github.com/092wb/092wb> |
@@ -475,17 +475,17 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
 | ![171][gh_395_stars]<br>![35][gh_395_forks] | ![gh_395_commit] | [mutoe/rime][gh_395] | **Rime double pinyin plus**<br>Rime 双拼 + 自然码辅码 + English 混输方案 |
-| ![135][gh_383_stars]<br>![11][gh_383_forks] | ![gh_383_commit] | [cubercsl/rime-flypy][gh_383] | 小鹤音形 Rime 挂接 / Fcitx5 码表 For Linux & Android |
-| ![133][gh_394_stars]<br>![11][gh_394_forks] | ![gh_394_commit] | [mirtlecn/rime-radical-pinyin][gh_394] | **RIME 部件拆字 / 拼音输入方案 & 辅码插件**<br>RIME 汉字部件拆字 / 全拼双拼输入方案。笔画、部首、音调反查辅码 lua。 |
+| ![136][gh_383_stars]<br>![12][gh_383_forks] | ![gh_383_commit] | [cubercsl/rime-flypy][gh_383] | 小鹤音形 Rime 挂接 / Fcitx5 码表 For Linux & Android |
+| ![134][gh_394_stars]<br>![11][gh_394_forks] | ![gh_394_commit] | [mirtlecn/rime-radical-pinyin][gh_394] | **RIME 部件拆字 / 拼音输入方案 & 辅码插件**<br>RIME 汉字部件拆字 / 全拼双拼输入方案。笔画、部首、音调反查辅码 lua。 |
 | ![116][gh_378_stars]<br>![30][gh_378_forks] | ![gh_378_commit] | [amorphobia/openfly][gh_378] | **开源小鹤**<br>词库开源的小鹤音形 Rime 配方<br> <https//git.io/openfly> |
-| ![70][gh_401_stars]<br>![2][gh_401_forks] | ![gh_401_commit] | [rimeinn/rime-JDhe][gh_401] | **Rime 输入法 「简单鹤」双拼辅助码方案**<br>简单鹤(乱序)+小鹤双拼+辅助码+虎码Rime 配置 |
+| ![71][gh_401_stars]<br>![2][gh_401_forks] | ![gh_401_commit] | [rimeinn/rime-JDhe][gh_401] | **Rime 输入法 「简单鹤」双拼辅助码方案**<br>简单鹤(乱序)+小鹤双拼+辅助码+虎码Rime 配置 |
 | ![65][gh_382_stars]<br>![7][gh_382_forks] | ![gh_382_commit] | [bigshans/rime-zrm][gh_382] | **rime-zrm 配置**<br>自然码＋辅码的 rime 配置方案，可以使用 ';' 应用辅码。 |
 | ![40][gh_398_stars]<br>![2][gh_398_forks] | ![gh_398_commit] | [pingshunhuangalex/rime-keydo][gh_398] | **键道·我流**<br>键指星海，道化万物。<br> <https//pingshunhuangalex.gitbook.io/rime-xkjd/> |
 | ![37][gh_396_stars]<br>![6][gh_396_forks] | ![gh_396_commit] | [OscarXWei/hesingle][gh_396] | **小鹤音形·单字流/hesingle**<br>小鹤音形·单字流 |
 | ![36][gh_412_stars]<br>![0][gh_412_forks] | ![gh_412_commit] | [wzxmer/xkjd6-rime][gh_412] | **方案下载链接**<br>键道简易入门教程+星空键道拓展方案/方案已内置iosAPP仓输入法<br> <https//ymfe.gitbook.io/jd6> |
 | ![33][gh_391_stars]<br>![6][gh_391_forks] | ![gh_391_commit] | [JeffChien/rime-flypyquick5][gh_391] | 小鶴雙拼的音碼+倉頡第五版速成的形碼的 Rime 繁體中文輸入方案。 |
-| ![31][gh_402_stars]<br>![3][gh_402_forks] | ![gh_402_commit] | [rimeinn/rime-molong][gh_402] | **基於CC BY-NC 4.0許可證發佈。**<br>flypy / zrm / zrlong hyper-charged with rime-moran and rime-snow, with tones! This is 魔龍 / 環形鶴 / 環形自然，帶聲調的音形碼！ |
-| ![28][gh_392_stars]<br>![1][gh_392_forks] | ![gh_392_commit] | [jqtmviyu/flypy][gh_392] | **小鹤飞扬 rime 开源配置**<br>小鹤音形/小鹤飞扬/flypy/ rime 配置文件 |
+| ![32][gh_402_stars]<br>![3][gh_402_forks] | ![gh_402_commit] | [rimeinn/rime-molong][gh_402] | **基於CC BY-NC 4.0許可證發佈。**<br>flypy / zrm / zrlong hyper-charged with rime-moran and rime-snow, with tones! This is 魔龍 / 環形鶴 / 環形自然，帶聲調的音形碼！ |
+| ![29][gh_392_stars]<br>![1][gh_392_forks] | ![gh_392_commit] | [jqtmviyu/flypy][gh_392] | **小鹤飞扬 rime 开源配置**<br>小鹤音形/小鹤飞扬/flypy/ rime 配置文件 |
 | ![27][gh_404_stars]<br>![2][gh_404_forks] | ![gh_404_commit] | [rimeinn/rime-zrlong][gh_404] | 自然龙 - 基于 Rime 的带调、双拼、音形输入方案<br> <https//rimeinn.github.io/rime-zrlong/> |
 | ![21][gh_411_stars]<br>![5][gh_411_forks] | ![gh_411_commit] | [wzxmer/rime-txjx][gh_411] | **浮生**<br>星空键道6拓展版天行键 |
 | ![20][gh_379_stars]<br>![6][gh_379_forks] | ![gh_379_commit] | [amorphobia/rime-jiandao][gh_379] | ️星空键道输入方案 |
@@ -510,7 +510,7 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![0][gh_389_stars]<br>![0][gh_389_forks] | ![gh_389_commit] | [hertz-hwang/ll][gh_389] | Rime-琉璃 |
 | ![12][gh_381_stars]<br>![1][gh_381_forks]<br>🎋 | ![gh_381_commit] | [archerindigo/rime-array][gh_381] | Array 30 Chinese input method on RIME input engine / RIME引擎上的行列30輸入方案 |
 | ![3][gh_405_stars]<br>![0][gh_405_forks]<br>🎋 | ![gh_405_commit] | [s5unty/xstr][gh_405] | 快码双拼输入法——基于超强快码的兼具字词(码表)和词句(双拼)的混输方案 |
-| ![280][gh_414_stars]<br>![0][gh_414_forks] | ![gh_414_commit] | [brglng/rime-xhup][gh_414] | Rime 小鹤双拼音形输入方案 |
+| ![281][gh_414_stars]<br>![0][gh_414_forks] | ![gh_414_commit] | [brglng/rime-xhup][gh_414] | Rime 小鹤双拼音形输入方案 |
 | ![172][gh_421_stars]<br>![0][gh_421_forks] | ![gh_421_commit] | [nlimpid/rime-hepy][gh_421] | 自用小鹤双拼rime配置 |
 | ![12][gh_419_stars]<br>![0][gh_419_forks] | ![gh_419_commit] | [liming2013/rime-flypy-xhup][gh_419] | rime平台下的小鹤双拼（加形）配置方案<br> <https//github.com/liming2013/rime-flypy-xhup> |
 | ![11][gh_420_stars]<br>![0][gh_420_forks] | ![gh_420_commit]<br>🗃️ | [maxchang3/rime-chaizi][gh_420] | **️DEPRECATED️**<br>Rime（中州韵）输入法通过「反查（reverse lookup）」功能实现拆字输入，避免导入词库在其他拼音出现 u 时的卡顿情况。同时可以查看拼音。 基于「 chaizi 」词库，修改自「两分输入法」。目前只针对汉语拼音（朙月拼音等）。 |
@@ -530,7 +530,7 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![676][gh_469_stars]<br>![74][gh_469_forks] | ![gh_469_commit] | [rime/rime-cantonese][gh_469] | **English / 官話**<br>Rime Cantonese input schema / 中州韻粵語拼音輸入方案<br> <https//jyutping.net> |
+| ![681][gh_469_stars]<br>![73][gh_469_forks] | ![gh_469_commit] | [rime/rime-cantonese][gh_469] | **English / 官話**<br>Rime Cantonese input schema / 中州韻粵語拼音輸入方案<br> <https//jyutping.net> |
 | ![59][gh_483_stars]<br>![7][gh_483_forks] | ![gh_483_commit] | [whyjz/rime-moetaigi][gh_483] | **rime-moetaigi 萌台語 基於萌典 API 的 RIME 臺語輸入法**<br>萌台語基於萌典 API 的 RIME 臺語輸入法，使用注音符號輕鬆輸入台語。 |
 | ![57][gh_471_stars]<br>![24][gh_471_forks] | ![gh_471_commit] | [rime/rime-jyutping][gh_471] | **Rime 粵語拼音**<br>粵拼輸入方案 |
 | ![49][gh_460_stars]<br>![6][gh_460_forks] | ![gh_460_commit] | [NGLI/rime-wugniu_gninpou][gh_460] | 寧波閒話吳語拼音輸入方案 · 寧波話吳語拼音輸入方案 · A Rime input schema for Ningbo Dialect |
@@ -539,8 +539,8 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![36][gh_472_stars]<br>![4][gh_472_forks] | ![gh_472_commit] | [rime/rime-middle-chinese][gh_472] | 中古漢語拼音輸入方案 |
 | ![35][gh_465_stars]<br>![9][gh_465_forks] | ![gh_465_commit] | [only3km/ciklinbekin][gh_465] | **平話字表 (閩東語‣福州話)**<br>電子化平話字音表｡ 戚林八音校注､ Dictionary of the Foochow Dialect｡ 校對中, 尚未完善, 請謹慎取用｡<br> <https//only3km.github.io/ciklinbekin> |
 | ![32][gh_489_stars]<br>![2][gh_489_forks] | ![gh_489_commit] | [ZWolken/rime-wenzhounese][gh_489] | **Rime 吳語-溫州話輸入方案**<br>基於Rime的溫州話輸入方案規則；基于Rime的温州话输入方案规则（采用沈克成先生-沈迦先生的拼音方案）<br> <https//zwolken.github.io/rime-wenzhounese/> |
+| ![28][gh_430_stars]<br>![5][gh_430_forks] | ![gh_430_commit] | [CanCLID/rime-cantonese-schemes][gh_430] | **我用緊邊種拼音系統？**<br>中州韻粵語拼音輸入法分歧拼音系統補丁 / For users of alternative Cantonese romanisation schemes |
 | ![27][gh_487_stars]<br>![5][gh_487_forks] | ![gh_487_commit] | [YuRen-tw/rime-taigi-tps][gh_487] | Taigi-TPS 台語方音輸入法（基於 RIME 引擎）<br> <https//github.com/YuRen-tw/rime-taigi-tps/wiki> |
-| ![27][gh_430_stars]<br>![5][gh_430_forks] | ![gh_430_commit] | [CanCLID/rime-cantonese-schemes][gh_430] | **我用緊邊種拼音系統？**<br>中州韻粵語拼音輸入法分歧拼音系統補丁 / For users of alternative Cantonese romanisation schemes |
 | ![24][gh_454_stars]<br>![3][gh_454_forks] | ![gh_454_commit] | [lotem/rime-zhung][gh_454] | Rime 中原官話輸入方案 |
 | ![23][gh_466_stars]<br>![2][gh_466_forks] | ![gh_466_commit] | [OpenTeochew/rime-teochew][gh_466] | **潮州話拍字方案（beta）**<br>潮州話拍字方案，包含漢字、白話字佮潮拼（Teochew Input Schema for Rime, including Chinese character, PUJ and DP），還支持普通話查詢、English 查詢等。 |
 | ![22][gh_462_stars]<br>![4][gh_462_forks] | ![gh_462_commit] | [NGLI/rime-wugniu_soutseu][gh_462] | 蘇州吳語拼音輸入方案 · 苏州吴语拼音输入方案 · A Rime input schema for Suzhou Dialect |
@@ -559,8 +559,8 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![8][gh_428_stars]<br>![2][gh_428_forks] | ![gh_428_commit] | [bingzheung/emoji-cantonese][gh_428] | **Emoji Cantonese**<br>Emoji annotations in Cantonese for input method editors |
 | ![8][gh_490_stars]<br>![1][gh_490_forks] | ![gh_490_commit] | [ZySieng/Foochow-Romanization][gh_490] | **RIME输入方案福州话教会罗马字（Input Method of Lò̤-mā-cê / Foochow Romanization）**<br>RIME输入方案福州话教会罗马字（Lò̤-mā-cê / Foochow Romanization） |
 | ![7][gh_438_stars]<br>![0][gh_438_forks] | ![gh_438_commit] | [HoengSaan/rime-gukwan][gh_438] | 菊韻粵語輸入方案 支持三拼・漢英混打・反查等功能 支持順德系方言（順德話・小欖話） 基於中州韻 Cantonese IME (RIME Scheme) |
-| ![6][gh_450_stars]<br>![4][gh_450_forks] | ![gh_450_commit] | [leimaau/leimaau_jyutping][gh_450] | **配方 ℞ **leimaau/leimaau_jyutping****<br>Rime Leimaau's Cantonese Input Scheme / 狸貓粵拼 |
 | ![6][gh_451_stars]<br>![3][gh_451_forks] | ![gh_451_commit] | [leimaau/naamning_jyutping][gh_451] | **配方 ℞ **leimaau/naamning_jyutping****<br>Rime Nanning Dialect Input Scheme / 南寧話輸入方案 |
+| ![6][gh_450_stars]<br>![3][gh_450_forks] | ![gh_450_commit] | [leimaau/leimaau_jyutping][gh_450] | **配方 ℞ **leimaau/leimaau_jyutping****<br>Rime Leimaau's Cantonese Input Scheme / 狸貓粵拼 |
 | ![6][gh_447_stars]<br>![3][gh_447_forks] | ![gh_447_commit] | [jyutcitzi/jyutcitzi-RIME][gh_447] | RIME keyboard for realizing the Honzi-Jyutcitzi mixed script in Hong Kong Cantonese. |
 | ![6][gh_452_stars]<br>![1][gh_452_forks] | ![gh_452_commit] | [leimaau/old-Cantonese][gh_452] | **配方 ℞ **leimaau/old-Cantonese****<br>Rime Old Cantonese Input Scheme / 《分韻撮要》音系及輸入方案 |
 | ![6][gh_479_stars]<br>![0][gh_479_forks] | ![gh_479_commit] | [tanxpyox/rime-combo-jyutping][gh_479] | **宮保粵拼Rime 並擊輸入粵語方案**<br>並擊輸入粵語方案 |
@@ -632,13 +632,13 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
 | ![403][gh_541_stars]<br>![34][gh_541_forks] | ![gh_541_commit] | [gkovacs/rime-japanese][gh_541] | 日语输入法 Input method for typing Japanese with RIME |
-| ![397][gh_538_stars]<br>![29][gh_538_forks] | ![gh_538_commit] | [BlindingDark/rime-easy-en][gh_538] | Rime / Easy English 英文输入法 |
+| ![398][gh_538_stars]<br>![28][gh_538_forks] | ![gh_538_commit] | [BlindingDark/rime-easy-en][gh_538] | Rime / Easy English 英文输入法 |
 | ![207][gh_575_stars]<br>![4][gh_575_forks] | ![gh_575_commit] | [tumuyan/rime-pinyin-jap][gh_575] | **李さんの日本語入力方法/小李的日本语输入法(rime_pinyin_jap)**<br>李さんの日本語入力方法。一個Rime日語方案，完全忽略音読訓読，使用漢語拼音录入日語漢字字形，使用羅馬音録入仮名。適用於基本不懂日語並且無意深入学習，但是又有一定日語書写の人。 |
-| ![105][gh_562_stars]<br>![4][gh_562_forks] | ![gh_562_commit] | [rimeinn/rime-kagiroi][gh_562] | **概要**<br>Rimeフレームワークの日本語ローマ字入力設定 / Rime框架日语罗马字输入法配置 |
+| ![106][gh_562_stars]<br>![4][gh_562_forks] | ![gh_562_commit] | [rimeinn/rime-kagiroi][gh_562] | **概要**<br>Rimeフレームワークの日本語ローマ字入力設定 / Rime框架日语罗马字输入法配置 |
 | ![92][gh_569_stars]<br>![13][gh_569_forks] | ![gh_569_commit] | [sdadonkey/rime-english][gh_569] | **Rime English輸入方案**<br>Rime English在西文模式下實現英文單詞輸入<br> <https//github.com/sdadonkey/rime-english> |
 | ![75][gh_561_stars]<br>![15][gh_561_forks] | ![gh_561_commit] | [rime/rime-ipa][gh_561] | **國際音標 /IPA/**<br>IPA / 國際音標輸入方案 |
 | ![71][gh_555_stars]<br>![7][gh_555_forks] | ![gh_555_commit] | [nushu-script/rime-nushu][gh_555] | **女书输入法Nushu Input Method**<br>Nushu input method / 𛆁𛈬𛈬𛇈𛊡 / 女书输入法<br> <https//nushuscript.org/> |
-| ![55][gh_549_stars]<br>![4][gh_549_forks] | ![gh_549_commit] | [lazyfoxchan/rime-jaroomaji][gh_549] | Japanese rōmaji input schema for Rime IME |
+| ![56][gh_549_stars]<br>![4][gh_549_forks] | ![gh_549_commit] | [lazyfoxchan/rime-jaroomaji][gh_549] | Japanese rōmaji input schema for Rime IME |
 | ![52][gh_530_stars]<br>![9][gh_530_forks] | ![gh_530_commit] | [biopolyhedron/rime-jap-poly][gh_530] | poly日文 |
 | ![44][gh_571_stars]<br>![3][gh_571_forks] | ![gh_571_commit] | [sgalal/rime-kunyomi][gh_571] | Input Chinese words by Japanese Kunyomi with Rime / Rimeとともに中国語単語を日本語訓読みで入力 |
 | ![39][gh_573_stars]<br>![1][gh_573_forks] | ![gh_573_commit] | [shewer/rime-english][gh_573] | **Rime English輸入方案** |
@@ -648,8 +648,8 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![24][gh_552_stars]<br>![3][gh_552_forks] | ![gh_552_commit] | [lotem/rime-kana][gh_552] | 日文假名 Rime 輸入方案 |
 | ![18][gh_548_stars]<br>![2][gh_548_forks] | ![gh_548_commit] | [JaplinChen/rime-vietnamese-pinyin][gh_548] | 越南語 拼音+Telex 輸入法 for Rime. 這是一個在學習越南語過程的自用小工具。 |
 | ![16][gh_556_stars]<br>![1][gh_556_forks] | ![gh_556_commit] | [oniondelta/Hangul_Rime_Files][gh_556] | **Hangul_Rime_Files（韓文方案）**<br>Three Hangul ( Korean alphabet ) input method for Rime Engine. |
+| ![15][gh_524_stars]<br>![3][gh_524_forks] | ![gh_524_commit] | [arsenali/rime-esperanto][gh_524] | 世界语输入方案 |
 | ![15][gh_543_stars]<br>![1][gh_543_forks] | ![gh_543_commit] | [gkovacs/rime-spanish][gh_543] | RIME keyboard layout for typing Spanish, French, German, Portuguese, and Hungarian. Supports QWERTY and colemak |
-| ![14][gh_524_stars]<br>![3][gh_524_forks] | ![gh_524_commit] | [arsenali/rime-esperanto][gh_524] | 世界语输入方案 |
 | ![14][gh_570_stars]<br>![1][gh_570_forks] | ![gh_570_commit] | [sgalal/rime-hanja][gh_570] | Input Chinese words by Korean pronunciation |
 | ![13][gh_529_stars]<br>![0][gh_529_forks] | ![gh_529_commit] | [biopolyhedron/rime-hieroglyph-mdc][gh_529] | 埃及象形文字聖書體MdC轉寫 |
 | ![13][gh_551_stars]<br>![0][gh_551_forks] | ![gh_551_commit] | [LiGhauNgyan/rime-korean][gh_551] | Rime Korean input schema / 韓國語輸入方案 |
@@ -673,12 +673,12 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![5][gh_559_stars]<br>![0][gh_559_forks] | ![gh_559_commit] | [picado-tv/rime-hangul][gh_559] | **도한글 Hangul**<br>한국어 Rime 입력기<br> <https//my-rime-hangul.vercel.app/> |
 | ![4][gh_568_stars]<br>![0][gh_568_forks] | ![gh_568_commit] | [scorpjke/VQuick][gh_568] | **VQuick type fast in Vietnamese**<br>VQuick input method for fast typing in Vietnamese |
 | ![4][gh_567_stars]<br>![0][gh_567_forks] | ![gh_567_commit] | [saeziae/rime_thai_naphukhau][gh_567] | An input schema for RIME IME |
+| ![4][gh_563_stars]<br>![0][gh_563_forks] | ![gh_563_commit] | [rimeinn/rime-mkm][gh_563] | **MKM moran, kagiroi and mungyeong, a set of CJK rime input schemas**<br>moran, kagiroi and mungyeong, a set of CJK rime input schemas |
 | ![4][gh_550_stars]<br>![0][gh_550_forks] | ![gh_550_commit] | [lazyfoxchan/rime-koromaja][gh_550] | Korean romaja input schema for Rime IME |
 | ![4][gh_535_stars]<br>![0][gh_535_forks] | ![gh_535_commit] | [biopolyhedron/rime-tangut-poly4][gh_535] | Rime 西夏文【Poly四角】 |
 | ![4][gh_531_stars]<br>![0][gh_531_forks] | ![gh_531_commit] | [biopolyhedron/rime-kyril-international][gh_531] | Rime 基利爾字母混合輸入 |
 | ![4][gh_523_stars]<br>![0][gh_523_forks] | ![gh_523_commit] | [arpcn/rime-tibetan][gh_523] | **Rime小狼毫輸入法安裝與使用**<br>rime-tibetan |
 | ![3][gh_577_stars]<br>![0][gh_577_forks] | ![gh_577_commit] | [wu-shan/type-pinyin][gh_577] | A Rime scheme to type pīnyīn |
-| ![3][gh_563_stars]<br>![0][gh_563_forks] | ![gh_563_commit] | [rimeinn/rime-mkm][gh_563] | **MKM moran, kagiroi and mungyeong, a set of CJK rime input schemas**<br>moran, kagiroi and mungyeong, a set of CJK rime input schemas |
 | ![3][gh_536_stars]<br>![0][gh_536_forks] | ![gh_536_commit] | [biopolyhedron/rime-thai-stupid][gh_536] | Rime 泰文（笨） |
 | ![2][gh_540_stars]<br>![0][gh_540_forks] | ![gh_540_commit] | [gkovacs/rime-international][gh_540] | RIME schema for inputting several languages based on the Latin alphabet |
 | ![1][gh_579_stars]<br>![1][gh_579_forks] | ![gh_579_commit] | [yuanhao-chen-nyoeghau/rime-Xdi8_Kana][gh_579] | Input method for Xdi8 Kana |
@@ -722,7 +722,7 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | --- | --- | --- | --- |
 | ![365][gh_607_stars]<br>![48][gh_607_forks] | ![gh_607_commit] | [rime/rime-emoji][gh_607] | Emoji / 繪文字輸入方案 |
 | ![98][gh_611_stars]<br>![8][gh_611_forks] | ![gh_611_commit] | [shenlebantongying/rime_latex][gh_611] | Rime Latex Math Input Method / Typing LaTeX symbols everywhere. |
-| ![76][gh_608_stars]<br>![25][gh_608_forks] | ![gh_608_commit] | [rime/rime-prelude][gh_608] | Essential files for building up your Rime configuration |
+| ![77][gh_608_stars]<br>![27][gh_608_forks] | ![gh_608_commit] | [rime/rime-prelude][gh_608] | Essential files for building up your Rime configuration |
 | ![67][gh_610_stars]<br>![15][gh_610_forks] | ![gh_610_commit] | [rtransformation/rime-opencc_emoji_symbols][gh_610] | **Rime输入法Emoji与符号滤镜**<br>利用OpenCC做的Emoji和特殊符号滤镜，供Rime输入法使用者使用。 |
 | ![33][gh_606_stars]<br>![8][gh_606_forks] | ![gh_606_commit] | [fkxxyz/rime-symbols][gh_606] | **简介**<br>为rime输入法设计的中文转符号模块。 |
 | ![23][gh_612_stars]<br>![1][gh_612_forks] | ![gh_612_commit] | [wklchris/Rime-latex-symbols][gh_612] | 用于 RIME 输入法引擎的一个 LaTeX 风格的数学符号输入配置文件 / A LaTeX-style math symbol YAML configuration file for input engine RIME. |
@@ -741,25 +741,25 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![4587][gh_627_stars]<br>![725][gh_627_forks] | ![gh_627_commit] | [rime/librime][gh_627] | **Rime with your keystrokes.**<br>Rime Input Method Engine, the core library<br> <https//rime.im> |
-| ![467][gh_622_stars]<br>![56][gh_622_forks] | ![gh_622_commit] | [hchunhui/librime-lua][gh_622] | **librime-lua Extending RIME with Lua scripts**<br>Extending RIME with Lua scripts |
-| ![203][gh_621_stars]<br>![27][gh_621_forks] | ![gh_621_commit] | [hchunhui/librime-cloud][gh_621] | **librime-cloud RIME 云输入插件** |
+| ![4609][gh_627_stars]<br>![729][gh_627_forks] | ![gh_627_commit] | [rime/librime][gh_627] | **Rime with your keystrokes.**<br>Rime Input Method Engine, the core library<br> <https//rime.im> |
+| ![468][gh_622_stars]<br>![56][gh_622_forks] | ![gh_622_commit] | [hchunhui/librime-lua][gh_622] | **librime-lua Extending RIME with Lua scripts**<br>Extending RIME with Lua scripts |
+| ![202][gh_621_stars]<br>![26][gh_621_forks] | ![gh_621_commit] | [hchunhui/librime-cloud][gh_621] | **librime-cloud RIME 云输入插件** |
 | ![110][gh_629_stars]<br>![29][gh_629_forks] | ![gh_629_commit] | [rime/librime-predict][gh_629] | librime plugin. predict next word. |
 | ![49][gh_624_stars]<br>![13][gh_624_forks] | ![gh_624_commit] | [lotem/librime-octagram][gh_624] | RIME〖八股文〗語法插件 |
 | ![32][gh_617_stars]<br>![4][gh_617_forks] | ![gh_617_commit] | [baopaau/rime-lua-collection][gh_617] | Rime Lua scripts built-in scientific calculator and Unicode codepoint IME |
 | ![25][gh_620_stars]<br>![1][gh_620_forks] | ![gh_620_commit] | [gaboolic/rime-schema-compare][gh_620] | rime各方案评测。旨在对比多个rime不同方案词库的整句准确率。 |
 | ![24][gh_638_stars]<br>![9][gh_638_forks] | ![gh_638_commit] | [whjiang/rime_table_bin_decompiler][gh_638] | decompile a rime xxx.table.bin file |
-| ![20][gh_623_stars]<br>![3][gh_623_forks] | ![gh_623_commit] | [hyuan42/Rime-words-counter][gh_623] | **Rime-words-counter简介**<br>适用rime输入法-小狼毫/鼠须管字数统计+输入测速脚本工具 |
-| ![17][gh_619_stars]<br>![2][gh_619_forks] | ![gh_619_commit] | [gaboolic/rime-build-grammar][gh_619] | **WSL / Linux 下执行`cat merge_2_3.txt / ./build_grammar.linux zh-moqi`即可生成`.gram`文件**<br>生成rime的gram文件 |
-| ![16][gh_634_stars]<br>![0][gh_634_forks] | ![gh_634_commit] | [rimeinn/octagram-data][gh_634] | **Octagram 模型数据寄存**<br>Rime Octagram 語言模型 |
+| ![20][gh_623_stars]<br>![2][gh_623_forks] | ![gh_623_commit] | [hyuan42/Rime-words-counter][gh_623] | **Rime-words-counter简介**<br>适用rime输入法-小狼毫/鼠须管字数统计+输入测速脚本工具 |
+| ![18][gh_619_stars]<br>![2][gh_619_forks] | ![gh_619_commit] | [gaboolic/rime-build-grammar][gh_619] | **WSL / Linux 下执行`cat merge_2_3.txt / ./build_grammar.linux zh-moqi`即可生成`.gram`文件**<br>生成rime的gram文件 |
+| ![17][gh_634_stars]<br>![0][gh_634_forks] | ![gh_634_commit] | [rimeinn/octagram-data][gh_634] | **Octagram 模型数据寄存**<br>Rime Octagram 語言模型 |
 | ![12][gh_630_stars]<br>![2][gh_630_forks] | ![gh_630_commit] | [rime/librime-sample][gh_630] | **A sample Rime plugin module** |
 | ![11][gh_626_stars]<br>![4][gh_626_forks] | ![gh_626_commit] | [rime/artworks][gh_626] | RimeArtworks |
 | ![10][gh_632_stars]<br>![2][gh_632_forks] | ![gh_632_commit] | [rimeinn/librime-ahk][gh_632] | **AutoHotkey Wrapper for librime**<br>AutoHotkey Wrapper of librime API |
 | ![10][gh_636_stars]<br>![1][gh_636_forks] | ![gh_636_commit] | [shitlime/RimeSpellTool][gh_636] | **RimeSpellTool/雾凇魔法工具**<br>RIME 输入法的拼写运算测试工具 |
+| ![9][gh_631_stars]<br>![5][gh_631_forks] | ![gh_631_commit] | [rime/rppi][gh_631] | RIME Plum Package Index |
 | ![9][gh_635_stars]<br>![4][gh_635_forks] | ![gh_635_commit] | [rimeinn/pyrime][gh_635] | ㄓ rime for python ️<br> <https//pyrime.readthedocs.io/> |
-| ![9][gh_631_stars]<br>![4][gh_631_forks] | ![gh_631_commit] | [rime/rppi][gh_631] | RIME Plum Package Index |
 | ![9][gh_637_stars]<br>![2][gh_637_forks] | ![gh_637_commit] | [tswwe/my-rime-lua][gh_637] | **Introduction**<br>一些自制的RIME强化脚本。 |
-| ![8][gh_633_stars]<br>![0][gh_633_forks] | ![gh_633_commit] | [rimeinn/mira][gh_633] | **Mira / 韻鏡**<br>Rime 方案單元測試工具 / Unit test runner for Rime schemas |
+| ![9][gh_633_stars]<br>![0][gh_633_forks] | ![gh_633_commit] | [rimeinn/mira][gh_633] | **Mira / 韻鏡**<br>Rime 方案單元測試工具 / Unit test runner for Rime schemas |
 | ![7][gh_618_stars]<br>![3][gh_618_forks] | ![gh_618_commit] | [bczhc/librime-rs][gh_618] | **A wrapper for librime `rime_api.h`**<br>Rust wrapper for librime (rime_api.h) |
 | ![4][gh_628_stars]<br>![2][gh_628_forks] | ![gh_628_commit] | [rime/librime-charcode][gh_628] | -- |
 | ![2][gh_625_stars]<br>![0][gh_625_forks] | ![gh_625_commit] | [Lu-Jiejie/rime-lua-script][gh_625] | **Rime Lua Script**<br>一些 Rime 的 Lua 脚本。 |
@@ -778,17 +778,17 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![1466][gh_648_stars]<br>![99][gh_648_forks] | ![gh_648_commit] | [ayaka14732/awesome-rime][gh_648] | A curated list of Rime IME schemata and configs / Rime 輸入方案和配置列表 |
-| ![685][gh_652_stars]<br>![141][gh_652_forks] | ![gh_652_commit] | [LEOYoon-Tsaw/Rime_collections][gh_652] | **Rime Collections**<br>All collections for Rime IME |
-| ![219][gh_657_stars]<br>![21][gh_657_forks] | ![gh_657_commit] | [laubonghaudoi/Chinese_Rime][gh_657] | **中州韻輸入法非普通話漢語拼音方案全集**<br>收集非普通話漢語和古漢語的中州韻輸入法拼音方案 Collection of phonetic spelling schemas for Sinitic languages and dialects<br> <https//laubonghaudoi.github.io/Chinese_Rime/> |
-| ![115][gh_654_stars]<br>![22][gh_654_forks] | ![gh_654_commit] | [osfans/rime-tool][gh_654] | **github上的Rime開源碼表**<br>開源 rime 碼表方案集 |
+| ![1479][gh_648_stars]<br>![99][gh_648_forks] | ![gh_648_commit] | [ayaka14732/awesome-rime][gh_648] | A curated list of Rime IME schemata and configs / Rime 輸入方案和配置列表 |
+| ![685][gh_653_stars]<br>![141][gh_653_forks] | ![gh_653_commit] | [LEOYoon-Tsaw/Rime_collections][gh_653] | **Rime Collections**<br>All collections for Rime IME |
+| ![219][gh_652_stars]<br>![21][gh_652_forks] | ![gh_652_commit] | [laubonghaudoi/Chinese_Rime][gh_652] | **中州韻輸入法非普通話漢語拼音方案全集**<br>收集非普通話漢語和古漢語的中州韻輸入法拼音方案 Collection of phonetic spelling schemas for Sinitic languages and dialects<br> <https//laubonghaudoi.github.io/Chinese_Rime/> |
+| ![115][gh_655_stars]<br>![22][gh_655_forks] | ![gh_655_commit] | [osfans/rime-tool][gh_655] | **github上的Rime開源碼表**<br>開源 rime 碼表方案集 |
 | ![111][gh_651_stars]<br>![4][gh_651_forks] | ![gh_651_commit] | [halfmoonvic/Rime][gh_651] | **致第一次安装 Rime 的你**<br>致第一次安装Rime的你 |
-| ![109][gh_647_stars]<br>![10][gh_647_forks] | ![gh_647_commit] | [ACsediment/RimeNewbie][gh_647] | **Rime输入法简中用户新手套餐**<br>Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼毫）的简体中文用户。 A starter's kit for Open-source Chinese IME Rime. |
-| ![19][gh_649_stars]<br>![5][gh_649_forks] | ![gh_649_commit] | [Beyond-Input-Method/space][gh_649] | **Space 资源目录说明** |
-| ![16][gh_653_stars]<br>![0][gh_653_forks] | ![gh_653_commit] | [lotem/rime-theme-music][gh_653] | **Rime 主題曲**<br>中州韻輸入法主題曲 |
-| ![7][gh_656_stars]<br>![2][gh_656_forks] | ![gh_656_commit] | [wyjrichhh/librime-ai-predict][gh_656] | AI text prediction plugin for librime, powered by CTranslate2. |
-| ![1][gh_655_stars]<br>![0][gh_655_forks] | ![gh_655_commit] | [rimeinn/rimeinn.github.io][gh_655] | 【https//rimeinn.github.io】 |
-| ![3][gh_658_stars]<br>![0][gh_658_forks]<br>🎋 | ![gh_658_commit] | [worksking/Chinese_dialect_Rime_dict][gh_658] | **Rime输入法汉语方言拼音方案全集**<br>收集现代汉语方言和古汉语的RIME输入方案 Collection of Rime Input Method Schemas for Chinese Dialects and Ancient Chinese<br> <http//rime.im/> |
+| ![108][gh_647_stars]<br>![10][gh_647_forks] | ![gh_647_commit] | [ACsediment/RimeNewbie][gh_647] | **Rime输入法简中用户新手套餐**<br>Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼毫）的简体中文用户。 A starter's kit for Open-source Chinese IME Rime. |
+| ![20][gh_649_stars]<br>![5][gh_649_forks] | ![gh_649_commit] | [Beyond-Input-Method/space][gh_649] | **Space 资源目录说明** |
+| ![16][gh_654_stars]<br>![0][gh_654_forks] | ![gh_654_commit] | [lotem/rime-theme-music][gh_654] | **Rime 主題曲**<br>中州韻輸入法主題曲 |
+| ![8][gh_658_stars]<br>![2][gh_658_forks] | ![gh_658_commit] | [wyjrichhh/librime-ai-predict][gh_658] | AI text prediction plugin for librime, powered by CTranslate2. |
+| ![1][gh_656_stars]<br>![0][gh_656_forks] | ![gh_656_commit] | [rimeinn/rimeinn.github.io][gh_656] | 【https//rimeinn.github.io】 |
+| ![3][gh_657_stars]<br>![0][gh_657_forks]<br>🎋 | ![gh_657_commit] | [worksking/Chinese_dialect_Rime_dict][gh_657] | **Rime输入法汉语方言拼音方案全集**<br>收集现代汉语方言和古汉语的RIME输入方案 Collection of Rime Input Method Schemas for Chinese Dialects and Ancient Chinese<br> <http//rime.im/> |
 | ![0][gh_650_stars]<br>![0][gh_650_forks]<br>🎋 | ![gh_650_commit] | [gaboolic/awesome-rime][gh_650] | A curated list of Rime IME schemata and configs / Rime 輸入法方案和配置列表 |
 | ![35][gh_660_stars]<br>![0][gh_660_forks] | ![gh_660_commit] | [lotem/rime-forge][gh_660] | Rime data collection and scripts |
 | ![2][gh_659_stars]<br>![0][gh_659_forks]<br>🎋 | ![gh_659_commit]<br>🗃️ | [kitty-panics/awesome-rime][gh_659] | [PR] Rime 輸入法方案列表 (A curated list of Rime IME schemata) |
@@ -798,31 +798,31 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![8633][gh_672_stars]<br>![727][gh_672_forks] | ![gh_672_commit] | [florisboard/florisboard][gh_672] | **FlorisBoard** is a free and open-source keyboard for Android 8.0+<br>An open-source keyboard for Android which respects your privacy. Currently in beta.<br> <https//florisboard.org> |
-| ![2979][gh_674_stars]<br>![523][gh_674_forks] | ![gh_674_commit] | [google/mozc][gh_674] | Mozc - a Japanese Input Method Editor designed for multi-platform |
-| ![2555][gh_665_stars]<br>![137][gh_665_forks] | ![gh_665_commit] | [dongyuwei/hallelujahIM][gh_665] | **哈利路亚英文输入法**<br>hallelujahIM(哈利路亚 英文输入法) is an intelligent English input method with auto-suggestions and spell check features. |
-| ![2542][gh_668_stars]<br>![180][gh_668_forks] | ![gh_668_commit] | [fcitx/fcitx5][gh_668] | **Resources**<br>Next generation of fcitx, cross-platform input method framework.<br> <https//fcitx-im.org/wiki/Fcitx_5> |
-| ![1469][gh_666_stars]<br>![242][gh_666_forks] | ![gh_666_commit] | [EasyIME/PIME][gh_666] | Develop input methods for Windows easily with Python and node.js |
-| ![1302][gh_690_stars]<br>![61][gh_690_forks] | ![gh_690_commit] | [metasequoiaime/MSIME-Windows][gh_690] | 水杉输入法 Windows 产品TSF、Server、GUI、设置页与安装器。内测tg https//t.me/msimegroup QQ Group 829919142<br> <https//msime.app> |
-| ![854][gh_706_stars]<br>![44][gh_706_forks] | ![gh_706_commit] | [xushengfeng/lime][gh_706] | 大模型驱动的拼音输入法 |
-| ![827][gh_691_stars]<br>![97][gh_691_forks] | ![gh_691_commit] | [openvanilla/McBopomofo][gh_691] | 小麥注音輸入法<br> <http//mcbopomofo.openvanilla.org/> |
-| ![720][gh_703_stars]<br>![52][gh_703_forks] | ![gh_703_commit] | [togatoga/karukan][gh_703] | **Linux・macOS向け日本語入力システム — ニューラルかな漢字変換エンジン**<br>Japanese Input Method System for Linux, macOS, Neural Kana-Kanji Conversion Engine |
-| ![628][gh_679_stars]<br>![37][gh_679_forks] | ![gh_679_commit] | [huanfeng/WindInput][gh_679] | 清风输入法 / 轻量、快速、可定制的开源中文输入法，专为五笔和码表输入方案设计（Windows / macOS）<br> <https//windinput.com> |
+| ![8649][gh_672_stars]<br>![732][gh_672_forks] | ![gh_672_commit] | [florisboard/florisboard][gh_672] | **FlorisBoard** is a free and open-source keyboard for Android 8.0+<br>An open-source keyboard for Android which respects your privacy. Currently in beta.<br> <https//florisboard.org> |
+| ![2982][gh_674_stars]<br>![525][gh_674_forks] | ![gh_674_commit] | [google/mozc][gh_674] | Mozc - a Japanese Input Method Editor designed for multi-platform |
+| ![2562][gh_665_stars]<br>![138][gh_665_forks] | ![gh_665_commit] | [dongyuwei/hallelujahIM][gh_665] | **哈利路亚英文输入法**<br>hallelujahIM(哈利路亚 英文输入法) is an intelligent English input method with auto-suggestions and spell check features. |
+| ![2551][gh_668_stars]<br>![181][gh_668_forks] | ![gh_668_commit] | [fcitx/fcitx5][gh_668] | **Resources**<br>Next generation of fcitx, cross-platform input method framework.<br> <https//fcitx-im.org/wiki/Fcitx_5> |
+| ![1473][gh_666_stars]<br>![242][gh_666_forks] | ![gh_666_commit] | [EasyIME/PIME][gh_666] | Develop input methods for Windows easily with Python and node.js |
+| ![1379][gh_690_stars]<br>![73][gh_690_forks] | ![gh_690_commit] | [metasequoiaime/MSIME-Windows][gh_690] | 水杉输入法 Windows 产品TSF、Server、GUI、设置页与安装器。内测tg https//t.me/msimegroup QQ Group 829919142<br> <https//msime.app> |
+| ![857][gh_706_stars]<br>![43][gh_706_forks] | ![gh_706_commit] | [xushengfeng/lime][gh_706] | 大模型驱动的拼音输入法 |
+| ![833][gh_691_stars]<br>![98][gh_691_forks] | ![gh_691_commit] | [openvanilla/McBopomofo][gh_691] | 小麥注音輸入法<br> <http//mcbopomofo.openvanilla.org/> |
+| ![734][gh_679_stars]<br>![41][gh_679_forks] | ![gh_679_commit] | [huanfeng/WindInput][gh_679] | 清风输入法 / 轻量、快速、可定制的开源中文输入法，专为五笔和码表输入方案设计（Windows / macOS）<br> <https//windinput.com> |
+| ![724][gh_703_stars]<br>![52][gh_703_forks] | ![gh_703_commit] | [togatoga/karukan][gh_703] | **Linux・macOS向け日本語入力システム — ニューラルかな漢字変換エンジン**<br>Japanese Input Method System for Linux, macOS, Neural Kana-Kanji Conversion Engine |
 | ![627][gh_697_stars]<br>![67][gh_697_forks] | ![gh_697_commit] | [Riey/kime][gh_697] | Korean IME |
-| ![584][gh_705_stars]<br>![38][gh_705_forks] | ![gh_705_commit] | [vChewing/vChewing-macOS][gh_705] | **vChewing 唯音輸入法**<br>唯音輸入法 macOS 版，恐怕是截至目前為止在功能多樣性方面最強的第三方免費 macOS 系統專用輸入法，採純 Swift 語言寫就。唯音的著力點是盡可能在力所能及的範圍內將整個產品的功能做得更好用，搭配特製的簡體中文與繁體中文專用辭庫。是純粹的簡體中文注音輸入法（也內贈原生繁體中文輸入模式），更具諸多唯音特色功能。目前研發管理工作均在 AtomGit 進行。<br> <https//vchewing.github.io/> |
-| ![411][gh_708_stars]<br>![67][gh_708_forks] | ![gh_708_commit] | [yanhuacuo/98wubi-tables][gh_708] | **98五笔资源库**<br>98五笔基础码表 |
+| ![585][gh_705_stars]<br>![39][gh_705_forks] | ![gh_705_commit] | [vChewing/vChewing-macOS][gh_705] | **vChewing 唯音輸入法**<br>唯音輸入法 macOS 版，恐怕是截至目前為止在功能多樣性方面最強的第三方免費 macOS 系統專用輸入法，採純 Swift 語言寫就，同時支援拼音與注音打字。唯音的著力點是盡可能在力所能及的範圍內將整個產品的功能做得更好用，搭配特製的簡體中文與繁體中文專用辭庫。更具諸多唯音特色功能。目前研發管理工作均在 Gitee 進行。<br> <https//vchewing.github.io/> |
+| ![412][gh_708_stars]<br>![68][gh_708_forks] | ![gh_708_commit] | [yanhuacuo/98wubi-tables][gh_708] | **98五笔资源库**<br>98五笔基础码表 |
 | ![315][gh_662_stars]<br>![4][gh_662_forks] | ![gh_662_commit] | [crazydan-studio/kuaizi-ime][gh_662] | **筷字（Kuaizi）输入法**<br>筷字输入法，一款按键布局精心设计的、输入高效且快捷的、适用于触屏设备的汉语拼音输入法 |
 | ![272][gh_677_stars]<br>![52][gh_677_forks] | ![gh_677_commit] | [hime-ime/hime][gh_677] | HIME Input Method Editor<br> <http//hime-ime.github.io> |
-| ![261][gh_661_stars]<br>![9][gh_661_forks] | ![gh_661_commit] | [akaza-im/akaza][gh_661] | **Akaza (ibus-akaza)**<br>Yet another Japanese IME for IBus/Linux<br> <https//akaza-im.github.io/akaza/> |
+| ![261][gh_661_stars]<br>![10][gh_661_forks] | ![gh_661_commit] | [akaza-im/akaza][gh_661] | **Akaza (ibus-akaza)**<br>Yet another Japanese IME for IBus/Linux<br> <https//akaza-im.github.io/akaza/> |
 | ![256][gh_682_stars]<br>![10][gh_682_forks] | ![gh_682_commit] | [kiding/SokIM][gh_682] | **속 입력기**<br>빠르고 매끄러운 한영 전환을 위한 새로운 macOS 입력기 |
-| ![228][gh_686_stars]<br>![101][gh_686_forks] | ![gh_686_commit] | [libhangul/libhangul][gh_686] | A library to support hangul input method logic |
+| ![228][gh_686_stars]<br>![102][gh_686_forks] | ![gh_686_commit] | [libhangul/libhangul][gh_686] | A library to support hangul input method logic |
 | ![216][gh_681_stars]<br>![23][gh_681_forks] | ![gh_681_commit] | [Jackchows/Cangjie5][gh_681] | 倉頡五代補完計劃 |
-| ![134][gh_688_stars]<br>![34][gh_688_forks] | ![gh_688_commit] | [lime-ime/limeime][gh_688] | **萊姆輸入法**<br>LIME HD input method for Anrdoid |
-| ![108][gh_696_stars]<br>![20][gh_696_forks] | ![gh_696_commit] | [qwertyyb/Fire][gh_696] | 使用Swift实现的Macos五笔输入法<br> <https//qwertyyb.github.io/Fire/> |
-| ![103][gh_711_stars]<br>![29][gh_711_forks] | ![gh_711_commit] | [YQ-YSY/stroke-seq_MB][gh_711] | **单手笔顺输入法码表 one-hand_code 3.1 版**<br>单手笔顺输入法码表 Code table for Chinese stroke sequence (one hand) input method |
+| ![135][gh_688_stars]<br>![34][gh_688_forks] | ![gh_688_commit] | [lime-ime/limeime][gh_688] | **萊姆輸入法**<br>LIME HD input method for Anrdoid |
+| ![110][gh_696_stars]<br>![20][gh_696_forks] | ![gh_696_commit] | [qwertyyb/Fire][gh_696] | 使用Swift实现的Macos五笔输入法<br> <https//qwertyyb.github.io/Fire/> |
+| ![104][gh_711_stars]<br>![29][gh_711_forks] | ![gh_711_commit] | [YQ-YSY/stroke-seq_MB][gh_711] | **单手笔顺输入法码表 one-hand_code 3.1 版**<br>单手笔顺输入法码表 Code table for Chinese stroke sequence (one hand) input method |
 | ![103][gh_699_stars]<br>![21][gh_699_forks] | ![gh_699_commit] | [shadowjohn/UCL_LIU][gh_699] | ** UCL_LIU (肥米輸入法)**<br>利用python+pyhook開發的仿嘸蝦米，肥米輸入法 |
 | ![86][gh_698_stars]<br>![11][gh_698_forks] | ![gh_698_commit] | [sbsrf/sbsrf][gh_698] | 声笔输入法<br> <https//sbxlm.github.io/about> |
-| ![55][gh_669_stars]<br>![32][gh_669_forks] | ![gh_669_commit] | [fcitx/libime][gh_669] | 【Fcitx，作者博文】 <https//www.csslayer.info/wordpress/fcitx-dev/libime-intro-1/> |
+| ![54][gh_669_stars]<br>![32][gh_669_forks] | ![gh_669_commit] | [fcitx/libime][gh_669] | 【Fcitx，作者博文】 <https//www.csslayer.info/wordpress/fcitx-dev/libime-intro-1/> |
 | ![48][gh_664_stars]<br>![18][gh_664_forks] | ![gh_664_commit] | [definite/ibus-table-chinese][gh_664] | Chinese tables for IBus-Table<br> <http//code.google.com/p/ibus/> |
 | ![39][gh_709_stars]<br>![12][gh_709_forks] | ![gh_709_commit] | [yanhuacuo/98wubi-unicode][gh_709] | **到 98五笔资源库 中，下载【小狼毫98五笔】与【字体支持】**<br>98五笔超大字符集码表 |
 | ![35][gh_689_stars]<br>![11][gh_689_forks] | ![gh_689_commit] | [linhuman/liblunispim][gh_689] | Linux平台下的华宇拼音输入法核心源代码 |
@@ -833,7 +833,7 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![27][gh_700_stars]<br>![1][gh_700_forks] | ![gh_700_commit] | [siuze/ShanRenMaLTS][gh_700] | 【山人码LTS】是山人全息码输入方案的长期支持版。该方案继承了谢振斌、持双山、疏影孤桐、五磅兔、张仓等前辈的大部分山人码方案设计，单字码表已完全覆盖Unicode15.1内10万字余汉字。<br> <https//siuze.github.io/ShanRenMaLTS/> |
 | ![23][gh_702_stars]<br>![0][gh_702_forks] | ![gh_702_commit] | [Tatsumi0000/Raelize][gh_702] | macOS IME tool for English<br> <https//www.tatsumi0000.com/posts/2024/04/19/developed-english-ime-raelize-runs-on-mac/> |
 | ![19][gh_667_stars]<br>![2][gh_667_forks] | ![gh_667_commit] | [fcitx-contrib/fcitx5-hallelujah][gh_667] | **Fcitx5 Hallelujah**<br>HallelujahIM Fcitx5 edition 小企鹅·哈利路亚输入法 |
-| ![17][gh_694_stars]<br>![1][gh_694_forks] | ![gh_694_commit] | [pimgeek/zen-tiger-code][gh_694] | **禅意虎码 (zen-tiger-code)**<br>面向汉字盲打爱好者的魔改版虎码输入方案（虎码新手请勿使用） |
+| ![18][gh_694_stars]<br>![1][gh_694_forks] | ![gh_694_commit] | [pimgeek/zen-tiger-code][gh_694] | **禅意虎码 (zen-tiger-code)**<br>面向汉字盲打爱好者的魔改版虎码输入方案（虎码新手请勿使用） |
 | ![12][gh_704_stars]<br>![4][gh_704_forks] | ![gh_704_commit] | [tonyq-org/QBopomofo][gh_704] | QBopomofo — Q注音輸入法跨平台智慧注音輸入法，引擎源自 libchewing |
 | ![12][gh_692_stars]<br>![0][gh_692_forks] | ![gh_692_commit] | [orbitoo/kumo][gh_692] | **我的個人輸入方案雲碼** |
 | ![11][gh_673_stars]<br>![3][gh_673_forks] | ![gh_673_commit] | [gaboolic/moqi-ime][gh_673] | **MOQI IME**<br>go语言实现的墨奇输入法后端引擎 |
@@ -847,9 +847,9 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 | ![3][gh_695_stars]<br>![0][gh_695_forks] | ![gh_695_commit] | [ProjectLaplace/LinguistZixiaInput][gh_695] | Linguist Zixia Input / 紫霞输入法 (确定性拼音输入法) A deterministic Chinese pinyin IME for macOS, designed for muscle memory and flow state. Built with Swift + InputMethodKit. |
 | ![1][gh_676_stars]<br>![0][gh_676_forks] | ![gh_676_commit] | [hertz-hwang/hao][gh_676] | **好码网站**<br> <https//hertz-hwang.github.io/hao> |
 | ![996][gh_680_stars]<br>![208][gh_680_forks]<br>🎋 | ![gh_680_commit] | [ibus/ibus][gh_680] | Intelligent Input Bus for Linux/Unix<br> <https//github.com/ibus/ibus/wiki> |
-| ![776][gh_687_stars]<br>![104][gh_687_forks]<br>🎋 | ![gh_687_commit] | [libpinyin/ibus-libpinyin][gh_687] | 【Linux, ibus-libpinyin】 |
-| ![419][gh_683_stars]<br>![17][gh_683_forks]<br>🎋 | ![gh_683_commit] | [koyasi777/mozkey][gh_683] | **English**<br>Mozc（Google日本語入力）をベースに、遅延付きライブ変換・ローカル Zenz 補正・ダークテーマ対応・句読点単打確定・学習ロジックの改善・文脈を見た変換補正などを統合した、ローカルファーストな日本語入力 fork です。 |
-| ![227][gh_670_stars]<br>![17][gh_670_forks]<br>🎋 | ![gh_670_commit] | [fcitx/mozc][gh_670] | Mozc - a Japanese Input Method Editor designed for multi-platform |
+| ![777][gh_687_stars]<br>![104][gh_687_forks]<br>🎋 | ![gh_687_commit] | [libpinyin/ibus-libpinyin][gh_687] | 【Linux, ibus-libpinyin】 |
+| ![441][gh_683_stars]<br>![17][gh_683_forks]<br>🎋 | ![gh_683_commit] | [koyasi777/mozkey][gh_683] | **English**<br>Mozc（Google日本語入力）をベースに、遅延付きライブ変換・ローカル Zenz 補正・ダークテーマ対応・句読点単打確定・学習ロジックの改善・文脈を見た変換補正などを統合した、ローカルファーストな日本語入力 fork です。 |
+| ![226][gh_670_stars]<br>![17][gh_670_forks]<br>🎋 | ![gh_670_commit] | [fcitx/mozc][gh_670] | Mozc - a Japanese Input Method Editor designed for multi-platform |
 | ![520][gh_715_stars]<br>![0][gh_715_forks] | ![gh_715_commit] | [sunpinyin/sunpinyin][gh_715] | A statistical language model based Chinese input method<br> <http//sunpinyin.org> |
 | ![30][gh_713_stars]<br>![0][gh_713_forks] | ![gh_713_commit] | [acevery/ibus-table-wubi][gh_713] | The WuBi input method for IBus Table<br> <http//code.google.com/p/ibus> |
 | ![21][gh_714_stars]<br>![0][gh_714_forks] | ![gh_714_commit]<br>🗃️ | [beishanyufu/Yanzi-IME][gh_714] | **燕子输入法**<br>A light-weight Chinese IME |
@@ -860,17 +860,17 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 
 | 收藏 | 更新 | 仓库 | 说明 |
 | --- | --- | --- | --- |
-| ![22762][gh_733_stars]<br>![937][gh_733_forks] | ![gh_733_commit] | [pqrs-org/Karabiner-Elements][gh_733] | Karabiner-Elements is a powerful tool for customizing keyboards on macOS<br> <https//karabiner-elements.pqrs.org/> |
-| ![9964][gh_717_stars]<br>![1063][gh_717_forks] | ![gh_717_commit] | [BYVoid/OpenCC][gh_717] | **Open Chinese Convert 開放中文轉換**<br>Library for conversion between Traditional and Simplified Chinese<br> <https//opencc.byvoid.com/> |
-| ![5677][gh_730_stars]<br>![3297][gh_730_forks] | ![gh_730_commit] | [microsoft/Windows-classic-samples][gh_730] | **Windows classic samples**<br>This repo contains samples that demonstrate the API used in Windows classic desktop applications. |
-| ![4273][gh_718_stars]<br>![296][gh_718_forks] | ![gh_718_commit] | [esbatmop/MNBVC][gh_718] | MNBVC(Massive Never-ending BT Vast Chinese corpus)超大规模中文语料集。对标chatGPT训练的40T数据。MNBVC数据集不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。 |
-| ![2760][gh_739_stars]<br>![790][gh_739_forks] | ![gh_739_commit] | [sxei/pinyinjs][gh_739] | 一个实现汉字与拼音互转的小巧web工具库，演示地址<br> <http//demo.haoji.me/pinyinjs/> |
-| ![1443][gh_716_stars]<br>![130][gh_716_forks] | ![gh_716_commit] | [BlueSky-07/Shuang][gh_716] | **Shuang / 双拼练习**<br>pencil2 双拼练习<br> <https//api.ihint.me/shuang> |
-| ![1092][gh_719_stars]<br>![49][gh_719_forks] | ![gh_719_commit] | [felixonmars/fcitx5-pinyin-zhwiki][gh_719] | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org |
-| ![631][gh_736_stars]<br>![102][gh_736_forks] | ![gh_736_commit] | [s-yata/marisa-trie][gh_736] | **README**<br>MARISA Matching Algorithm with Recursively Implemented StorAge |
-| ![311][gh_734_stars]<br>![116][gh_734_forks] | ![gh_734_commit] | [rime-aca/corpus][gh_734] | 古典中文語料庫 |
-| ![127][gh_738_stars]<br>![3][gh_738_forks] | ![gh_738_commit] | [suiginko/moetype][gh_738] | 基于萌娘百科词条的输入法词库 |
-| ![114][gh_732_stars]<br>![20][gh_732_forks] | ![gh_732_commit] | [owenyang0/easy-typer][gh_732] | **本人是个五笔爱好者，也一直在使用五笔，曾经(差不多10年前了)也做过Windows平台的跟打器易跟打Windows版。**<br>木易跟打器macOS平台可直接载文的跟打器，mac跟打器<br> <https//typer.owenyang.top> |
+| ![22801][gh_733_stars]<br>![937][gh_733_forks] | ![gh_733_commit] | [pqrs-org/Karabiner-Elements][gh_733] | Karabiner-Elements is a powerful tool for customizing keyboards on macOS<br> <https//karabiner-elements.pqrs.org/> |
+| ![9980][gh_717_stars]<br>![1066][gh_717_forks] | ![gh_717_commit] | [BYVoid/OpenCC][gh_717] | **Open Chinese Convert 開放中文轉換**<br>Library for conversion between Traditional and Simplified Chinese<br> <https//opencc.byvoid.com/> |
+| ![5682][gh_730_stars]<br>![3294][gh_730_forks] | ![gh_730_commit] | [microsoft/Windows-classic-samples][gh_730] | **Windows classic samples**<br>This repo contains samples that demonstrate the API used in Windows classic desktop applications. |
+| ![4272][gh_718_stars]<br>![296][gh_718_forks] | ![gh_718_commit] | [esbatmop/MNBVC][gh_718] | MNBVC(Massive Never-ending BT Vast Chinese corpus)超大规模中文语料集。对标chatGPT训练的40T数据。MNBVC数据集不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。 |
+| ![2761][gh_739_stars]<br>![790][gh_739_forks] | ![gh_739_commit] | [sxei/pinyinjs][gh_739] | 一个实现汉字与拼音互转的小巧web工具库，演示地址<br> <http//demo.haoji.me/pinyinjs/> |
+| ![1443][gh_716_stars]<br>![129][gh_716_forks] | ![gh_716_commit] | [BlueSky-07/Shuang][gh_716] | **Shuang / 双拼练习**<br>pencil2 双拼练习<br> <https//api.ihint.me/shuang> |
+| ![1093][gh_719_stars]<br>![49][gh_719_forks] | ![gh_719_commit] | [felixonmars/fcitx5-pinyin-zhwiki][gh_719] | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org |
+| ![632][gh_736_stars]<br>![102][gh_736_forks] | ![gh_736_commit] | [s-yata/marisa-trie][gh_736] | **README**<br>MARISA Matching Algorithm with Recursively Implemented StorAge |
+| ![312][gh_734_stars]<br>![116][gh_734_forks] | ![gh_734_commit] | [rime-aca/corpus][gh_734] | 古典中文語料庫 |
+| ![129][gh_738_stars]<br>![3][gh_738_forks] | ![gh_738_commit] | [suiginko/moetype][gh_738] | 基于萌娘百科词条的输入法词库 |
+| ![114][gh_732_stars]<br>![21][gh_732_forks] | ![gh_732_commit] | [owenyang0/easy-typer][gh_732] | **本人是个五笔爱好者，也一直在使用五笔，曾经(差不多10年前了)也做过Windows平台的跟打器易跟打Windows版。**<br>木易跟打器macOS平台可直接载文的跟打器，mac跟打器<br> <https//typer.owenyang.top> |
 | ![97][gh_729_stars]<br>![15][gh_729_forks] | ![gh_729_commit] | [macroxue/shuangpin][gh_729] | **输入法生成器**<br>双拼方案评测、优化和生成工具 - A keyboard layout optimizer for Chinese double-pinyin (shuangpin) input method.<br> <https//macroxue.github.io/shuangpin/eval.html> |
 | ![61][gh_727_stars]<br>![12][gh_727_forks] | ![gh_727_commit] | [jimmy54/iRime-Resource][gh_727] | **iRime内置方案**<br>iRime相关资源 |
 | ![54][gh_728_stars]<br>![4][gh_728_forks] | ![gh_728_commit] | [kahaani/gatian][gh_728] | 潮语拼音教程 (A tutorial on Teochew phonology). All rights reserved.<br> <https//kahaani.github.io/gatian/> |
@@ -963,14 +963,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_025_stars]: https://img.shields.io/github/stars/rimeinn/rabbit?style=flat-square
 [gh_025_forks]: https://img.shields.io/github/forks/rimeinn/rabbit?style=flat-square
 [gh_025_commit]: https://img.shields.io/github/last-commit/rimeinn/rabbit?style=flat-square&label=update
-[gh_003]: https://github.com/fcitx-contrib/fcitx5-windows
-[gh_003_stars]: https://img.shields.io/github/stars/fcitx-contrib/fcitx5-windows?style=flat-square
-[gh_003_forks]: https://img.shields.io/github/forks/fcitx-contrib/fcitx5-windows?style=flat-square
-[gh_003_commit]: https://img.shields.io/github/last-commit/fcitx-contrib/fcitx5-windows?style=flat-square&label=update
 [gh_009]: https://github.com/gaboolic/moqi-im-android
 [gh_009_stars]: https://img.shields.io/github/stars/gaboolic/moqi-im-android?style=flat-square
 [gh_009_forks]: https://img.shields.io/github/forks/gaboolic/moqi-im-android?style=flat-square
 [gh_009_commit]: https://img.shields.io/github/last-commit/gaboolic/moqi-im-android?style=flat-square&label=update
+[gh_003]: https://github.com/fcitx-contrib/fcitx5-windows
+[gh_003_stars]: https://img.shields.io/github/stars/fcitx-contrib/fcitx5-windows?style=flat-square
+[gh_003_forks]: https://img.shields.io/github/forks/fcitx-contrib/fcitx5-windows?style=flat-square
+[gh_003_commit]: https://img.shields.io/github/last-commit/fcitx-contrib/fcitx5-windows?style=flat-square&label=update
 [gh_012]: https://github.com/hchunhui/ibus-rime.AppImage
 [gh_012_stars]: https://img.shields.io/github/stars/hchunhui/ibus-rime.AppImage?style=flat-square
 [gh_012_forks]: https://img.shields.io/github/forks/hchunhui/ibus-rime.AppImage?style=flat-square
@@ -1434,14 +1434,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_127_stars]: https://img.shields.io/github/stars/appleshan/fcitx5-rime-dict?style=flat-square
 [gh_127_forks]: https://img.shields.io/github/forks/appleshan/fcitx5-rime-dict?style=flat-square
 [gh_127_commit]: https://img.shields.io/github/last-commit/appleshan/fcitx5-rime-dict?style=flat-square&label=update
-[gh_137]: https://github.com/rime/rime-custom
-[gh_137_stars]: https://img.shields.io/github/stars/rime/rime-custom?style=flat-square
-[gh_137_forks]: https://img.shields.io/github/forks/rime/rime-custom?style=flat-square
-[gh_137_commit]: https://img.shields.io/github/last-commit/rime/rime-custom?style=flat-square&label=update
 [gh_134]: https://github.com/Kimiblock/rime-minecraft-dict
 [gh_134_stars]: https://img.shields.io/github/stars/Kimiblock/rime-minecraft-dict?style=flat-square
 [gh_134_forks]: https://img.shields.io/github/forks/Kimiblock/rime-minecraft-dict?style=flat-square
 [gh_134_commit]: https://img.shields.io/github/last-commit/Kimiblock/rime-minecraft-dict?style=flat-square&label=update
+[gh_137]: https://github.com/rime/rime-custom
+[gh_137_stars]: https://img.shields.io/github/stars/rime/rime-custom?style=flat-square
+[gh_137_forks]: https://img.shields.io/github/forks/rime/rime-custom?style=flat-square
+[gh_137_commit]: https://img.shields.io/github/last-commit/rime/rime-custom?style=flat-square&label=update
 [gh_128]: https://github.com/bdim404/rime-dictionaries
 [gh_128_stars]: https://img.shields.io/github/stars/bdim404/rime-dictionaries?style=flat-square
 [gh_128_forks]: https://img.shields.io/github/forks/bdim404/rime-dictionaries?style=flat-square
@@ -1580,14 +1580,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_171_stars]: https://img.shields.io/github/stars/JACKCHAN000/Rime-Lua-GoogleTranslate?style=flat-square
 [gh_171_forks]: https://img.shields.io/github/forks/JACKCHAN000/Rime-Lua-GoogleTranslate?style=flat-square
 [gh_171_commit]: https://img.shields.io/github/last-commit/JACKCHAN000/Rime-Lua-GoogleTranslate?style=flat-square&label=update
-[gh_177]: https://github.com/MapoMagpie/rimedm
-[gh_177_stars]: https://img.shields.io/github/stars/MapoMagpie/rimedm?style=flat-square
-[gh_177_forks]: https://img.shields.io/github/forks/MapoMagpie/rimedm?style=flat-square
-[gh_177_commit]: https://img.shields.io/github/last-commit/MapoMagpie/rimedm?style=flat-square&label=update
 [gh_162]: https://github.com/ca-x/snout
 [gh_162_stars]: https://img.shields.io/github/stars/ca-x/snout?style=flat-square
 [gh_162_forks]: https://img.shields.io/github/forks/ca-x/snout?style=flat-square
 [gh_162_commit]: https://img.shields.io/github/last-commit/ca-x/snout?style=flat-square&label=update
+[gh_177]: https://github.com/MapoMagpie/rimedm
+[gh_177_stars]: https://img.shields.io/github/stars/MapoMagpie/rimedm?style=flat-square
+[gh_177_forks]: https://img.shields.io/github/forks/MapoMagpie/rimedm?style=flat-square
+[gh_177_commit]: https://img.shields.io/github/last-commit/MapoMagpie/rimedm?style=flat-square&label=update
 [gh_179]: https://github.com/mengqi92/Rimebow
 [gh_179_stars]: https://img.shields.io/github/stars/mengqi92/Rimebow?style=flat-square
 [gh_179_forks]: https://img.shields.io/github/forks/mengqi92/Rimebow?style=flat-square
@@ -2104,14 +2104,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_319_stars]: https://img.shields.io/github/stars/LEOYoon-Tsaw/Cangjie6?style=flat-square
 [gh_319_forks]: https://img.shields.io/github/forks/LEOYoon-Tsaw/Cangjie6?style=flat-square
 [gh_319_commit]: https://img.shields.io/github/last-commit/LEOYoon-Tsaw/Cangjie6?style=flat-square&label=update
-[gh_326]: https://github.com/myshiqiqi/rime-wubi
-[gh_326_stars]: https://img.shields.io/github/stars/myshiqiqi/rime-wubi?style=flat-square
-[gh_326_forks]: https://img.shields.io/github/forks/myshiqiqi/rime-wubi?style=flat-square
-[gh_326_commit]: https://img.shields.io/github/last-commit/myshiqiqi/rime-wubi?style=flat-square&label=update
 [gh_312]: https://github.com/hugh7007/xmjd6-rere
 [gh_312_stars]: https://img.shields.io/github/stars/hugh7007/xmjd6-rere?style=flat-square
 [gh_312_forks]: https://img.shields.io/github/forks/hugh7007/xmjd6-rere?style=flat-square
 [gh_312_commit]: https://img.shields.io/github/last-commit/hugh7007/xmjd6-rere?style=flat-square&label=update
+[gh_326]: https://github.com/myshiqiqi/rime-wubi
+[gh_326_stars]: https://img.shields.io/github/stars/myshiqiqi/rime-wubi?style=flat-square
+[gh_326_forks]: https://img.shields.io/github/forks/myshiqiqi/rime-wubi?style=flat-square
+[gh_326_commit]: https://img.shields.io/github/last-commit/myshiqiqi/rime-wubi?style=flat-square&label=update
 [gh_298]: https://github.com/Ace-Who/rime-xuma
 [gh_298_stars]: https://img.shields.io/github/stars/Ace-Who/rime-xuma?style=flat-square
 [gh_298_forks]: https://img.shields.io/github/forks/Ace-Who/rime-xuma?style=flat-square
@@ -2228,6 +2228,10 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_343_stars]: https://img.shields.io/github/stars/SyzygyYuan/HaiFengWuBi?style=flat-square
 [gh_343_forks]: https://img.shields.io/github/forks/SyzygyYuan/HaiFengWuBi?style=flat-square
 [gh_343_commit]: https://img.shields.io/github/last-commit/SyzygyYuan/HaiFengWuBi?style=flat-square&label=update
+[gh_297]: https://github.com/092wb/092wb
+[gh_297_stars]: https://img.shields.io/github/stars/092wb/092wb?style=flat-square
+[gh_297_forks]: https://img.shields.io/github/forks/092wb/092wb?style=flat-square
+[gh_297_commit]: https://img.shields.io/github/last-commit/092wb/092wb?style=flat-square&label=update
 [gh_316]: https://github.com/kingzcheung/rime-wubi
 [gh_316_stars]: https://img.shields.io/github/stars/kingzcheung/rime-wubi?style=flat-square
 [gh_316_forks]: https://img.shields.io/github/forks/kingzcheung/rime-wubi?style=flat-square
@@ -2236,10 +2240,6 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_341_stars]: https://img.shields.io/github/stars/SkatingCN/rime-mishi-wubi?style=flat-square
 [gh_341_forks]: https://img.shields.io/github/forks/SkatingCN/rime-mishi-wubi?style=flat-square
 [gh_341_commit]: https://img.shields.io/github/last-commit/SkatingCN/rime-mishi-wubi?style=flat-square&label=update
-[gh_297]: https://github.com/092wb/092wb
-[gh_297_stars]: https://img.shields.io/github/stars/092wb/092wb?style=flat-square
-[gh_297_forks]: https://img.shields.io/github/forks/092wb/092wb?style=flat-square
-[gh_297_commit]: https://img.shields.io/github/last-commit/092wb/092wb?style=flat-square&label=update
 [gh_347]: https://github.com/vfreex/rime-zhengma
 [gh_347_stars]: https://img.shields.io/github/stars/vfreex/rime-zhengma?style=flat-square
 [gh_347_forks]: https://img.shields.io/github/forks/vfreex/rime-zhengma?style=flat-square
@@ -2356,14 +2356,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_367_stars]: https://img.shields.io/github/stars/KyleBing/WubiBuddy?style=flat-square
 [gh_367_forks]: https://img.shields.io/github/forks/KyleBing/WubiBuddy?style=flat-square
 [gh_367_commit]: https://img.shields.io/github/last-commit/KyleBing/WubiBuddy?style=flat-square&label=update
-[gh_375]: https://github.com/rime/rime-scj
-[gh_375_stars]: https://img.shields.io/github/stars/rime/rime-scj?style=flat-square
-[gh_375_forks]: https://img.shields.io/github/forks/rime/rime-scj?style=flat-square
-[gh_375_commit]: https://img.shields.io/github/last-commit/rime/rime-scj?style=flat-square&label=update
 [gh_366]: https://github.com/Joey-Li/Newcj_rime
 [gh_366_stars]: https://img.shields.io/github/stars/Joey-Li/Newcj_rime?style=flat-square
 [gh_366_forks]: https://img.shields.io/github/forks/Joey-Li/Newcj_rime?style=flat-square
 [gh_366_commit]: https://img.shields.io/github/last-commit/Joey-Li/Newcj_rime?style=flat-square&label=update
+[gh_375]: https://github.com/rime/rime-scj
+[gh_375_stars]: https://img.shields.io/github/stars/rime/rime-scj?style=flat-square
+[gh_375_forks]: https://img.shields.io/github/forks/rime/rime-scj?style=flat-square
+[gh_375_commit]: https://img.shields.io/github/last-commit/rime/rime-scj?style=flat-square&label=update
 [gh_359]: https://github.com/byujiang/wubi06_rime
 [gh_359_stars]: https://img.shields.io/github/stars/byujiang/wubi06_rime?style=flat-square
 [gh_359_forks]: https://img.shields.io/github/forks/byujiang/wubi06_rime?style=flat-square
@@ -2638,14 +2638,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_489_stars]: https://img.shields.io/github/stars/ZWolken/rime-wenzhounese?style=flat-square
 [gh_489_forks]: https://img.shields.io/github/forks/ZWolken/rime-wenzhounese?style=flat-square
 [gh_489_commit]: https://img.shields.io/github/last-commit/ZWolken/rime-wenzhounese?style=flat-square&label=update
-[gh_487]: https://github.com/YuRen-tw/rime-taigi-tps
-[gh_487_stars]: https://img.shields.io/github/stars/YuRen-tw/rime-taigi-tps?style=flat-square
-[gh_487_forks]: https://img.shields.io/github/forks/YuRen-tw/rime-taigi-tps?style=flat-square
-[gh_487_commit]: https://img.shields.io/github/last-commit/YuRen-tw/rime-taigi-tps?style=flat-square&label=update
 [gh_430]: https://github.com/CanCLID/rime-cantonese-schemes
 [gh_430_stars]: https://img.shields.io/github/stars/CanCLID/rime-cantonese-schemes?style=flat-square
 [gh_430_forks]: https://img.shields.io/github/forks/CanCLID/rime-cantonese-schemes?style=flat-square
 [gh_430_commit]: https://img.shields.io/github/last-commit/CanCLID/rime-cantonese-schemes?style=flat-square&label=update
+[gh_487]: https://github.com/YuRen-tw/rime-taigi-tps
+[gh_487_stars]: https://img.shields.io/github/stars/YuRen-tw/rime-taigi-tps?style=flat-square
+[gh_487_forks]: https://img.shields.io/github/forks/YuRen-tw/rime-taigi-tps?style=flat-square
+[gh_487_commit]: https://img.shields.io/github/last-commit/YuRen-tw/rime-taigi-tps?style=flat-square&label=update
 [gh_454]: https://github.com/lotem/rime-zhung
 [gh_454_stars]: https://img.shields.io/github/stars/lotem/rime-zhung?style=flat-square
 [gh_454_forks]: https://img.shields.io/github/forks/lotem/rime-zhung?style=flat-square
@@ -2718,14 +2718,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_438_stars]: https://img.shields.io/github/stars/HoengSaan/rime-gukwan?style=flat-square
 [gh_438_forks]: https://img.shields.io/github/forks/HoengSaan/rime-gukwan?style=flat-square
 [gh_438_commit]: https://img.shields.io/github/last-commit/HoengSaan/rime-gukwan?style=flat-square&label=update
-[gh_450]: https://github.com/leimaau/leimaau_jyutping
-[gh_450_stars]: https://img.shields.io/github/stars/leimaau/leimaau_jyutping?style=flat-square
-[gh_450_forks]: https://img.shields.io/github/forks/leimaau/leimaau_jyutping?style=flat-square
-[gh_450_commit]: https://img.shields.io/github/last-commit/leimaau/leimaau_jyutping?style=flat-square&label=update
 [gh_451]: https://github.com/leimaau/naamning_jyutping
 [gh_451_stars]: https://img.shields.io/github/stars/leimaau/naamning_jyutping?style=flat-square
 [gh_451_forks]: https://img.shields.io/github/forks/leimaau/naamning_jyutping?style=flat-square
 [gh_451_commit]: https://img.shields.io/github/last-commit/leimaau/naamning_jyutping?style=flat-square&label=update
+[gh_450]: https://github.com/leimaau/leimaau_jyutping
+[gh_450_stars]: https://img.shields.io/github/stars/leimaau/leimaau_jyutping?style=flat-square
+[gh_450_forks]: https://img.shields.io/github/forks/leimaau/leimaau_jyutping?style=flat-square
+[gh_450_commit]: https://img.shields.io/github/last-commit/leimaau/leimaau_jyutping?style=flat-square&label=update
 [gh_447]: https://github.com/jyutcitzi/jyutcitzi-RIME
 [gh_447_stars]: https://img.shields.io/github/stars/jyutcitzi/jyutcitzi-RIME?style=flat-square
 [gh_447_forks]: https://img.shields.io/github/forks/jyutcitzi/jyutcitzi-RIME?style=flat-square
@@ -3055,14 +3055,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_556_stars]: https://img.shields.io/github/stars/oniondelta/Hangul_Rime_Files?style=flat-square
 [gh_556_forks]: https://img.shields.io/github/forks/oniondelta/Hangul_Rime_Files?style=flat-square
 [gh_556_commit]: https://img.shields.io/github/last-commit/oniondelta/Hangul_Rime_Files?style=flat-square&label=update
-[gh_543]: https://github.com/gkovacs/rime-spanish
-[gh_543_stars]: https://img.shields.io/github/stars/gkovacs/rime-spanish?style=flat-square
-[gh_543_forks]: https://img.shields.io/github/forks/gkovacs/rime-spanish?style=flat-square
-[gh_543_commit]: https://img.shields.io/github/last-commit/gkovacs/rime-spanish?style=flat-square&label=update
 [gh_524]: https://github.com/arsenali/rime-esperanto
 [gh_524_stars]: https://img.shields.io/github/stars/arsenali/rime-esperanto?style=flat-square
 [gh_524_forks]: https://img.shields.io/github/forks/arsenali/rime-esperanto?style=flat-square
 [gh_524_commit]: https://img.shields.io/github/last-commit/arsenali/rime-esperanto?style=flat-square&label=update
+[gh_543]: https://github.com/gkovacs/rime-spanish
+[gh_543_stars]: https://img.shields.io/github/stars/gkovacs/rime-spanish?style=flat-square
+[gh_543_forks]: https://img.shields.io/github/forks/gkovacs/rime-spanish?style=flat-square
+[gh_543_commit]: https://img.shields.io/github/last-commit/gkovacs/rime-spanish?style=flat-square&label=update
 [gh_570]: https://github.com/sgalal/rime-hanja
 [gh_570_stars]: https://img.shields.io/github/stars/sgalal/rime-hanja?style=flat-square
 [gh_570_forks]: https://img.shields.io/github/forks/sgalal/rime-hanja?style=flat-square
@@ -3155,6 +3155,10 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_567_stars]: https://img.shields.io/github/stars/saeziae/rime_thai_naphukhau?style=flat-square
 [gh_567_forks]: https://img.shields.io/github/forks/saeziae/rime_thai_naphukhau?style=flat-square
 [gh_567_commit]: https://img.shields.io/github/last-commit/saeziae/rime_thai_naphukhau?style=flat-square&label=update
+[gh_563]: https://github.com/rimeinn/rime-mkm
+[gh_563_stars]: https://img.shields.io/github/stars/rimeinn/rime-mkm?style=flat-square
+[gh_563_forks]: https://img.shields.io/github/forks/rimeinn/rime-mkm?style=flat-square
+[gh_563_commit]: https://img.shields.io/github/last-commit/rimeinn/rime-mkm?style=flat-square&label=update
 [gh_550]: https://github.com/lazyfoxchan/rime-koromaja
 [gh_550_stars]: https://img.shields.io/github/stars/lazyfoxchan/rime-koromaja?style=flat-square
 [gh_550_forks]: https://img.shields.io/github/forks/lazyfoxchan/rime-koromaja?style=flat-square
@@ -3175,10 +3179,6 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_577_stars]: https://img.shields.io/github/stars/wu-shan/type-pinyin?style=flat-square
 [gh_577_forks]: https://img.shields.io/github/forks/wu-shan/type-pinyin?style=flat-square
 [gh_577_commit]: https://img.shields.io/github/last-commit/wu-shan/type-pinyin?style=flat-square&label=update
-[gh_563]: https://github.com/rimeinn/rime-mkm
-[gh_563_stars]: https://img.shields.io/github/stars/rimeinn/rime-mkm?style=flat-square
-[gh_563_forks]: https://img.shields.io/github/forks/rimeinn/rime-mkm?style=flat-square
-[gh_563_commit]: https://img.shields.io/github/last-commit/rimeinn/rime-mkm?style=flat-square&label=update
 [gh_536]: https://github.com/biopolyhedron/rime-thai-stupid
 [gh_536_stars]: https://img.shields.io/github/stars/biopolyhedron/rime-thai-stupid?style=flat-square
 [gh_536_forks]: https://img.shields.io/github/forks/biopolyhedron/rime-thai-stupid?style=flat-square
@@ -3433,14 +3433,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_636_stars]: https://img.shields.io/github/stars/shitlime/RimeSpellTool?style=flat-square
 [gh_636_forks]: https://img.shields.io/github/forks/shitlime/RimeSpellTool?style=flat-square
 [gh_636_commit]: https://img.shields.io/github/last-commit/shitlime/RimeSpellTool?style=flat-square&label=update
-[gh_635]: https://github.com/rimeinn/pyrime
-[gh_635_stars]: https://img.shields.io/github/stars/rimeinn/pyrime?style=flat-square
-[gh_635_forks]: https://img.shields.io/github/forks/rimeinn/pyrime?style=flat-square
-[gh_635_commit]: https://img.shields.io/github/last-commit/rimeinn/pyrime?style=flat-square&label=update
 [gh_631]: https://github.com/rime/rppi
 [gh_631_stars]: https://img.shields.io/github/stars/rime/rppi?style=flat-square
 [gh_631_forks]: https://img.shields.io/github/forks/rime/rppi?style=flat-square
 [gh_631_commit]: https://img.shields.io/github/last-commit/rime/rppi?style=flat-square&label=update
+[gh_635]: https://github.com/rimeinn/pyrime
+[gh_635_stars]: https://img.shields.io/github/stars/rimeinn/pyrime?style=flat-square
+[gh_635_forks]: https://img.shields.io/github/forks/rimeinn/pyrime?style=flat-square
+[gh_635_commit]: https://img.shields.io/github/last-commit/rimeinn/pyrime?style=flat-square&label=update
 [gh_637]: https://github.com/tswwe/my-rime-lua
 [gh_637_stars]: https://img.shields.io/github/stars/tswwe/my-rime-lua?style=flat-square
 [gh_637_forks]: https://img.shields.io/github/forks/tswwe/my-rime-lua?style=flat-square
@@ -3498,18 +3498,18 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_648_stars]: https://img.shields.io/github/stars/ayaka14732/awesome-rime?style=flat-square
 [gh_648_forks]: https://img.shields.io/github/forks/ayaka14732/awesome-rime?style=flat-square
 [gh_648_commit]: https://img.shields.io/github/last-commit/ayaka14732/awesome-rime?style=flat-square&label=update
-[gh_652]: https://github.com/LEOYoon-Tsaw/Rime_collections
-[gh_652_stars]: https://img.shields.io/github/stars/LEOYoon-Tsaw/Rime_collections?style=flat-square
-[gh_652_forks]: https://img.shields.io/github/forks/LEOYoon-Tsaw/Rime_collections?style=flat-square
-[gh_652_commit]: https://img.shields.io/github/last-commit/LEOYoon-Tsaw/Rime_collections?style=flat-square&label=update
-[gh_657]: https://github.com/laubonghaudoi/Chinese_Rime
-[gh_657_stars]: https://img.shields.io/github/stars/laubonghaudoi/Chinese_Rime?style=flat-square
-[gh_657_forks]: https://img.shields.io/github/forks/laubonghaudoi/Chinese_Rime?style=flat-square
-[gh_657_commit]: https://img.shields.io/github/last-commit/laubonghaudoi/Chinese_Rime?style=flat-square&label=update
-[gh_654]: https://github.com/osfans/rime-tool
-[gh_654_stars]: https://img.shields.io/github/stars/osfans/rime-tool?style=flat-square
-[gh_654_forks]: https://img.shields.io/github/forks/osfans/rime-tool?style=flat-square
-[gh_654_commit]: https://img.shields.io/github/last-commit/osfans/rime-tool?style=flat-square&label=update
+[gh_653]: https://github.com/LEOYoon-Tsaw/Rime_collections
+[gh_653_stars]: https://img.shields.io/github/stars/LEOYoon-Tsaw/Rime_collections?style=flat-square
+[gh_653_forks]: https://img.shields.io/github/forks/LEOYoon-Tsaw/Rime_collections?style=flat-square
+[gh_653_commit]: https://img.shields.io/github/last-commit/LEOYoon-Tsaw/Rime_collections?style=flat-square&label=update
+[gh_652]: https://github.com/laubonghaudoi/Chinese_Rime
+[gh_652_stars]: https://img.shields.io/github/stars/laubonghaudoi/Chinese_Rime?style=flat-square
+[gh_652_forks]: https://img.shields.io/github/forks/laubonghaudoi/Chinese_Rime?style=flat-square
+[gh_652_commit]: https://img.shields.io/github/last-commit/laubonghaudoi/Chinese_Rime?style=flat-square&label=update
+[gh_655]: https://github.com/osfans/rime-tool
+[gh_655_stars]: https://img.shields.io/github/stars/osfans/rime-tool?style=flat-square
+[gh_655_forks]: https://img.shields.io/github/forks/osfans/rime-tool?style=flat-square
+[gh_655_commit]: https://img.shields.io/github/last-commit/osfans/rime-tool?style=flat-square&label=update
 [gh_651]: https://github.com/halfmoonvic/Rime
 [gh_651_stars]: https://img.shields.io/github/stars/halfmoonvic/Rime?style=flat-square
 [gh_651_forks]: https://img.shields.io/github/forks/halfmoonvic/Rime?style=flat-square
@@ -3522,22 +3522,22 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_649_stars]: https://img.shields.io/github/stars/Beyond-Input-Method/space?style=flat-square
 [gh_649_forks]: https://img.shields.io/github/forks/Beyond-Input-Method/space?style=flat-square
 [gh_649_commit]: https://img.shields.io/github/last-commit/Beyond-Input-Method/space?style=flat-square&label=update
-[gh_653]: https://github.com/lotem/rime-theme-music
-[gh_653_stars]: https://img.shields.io/github/stars/lotem/rime-theme-music?style=flat-square
-[gh_653_forks]: https://img.shields.io/github/forks/lotem/rime-theme-music?style=flat-square
-[gh_653_commit]: https://img.shields.io/github/last-commit/lotem/rime-theme-music?style=flat-square&label=update
-[gh_656]: https://github.com/wyjrichhh/librime-ai-predict
-[gh_656_stars]: https://img.shields.io/github/stars/wyjrichhh/librime-ai-predict?style=flat-square
-[gh_656_forks]: https://img.shields.io/github/forks/wyjrichhh/librime-ai-predict?style=flat-square
-[gh_656_commit]: https://img.shields.io/github/last-commit/wyjrichhh/librime-ai-predict?style=flat-square&label=update
-[gh_655]: https://github.com/rimeinn/rimeinn.github.io
-[gh_655_stars]: https://img.shields.io/github/stars/rimeinn/rimeinn.github.io?style=flat-square
-[gh_655_forks]: https://img.shields.io/github/forks/rimeinn/rimeinn.github.io?style=flat-square
-[gh_655_commit]: https://img.shields.io/github/last-commit/rimeinn/rimeinn.github.io?style=flat-square&label=update
-[gh_658]: https://github.com/worksking/Chinese_dialect_Rime_dict
-[gh_658_stars]: https://img.shields.io/github/stars/worksking/Chinese_dialect_Rime_dict?style=flat-square
-[gh_658_forks]: https://img.shields.io/github/forks/worksking/Chinese_dialect_Rime_dict?style=flat-square
-[gh_658_commit]: https://img.shields.io/github/last-commit/worksking/Chinese_dialect_Rime_dict?style=flat-square&label=update
+[gh_654]: https://github.com/lotem/rime-theme-music
+[gh_654_stars]: https://img.shields.io/github/stars/lotem/rime-theme-music?style=flat-square
+[gh_654_forks]: https://img.shields.io/github/forks/lotem/rime-theme-music?style=flat-square
+[gh_654_commit]: https://img.shields.io/github/last-commit/lotem/rime-theme-music?style=flat-square&label=update
+[gh_658]: https://github.com/wyjrichhh/librime-ai-predict
+[gh_658_stars]: https://img.shields.io/github/stars/wyjrichhh/librime-ai-predict?style=flat-square
+[gh_658_forks]: https://img.shields.io/github/forks/wyjrichhh/librime-ai-predict?style=flat-square
+[gh_658_commit]: https://img.shields.io/github/last-commit/wyjrichhh/librime-ai-predict?style=flat-square&label=update
+[gh_656]: https://github.com/rimeinn/rimeinn.github.io
+[gh_656_stars]: https://img.shields.io/github/stars/rimeinn/rimeinn.github.io?style=flat-square
+[gh_656_forks]: https://img.shields.io/github/forks/rimeinn/rimeinn.github.io?style=flat-square
+[gh_656_commit]: https://img.shields.io/github/last-commit/rimeinn/rimeinn.github.io?style=flat-square&label=update
+[gh_657]: https://github.com/worksking/Chinese_dialect_Rime_dict
+[gh_657_stars]: https://img.shields.io/github/stars/worksking/Chinese_dialect_Rime_dict?style=flat-square
+[gh_657_forks]: https://img.shields.io/github/forks/worksking/Chinese_dialect_Rime_dict?style=flat-square
+[gh_657_commit]: https://img.shields.io/github/last-commit/worksking/Chinese_dialect_Rime_dict?style=flat-square&label=update
 [gh_650]: https://github.com/gaboolic/awesome-rime
 [gh_650_stars]: https://img.shields.io/github/stars/gaboolic/awesome-rime?style=flat-square
 [gh_650_forks]: https://img.shields.io/github/forks/gaboolic/awesome-rime?style=flat-square
@@ -3583,14 +3583,14 @@ RIME（Rime Input Method Engine，中州韵输入法引擎）相关资料汇整�
 [gh_691_stars]: https://img.shields.io/github/stars/openvanilla/McBopomofo?style=flat-square
 [gh_691_forks]: https://img.shields.io/github/forks/openvanilla/McBopomofo?style=flat-square
 [gh_691_commit]: https://img.shields.io/github/last-commit/openvanilla/McBopomofo?style=flat-square&label=update
-[gh_703]: https://github.com/togatoga/karukan
-[gh_703_stars]: https://img.shields.io/github/stars/togatoga/karukan?style=flat-square
-[gh_703_forks]: https://img.shields.io/github/forks/togatoga/karukan?style=flat-square
-[gh_703_commit]: https://img.shields.io/github/last-commit/togatoga/karukan?style=flat-square&label=update
 [gh_679]: https://github.com/huanfeng/WindInput
 [gh_679_stars]: https://img.shields.io/github/stars/huanfeng/WindInput?style=flat-square
 [gh_679_forks]: https://img.shields.io/github/forks/huanfeng/WindInput?style=flat-square
 [gh_679_commit]: https://img.shields.io/github/last-commit/huanfeng/WindInput?style=flat-square&label=update
+[gh_703]: https://github.com/togatoga/karukan
+[gh_703_stars]: https://img.shields.io/github/stars/togatoga/karukan?style=flat-square
+[gh_703_forks]: https://img.shields.io/github/forks/togatoga/karukan?style=flat-square
+[gh_703_commit]: https://img.shields.io/github/last-commit/togatoga/karukan?style=flat-square&label=update
 [gh_697]: https://github.com/Riey/kime
 [gh_697_stars]: https://img.shields.io/github/stars/Riey/kime?style=flat-square
 [gh_697_forks]: https://img.shields.io/github/forks/Riey/kime?style=flat-square
