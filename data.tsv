@@ -249,13 +249,13 @@ title	repository	comment
 %	https://www.figma.com/community/file/1166934605535869911/rime	Rime 鼠须管输入法皮肤实验室
 ### 主题编辑工具		
 	https://github.com/fxliang/RimeSeeMe	配色（Web） <https://fxliang.github.io/RimeSeeMe/>
+	https://github.com/hantang/rime-theme	RIME主题编辑器（Web）
 	https://github.com/LEOYoon-Tsaw/Squirrel-Designer	配色编辑器（macOS）
 	https://github.com/levelel/outwit-theme-designer	几维输入法主题定制器（兼容Rime）
+	https://github.com/MiHjy12138/Rime-skin-overlay	小狼毫输入法皮肤外挂版
 	https://github.com/owlzou/weasel-theme-editor	小狼毫主题编辑器（Web） <https://owlzou.github.io/weasel-theme-editor/>
 	https://github.com/rxhaol/easy-configs-rime	配色（Web） <https://rxhaol.github.io/easy-configs-rime/>
-	https://github.com/MiHjy12138/Rime-skin-overlay	小狼毫输入法皮肤外挂版
 	https://github.com/wolfprince12/squirrel-Panel	鼠须管输入法的第三方图形设置面板
-	https://github.com/hantang/rime-theme	RIME主题编辑器（Web）	<https://hantang.github.io/rime-theme/>
 =	https://github.com/bennyyip/Rime-See-Me	配色（Web） <https://bennyyip.github.io/Rime-See-Me/>
 =	https://github.com/GJRobert/Rime-See-Me-squirrel	配色（Web） <https://gjrobert.github.io/Rime-See-Me-squirrel/>
 =	https://github.com/lost-melody/hamster-tools	仓输入法布局生成器（Web）<https://lost-melody.github.io/hamster-tools/>
@@ -281,7 +281,7 @@ title	repository	comment
 	https://github.com/imper0502/rime-double-bopomo	
 	https://github.com/Kimiblock/moeOS-pinyin	moeOS 默认 RIME 拼音方案
 	https://github.com/lazyfoxchan/rime-tongpin	
-	https://github.com/lotem/rime-combo-pinyin-briefs	
+	https://github.com/lotem/rime-combo-pinyin-steno	
 	https://github.com/lotem/rime-stone	
 	https://github.com/loustack17/Bopomofo_Eten26_Rime	
 	https://github.com/maojunxyz/flypy-linux	
