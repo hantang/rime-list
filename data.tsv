@@ -705,61 +705,63 @@ title	repository	comment
 =	https://github.com/kitty-panics/awesome-rime	
 =	https://github.com/lotem/rime-forge	
 %	https://tieba.baidu.com/f?kw=rime	百度贴吧（rime吧）
-### 输入法软件和方案补充		
+### 输入法软件补充		
 	https://github.com/akaza-im/akaza	Japanese IME (Linux)
-	https://github.com/crazydan-studio/kuaizi-ime	筷字输入法
+	https://github.com/crazydan-studio/kuaizi-ime	筷字输入法（Android）
 	https://github.com/Deali-Axy/llm-ime	Web，本地GGUF大语言模型
-	https://github.com/definite/ibus-table-chinese	
 	https://github.com/dongyuwei/hallelujahIM	macOS/Windows 哈利路亚英文输入法
-	https://github.com/EasyIME/PIME	IME for Windows via Text Services Framework
 	https://github.com/fcitx-contrib/fcitx5-hallelujah	Fcitx5 小企鹅·哈利路亚输入法
-	https://github.com/fcitx/fcitx5	Fcitx5
-	https://github.com/fcitx/libime	Fcitx，作者博文 <https://www.csslayer.info/wordpress/fcitx-dev/libime-intro-1/>
-	https://github.com/fcitx/mozc	日语
-	https://github.com/Flauver/jdh	简单鹤（音形码）
 	https://github.com/florisboard/florisboard	Android
 	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言），已接入Rime，fcitx5正在接入中
-	https://github.com/google/mozc	Japanese IME
-	https://github.com/hanxinma/hanxin	汉心码/龙码 <http://yaoxiazai.ysepan.com> <https://hanxinma.gitlab.io/>
-	https://github.com/hertz-hwang/hao	好码 <https://code.hertz.ltd>
 	https://github.com/hime-ime/hime	Hime輸入法框架
 	https://github.com/Honghe/iwubi	IBus框架五笔
 	https://github.com/huanfeng/WindInput	清风输入法（Windows/macOS, Go->Rust）可直接复用 Rime 生态的词库资源 <https://windinput.com/>
 	https://github.com/ibus/ibus	Linux, IBus框架
-	https://github.com/Jackchows/Cangjie5	倉頡五代
 	https://github.com/kiding/SokIM	Korean IME (macOS)
 	https://github.com/koyasi777/mozkey	Japanese IME (forked from google/mozc)
-	https://github.com/lakent/yi	逸码
-	https://github.com/lennylxx/google-input-tools-macos	macOS
+	https://github.com/lennylxx/google-input-tools-macos	Google Input Tools for macOS
 	https://github.com/libhangul/libhangul	Korean hangul
 	https://github.com/libpinyin/ibus-libpinyin	Linux, ibus-libpinyin
 	https://github.com/lime-ime/limeime	萊姆輸入法
 	https://github.com/linhuman/liblunispim	华宇拼音输入法核心源代码（Linux）
-	https://github.com/metasequoiaime/MSIME-Windows	水杉输入法
+	https://github.com/metasequoiaime/MSIME-Windows	水杉输入法（Windows）
 	https://github.com/openvanilla/McBopomofo	小麥注音輸入法
-	https://github.com/orbitoo/kumo	雲碼
-	https://github.com/phuang/ibus-anthy	Japanese
-	https://github.com/pimgeek/zen-tiger-code	禅意虎码（魔改版虎码）
 	https://github.com/ProjectLaplace/LinguistZixiaInput	macOS，紫霞输入法
 	https://github.com/qwertyyb/Fire	Macos五笔输入法
 	https://github.com/Riey/kime	Korean IME (Linux)
-	https://github.com/sbsrf/sbsrf	戴石麟等-声笔输入法 <https://sbxlm.github.io>
 	https://github.com/shadowjohn/UCL_LIU	肥米輸入法（仿嘸蝦米）
-	https://github.com/siuze/ShanRenMaLTS	谢振斌等-山人码LTS（山人全息码输入方案的长期支持版）
-	https://github.com/tansongchen/input	谭淞宸-冰雪拼音
 	https://github.com/Tatsumi0000/Raelize	macOS英文输入法
 	https://github.com/togatoga/karukan	Japanese IME (Linux/macOS)
 	https://github.com/tonyq-org/QBopomofo	Q注音輸入法
 	https://github.com/vChewing/vChewing-macOS	唯音輸入法 macOS 版（威注音輸入法） <https://gitee.com/vChewing/vChewing-macOS>
 	https://github.com/xushengfeng/lime	大模型驱动的拼音输入法
 	https://github.com/y1lichen/ilimi-inputmethod	macOS（仿）蝦米輸入法
-	https://github.com/yanhuacuo/98wubi-tables	
-	https://github.com/yanhuacuo/98wubi-unicode	
 	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码） <https://yima.pages.dev/> <https://yima.ysepan.com/>
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
-	https://github.com/zhangxiaov/input	像码输入法
+	https://github.com/qingjian-team/qingjian	青简输入法（桌面端跨平，Rust） <https://qingjian.app/>
 =	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
 =	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
+### 输入方案补充		
+	https://github.com/definite/ibus-table-chinese	
+	https://github.com/EasyIME/PIME	IME for Windows via Text Services Framework
+	https://github.com/fcitx/fcitx5	Fcitx5
+	https://github.com/fcitx/libime	Fcitx，作者博文 <https://www.csslayer.info/wordpress/fcitx-dev/libime-intro-1/>
+	https://github.com/fcitx/mozc	日语
+	https://github.com/Flauver/jdh	简单鹤（音形码）
+	https://github.com/google/mozc	Japanese IME
+	https://github.com/hanxinma/hanxin	汉心码/龙码 <http://yaoxiazai.ysepan.com> <https://hanxinma.gitlab.io/>
+	https://github.com/hertz-hwang/hao	好码 <https://code.hertz.ltd>
+	https://github.com/Jackchows/Cangjie5	倉頡五代
+	https://github.com/lakent/yi	逸码
+	https://github.com/orbitoo/kumo	雲碼
+	https://github.com/phuang/ibus-anthy	Japanese
+	https://github.com/pimgeek/zen-tiger-code	禅意虎码（魔改版虎码）
+	https://github.com/sbsrf/sbsrf	戴石麟等-声笔输入法 <https://sbxlm.github.io>
+	https://github.com/siuze/ShanRenMaLTS	谢振斌等-山人码LTS（山人全息码输入方案的长期支持版）
+	https://github.com/tansongchen/input	谭淞宸-冰雪拼音
+	https://github.com/yanhuacuo/98wubi-tables	98五笔
+	https://github.com/yanhuacuo/98wubi-unicode	98五笔
+	https://github.com/zhangxiaov/input	像码输入法
 =	https://github.com/sunpinyin/sunpinyin	Linux, ibus-sunpinyin <https://code.google.com/archive/p/sunpinyin/>
 %	https://codeberg.org/chewing/windows-chewing-tsf	新酷音自由軟體輸入法 <https://github.com/chewing/windows-chewing-tsf>
 %	https://zhuanlan.zhihu.com/p/710122624	纤夫张-中文输入法列表<https://dieken.gitlab.io/posts/chinese-input-methods/>
