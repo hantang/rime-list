@@ -134,9 +134,9 @@ title	repository	comment
 %	https://www.52pojie.cn/forum.php?mod=viewthread&tid=2075827	[Windows] rime小狼毫雾凇拼音白露拼音懒人包
 ### 增强词库		
 	https://github.com/15cm/rime-sogou-dictionaries	
+	https://github.com/AlanVane/fcitx5-rime-dict	雾凇拼音（appleshan版）
 	https://github.com/alswl/rime-selected	
 	https://github.com/amzxyz/RIME-LMDG	万象语法模型、万象向量词库 <https://amzxyz.github.io>
-	https://github.com/appleshan/fcitx5-rime-dict	雾凇拼音（appleshan版）
 	https://github.com/bdim404/rime-dictionaries	
 	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-dict	
 	https://github.com/Chernfalin/better-rime-dict	
@@ -727,6 +727,7 @@ title	repository	comment
 	https://github.com/metasequoiaime/MSIME-Windows	水杉输入法（Windows）
 	https://github.com/openvanilla/McBopomofo	小麥注音輸入法
 	https://github.com/ProjectLaplace/LinguistZixiaInput	macOS，紫霞输入法
+	https://github.com/qingjian-team/qingjian	青简输入法（桌面端跨平，Rust） <https://qingjian.app/>
 	https://github.com/qwertyyb/Fire	Macos五笔输入法
 	https://github.com/Riey/kime	Korean IME (Linux)
 	https://github.com/shadowjohn/UCL_LIU	肥米輸入法（仿嘸蝦米）
@@ -738,7 +739,6 @@ title	repository	comment
 	https://github.com/y1lichen/ilimi-inputmethod	macOS（仿）蝦米輸入法
 	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码） <https://yima.pages.dev/> <https://yima.ysepan.com/>
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
-	https://github.com/qingjian-team/qingjian	青简输入法（桌面端跨平，Rust） <https://qingjian.app/>
 =	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
 =	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
 ### 输入方案补充		
