@@ -61,7 +61,6 @@ title	repository	comment
 	https://github.com/wongdean/rime-settings	
 =	https://github.com/scomper/Rime	
 ### 个人配置		
-	https://github.com/15cm/rime-config	
 	https://github.com/amorphobia/rime-user-config	
 	https://github.com/andy0130tw/aarrr-rime	
 	https://github.com/ASC8384/myRime	
@@ -109,6 +108,7 @@ title	repository	comment
 	https://github.com/ScriptGo/rime	
 	https://github.com/sheepduke/rime-config	
 	https://github.com/shenyileirob/rime_schemata	
+	https://github.com/sinkerine/rime-config	
 	https://github.com/someok/rime-ice-custom	
 	https://github.com/Sorosliu1029/rime-conf	
 	https://github.com/szc126/rime-liangfen	unapproved fork of LiangFen by Sim CheonHyeong
@@ -133,7 +133,6 @@ title	repository	comment
 %	[lotem/squirrel.custom.yaml](https://gist.github.com/lotem/2290714)	【鼠鬚管】定製檔
 %	https://www.52pojie.cn/forum.php?mod=viewthread&tid=2075827	[Windows] rime小狼毫雾凇拼音白露拼音懒人包
 ### 增强词库		
-	https://github.com/15cm/rime-sogou-dictionaries	
 	https://github.com/AlanVane/fcitx5-rime-dict	雾凇拼音（appleshan版）
 	https://github.com/alswl/rime-selected	
 	https://github.com/amzxyz/RIME-LMDG	万象语法模型、万象向量词库 <https://amzxyz.github.io>
@@ -150,6 +149,7 @@ title	repository	comment
 	https://github.com/rime/rime-essay	
 	https://github.com/rime/rime-essay-simp	
 	https://github.com/satifanie/rime-dict	
+	https://github.com/sinkerine/rime-sogou-dictionaries	
 	https://github.com/swoiow/rime-dictionary	
 =	https://github.com/metowolf/rime-sogou	
 =	https://github.com/mokurin000/rime-osu	
@@ -217,7 +217,6 @@ title	repository	comment
 	https://github.com/hrko/fcitx-skin-material	Fcitx 4/Fcitx 5皮肤
 	https://github.com/luozikuan/kongshan-suying	iOS 元书输入法皮肤
 	https://github.com/Mintimate/RimeTheme	手机版Android（同文输入法）和iOS（仓输入法）
-	https://github.com/nobodysclown/rime-wechat-keyboard	
 	https://github.com/OscarXWei/Squirrel-Skin-Collection	
 	https://github.com/puddinging/rime-skin	
 	https://github.com/Reverier-Xu/Fluent-fcitx5	Fcitx 5皮肤
@@ -243,6 +242,7 @@ title	repository	comment
 =	https://github.com/ryekee/rime-color-scheme	
 =	https://github.com/sccccchallz/FuYu_RIME_color_scheme	
 =	https://github.com/yanhuacuo/fcitx5-theme	fcitx5主题
+-	https://github.com/nobodysclown/rime-wechat-keyboard	
 %	[laloe74/hamster.yaml](https://gist.github.com/laloe74/c0c2b481abb7f0f272a1b0c86cf67dc0)	仓输入法 微信键盘布局+配色
 %	[zsakvo/squirrel-custom.yaml](https://gist.github.com/zsakvo/fff6e4859265d5d629439d5ccb553f8a)	微信键盘配色鼠须管皮肤
 %	https://codeberg.org/waleslau/fcitx5-themes	fcitx5主题
@@ -329,6 +329,7 @@ title	repository	comment
 	https://github.com/Ace-Who/rime-xuma	Rime 徐码输入方案 <http://xumax.cn/>
 	https://github.com/aLIEz-QI/Rime-wubi091	
 	https://github.com/allencch/wubiluna	
+	https://github.com/arliong/rime-cixin-quick	
 	https://github.com/arpcn/rime-shanren3	
 	https://github.com/arzyu/rime-wubi98	
 	https://github.com/chen32768/zhengma_for_rime	
@@ -359,8 +360,7 @@ title	repository	comment
 	https://github.com/N5NS/rime-tiger	Rime『胖虎』输入方案个人修改版
 	https://github.com/networm/Rime	
 	https://github.com/Openvingen/rime-zhengma	
-	https://github.com/philipposkhos/rime-ms-quick
-	https://github.com/arliong/rime-cixin-quick
+	https://github.com/philipposkhos/rime-ms-quick	
 	https://github.com/PokeGuys/rime-simplex	Yahoo奇摩輸入法（Yahoo! KeyKey）Windows版速成
 	https://github.com/raines1220/ghcm	
 	https://github.com/rime/rime-array	
