@@ -135,7 +135,7 @@ title	repository	comment
 ### 增强词库		
 	https://github.com/AlanVane/fcitx5-rime-dict	雾凇拼音（appleshan版）
 	https://github.com/alswl/rime-selected	
-	https://github.com/amzxyz/RIME-LMDG	万象语法模型、万象向量词库 <https://amzxyz.github.io>
+	https://github.com/amzxyz/rime-wanxiang-data	万象语法模型、万象向量词库 <https://amzxyz.github.io>
 	https://github.com/bdim404/rime-dictionaries	
 	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-dict	
 	https://github.com/Chernfalin/better-rime-dict	
@@ -283,7 +283,6 @@ title	repository	comment
 	https://github.com/lazyfoxchan/rime-tongpin	
 	https://github.com/lotem/rime-combo-pinyin-steno	
 	https://github.com/lotem/rime-stone	
-	https://github.com/loustack17/Bopomofo_Eten26_Rime	
 	https://github.com/maojunxyz/flypy-linux	
 	https://github.com/nk2028/rime-tupa	
 	https://github.com/oniondelta/Onion_Rime_Files	Rime 洋蔥方案（注音、雙拼、拼音）
@@ -315,6 +314,7 @@ title	repository	comment
 =	https://github.com/kitty-panics/rime-luna-pinyin	
 =	https://github.com/LawssssCat/rime-aurora	
 =	https://github.com/lotem/rime-c2h6-pinyin	
+=	https://github.com/loustack17/Bopomofo_Eten26_Rime	
 =	https://github.com/qpng/tyungrua	
 =	https://github.com/rimeinn/rime-lxsp	
 =	https://github.com/tony-aptx4869/rime-combo-pinyin	
