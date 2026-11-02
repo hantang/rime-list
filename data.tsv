@@ -39,8 +39,8 @@ title	repository	comment
 =	https://github.com/lotem/rime-gits	Windows
 =	https://github.com/mikejensen21/RIME_iOS	iOS
 =	https://github.com/stackia/XIME	macOS
-%	https://apps.apple.com/cn/app/元书输入法/id6744464701	iOS，元书输入法（Hamster3，仓输入法同作者开发的新版，高级功能收费） <https://ihsiao.com/apps/hamster/v3/docs/> <https://github.com/imfuxiao/Hamster3Document>
 %	https://apps.apple.com/app/id6817241725	iOS，紫毫 Hare <https://hareime.com/>
+%	https://apps.apple.com/cn/app/元书输入法/id6744464701	iOS，元书输入法（Hamster3，仓输入法同作者开发的新版，高级功能收费） <https://ihsiao.com/apps/hamster/v3/docs/> <https://github.com/imfuxiao/Hamster3Document>
 ## 配置和词库		
 ### 热门配置		
 	https://github.com/amzxyz/rime-wanxiang	万象拼音（深度优化的词库和语法模型）
@@ -184,11 +184,11 @@ title	repository	comment
 	https://github.com/HowcanoeWang/rime-lua-aux-code	辅助码与音形分离插件
 	https://github.com/imfuxiao/HamsterInputSchemas	
 	https://github.com/JACKCHAN000/Rime-Lua-GoogleTranslate	
-	https://github.com/KyleBing/wubi-dict-editor	
 	https://github.com/KyleBing/wubi-dict-editor-web	
 	https://github.com/lotem/rime-cli	
 	https://github.com/lotem/rime-make	
 	https://github.com/lxl66566/rime-formatter	VS Code 插件
+	https://github.com/magenta-maple/wubi-dict-editor	
 	https://github.com/MapoMagpie/rimedm	rime词典管理器（TUI）
 	https://github.com/marguerite/rime-plum-go	plum東風破（Go版，CLI）
 	https://github.com/mengqi92/Rimebow	元宝（Rimebow），VS Code 插件
@@ -251,12 +251,12 @@ title	repository	comment
 ### 主题编辑工具		
 	https://github.com/fxliang/RimeSeeMe	配色（Web） <https://fxliang.github.io/RimeSeeMe/>
 	https://github.com/hantang/rime-theme	RIME主题编辑器（Web） <https://hantang.github.io/rime-theme/>
-	https://github.com/tom2almighty/rime-theme	RIME主题编辑器（Web） <https://tom2almighty.github.io/rime-theme/>
 	https://github.com/LEOYoon-Tsaw/Squirrel-Designer	配色编辑器（macOS）
 	https://github.com/levelel/outwit-theme-designer	几维输入法主题定制器（兼容Rime）
 	https://github.com/MiHjy12138/Rime-skin-overlay	小狼毫输入法皮肤外挂版
 	https://github.com/owlzou/weasel-theme-editor	小狼毫主题编辑器（Web） <https://owlzou.github.io/weasel-theme-editor/>
 	https://github.com/rxhaol/easy-configs-rime	配色（Web） <https://rxhaol.github.io/easy-configs-rime/>
+	https://github.com/tom2almighty/rime-theme	RIME主题编辑器（Web） <https://tom2almighty.github.io/rime-theme/>
 	https://github.com/wolfprince12/squirrel-Panel	鼠须管输入法的第三方图形设置面板
 =	https://github.com/bennyyip/Rime-See-Me	配色（Web） <https://bennyyip.github.io/Rime-See-Me/>
 =	https://github.com/GJRobert/Rime-See-Me-squirrel	配色（Web） <https://gjrobert.github.io/Rime-See-Me-squirrel/>
@@ -345,6 +345,7 @@ title	repository	comment
 	https://github.com/hsuanyi-chou/rime-liur	嘸蝦米方案
 	https://github.com/hugh7007/xmjd6-rere	星猫键道6
 	https://github.com/humatiger/huma	虎码输入方案rime版，<https://www.tiger-code.com/> <http://huma.ysepan.com/>
+	https://github.com/idsol/zrqf	自然全分
 	https://github.com/jacyl4/rime_wubi	
 	https://github.com/jim60105/Newcj_rime	
 	https://github.com/kingzcheung/rime-wubi	
@@ -389,7 +390,6 @@ title	repository	comment
 	https://github.com/zekexiao/xtlb-rime	
 	https://github.com/zhmars/rime-wubi-simp	
 	https://github.com/zongxinbo/rime-zong	
-	https://github.com/idsol/zrqf	自然全分
 =	https://github.com/acevery/rime-zhengma	
 =	https://github.com/byujiang/wubi06_rime	
 =	https://github.com/chengen12/rime-bingchanquanxi	
