@@ -126,6 +126,10 @@ title	repository	comment
 	https://github.com/zeuxisoo/my-rime	
 	https://github.com/zhhwux/wxzhh	
 	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
+	https://github.com/youanan/rime	
+	https://github.com/tigren/rime_configs	
+	https://github.com/Pioneer-Linzi/xinshijiwubi	
+	https://github.com/outsinre/fcitx-rime	
 =	https://github.com/alswl/Rime	
 =	https://github.com/kitty-panics/ConL-IME	
 =	https://github.com/tinywaves/rime-config	
@@ -391,6 +395,11 @@ title	repository	comment
 	https://github.com/zekexiao/xtlb-rime	
 	https://github.com/zhmars/rime-wubi-simp	
 	https://github.com/zongxinbo/rime-zong	
+	https://github.com/CNMan/rime-data	
+	https://github.com/GuoBinyong/wubixinshiji	
+	https://github.com/jiqiangwubi/SuperWubiSchema	
+	https://github.com/g178253/rime-wubi06	
+	https://github.com/cmal/rime-conf	
 =	https://github.com/acevery/rime-zhengma	
 =	https://github.com/byujiang/wubi06_rime	
 =	https://github.com/chengen12/rime-bingchanquanxi	
@@ -767,6 +776,7 @@ title	repository	comment
 	https://github.com/yanhuacuo/98wubi-tables	98五笔
 	https://github.com/yanhuacuo/98wubi-unicode	98五笔
 	https://github.com/zhangxiaov/input	像码输入法
+	https://github.com/beavailable/better-wubi	86版五笔输入法改进版
 =	https://github.com/sunpinyin/sunpinyin	Linux, ibus-sunpinyin <https://code.google.com/archive/p/sunpinyin/>
 %	https://codeberg.org/chewing/windows-chewing-tsf	新酷音自由軟體輸入法 <https://github.com/chewing/windows-chewing-tsf>
 %	https://zhuanlan.zhihu.com/p/710122624	纤夫张-中文输入法列表<https://dieken.gitlab.io/posts/chinese-input-methods/>
