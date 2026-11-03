@@ -1,0 +1,62 @@
+
+name: TSV Check
+
+on:
+  pull_request:
+    branches: [main, master]
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  check-tsv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Validate TSV files
+        shell: bash
+        run: |
+          set -e
+
+          files=$(find . \
+            -type d \( -name .git -o -name node_modules \) -prune \
+            -o -type f -name '*.tsv' -print)
+
+          if [ -z "$files" ]; then
+            echo "No TSV files found."
+            exit 0
+          fi
+
+          while IFS= read -r file; do
+            echo "Checking $file"
+
+            awk -F '\t' '
+              NR == 1 {
+                if (NF == 0 || $0 == "") {
+                  print "ERROR: Empty header"
+                  exit 1
+                }
+                columns = NF
+              }
+
+              NF != columns {
+                print "ERROR: Line " NR \
+                      ", expected " columns \
+                      " columns, got " NF
+                exit 1
+              }
+
+              NF == 0 {
+                print "ERROR: Empty line " NR
+                exit 1
+              }
+            ' "$file" || exit 1
+
+            echo "PASS: $file"
+          done <<< "$files"
+
+          echo "All TSV files passed."
