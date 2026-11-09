@@ -99,11 +99,11 @@ title	repository	comment
 	https://github.com/Lucius-Wang/rime-config	
 	https://github.com/MISTER-CHAN/rime-user-dir	Trime
 	https://github.com/owenyang0/iRime-iOS-tiger	iRime
+	https://github.com/Pioneer-Linzi/xinshijiwubi	
 	https://github.com/placeless/squirrel_config	
 	https://github.com/Ponpon55837/Squirrel	
 	https://github.com/qvshuo/luna-pinyin-enhanced	
 	https://github.com/rgb-24bit/rime	
-	https://github.com/rimeinn/cat-zrm-parallel-input	
 	https://github.com/riverscn/rime-forge	
 	https://github.com/rwerplus/rime	
 	https://github.com/ScriptGo/rime	
@@ -122,17 +122,17 @@ title	repository	comment
 	https://github.com/wzyboy/rime_config	
 	https://github.com/yanyingwang/rime_custom	
 	https://github.com/yaocccc/rime	
+	https://github.com/youanan/rime	
 	https://github.com/yuanz-12/wanxiang_yoemin	
 	https://github.com/zeuxisoo/my-rime	
 	https://github.com/zhhwux/wxzhh	
 	https://github.com/ZmdnaHF0ZmFqYXZ0O/rimecbl	
-	https://github.com/youanan/rime	
-	https://github.com/tigren/rime_configs	
-	https://github.com/Pioneer-Linzi/xinshijiwubi	
-	https://github.com/outsinre/fcitx-rime	
 =	https://github.com/alswl/Rime	
 =	https://github.com/kitty-panics/ConL-IME	
+=	https://github.com/outsinre/fcitx-rime	
+=	https://github.com/tigren/rime_configs	
 =	https://github.com/tinywaves/rime-config	
+-	https://github.com/rimeinn/cat-zrm-parallel-input	
 %	[kuraa.cc: kura/SquirrelConfig](https://git.kuraa.cc/kura/SquirrelConfig)	鼠须管配置
 %	[lewangdev/default.custom.yaml](https://gist.github.com/lewangdev/f8ebbba24f464e915fb7d36857fcbbe5)	雾凇拼音自定义配置，MacOS-like & Wechat-like Dark/Light Color Scheme For Rime
 %	[lotem/squirrel.custom.yaml](https://gist.github.com/lotem/2290714)	【鼠鬚管】定製檔
@@ -342,9 +342,12 @@ title	repository	comment
 	https://github.com/chen32768/zhengma_for_rime	
 	https://github.com/cherrry/rime.hk	
 	https://github.com/chiahsien/RimeDayi	大易字碼表
+	https://github.com/CNMan/rime-data	
 	https://github.com/ethantang1024/rime-xfsm	
 	https://github.com/forfudan/xuma	
+	https://github.com/g178253/rime-wubi06	
 	https://github.com/gaboolic/rime-wubi-sentence	
+	https://github.com/GuoBinyong/wubixinshiji	
 	https://github.com/hertz-hwang/Rime-tiger_pure	
 	https://github.com/hertz-hwang/wf-ll	
 	https://github.com/hsuanyi-chou/rime-liur	嘸蝦米方案
@@ -395,21 +398,16 @@ title	repository	comment
 	https://github.com/zekexiao/xtlb-rime	
 	https://github.com/zhmars/rime-wubi-simp	
 	https://github.com/zongxinbo/rime-zong	
-	https://github.com/CNMan/rime-data	
-	https://github.com/GuoBinyong/wubixinshiji	
-	https://github.com/jiqiangwubi/SuperWubiSchema	
-	https://github.com/g178253/rime-wubi06	
-	https://github.com/cmal/rime-conf	
-	https://github.com/yanhuacuo/98wubi/	
-	https://github.com/myshiqiqi/rime-wubi	https://gitee.com/hi-coder/rime-wubi
 =	https://github.com/acevery/rime-zhengma	
 =	https://github.com/byujiang/wubi06_rime	
 =	https://github.com/chengen12/rime-bingchanquanxi	
+=	https://github.com/cmal/rime-conf	
 =	https://github.com/Drgiceake/xklbDR	
 =	https://github.com/dzyht/rime_xkyb	
 =	https://github.com/GongMu/rime-zhengma	
 =	https://github.com/hchunhui/rime-wubi86go	
 =	https://github.com/ianzhuo/rime-liur	無蝦米方案
+=	https://github.com/jiqiangwubi/SuperWubiSchema	
 =	https://github.com/Joey-Li/Newcj_rime	
 =	https://github.com/KyleBing/WubiBuddy	
 =	https://github.com/lilydjwg/rime-wubi	
@@ -758,6 +756,7 @@ title	repository	comment
 =	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
 =	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
 ### 输入方案补充		
+	https://github.com/beavailable/better-wubi	86版五笔输入法改进版
 	https://github.com/definite/ibus-table-chinese	
 	https://github.com/EasyIME/PIME	IME for Windows via Text Services Framework
 	https://github.com/fcitx/fcitx5	Fcitx5
@@ -778,7 +777,6 @@ title	repository	comment
 	https://github.com/yanhuacuo/98wubi-tables	98五笔
 	https://github.com/yanhuacuo/98wubi-unicode	98五笔
 	https://github.com/zhangxiaov/input	像码输入法
-	https://github.com/beavailable/better-wubi	86版五笔输入法改进版
 =	https://github.com/sunpinyin/sunpinyin	Linux, ibus-sunpinyin <https://code.google.com/archive/p/sunpinyin/>
 %	https://codeberg.org/chewing/windows-chewing-tsf	新酷音自由軟體輸入法 <https://github.com/chewing/windows-chewing-tsf>
 %	https://zhuanlan.zhihu.com/p/710122624	纤夫张-中文输入法列表<https://dieken.gitlab.io/posts/chinese-input-methods/>
