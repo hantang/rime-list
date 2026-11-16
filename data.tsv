@@ -720,6 +720,7 @@ title	repository	comment
 =	https://github.com/lotem/rime-forge	
 %	https://tieba.baidu.com/f?kw=rime	百度贴吧（rime吧）
 ### 输入法软件补充		
+	https://github.com/233stone/vocotype-cli	VocoType离线语音输入法（语音优先）
 	https://github.com/akaza-im/akaza	Japanese IME (Linux)
 	https://github.com/crazydan-studio/kuaizi-ime	筷字输入法（Android）
 	https://github.com/Deali-Axy/llm-ime	Web，本地GGUF大语言模型
@@ -727,10 +728,12 @@ title	repository	comment
 	https://github.com/fcitx-contrib/fcitx5-hallelujah	Fcitx5 小企鹅·哈利路亚输入法
 	https://github.com/florisboard/florisboard	Android
 	https://github.com/gaboolic/moqi-ime	墨奇输入法后端引擎（go语言），已接入Rime，fcitx5正在接入中
+	https://github.com/Gloridust/WowType	Linux输入法（fcitx5）
 	https://github.com/hime-ime/hime	Hime輸入法框架
 	https://github.com/Honghe/iwubi	IBus框架五笔
 	https://github.com/huanfeng/WindInput	清风输入法（Windows/macOS, Go->Rust）可直接复用 Rime 生态的词库资源 <https://windinput.com/>
 	https://github.com/ibus/ibus	Linux, IBus框架
+	https://github.com/ishizakahiroshi/vtype	浏览器插件（日语）
 	https://github.com/kiding/SokIM	Korean IME (macOS)
 	https://github.com/koyasi777/mozkey	Japanese IME (forked from google/mozc)
 	https://github.com/lennylxx/google-input-tools-macos	Google Input Tools for macOS
@@ -740,6 +743,7 @@ title	repository	comment
 	https://github.com/linhuman/liblunispim	华宇拼音输入法核心源代码（Linux）
 	https://github.com/metasequoiaime/msime-windows	水杉输入法（Windows）
 	https://github.com/openvanilla/McBopomofo	小麥注音輸入法
+	https://github.com/panxuc/fcitx5-wetypex	Linux输入法（fcitx5 + 微信输入法macOS版）
 	https://github.com/ProjectLaplace/LinguistZixiaInput	macOS，紫霞输入法
 	https://github.com/qingjian-team/qingjian	青简输入法（桌面端跨平，Rust） <https://qingjian.app/>
 	https://github.com/qwertyyb/Fire	业火五笔输入法（MacOS）
@@ -749,17 +753,13 @@ title	repository	comment
 	https://github.com/togatoga/karukan	Japanese IME (Linux/macOS)
 	https://github.com/tonyq-org/QBopomofo	Q注音輸入法
 	https://github.com/vChewing/vChewing-macOS	唯音輸入法 macOS 版（威注音輸入法） <https://gitee.com/vChewing/vChewing-macOS>
+	https://github.com/xifan2333/fcitx5-vinput	Linux语音输入法（fcitx5）
 	https://github.com/xushengfeng/lime	大模型驱动的拼音输入法
 	https://github.com/y1lichen/ilimi-inputmethod	macOS（仿）蝦米輸入法
 	https://github.com/yb6b/yima	小泥巴（yb6b）-易码输入法（易码、逸码、奕码、晨码） <https://yima.pages.dev/> <https://yima.ysepan.com/>
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
-	https://github.com/Gloridust/WowType	Linux输入法（fcitx5）
 	https://github.com/yu1745/wetype-ime-linux	Linux输入法（fcitx5 + 微信输入法Android版）
 	https://github.com/zhl-HFUT/vtype-linux	Linux输入法（基于wetype-ime-linux）
-	https://github.com/panxuc/fcitx5-wetypex	Linux输入法（fcitx5 + 微信输入法macOS版）
-	https://github.com/xifan2333/fcitx5-vinput	Linux语音输入法（fcitx5）
-	https://github.com/ishizakahiroshi/vtype	浏览器插件（日语）
-	https://github.com/233stone/vocotype-cli	VocoType离线语音输入法（语音优先）
 =	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
 =	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
 ### 输入方案补充		
