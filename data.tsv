@@ -760,6 +760,8 @@ title	repository	comment
 	https://github.com/YQ-YSY/stroke-seq_MB	单手笔顺输入法
 	https://github.com/yu1745/wetype-ime-linux	Linux输入法（fcitx5 + 微信输入法Android版）
 	https://github.com/zhl-HFUT/vtype-linux	Linux输入法（基于wetype-ime-linux）
+	https://github.com/MicroZ-LLC/AllInOneIME	macOS输入法（AI+全拼）
+	https://github.com/viewv/minime	Linux输入法（fcitx5 + 微信输入法x86-64）
 =	https://github.com/acevery/ibus-table-wubi	Linux, ibus五笔
 =	https://github.com/beishanyufu/Yanzi-IME	燕子输入法
 ### 输入方案补充		
