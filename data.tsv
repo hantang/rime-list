@@ -34,6 +34,8 @@ title	repository	comment
 	https://github.com/ximeiorg/Xime	Android（曦码输入法，曾用名Kime） <https://ime.ximei.me/>
 	https://github.com/xkinput/keytao-app	Linux / Android（KeyTao【键道】）<https://xkinput.github.io>
 	https://github.com/zhangjh/suyan-site	素言输入法 <https://suyan.zhangjh.cn/>
+	https://github.com/nova-ime/nova-macos	macOS（鼠须管Fork+GPT-2）
+	https://github.com/nova-ime/nova-windows	Windows（小狼毫Fork+GPT-2）
 =	https://github.com/bczhc/rime-tui	TUI版（类Unix系统）
 =	https://github.com/fcitx/fcitx-rime	Linux
 =	https://github.com/lotem/rime-gits	Windows
